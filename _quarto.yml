@@ -4,16 +4,9 @@ project:
 
 book:
   title: "POCUS 超音波案例討論教案集"
-  subtitle: "Point-of-Care Ultrasound Case Discussion Curriculum"
-  author: "POCUS 教學團隊"
-  date: today
-  date-format: "YYYY年M月D日"
-
-  # Book structure
   chapters:
     - index.qmd
     - chapters/00-overview.qmd
-
     - part: "第一部分：心血管急症"
       chapters:
         - chapters/01-chest-pain/index.qmd
@@ -26,7 +19,6 @@ book:
         - chapters/02-pulmonary-edema/06-anatomy.qmd
         - chapters/02-pulmonary-edema/07-diagnosis.qmd
         - chapters/02-pulmonary-edema/08-treatment.qmd
-
     - part: "第二部分：肢端血管與血栓疾病"
       chapters:
         - chapters/03-limb-pain/index.qmd
@@ -39,7 +31,6 @@ book:
         - chapters/06-pe-dvt/22-anatomy.qmd
         - chapters/06-pe-dvt/23-diagnosis.qmd
         - chapters/06-pe-dvt/24-treatment.qmd
-
     - part: "第三部分：休克與心跳停止"
       chapters:
         - chapters/04-shock/index.qmd
@@ -52,7 +43,6 @@ book:
         - chapters/05-cardiac-arrest/18-differential.qmd
         - chapters/05-cardiac-arrest/19-e-als.qmd
         - chapters/05-cardiac-arrest/20-megacode.qmd
-
     - part: "第四部分：腹部與呼吸急症"
       chapters:
         - chapters/07-abdominal-pain/index.qmd
@@ -70,79 +60,12 @@ book:
         - chapters/09-pneumonia-arf/34-pathology.qmd
         - chapters/09-pneumonia-arf/35-basic-application.qmd
         - chapters/09-pneumonia-arf/36-advanced.qmd
-
     - part: "附錄"
       chapters:
         - appendices/a-machine-operation.qmd
         - appendices/b-abbreviations.qmd
         - appendices/c-references.qmd
 
-  # Sidebar settings
-  sidebar:
-    style: docked
-    search: true
-    collapse-level: 2
-
-  # Page navigation
-  page-navigation: true
-
-  # Reader mode
-  reader-mode: true
-
-  # Sharing
-  sharing: [twitter, facebook, linkedin]
-
-# Language
-lang: zh-TW
-language:
-  title-block-author-single: "作者"
-  title-block-published: "發布日期"
-  toc-title-document: "目錄"
-  search-no-results-text: "找不到結果"
-  crossref-fig-title: "圖"
-  crossref-tbl-title: "表"
-
-# HTML format (website)
 format:
   html:
     theme: cosmo
-    toc: true
-    toc-depth: 3
-    number-sections: true
-    number-depth: 3
-    smooth-scroll: true
-    link-external-icon: true
-    link-external-newwindow: true
-    anchor-sections: true
-    code-fold: true
-    # Search
-    search:
-      location: sidebar
-      type: textbox
-    # Footer
-    page-footer:
-      left: "© 2026 POCUS 教學團隊"
-      right:
-        - icon: github
-          href: https://github.com/drake1128/pocus
-
-
-# Figure settings
-fig-cap-location: bottom
-fig-align: center
-
-# Table settings
-tbl-cap-location: top
-
-# Execution settings
-execute:
-  echo: false
-  warning: false
-  message: false
-  freeze: auto
-
-# Cross-references
-crossref:
-  chapters: true
-  fig-prefix: "圖"
-  tbl-prefix: "表"
