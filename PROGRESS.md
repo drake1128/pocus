@@ -6,6 +6,122 @@
 
 ---
 
+## 🔧 Quarto 設定進度
+
+### 已完成的 Quarto 設定
+- [x] 專案類型：`book`
+- [x] 輸出目錄：`_book`
+- [x] HTML 格式：cosmo 主題
+- [x] 章節結構：4 大部分 + 附錄
+- [x] GitHub Actions 自動部署
+
+### 目前 `_quarto.yml` 設定（精簡版）
+```yaml
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "POCUS 超音波案例討論教案集"
+  chapters:
+    - index.qmd
+    - chapters/00-overview.qmd
+    - part: "第一部分：心血管急症"
+      chapters: [...]
+    # ... 其他章節
+
+format:
+  html:
+    theme: cosmo
+```
+
+### 待恢復的 Quarto 功能
+- [ ] 自訂 SCSS 樣式（`assets/css/custom.scss`）
+- [ ] 中文語言設定（`lang: zh-TW`）
+- [ ] 側邊欄設定（搜尋、折疊層級）
+- [ ] 頁面導覽與分享功能
+- [ ] 頁尾版權資訊
+- [ ] PDF 格式輸出（需要 TinyTeX + CJK 字型）
+- [ ] 交叉引用設定（圖、表前綴）
+
+### GitHub Actions 部署設定
+**檔案**: `.github/workflows/publish.yml`
+
+```yaml
+name: Quarto Publish
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: quarto-dev/quarto-actions/setup@v2
+      - run: quarto render --to html
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _book
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/deploy-pages@v4
+```
+
+### 部署問題排除記錄
+
+| 問題 | 原因 | 解決方案 |
+|------|------|----------|
+| gh-pages 分支未建立 | 使用舊版部署方式 | 改用 GitHub Actions Pages 部署 |
+| Render 步驟失敗 | `downloads: [pdf]` 但未生成 PDF | 移除 PDF 下載設定 |
+| Render 步驟失敗 | 自訂 SCSS 路徑問題 | 暫時改用預設 cosmo 主題 |
+| Render 步驟失敗 | PDF 格式設定驗證錯誤 | 移除 PDF 格式區塊 |
+| Render 步驟失敗 | R/webexercises 相依性 | 移除 R 安裝步驟（使用純 Markdown） |
+| 網站顯示 README | 瀏覽器快取 | 使用 `/index.html` 完整路徑 |
+
+### 恢復完整功能的步驟
+
+當需要恢復完整功能時，按以下順序逐步加入：
+
+1. **加入中文設定**
+   ```yaml
+   lang: zh-TW
+   ```
+
+2. **加入側邊欄設定**
+   ```yaml
+   book:
+     sidebar:
+       style: docked
+       search: true
+   ```
+
+3. **加入自訂樣式**（確認 SCSS 語法正確）
+   ```yaml
+   format:
+     html:
+       theme: [cosmo, assets/css/custom.scss]
+   ```
+
+4. **加入 PDF 輸出**（需要在 workflow 加入 TinyTeX）
+   ```yaml
+   format:
+     pdf:
+       documentclass: book
+       pdf-engine: xelatex
+       CJKmainfont: "Noto Sans CJK TC"
+   ```
+
+---
+
 ## ✅ 已完成項目
 
 ### 基礎建設
