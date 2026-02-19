@@ -1,0 +1,174 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "POCUS 超音波案例討論教案集"
+  subtitle: "Point-of-Care Ultrasound Case Discussion Curriculum"
+  author: "POCUS 教學團隊"
+  date: today
+  date-format: "YYYY年M月D日"
+
+  # Book structure
+  chapters:
+    - index.qmd
+    - chapters/00-overview.qmd
+
+    - part: "第一部分：心血管急症"
+      chapters:
+        - chapters/01-chest-pain/index.qmd
+        - chapters/01-chest-pain/01-symptoms.qmd
+        - chapters/01-chest-pain/02-anatomy.qmd
+        - chapters/01-chest-pain/03-diagnosis.qmd
+        - chapters/01-chest-pain/04-treatment.qmd
+        - chapters/02-pulmonary-edema/index.qmd
+        - chapters/02-pulmonary-edema/05-symptoms.qmd
+        - chapters/02-pulmonary-edema/06-anatomy.qmd
+        - chapters/02-pulmonary-edema/07-diagnosis.qmd
+        - chapters/02-pulmonary-edema/08-treatment.qmd
+
+    - part: "第二部分：肢端血管與血栓疾病"
+      chapters:
+        - chapters/03-limb-pain/index.qmd
+        - chapters/03-limb-pain/09-symptoms.qmd
+        - chapters/03-limb-pain/10-anatomy.qmd
+        - chapters/03-limb-pain/11-diagnosis.qmd
+        - chapters/03-limb-pain/12-treatment.qmd
+        - chapters/06-pe-dvt/index.qmd
+        - chapters/06-pe-dvt/21-symptoms.qmd
+        - chapters/06-pe-dvt/22-anatomy.qmd
+        - chapters/06-pe-dvt/23-diagnosis.qmd
+        - chapters/06-pe-dvt/24-treatment.qmd
+
+    - part: "第三部分：休克與心跳停止"
+      chapters:
+        - chapters/04-shock/index.qmd
+        - chapters/04-shock/13-recognition.qmd
+        - chapters/04-shock/14-classification.qmd
+        - chapters/04-shock/15-rush-protocol.qmd
+        - chapters/04-shock/16-megacode.qmd
+        - chapters/05-cardiac-arrest/index.qmd
+        - chapters/05-cardiac-arrest/17-acls.qmd
+        - chapters/05-cardiac-arrest/18-differential.qmd
+        - chapters/05-cardiac-arrest/19-e-als.qmd
+        - chapters/05-cardiac-arrest/20-megacode.qmd
+
+    - part: "第四部分：腹部與呼吸急症"
+      chapters:
+        - chapters/07-abdominal-pain/index.qmd
+        - chapters/07-abdominal-pain/25-gi.qmd
+        - chapters/07-abdominal-pain/26-renal-vascular.qmd
+        - chapters/07-abdominal-pain/27-female.qmd
+        - chapters/07-abdominal-pain/28-comprehensive.qmd
+        - chapters/08-dyspnea/index.qmd
+        - chapters/08-dyspnea/29-symptoms.qmd
+        - chapters/08-dyspnea/30-anatomy.qmd
+        - chapters/08-dyspnea/31-diagnosis.qmd
+        - chapters/08-dyspnea/32-treatment.qmd
+        - chapters/09-pneumonia-arf/index.qmd
+        - chapters/09-pneumonia-arf/33-basics.qmd
+        - chapters/09-pneumonia-arf/34-pathology.qmd
+        - chapters/09-pneumonia-arf/35-basic-application.qmd
+        - chapters/09-pneumonia-arf/36-advanced.qmd
+
+    - part: "附錄"
+      chapters:
+        - appendices/a-machine-operation.qmd
+        - appendices/b-abbreviations.qmd
+        - appendices/c-references.qmd
+
+  # Sidebar settings
+  sidebar:
+    style: docked
+    search: true
+    collapse-level: 2
+
+  # Page navigation
+  page-navigation: true
+
+  # Downloads
+  downloads: [pdf]
+
+  # Reader mode
+  reader-mode: true
+
+  # Sharing
+  sharing: [twitter, facebook, linkedin]
+
+# Language
+lang: zh-TW
+language:
+  title-block-author-single: "作者"
+  title-block-published: "發布日期"
+  toc-title-document: "目錄"
+  search-no-results-text: "找不到結果"
+  crossref-fig-title: "圖"
+  crossref-tbl-title: "表"
+
+# HTML format (website)
+format:
+  html:
+    theme:
+      light: [cosmo, assets/css/custom.scss]
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    number-depth: 3
+    smooth-scroll: true
+    link-external-icon: true
+    link-external-newwindow: true
+    anchor-sections: true
+    code-fold: true
+    # Search
+    search:
+      location: sidebar
+      type: textbox
+    # Footer
+    page-footer:
+      left: "© 2026 POCUS 教學團隊"
+      right:
+        - icon: github
+          href: https://github.com/drake1128/pocus
+
+  # PDF format (textbook)
+  pdf:
+    documentclass: book
+    papersize: a4
+    pdf-engine: xelatex
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    colorlinks: true
+    linkcolor: NavyBlue
+    urlcolor: NavyBlue
+    # Chinese font support
+    CJKmainfont: "Microsoft JhengHei"
+    mainfont: "Times New Roman"
+    # Geometry
+    geometry:
+      - top=2.5cm
+      - bottom=2.5cm
+      - left=2.5cm
+      - right=2.5cm
+    # Custom LaTeX
+    include-in-header: latex/in-header.tex
+
+# Figure settings
+fig-cap-location: bottom
+fig-align: center
+
+# Table settings
+tbl-cap-location: top
+
+# Execution settings
+execute:
+  echo: false
+  warning: false
+  message: false
+  freeze: auto
+
+# Cross-references
+crossref:
+  chapters: true
+  fig-prefix: "圖"
+  tbl-prefix: "表"

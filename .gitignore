@@ -1,0 +1,39 @@
+# Quarto build output
+/_book/
+/_freeze/
+/.quarto/
+
+# R files
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# Python
+__pycache__/
+*.py[cod]
+.env
+venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.aux
+*.out
+*.toc
+
+# PDF output (optional - uncomment if you don't want to track PDFs)
+# *.pdf

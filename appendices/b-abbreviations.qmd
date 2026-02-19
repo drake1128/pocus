@@ -1,0 +1,49 @@
+---
+title: "附錄 B：縮寫對照表"
+---
+
+## 臨床縮寫
+
+| 縮寫 | 英文全稱 | 中文 |
+|------|----------|------|
+| ACS | Acute Coronary Syndrome | 急性冠心症 |
+| ACLS | Advanced Cardiac Life Support | 高級心臟救命術 |
+| A4C | Apical 4-Chamber | 心尖四腔切面 |
+| AAA | Abdominal Aortic Aneurysm | 腹主動脈瘤 |
+| ARF | Acute Respiratory Failure | 急性呼吸衰竭 |
+| DVT | Deep Vein Thrombosis | 深層靜脈栓塞 |
+| ECG | Electrocardiogram | 心電圖 |
+| e-ALS | Echography-guided ALS | 超音波輔助高級救命術 |
+| IVC | Inferior Vena Cava | 下腔靜脈 |
+| JVD | Jugular Venous Distension | 頸靜脈怒張 |
+| LA | Left Atrium | 左心房 |
+| LAD | Left Anterior Descending | 左前降支 |
+| LCx | Left Circumflex | 左迴旋支 |
+| LV | Left Ventricle | 左心室 |
+| MR | Mitral Regurgitation | 二尖瓣逆流 |
+| NSTEMI | Non-ST Elevation MI | 非 ST 上升型心肌梗塞 |
+| PE | Pulmonary Embolism | 肺栓塞 |
+| PCI | Percutaneous Coronary Intervention | 經皮冠狀動脈介入 |
+| PLAX | Parasternal Long Axis | 胸骨旁長軸切面 |
+| POCUS | Point-of-Care Ultrasound | 床邊超音波 |
+| PSAX | Parasternal Short Axis | 胸骨旁短軸切面 |
+| RA | Right Atrium | 右心房 |
+| RCA | Right Coronary Artery | 右冠狀動脈 |
+| RUSH | Rapid Ultrasound in Shock | 休克快速超音波評估 |
+| RV | Right Ventricle | 右心室 |
+| RWMA | Regional Wall Motion Abnormality | 區域性室壁運動異常 |
+| SC | Subcostal | 劍突下切面 |
+| STEMI | ST-Elevation MI | ST 上升型心肌梗塞 |
+| TAPSE | Tricuspid Annular Plane Systolic Excursion | 三尖瓣環平面收縮位移 |
+| US-CAB | Ultrasound Cardiac Arrest Bundle | 超音波心跳停止評估組合 |
+| VSD | Ventricular Septal Defect | 心室中隔缺損 |
+
+## 超音波術語
+
+| 術語 | 英文 | 說明 |
+|------|------|------|
+| B-lines | B-lines | 彗星尾徵，提示肺間質水腫 |
+| D-sign | D-sign | 心室中隔向左偏移呈 D 字型 |
+| Lung sliding | 肺滑動徵 | 正常肺部的滑動現象 |
+| McConnell sign | McConnell 徵象 | RV 心尖運動正常但游離壁運動減弱 |
+| Intimal flap | 內膜瓣 | 主動脈剝離的內膜分離 |

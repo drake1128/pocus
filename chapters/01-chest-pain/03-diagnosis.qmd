@@ -1,0 +1,149 @@
+---
+title: "教案 3：診斷流程與鑑別診斷"
+subtitle: "急性胸痛的超音波診斷流程"
+author: "曾新育"
+date: last-modified
+categories: [急性胸痛, 診斷流程, 鑑別診斷]
+---
+
+## 課程目標
+
+::: {.callout-note}
+## 學習目標
+
+1. 掌握急性胸痛的系統性超音波評估流程
+2. 學習各種致命性診斷的超音波特徵
+3. 能夠整合臨床資訊與超音波發現進行鑑別診斷
+:::
+
+## 評估流程
+
+急性胸痛的超音波評估應採用系統性方法：
+
+```{mermaid}
+flowchart TD
+    A[急性胸痛病人] --> B{生命徵象穩定?}
+    B -->|否| C[立即POCUS評估]
+    B -->|是| D[依臨床判斷安排檢查]
+    C --> E[心包積液?]
+    E -->|是| F[排除心包填塞]
+    E -->|否| G[室壁運動異常?]
+    G -->|是| H[考慮ACS]
+    G -->|否| I[右心擴大?]
+    I -->|是| J[考慮PE]
+    I -->|否| K[檢查肺部/主動脈]
+```
+
+## 超音波特徵
+
+### 急性冠心症（ACS）
+
+::: {.callout-warning}
+## 關鍵發現
+
+- 區域性室壁運動異常（Regional Wall Motion Abnormality, RWMA）
+- 可能合併二尖瓣逆流
+- 整體收縮功能可能下降
+:::
+
+**對應冠狀動脈**
+
+| 室壁區域 | 對應冠狀動脈 |
+|----------|--------------|
+| 前壁、前中隔 | LAD |
+| 側壁 | LCx |
+| 下壁、後壁 | RCA |
+
+### 主動脈剝離
+
+::: {.callout-warning}
+## 關鍵發現
+
+- 主動脈內膜瓣（Intimal flap）
+- 主動脈根部擴大（> 4 cm）
+- 可能合併心包積液或主動脈瓣逆流
+:::
+
+### 心包填塞
+
+::: {.callout-warning}
+## 關鍵發現
+
+- 心包積液
+- 右心房舒張末期塌陷
+- 右心室舒張早期塌陷
+- IVC 擴張且無呼吸變異
+:::
+
+### 肺栓塞
+
+::: {.callout-warning}
+## 關鍵發現
+
+- RV 擴大（RV:LV > 1:1）
+- D-sign（心室中隔向左偏移）
+- McConnell sign（RV 心尖運動正常但游離壁運動減弱）
+- TAPSE < 16 mm
+:::
+
+### 張力性氣胸
+
+::: {.callout-warning}
+## 關鍵發現
+
+- 無肺滑動徵（Lung sliding absent）
+- 無 B-lines
+- Barcode sign（M-mode）
+- Lung point
+:::
+
+## 鑑別診斷
+
+| 診斷 | 主要超音波發現 | 支持臨床特徵 |
+|------|----------------|--------------|
+| ACS | RWMA | ECG變化、Troponin上升 |
+| 主動脈剝離 | Intimal flap | 撕裂性疼痛、血壓差異 |
+| 心包填塞 | 心包積液+右心塌陷 | Beck's triad、JVD |
+| PE | RV擴大、D-sign | 單側下肢腫脹、D-dimer上升 |
+| 張力性氣胸 | 無Lung sliding | 呼吸音消失、氣管偏移 |
+
+## 自我評估
+
+::: {.content-visible when-format="html"}
+
+**問題 1**：PLAX 切面看到主動脈內有線狀結構隨心跳擺動，最可能是？
+
+- [ ] 主動脈瓣鈣化
+- [x] 主動脈剝離的內膜瓣
+- [ ] 主動脈內血栓
+- [ ] 偽影
+
+**問題 2**：A4C 切面測量 RV:LV 比值為 1.2:1，合併 D-sign，最可能診斷？
+
+- [ ] 急性心肌梗塞
+- [ ] 心包填塞
+- [x] 急性肺栓塞
+- [ ] 張力性氣胸
+
+::: {.callout-tip collapse="true"}
+## 顯示答案解析
+
+1. 主動脈內的線狀結構隨心跳擺動是**內膜瓣**的典型表現，高度提示主動脈剝離。
+2. **RV 擴大 + D-sign** 是急性肺栓塞造成右心負荷過重的典型表現。
+:::
+
+:::
+
+::: {.content-visible when-format="pdf"}
+::: {.callout-tip}
+## 自我評估
+
+本課程包含互動式自我評估題目，請訪問線上版本完成測驗。
+:::
+:::
+
+## 參考閱讀
+
+1. *Point-of-Care Ultrasound*, Nilam J. Soni et al., Chapter on Cardiac
+2. *Emergency Ultrasound*, O. John Ma, Chapter on Cardiac Emergencies
+3. *ACEP Emergency Ultrasound Guidelines 2023*

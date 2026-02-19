@@ -1,0 +1,56 @@
+---
+title: "附錄 C：參考文獻"
+---
+
+## 教科書
+
+1. Soni NJ, Arntfield R, Kory P. *Point-of-Care Ultrasound*. 2nd ed. Elsevier; 2019.
+
+2. Ma OJ, Mateer JR, Blaivas M. *Emergency Ultrasound*. 3rd ed. McGraw-Hill; 2014.
+
+3. Otto CM. *Textbook of Clinical Echocardiography*. 6th ed. Elsevier; 2018.
+
+4. Noble VE, Nelson BP. *Manual of Emergency and Critical Care Ultrasound*. 2nd ed. Cambridge University Press; 2011.
+
+## 臨床指引
+
+### 心臟超音波
+
+5. Mitchell C, et al. Guidelines for Performing a Comprehensive Transthoracic Echocardiographic Examination in Adults: Recommendations from the American Society of Echocardiography. *J Am Soc Echocardiogr*. 2019;32(1):1-64.
+
+### 急性冠心症
+
+6. Byrne RA, et al. 2023 ESC Guidelines for the management of acute coronary syndromes. *Eur Heart J*. 2023;44(38):3720-3826.
+
+### 主動脈疾病
+
+7. Isselbacher EM, et al. 2022 ACC/AHA Guideline for the Diagnosis and Management of Aortic Disease. *Circulation*. 2022;146(24):e334-e482.
+
+### 肺栓塞
+
+8. Konstantinides SV, et al. 2019 ESC Guidelines for the diagnosis and management of acute pulmonary embolism. *Eur Heart J*. 2020;41(4):543-603.
+
+### 急診超音波
+
+9. American College of Emergency Physicians. Ultrasound Guidelines: Emergency, Point-of-Care and Clinical Ultrasound Guidelines in Medicine. *Ann Emerg Med*. 2023;82(4):e115-e155.
+
+## 重要文獻
+
+### POCUS 教育
+
+10. Stable M, et al. Bedside echo for chest pain: an algorithm for education and assessment. *Adv Med Educ Pract*. 2016;7:293-300.
+
+### RUSH Protocol
+
+11. Perera P, et al. The RUSH exam: Rapid Ultrasound in SHock in the evaluation of the critically ill. *Emerg Med Clin North Am*. 2010;28(1):29-56.
+
+### US-CAB
+
+12. Defined by the US-CAB working group for ultrasound-guided cardiac arrest management.
+
+## 線上資源
+
+- **ACEP SonoGuide**: [https://www.acep.org/sonoguide](https://www.acep.org/sonoguide)
+- **The POCUS Atlas**: [https://www.thepocusatlas.com](https://www.thepocusatlas.com)
+- **Ultrasound GEL**: [https://www.ultrasoundgel.org](https://www.ultrasoundgel.org)
+- **5 Minute Sono**: [https://www.5minsono.com](https://www.5minsono.com)

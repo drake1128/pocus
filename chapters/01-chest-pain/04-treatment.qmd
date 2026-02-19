@@ -1,0 +1,183 @@
+---
+title: "教案 4：治療與追蹤"
+subtitle: "急性胸痛的處置原則與超音波追蹤"
+author: "曾新育"
+date: last-modified
+categories: [急性胸痛, 治療, 追蹤]
+---
+
+## 課程目標
+
+::: {.callout-note}
+## 學習目標
+
+1. 了解各種致命性胸痛的緊急處置原則
+2. 學習如何使用超音波監測治療反應
+3. 掌握後續追蹤的時機與方法
+:::
+
+## 緊急處置原則
+
+### 急性冠心症（ACS）
+
+::: {.panel-tabset}
+
+#### STEMI
+
+1. **立即處置**
+   - Aspirin 300 mg 嚼服
+   - P2Y12 inhibitor（Clopidogrel/Ticagrelor）
+   - Anticoagulation（Heparin/Enoxaparin）
+   - Primary PCI（目標 Door-to-Balloon < 90 分鐘）
+
+2. **超音波角色**
+   - 確認 RWMA 存在
+   - 評估併發症（MR、VSD、Free wall rupture）
+   - 監測 LV function
+
+#### NSTEMI/UA
+
+1. **風險分層**
+   - TIMI/GRACE score
+   - 高風險 → 早期侵入性策略
+
+2. **藥物治療**
+   - 抗血小板、抗凝血
+   - Beta-blocker、Statin
+
+3. **超音波角色**
+   - 評估 LV function
+   - 排除其他診斷
+
+:::
+
+### 主動脈剝離
+
+::: {.callout-warning}
+## 緊急處置
+
+1. **血壓控制**（目標 SBP 100-120 mmHg）
+   - IV Beta-blocker first（降低 dP/dt）
+   - 再加 Vasodilator if needed
+
+2. **疼痛控制**
+   - IV Morphine
+
+3. **緊急會診**
+   - Type A → 緊急手術
+   - Type B → 藥物治療為主，複雜型考慮介入
+:::
+
+### 心包填塞
+
+::: {.callout-warning}
+## 緊急處置
+
+1. **緊急心包穿刺**（Pericardiocentesis）
+   - 超音波導引
+   - Subxiphoid approach
+
+2. **輸液擴容**
+   - 維持前負荷
+
+3. **避免**
+   - 正壓通氣（會降低靜脈回流）
+   - 過度利尿
+:::
+
+### 肺栓塞
+
+根據血行動力學狀態決定治療：
+
+| 分類 | 血壓 | 治療 |
+|------|------|------|
+| High-risk | 不穩定 | Thrombolysis / Embolectomy |
+| Intermediate-high | 穩定但 RV dysfunction | 抗凝 ± Thrombolysis |
+| Intermediate-low | 穩定，輕度 RV dysfunction | 抗凝 |
+| Low-risk | 穩定，無 RV dysfunction | 抗凝 |
+
+### 張力性氣胸
+
+::: {.callout-warning}
+## 緊急處置
+
+1. **立即減壓**
+   - Needle decompression（第 2 肋間，鎖骨中線）
+   - 或第 4-5 肋間，腋前線
+
+2. **後續處置**
+   - Chest tube insertion
+   - 確認肺部復張
+:::
+
+## 超音波追蹤
+
+| 診斷 | 追蹤時機 | 追蹤重點 |
+|------|----------|----------|
+| ACS | PCI 後、出院前 | LV function、RWMA 改善 |
+| 主動脈剝離 | 術後、定期追蹤 | 假腔變化、主動脈大小 |
+| 心包填塞 | 穿刺後、24-48h | 積液復發 |
+| PE | 抗凝後 24-48h | RV function 改善 |
+
+## 討論議題
+
+::: {.callout-note}
+## 討論
+
+1. 心包穿刺時，超音波導引有什麼優勢？
+2. PE 病人接受抗凝治療後，多久可以看到 RV function 改善？
+3. ACS 病人的 RWMA 會完全恢復嗎？
+:::
+
+## 自我評估
+
+::: {.content-visible when-format="html"}
+
+**問題 1**：Type A 主動脈剝離的首選治療是？
+
+- [x] 緊急手術
+- [ ] 藥物治療
+- [ ] 血管內支架
+- [ ] 觀察追蹤
+
+**問題 2**：心包填塞病人，下列何者應避免？
+
+- [ ] 輸液
+- [x] 正壓通氣
+- [ ] 心包穿刺
+- [ ] Inotrope
+
+::: {.callout-tip collapse="true"}
+## 顯示答案解析
+
+1. **Type A 剝離**侵犯升主動脈，死亡率極高，需緊急手術修補。
+2. **正壓通氣**會降低靜脈回流，在已經前負荷不足的心包填塞病人會造成血壓更低。
+:::
+
+:::
+
+::: {.content-visible when-format="pdf"}
+::: {.callout-tip}
+## 自我評估
+
+本課程包含互動式自我評估題目，請訪問線上版本完成測驗。
+:::
+:::
+
+## 本章總結
+
+::: {.callout-important}
+## 關鍵要點
+
+1. 急性胸痛需快速排除致命性診斷
+2. POCUS 可在數分鐘內提供關鍵診斷資訊
+3. 超音波發現需結合臨床資訊進行判斷
+4. 治療後應使用超音波追蹤評估反應
+:::
+
+## 參考閱讀
+
+1. *2023 ESC Guidelines for Acute Coronary Syndromes*
+2. *2022 ACC/AHA Aortic Disease Guideline*
+3. *2019 ESC Guidelines for Acute Pulmonary Embolism*
+4. *ACEP Clinical Policy: Critical Issues in Evaluation of Adult Patients with Suspected Acute Nontraumatic Thoracic Aortic Dissection*

@@ -1,0 +1,114 @@
+% POCUS Textbook - LaTeX Header for PDF Output
+% Chinese language support with xeCJK
+
+% xeCJK package for Chinese support
+\usepackage{xeCJK}
+
+% Set Chinese fonts with fallback
+\IfFontExistsTF{Microsoft JhengHei}{
+  \setCJKmainfont{Microsoft JhengHei}[
+    BoldFont = Microsoft JhengHei Bold,
+    ItalicFont = Microsoft JhengHei,
+    BoldItalicFont = Microsoft JhengHei Bold
+  ]
+  \setCJKsansfont{Microsoft JhengHei}[
+    BoldFont = Microsoft JhengHei Bold
+  ]
+  \setCJKmonofont{Microsoft JhengHei}
+}{
+  \IfFontExistsTF{Noto Sans CJK TC}{
+    \setCJKmainfont{Noto Sans CJK TC}
+    \setCJKsansfont{Noto Sans CJK TC}
+    \setCJKmonofont{Noto Sans Mono CJK TC}
+  }{
+    % Fallback for Linux/GitHub Actions
+    \setCJKmainfont{Noto Serif CJK TC}
+    \setCJKsansfont{Noto Sans CJK TC}
+  }
+}
+
+% xeCJK settings
+\xeCJKsetup{
+  CJKmath=true,
+  CheckSingle=true,
+  PlainEquation=true
+}
+
+% Custom colors matching web version
+\usepackage{xcolor}
+\definecolor{pocusblue}{RGB}{0, 102, 153}
+\definecolor{pocusred}{RGB}{204, 51, 51}
+\definecolor{pocusgray}{RGB}{128, 128, 128}
+\definecolor{lightgray}{RGB}{240, 240, 240}
+
+% Enhanced box environments using tcolorbox
+\usepackage{tcolorbox}
+\tcbuselibrary{skins, breakable}
+
+% Key point box (重點提示)
+\newtcolorbox{keypointbox}{
+  colback=pocusred!5!white,
+  colframe=pocusred,
+  title=重點提示,
+  fonttitle=\bfseries,
+  breakable,
+  left=2mm,
+  right=2mm,
+  top=1mm,
+  bottom=1mm
+}
+
+% Discussion box (討論議題)
+\newtcolorbox{discussionbox}{
+  colback=pocusblue!5!white,
+  colframe=pocusblue,
+  title=討論議題,
+  fonttitle=\bfseries,
+  breakable,
+  left=2mm,
+  right=2mm,
+  top=1mm,
+  bottom=1mm
+}
+
+% Case box (案例)
+\newtcolorbox{casebox}[1][案例]{
+  colback=pocusblue!3!white,
+  colframe=pocusblue!70!black,
+  title=#1,
+  fonttitle=\bfseries,
+  breakable,
+  left=2mm,
+  right=2mm,
+  top=1mm,
+  bottom=1mm
+}
+
+% Note box
+\newtcolorbox{notebox}[1][注意]{
+  colback=yellow!5!white,
+  colframe=yellow!50!black,
+  title=#1,
+  fonttitle=\bfseries,
+  breakable
+}
+
+% Hyperlink colors
+\hypersetup{
+  colorlinks=true,
+  linkcolor=pocusblue,
+  urlcolor=pocusblue,
+  citecolor=pocusblue
+}
+
+% Better table formatting
+\usepackage{booktabs}
+\usepackage{longtable}
+
+% Prevent overfull hbox warnings
+\sloppy
+
+% Better float placement
+\usepackage{float}
+\floatplacement{figure}{H}
+\floatplacement{table}{H}

@@ -1,0 +1,137 @@
+/*-- scss:defaults --*/
+
+// POCUS color scheme
+$primary: #006699;        // pocusblue
+$danger: #cc3333;         // pocusred
+$secondary: #808080;      // pocusgray
+$light: #f0f0f0;          // lightgray
+
+// Font settings
+$font-size-root: 16px;
+
+/*-- scss:rules --*/
+
+// Mobile-first responsive design
+@media (max-width: 576px) {
+  .sidebar {
+    width: 100% !important;
+  }
+
+  .page-columns .content {
+    padding: 0.75rem;
+  }
+
+  table {
+    font-size: 0.85rem;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+}
+
+// Tablet adjustments
+@media (max-width: 768px) {
+  .page-columns .content {
+    padding: 1rem;
+  }
+}
+
+// Custom callout styles matching LaTeX environments
+
+// Key point callout (重點提示)
+.callout-warning {
+  border-left-color: $danger !important;
+}
+
+// Discussion callout (討論議題)
+.callout-note {
+  border-left-color: $primary !important;
+}
+
+// Case box styling
+.callout-tip {
+  border-left-color: #28a745 !important;
+}
+
+// Vital signs display
+.vital-signs {
+  font-family: 'Consolas', 'Monaco', monospace;
+  background-color: $light;
+  padding: 0.5rem;
+  border-radius: 4px;
+  margin: 0.5rem 0;
+}
+
+// Video container responsive
+.quarto-video {
+  max-width: 100%;
+  margin: 1rem 0;
+}
+
+// Table improvements
+.table {
+  margin: 1rem 0;
+}
+
+.table th {
+  background-color: $primary;
+  color: white;
+}
+
+// Panel tabset styling
+.nav-tabs {
+  border-bottom: 2px solid $primary;
+}
+
+.nav-tabs .nav-link.active {
+  border-color: $primary $primary white;
+  color: $primary;
+  font-weight: bold;
+}
+
+// Quiz styling (for webexercises or custom quizzes)
+.quiz-question {
+  margin: 1rem 0;
+  padding: 1rem;
+  background-color: $light;
+  border-radius: 4px;
+}
+
+// Mermaid diagram styling
+.mermaid {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+// Chapter title styling
+.chapter-title {
+  color: $primary;
+  border-bottom: 2px solid $primary;
+  padding-bottom: 0.5rem;
+}
+
+// Footer styling
+.page-footer {
+  font-size: 0.9rem;
+  color: $secondary;
+}
+
+// Print styles
+@media print {
+  .sidebar {
+    display: none;
+  }
+
+  .callout {
+    break-inside: avoid;
+  }
+
+  table {
+    break-inside: avoid;
+  }
+}
