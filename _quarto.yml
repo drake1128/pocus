@@ -126,28 +126,6 @@ format:
         - icon: github
           href: https://github.com/drake1128/pocus
 
-  # PDF format (textbook)
-  pdf:
-    documentclass: book
-    papersize: a4
-    pdf-engine: xelatex
-    toc: true
-    toc-depth: 3
-    number-sections: true
-    colorlinks: true
-    linkcolor: NavyBlue
-    urlcolor: NavyBlue
-    # Chinese font support
-    CJKmainfont: "Microsoft JhengHei"
-    mainfont: "Times New Roman"
-    # Geometry
-    geometry:
-      - top=2.5cm
-      - bottom=2.5cm
-      - left=2.5cm
-      - right=2.5cm
-    # Custom LaTeX
-    include-in-header: latex/in-header.tex
 
 # Figure settings
 fig-cap-location: bottom
