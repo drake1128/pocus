@@ -1,8 +1,144 @@
 ---
 title: "教案 30：解剖、生理、病理"
+subtitle: "胸腔解剖與正常肺部超音波表現"
 author: "范程羿"
+date: last-modified
+categories: [呼吸喘, 解剖, 肺部超音波]
 ---
+
+## 課程目標
+
 ::: {.callout-note}
-## 內容建置中
-本課程內容正在建置中。
+## 學習目標
+
+1. 認識胸腔的基本解剖結構，包括肋骨、肋間隙與肺葉分布
+2. 了解肋膜腔的結構與肺部超音波掃描的方法
+3. 辨識正常肺部超音波的基本表現：Bat sign、Lung sliding、A-lines、Seashore sign
 :::
+
+## 胸腔解剖
+
+### 肋骨走向與肋間隙
+
+- 肋骨由後上方往前下方走行
+- 超音波探頭放置於肋間隙，以肋骨作為解剖定位標記
+- 前胸壁、側胸壁與後胸壁各有不同的掃描區域
+
+### 肺葉分布
+
+::: {.callout-note}
+## 肺葉解剖
+
+- **左肺**：分為上葉與下葉（二葉）
+- **右肺**：分為上葉、中葉與下葉（三葉）
+- 口訣：「左二右三」
+:::
+
+### 肋膜腔結構
+
+- **壁層胸膜（Parietal pleura）**：貼附於胸壁內側
+- **臟層胸膜（Visceral pleura）**：覆蓋於肺臟表面
+- 兩層胸膜之間為**肋膜腔**，正常含有少量潤滑液
+
+### 掃描口訣
+
+::: {.callout-tip}
+## 掃描技巧：「插口袋」
+
+探頭的擺放方式如同將手插入口袋，探頭標記朝向頭側，沿著肋間隙放置。此口訣有助於記憶正確的探頭方向與角度。
+:::
+
+## 正常肺部超音波表現
+
+### Bat Sign（蝙蝠徵象）
+
+::: {.callout-note}
+## Bat Sign
+
+兩根肋骨與其間的胸膜線（pleural line）共同形成蝙蝠狀的影像。
+
+- 兩側肋骨為「翅膀」，後方伴隨聲影（acoustic shadow）
+- 中間的亮線為胸膜線（pleural line）
+- Bat sign 是肺部超音波定位的基本影像
+:::
+
+### Lung Sliding（肺滑動徵象）
+
+- 呼吸時臟層與壁層胸膜之間的相對滑動
+- 在胸膜線上可見閃爍的滑動現象
+- **Lung sliding 存在 = 可排除該區域的氣胸**
+
+::: {.callout-warning}
+## 重點提示
+
+Lung sliding 的消失不一定代表氣胸，也可能見於：肋膜沾黏、肺實質化、單側插管、呼吸暫停等情況。
+:::
+
+### A-lines
+
+- 胸膜線的**等距離重複假影**（reverberation artifact）
+- 每條 A-line 與胸膜線之間的距離相等
+- A-lines 代表胸膜下方充滿空氣（正常充氣的肺臟或氣胸）
+
+### Seashore Sign（海岸徵象）
+
+- **M-mode** 下正常肺部的表現
+- 胸膜線以上為平行的水平線條（代表靜止的胸壁），如同「海洋」
+- 胸膜線以下為顆粒狀的散點（代表滑動的肺臟），如同「沙灘」
+- 整體影像如同海岸線
+
+| 超音波表現 | 說明 | 臨床意義 |
+|-----------|------|---------|
+| Bat sign | 兩肋骨 + 胸膜線形成蝙蝠狀 | 基本定位標記 |
+| Lung sliding | 胸膜滑動現象 | 存在則排除該處氣胸 |
+| A-lines | 胸膜線等距重複假影 | 胸膜下方充滿空氣 |
+| Seashore sign | M-mode 海岸狀影像 | 正常肺滑動的確認 |
+
+## 自我評估
+
+::: {.content-visible when-format="html"}
+
+**問題 1**：Bat sign 的組成包含哪些結構？
+
+- [ ] 兩條 A-lines 與胸膜線
+- [x] 兩根肋骨與胸膜線
+- [ ] 一根肋骨與兩條 B-lines
+- [ ] 胸膜線與肺實質
+
+**問題 2**：下列何者為 M-mode 下正常肺部的表現？
+
+- [ ] Barcode sign
+- [ ] Stratosphere sign
+- [x] Seashore sign
+- [ ] Lung point
+
+**問題 3**：Lung sliding 存在可以排除下列何種診斷？
+
+- [ ] 肺炎
+- [ ] 肋膜積液
+- [x] 氣胸（該掃描區域）
+- [ ] 肺水腫
+
+::: {.callout-tip collapse="true"}
+## 顯示答案解析
+
+1. **Bat sign** 由兩根肋骨（翅膀）與其間的胸膜線（身體）組成蝙蝠狀影像。
+2. **Seashore sign** 是正常肺部在 M-mode 下的表現，上方為水平線條（海洋），下方為顆粒狀散點（沙灘）。
+3. **Lung sliding** 代表臟層與壁層胸膜有接觸並滑動，因此可排除該區域的氣胸。
+:::
+
+:::
+
+::: {.content-visible when-format="pdf"}
+::: {.callout-tip}
+## 自我評估
+
+本課程包含互動式自我評估題目，請訪問線上版本完成測驗。
+:::
+:::
+
+## 參考閱讀
+
+1. Lichtenstein, D.A. Lung ultrasound in the critically ill. *Ann. Intensive Care* 4, 1 (2014)
+2. Karen S. Cosby et al. *Practical Guide to Emergency Ultrasound*, chapter 5
+3. John A. Marx et al. *Rosen's Emergency Medicine*, chapter 25: Dyspnea

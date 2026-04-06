@@ -1,8 +1,133 @@
 ---
 title: "教案 19：e-ALS US-CAB 流程介紹"
+subtitle: "US-CAB Protocol 流程介紹"
 author: "陳麒心"
+date: last-modified
+categories: [心跳停止, US-CAB, POCUS]
 ---
+
+## 課程目標
+
 ::: {.callout-note}
-## 內容建置中
-本課程內容正在建置中。
+## 學習目標
+
+1. 了解 US-CAB protocol 的完整流程
+2. 掌握超音波在 CPR 過程中的正確使用時機
+3. 學習各步驟的超音波評估重點
 :::
+
+## US-CAB Protocol 流程
+
+::: {.callout-warning}
+## 重點提示
+
+US-CAB 是一套在心肺復甦過程中整合超音波的標準化流程，包含五個步驟。
+:::
+
+| 步驟 | 縮寫 | 評估內容 |
+|------|------|----------|
+| 1 | **U**ltrasound 準備 | 準備超音波設備與探頭位置 |
+| 2 | **S**ubxiphoid view | 心臟評估（劍突下切面） |
+| 3 | **C**ardiac activity | 確認心臟活動 |
+| 4 | **A**orta | 主動脈評估 |
+| 5 | **B**ilateral lung | 雙側肺部評估 |
+
+## 超音波在 CPR 中的時機
+
+::: {.callout-warning}
+## 重點提示
+
+- 在 **pulse check** 時進行超音波評估（10 秒內完成）
+- **不可中斷 CPR** 進行超音波
+- 先將探頭放好位置，等待 pulse check 時間再進行評估
+:::
+
+## 各步驟評估重點
+
+### Step 1：Ultrasound 準備
+
+- 選擇適當探頭（cardiac phased array probe）
+- 預先將探頭放置於劍突下位置
+- 確認超音波機器設定與畫面
+
+### Step 2：Subxiphoid View 心臟評估
+
+- 在 pulse check 時間取得劍突下心臟切面
+- 評估心包是否有積液（pericardial effusion）
+- 觀察心室大小比例
+
+### Step 3：Cardiac Activity 確認心臟活動
+
+- 確認是否有心臟收縮活動
+- 區分 true PEA 與 pseudo-PEA
+- 有組織性心臟活動者預後較佳
+
+### Step 4：Aorta 主動脈評估
+
+- 評估腹主動脈是否有動脈瘤（AAA）
+- 觀察 IVC 大小評估血管內容積狀態
+
+### Step 5：Bilateral Lung 雙側肺部評估
+
+- 檢查雙側肺滑動（lung sliding）
+- 排除張力性氣胸
+- 評估是否有肋膜積液（pleural effusion）
+
+## 討論議題
+
+::: {.callout-note}
+## 討論
+
+1. US-CAB 流程中各步驟的順序是否可以調整？
+2. 若劍突下切面無法取得良好影像，應如何處理？
+3. 如何在 10 秒內完成超音波評估？
+4. True PEA 與 pseudo-PEA 的區分有什麼臨床意義？
+:::
+
+## 自我評估
+
+::: {.content-visible when-format="html"}
+
+**問題 1**：US-CAB 中的 "S" 代表什麼？
+
+- [ ] Support
+- [x] Subxiphoid view
+- [ ] Suction
+- [ ] Shock
+
+**問題 2**：超音波在 CPR 中應在什麼時間點進行？
+
+- [ ] 壓胸過程中
+- [x] Pulse check 時（10 秒內）
+- [ ] 給藥後
+- [ ] 電擊前
+
+**問題 3**：在 US-CAB 流程中，肺部超音波主要排除什麼診斷？
+
+- [ ] 心包填塞
+- [ ] 肺栓塞
+- [x] 張力性氣胸
+- [ ] 心肌梗塞
+
+::: {.callout-tip collapse="true"}
+## 顯示答案解析
+
+1. **S** 代表 **Subxiphoid view**，即劍突下切面，是心臟超音波評估的起始切面。
+2. 超音波必須在 **pulse check** 時進行，時間限制在 **10 秒內**，絕不可中斷 CPR。
+3. 雙側肺部超音波主要檢查肺滑動（lung sliding），以排除**張力性氣胸**。
+:::
+
+:::
+
+::: {.content-visible when-format="pdf"}
+::: {.callout-tip}
+## 自我評估
+
+本課程包含互動式自我評估題目，請訪問線上版本完成測驗。
+:::
+:::
+
+## 參考閱讀
+
+1. Lien, WC et al., US-CAB protocol for ultrasonographic evaluation during cardiopulmonary resuscitation: validation and potential impact. *Resuscitation*, 2018;127:125-131.
+2. Lien, WC et al., A novel US-CAB protocol for ultrasonographic evaluation during cardiopulmonary resuscitation. *Resuscitation*, 2017;115:e1-e2.

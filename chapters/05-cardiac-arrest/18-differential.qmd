@@ -1,8 +1,105 @@
 ---
 title: "教案 18：鑑別診斷與超音波應用"
+subtitle: "心跳停止可逆原因（5H5T）與超音波應用"
 author: "陳麒心"
+date: last-modified
+categories: [心跳停止, 鑑別診斷, POCUS]
 ---
+
+## 課程目標
+
 ::: {.callout-note}
-## 內容建置中
-本課程內容正在建置中。
+## 學習目標
+
+1. 了解心跳停止的可逆原因（5H5T）
+2. 學習各可逆原因對應的超音波發現
+3. 根據超音波發現進行適當的鑑別診斷與處置
 :::
+
+## 5H：可逆原因
+
+::: {.callout-warning}
+## 重點提示
+
+心跳停止的可逆原因分為 5H 與 5T，辨識並處理這些可逆原因是急救成功的關鍵。
+:::
+
+| 原因 | 超音波發現 | 處置 |
+|------|------------|------|
+| Hypovolemia（低血容量） | IVC 塌陷、心臟過動 | 輸液、輸血 |
+| Hypoxia（缺氧） | -- | 確保呼吸道 |
+| Hydrogen ion（酸中毒） | -- | NaHCO3 |
+| Hypo/Hyperkalemia（低/高血鉀） | -- | 電解質校正 |
+| Hypothermia（低體溫） | -- | 復溫 |
+
+## 5T：可逆原因
+
+| 原因 | 超音波發現 | 處置 |
+|------|------------|------|
+| Tension pneumothorax（張力性氣胸） | 無肺滑動 | 針刺減壓 |
+| Tamponade（心包填塞） | 心包積液 | 心包穿刺 |
+| Toxins（毒物中毒） | -- | 解毒劑 |
+| Thrombosis - PE（肺栓塞） | 右心擴大 | 血栓溶解 |
+| Thrombosis - MI（心肌梗塞） | 心壁運動異常 | PCI |
+
+## 超音波在鑑別診斷中的角色
+
+::: {.callout-note}
+## 討論
+
+在 5H5T 的可逆原因中，超音波可以直接協助辨識的包括：
+
+- **Hypovolemia**：觀察 IVC 大小與呼吸變異度
+- **Tension pneumothorax**：肺部超音波檢查肺滑動（lung sliding）
+- **Tamponade**：心臟超音波檢查心包積液
+- **PE**：右心室擴大（RV > LV）
+- **MI**：局部心壁運動異常（RWMA）
+:::
+
+## 自我評估
+
+::: {.content-visible when-format="html"}
+
+**問題 1**：以下哪一項超音波發現最支持張力性氣胸的診斷？
+
+- [ ] IVC 塌陷
+- [x] 無肺滑動（absent lung sliding）
+- [ ] 心包積液
+- [ ] 右心擴大
+
+**問題 2**：心跳停止的病人，超音波顯示右心明顯擴大，最可能的可逆原因為？
+
+- [ ] Tamponade
+- [ ] Hypovolemia
+- [x] Pulmonary embolism
+- [ ] Tension pneumothorax
+
+**問題 3**：IVC 塌陷合併心臟過動，最可能提示的可逆原因為？
+
+- [x] Hypovolemia
+- [ ] Tamponade
+- [ ] Hyperkalemia
+- [ ] Hypothermia
+
+::: {.callout-tip collapse="true"}
+## 顯示答案解析
+
+1. **無肺滑動**是張力性氣胸最典型的超音波發現，正常肺部會有肺滑動。
+2. **右心擴大**（RV > LV）是肺栓塞導致右心壓力過大的典型表現。
+3. **IVC 塌陷合併心臟過動**代表血管內容積不足，心臟代償性增加收縮力。
+:::
+
+:::
+
+::: {.content-visible when-format="pdf"}
+::: {.callout-tip}
+## 自我評估
+
+本課程包含互動式自我評估題目，請訪問線上版本完成測驗。
+:::
+:::
+
+## 參考閱讀
+
+1. Lien, WC et al., US-CAB protocol for ultrasonographic evaluation during cardiopulmonary resuscitation: validation and potential impact. *Resuscitation*, 2018;127:125-131.
+2. Lien, WC et al., A novel US-CAB protocol for ultrasonographic evaluation during cardiopulmonary resuscitation. *Resuscitation*, 2017;115:e1-e2.

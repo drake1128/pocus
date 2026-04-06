@@ -1,8 +1,128 @@
 ---
 title: "教案 17：ACLS 急救流程與團隊分工"
+subtitle: "ACLS 急救流程與超音波應用"
 author: "陳麒心"
+date: last-modified
+categories: [心跳停止, ACLS, POCUS]
 ---
+
+## 課程目標
+
 ::: {.callout-note}
-## 內容建置中
-本課程內容正在建置中。
+## 學習目標
+
+1. 到院前心跳停止的急救流程（高級心臟救命術，ACLS）
+2. 如何建立良好的團隊合作與溝通
+3. 超音波在急救中的角色與應用
+4. e-ALS/US-CAB protocol 的介紹與演練
 :::
+
+## 案例介紹
+
+::: {.panel-tabset}
+
+### 案例一：OHCA
+
+::: {.callout-tip appearance="simple"}
+## 案例一：到院前心跳停止（OHCA）
+
+消防局以無線電通知急診，5 分鐘後會有一名 68 歲男性到院前心跳停止將送至貴院。EMT 救護人員表示病患為在 15 分鐘前家中目擊倒下，派遣中心接獲通報後以電話指導家屬進行 CPR，3 分鐘後 EMT 抵達現場接手急救，裝上 LUCAS 進行 CPR 並插上喉頭式面罩（LMA）。過程中皆無可電及心律，於到院前共給予兩隻 epinephrine。
+:::
+
+### 案例二：IHCA
+
+::: {.callout-tip appearance="simple"}
+## 案例二：院內心跳停止（IHCA）
+
+您是今天病房的值班醫師，病人家屬突然跑出來焦急的說病人不太對勁叫他都沒反應請你去看看。此病人是 72 歲女性，本身有 CKD、DM history，本次 UTI 合併 urosepsis 入院打抗生素。您與護理師前去查看病人，發現病人叫喚無反應，檢查脈搏無脈搏，於是廣播 9595 並開始 CPR。
+:::
+
+:::
+
+## ACLS 急救口訣
+
+::: {.callout-warning}
+## 重點提示
+
+ACLS 急救口訣：**壓胸（最重要）、通氣、電擊、插管、給藥、紀錄**
+:::
+
+| 步驟 | 項目 | 內容 |
+|------|------|------|
+| 1 | 壓胸 | 背板、腳凳、LUCAS |
+| 2 | 通氣 | 插管前 30:2、插管後六秒一下 |
+| 3 | 電擊 | Monitor、分析心律、準備電擊 |
+| 4 | 插管 | ETT、suction、EtCO2 |
+| 5 | 給藥 | 抽血、GAS、Q4m epinephrine |
+| 6 | 紀錄 | 計時、紀錄、剩 30/10 秒提醒 |
+
+## ACLS 團隊分工
+
+| 角色 | 位置 | 職責 |
+|------|------|------|
+| C1 | Circulation 1 | Q-CPR、q2m Rotate |
+| C2 | Circulation 2 | DEFIB、DABCD²E² |
+| A1 | Airway 1 | ETT |
+| A2 | Airway 2 | EtCO2 |
+| S1 | Support 1 | 針藥記時、TIMER |
+| S2 | Support 2 | CART、q4m Epi |
+| L | Leadership | ECHO、指揮決策 |
+
+## 討論議題
+
+::: {.callout-note}
+## 討論
+
+1. OHCA 與 IHCA 的急救流程有什麼差異？
+2. 團隊中各角色如何有效溝通？
+3. 超音波在急救過程中應在什麼時機使用？
+4. 如何在不中斷 CPR 的前提下進行超音波評估？
+:::
+
+## 自我評估
+
+::: {.content-visible when-format="html"}
+
+**問題 1**：ACLS 急救流程中，以下何者為最重要的步驟？
+
+- [x] 壓胸
+- [ ] 插管
+- [ ] 給藥
+- [ ] 電擊
+
+**問題 2**：在 ACLS 團隊分工中，負責 ECHO 與指揮決策的角色是？
+
+- [ ] C1
+- [ ] A1
+- [ ] S1
+- [x] L（Leadership）
+
+**問題 3**：Epinephrine 在 ACLS 中的給藥頻率為何？
+
+- [ ] 每 2 分鐘一次
+- [x] 每 4 分鐘一次
+- [ ] 每 6 分鐘一次
+- [ ] 每 8 分鐘一次
+
+::: {.callout-tip collapse="true"}
+## 顯示答案解析
+
+1. **壓胸**是 ACLS 中最重要的步驟，高品質的 CPR 是維持血液循環的關鍵。
+2. **Leadership** 負責 ECHO 與指揮決策，統籌整個急救團隊的運作。
+3. **Epinephrine** 每 4 分鐘（q4m）給予一次，由 S2 角色負責。
+:::
+
+:::
+
+::: {.content-visible when-format="pdf"}
+::: {.callout-tip}
+## 自我評估
+
+本課程包含互動式自我評估題目，請訪問線上版本完成測驗。
+:::
+:::
+
+## 參考閱讀
+
+1. Lien, WC et al., US-CAB protocol for ultrasonographic evaluation during cardiopulmonary resuscitation: validation and potential impact. *Resuscitation*, 2018;127:125-131.
+2. Lien, WC et al., A novel US-CAB protocol for ultrasonographic evaluation during cardiopulmonary resuscitation. *Resuscitation*, 2017;115:e1-e2.

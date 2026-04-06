@@ -1,11 +1,185 @@
 ---
 title: "教案 5：症狀辨識"
-subtitle: "急性肺水腫的症狀辨識"
+subtitle: "急性肺水腫的症狀辨識與床邊超音波適應症"
 author: "黃冠智"
+date: last-modified
+categories: [急性肺水腫, 症狀辨識, POCUS]
 ---
 
-::: {.callout-note}
-## 內容建置中
+## 課程目標
 
-本課程內容正在建置中，敬請期待。
+::: {.callout-note}
+## 學習目標
+
+1. 透過不同案例，讓學生更了解 POCUS 的使用時機
+2. 能了解溶血為人工瓣膜功能失常的臨床表徵
+3. 在疫情下，個人防護裝備升級的同時，聽診器可能不易發現心雜音，這時候 POCUS 可以有效發現心臟瓣膜問題
 :::
+
+## 案例介紹
+
+::: {.panel-tabset}
+
+### 案例一
+
+::: {.callout-tip appearance="simple"}
+## 案例一
+
+86 歲蔡先生，平時在診所追蹤糖尿病，近日覺得乾咳頻繁且帶有血絲，診所懷疑他有肺部腫瘤建議到大醫院求診。
+
+**實驗室檢查**
+
+| 項目 | 數值 |
+|------|------|
+| WBC | 11.8 k/uL |
+| CRP | 19.355 mg/dL |
+
+**影像檢查**
+
+Chest X-ray：雙側大範圍肺部浸潤
+
+**Cardiac POCUS 發現**
+
+二尖瓣後葉 P2-3 腱索斷裂，合併有嚴重閉鎖不全。
+
+**右心導管檢查**
+
+| 項目 | 數值 |
+|------|------|
+| PA wedge 波形 | Giant V wave |
+| PA wedge pressure | 47 mmHg |
+| PA pressure | 77/26 mmHg |
+
+**處置與預後**
+
+病患隨後接受冠狀動脈繞道與二尖瓣膜置換手術，預後良好。
+:::
+
+### 案例二
+
+::: {.callout-tip appearance="simple"}
+## 案例二
+
+72 歲彭先生，2011 年於外院接受 Hancock II 32mm 二尖瓣膜置換手術，後續因心房顫動於門診追蹤。因呼吸喘到急診，發現血氧飽和度 91%，chest X-ray 發現雙側肺浸潤。
+
+**Cardiac POCUS 發現**
+
+二尖瓣人工瓣膜葉片脫垂且合併有離心斜向之重度瓣膜閉鎖不全。
+
+**處置與預後**
+
+緊急照會心臟外科評估後，病患接受二尖瓣膜 re-do surgery，預後良好。
+:::
+
+:::
+
+## 討論議題
+
+::: {.callout-warning}
+## 重點提示
+
+像這樣子的 X 光，雙側都有 infiltrates，症狀上，肺炎與肺水腫有哪些病史詢問該注意？
+:::
+
+::: {.callout-note}
+## 討論
+
+鑑別肺炎與肺水腫時，病史詢問應注意：
+
+1. **感染相關**：發燒、呼吸道症狀、接觸史
+2. **心臟相關**：過去心臟病史、胸腔病史
+3. **疫苗接種狀況**：COVID-19、pneumococcus、influenza
+4. **TOCC**：travel（旅遊史）、occupation（職業史）、cluster（群聚史）、contact history（接觸史）
+:::
+
+## POCUS 適應症
+
+在這類臨床情境中，POCUS 可以協助回答以下問題：
+
+- 是否有 **pleural effusion**（肋膜積液）？
+- 是否合併 **肺積水**？
+- 是否為 **心因性肺水腫**？
+
+## 超音波檢查重點
+
+::: {.callout-warning}
+## 重點提示
+
+床邊超音波要針對 **apical 4-chamber view** 取像，評估心臟瓣膜功能與心室運動。
+:::
+
+::: {.panel-tabset}
+
+### 實作要點
+
+- 探頭放置於心尖搏動點
+- 標記點朝向病患右側
+- 調整探頭角度以同時顯示四個腔室
+- 注意觀察瓣膜開合是否正常
+
+### 小組練習
+
+小組討論並實作床邊超音波之執行。
+
+::: {.callout-note}
+一般初學者想要取得 apical 4-chamber view，需要實作時間起碼 **20 分鐘**。請耐心練習並互相指導。
+:::
+
+:::
+
+## 自我評估
+
+::: {.content-visible when-format="html"}
+
+**問題 1**：以下何者是人工瓣膜功能失常的臨床表徵？
+
+- [ ] 肝功能異常
+- [x] 溶血
+- [ ] 腎結石
+- [ ] 皮膚紅疹
+
+**問題 2**：案例一中，PA wedge pressure 47 mmHg 代表什麼臨床意義？
+
+- [ ] 正常肺動脈壓力
+- [ ] 右心衰竭
+- [x] 左心房壓力顯著升高，符合心因性肺水腫
+- [ ] 肺栓塞
+
+**問題 3**：在個人防護裝備升級的情況下，POCUS 的優勢為何？
+
+- [ ] 可取代所有實驗室檢查
+- [ ] 可完全取代心導管檢查
+- [x] 在聽診器不易使用時，有效發現心臟瓣膜問題
+- [ ] 不需任何訓練即可操作
+
+**問題 4**：Chest X-ray 顯示雙側肺浸潤時，以下哪些檢查有助於鑑別肺炎與心因性肺水腫？
+
+- [ ] 僅做血液培養
+- [x] 床邊心臟超音波評估瓣膜功能
+- [ ] 僅做肺功能測試
+- [ ] 等待病理切片結果
+
+::: {.callout-tip collapse="true"}
+## 顯示答案解析
+
+1. **溶血**是人工瓣膜功能失常（如瓣膜葉片脫垂或閉鎖不全）的重要臨床表徵，因紅血球在異常瓣膜處受到機械性破壞。
+2. **PA wedge pressure 47 mmHg** 遠高於正常值（6-12 mmHg），代表左心房壓力顯著升高，為心因性肺水腫的直接證據。Giant V wave 則提示嚴重二尖瓣閉鎖不全。
+3. 在穿戴完整防護裝備的情況下，**聽診器可能不易發現心雜音**，此時 POCUS 可以直接目視化瓣膜開合情形，有效發現瓣膜問題。
+4. **床邊心臟超音波**可以快速評估瓣膜功能、心室收縮力與是否有心包積液，有助於鑑別心因性與非心因性肺水腫。
+:::
+
+:::
+
+::: {.content-visible when-format="pdf"}
+::: {.callout-tip}
+## 自我評估
+
+本課程包含互動式自我評估題目，請訪問線上版本完成測驗。
+:::
+:::
+
+## 參考閱讀
+
+1. Alec Vahanian et al., 2021 ESC/EACTS Guidelines for the management of valvular heart disease. *European Heart Journal* (2021) 00, 1-72
+2. *Pocket Guide to POCUS: Point-of-Care Tips for Point-of-Care Ultrasound*
+3. *Textbook of Clinical Echocardiography* 6th edition, Catherine M. Otto

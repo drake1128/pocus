@@ -1,7 +1,81 @@
 ---
 title: "教案 35：基本應用"
+subtitle: "肺炎的超音波診斷與 LUS Score"
+author: "多位醫師"
+date: last-modified
+categories: [肺炎, ARF, 基本應用, POCUS]
 ---
+
 ::: {.callout-note}
-## 內容建置中
-本課程內容正在建置中。
+## 學習目標
+
+1. 學習使用超音波診斷肺炎
+2. 了解肺炎嚴重度的超音波評估方法
+3. 掌握 LUS Score 的計算與臨床應用
 :::
+
+## 肺炎的超音波診斷
+
+肺炎在超音波下具有以下特徵性表現：
+
+- 局部 B-lines 或實變
+- Dynamic air bronchogram
+- 可能合併小量肋膜積液
+- 局部 lung sliding 減少
+
+::: {.callout-tip}
+## 臨床情境
+
+一位 68 歲男性因發燒、咳嗽及呼吸困難入急診。胸部 X 光判讀為右下肺模糊影。床邊肺部超音波顯示右下肺葉有一塊類似肝臟組織的區域，內含 dynamic air bronchogram，周圍可見 B-lines，並有少量肋膜積液。
+
+這些超音波表現高度支持右下肺葉肺炎的診斷。
+:::
+
+## 肺炎嚴重度評估
+
+超音波可協助評估肺炎的嚴重程度，需注意以下指標：
+
+- **實變範圍大小**：範圍越大，嚴重度越高
+- **雙側受影響**：雙側肺炎預後較差
+- **合併 ARDS 表現**：瀰漫性 B-lines 提示可能進展為 ARDS
+- **是否需要呼吸支持**：可作為評估呼吸衰竭的依據
+
+## LUS Score（Lung Ultrasound Score）
+
+LUS Score 是一個半定量的評估工具，用於量化肺部通氣喪失的程度。
+
+### 評分標準
+
+| 分數 | 超音波表現 |
+|:-----|:-----------|
+| 0 | 正常：A-lines 或 < 3 條分散的 B-lines |
+| 1 | 中度：≥ 3 條明確的 B-lines |
+| 2 | 嚴重：融合的 B-lines |
+| 3 | 實變 |
+
+### 計算方式
+
+胸部分為 12 個區域（每側 6 區），每區評分 0-3 分，總分 0-36 分。
+
+::: {.callout-warning}
+## LUS Score 臨床應用
+
+- LUS Score 越高，代表肺部通氣喪失越嚴重
+- 可用於追蹤治療效果（如抗生素治療後的變化）
+- 可協助預測預後與呼吸器脫離的可能性
+- 連續監測比單次評估更有價值
+:::
+
+## 自我評量
+
+1. 列舉肺炎在肺部超音波下的四個主要特徵。
+2. 如何利用超音波評估肺炎的嚴重度？
+3. 說明 LUS Score 的評分標準與計算方式。
+4. LUS Score 在臨床上有哪些應用？
+5. 一位患者右下肺呈現實變合併 dynamic air bronchogram，左下肺可見融合 B-lines，其餘區域正常，請估算其 LUS Score。
+
+## 參考文獻
+
+1. Reissig A, et al. Lung ultrasound in the diagnosis and follow-up of community-acquired pneumonia. *Chest*. 2012;142(4):965-972.
+2. Soummer A, et al. Ultrasound assessment of lung aeration loss during a successful weaning trial predicts postextubation distress. *Crit Care Med*. 2012;40(7):2064-2072.
+3. Mongodi S, et al. Lung ultrasound for early diagnosis of ventilator-associated pneumonia. *Chest*. 2016;149(4):969-980.

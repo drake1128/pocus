@@ -1,8 +1,64 @@
 ---
 title: "教案 27：女性急性腹痛"
+subtitle: "女性急性腹痛的鑑別診斷與超音波評估"
 author: "李宜家"
+date: last-modified
+categories: [急性腹痛, 婦科急症, POCUS]
 ---
+
+## 學習目標
+
 ::: {.callout-note}
-## 內容建置中
-本課程內容正在建置中。
+## Learning Objectives
+
+1. 學習女性急性腹痛的常見婦科鑑別診斷
+2. 學習骨盆腔超音波的基本評估方法
+3. 了解婦科急症的超音波關鍵發現
 :::
+
+## 婦科急症鑑別診斷
+
+女性急性腹痛需考慮以下婦科急症：
+
+- **異位妊娠（Ectopic pregnancy）**
+- **卵巢囊腫破裂（Ruptured ovarian cyst）**
+- **卵巢扭轉（Ovarian torsion）**
+- **黃體破裂（Ruptured corpus luteum）**
+- **骨盆腔發炎（PID, Pelvic inflammatory disease）**
+
+::: {.callout-warning}
+## Key Point
+女性病患經常被忽略婦科疾病，停經後是否有陰道不正常出血或分泌物都要詢問。育齡女性的急性腹痛務必先排除異位妊娠。
+:::
+
+## 超音波檢查重點
+
+### 評估項目
+
+| 檢查項目 | 評估重點 |
+|----------|----------|
+| 子宮大小形態 | 子宮是否正常大小、有無肌瘤或其他異常 |
+| IUP（Intrauterine pregnancy） | 是否可見子宮內妊娠囊、胎心搏動 |
+| 附屬器腫塊 | 卵巢囊腫、實質性腫塊、混合性腫塊 |
+| 腹水/骨盆腔積液 | 游離液體量與分布 |
+| Douglas pouch | 子宮直腸窩是否有積液（最低處易積液） |
+
+### Douglas Pouch 的重要性
+
+Douglas pouch（子宮直腸窩）是骨盆腔最低點，少量游離液體會先在此處聚集。在急性腹痛的女性病患中，Douglas pouch 積液可能提示：
+
+- 異位妊娠破裂出血
+- 卵巢囊腫或黃體破裂
+- 腹膜炎合併腹水
+
+## 自我評量
+
+1. 育齡女性急性腹痛時，最優先需要排除的診斷為何？
+2. 異位妊娠的超音波典型發現有哪些？
+3. Douglas pouch 積液在女性急性腹痛中代表什麼臨床意義？
+4. 卵巢扭轉的超音波表現有哪些特徵？
+5. 為什麼女性病患的急性腹痛問診中一定要詢問月經史與陰道出血？
+
+## 參考文獻
+
+1. Ma OJ, Mateer JR, Blaivas M. *Emergency Ultrasound*. 2nd edition. McGraw-Hill.

@@ -1,8 +1,150 @@
 ---
 title: "教案 23：病理機轉、診斷流程與鑑別診斷"
+subtitle: "DVT 壓迫測試與 PE 心臟超音波發現"
 author: "謝慕揚、林彥良"
+date: last-modified
+categories: [肺栓塞, DVT, 診斷流程]
 ---
+
+## 課程目標
+
 ::: {.callout-note}
-## 內容建置中
-本課程內容正在建置中。
+## 學習目標
+
+1. 學會執行下肢深層靜脈的 4-point compression test
+2. 了解 DVT 超音波陽性的判斷標準
+3. 熟悉急性肺栓塞在心臟超音波上的典型發現
+4. 能夠整合臨床與超音波資訊進行鑑別診斷
 :::
+
+## DVT 超音波診斷
+
+### 4-Point Compression Test
+
+::: {.callout-warning}
+## 重點提示
+
+4-point compression test 是床邊診斷 DVT 最實用的超音波技術，敏感度與特異度皆高。
+:::
+
+在以下四個解剖位置，使用線性探頭對靜脈進行橫切面壓迫：
+
+| 壓迫點 | 解剖位置 | 說明 |
+|--------|----------|------|
+| 第 1 點 | Common Femoral Vein（CFV） | 腹股溝韌帶下方 |
+| 第 2 點 | Saphenofemoral Junction | GSV 匯入 CFV 處 |
+| 第 3 點 | Superficial Femoral Vein（SFV） | 大腿中段 |
+| 第 4 點 | Popliteal Vein | 膝窩處 |
+
+### DVT 陽性判斷標準
+
+| 陽性發現 | 說明 |
+|----------|------|
+| 壓迫後靜脈無法完全塌陷 | 最重要的陽性指標，正常靜脈應可被完全壓扁 |
+| 直接可視血栓 | 管腔內可見高回音或低回音的血栓 |
+| 無彩色血流 | Color Doppler 下靜脈內無血流訊號 |
+
+::: {.callout-tip}
+## 操作技巧
+
+- 壓迫時需使用足夠力量，確認動脈仍有搏動但靜脈已被壓扁
+- 正常靜脈在壓迫下應完全塌陷（coaptation）
+- 若靜脈無法完全塌陷，即使未直接看到血栓，仍應視為陽性
+:::
+
+## PE 心臟超音波發現
+
+::: {.callout-warning}
+## 重點提示
+
+心臟超音波無法直接看到肺動脈內的血栓，但可以偵測到急性右心負荷增加的間接證據。
+:::
+
+| 超音波發現 | 說明 |
+|------------|------|
+| RV 擴大 | RV/LV ratio > 1（Apical 4-Chamber view） |
+| D-sign | 心室中隔向左偏移（Parasternal Short-Axis view） |
+| McConnell's sign | RV free wall akinesia with apical sparing |
+| TR jet velocity 上升 | RVSP 估計值上升 |
+| IVC 擴張 | > 2.1 cm 且無呼吸變異（plethoric IVC） |
+
+### 各項發現的臨床意義
+
+- **RV 擴大與 D-sign**：反映急性右心壓力負荷增加，心室中隔被推向左側，使左心室在短軸切面呈現 "D" 字形
+- **McConnell's sign**：RV 游離壁運動不良但心尖部仍有收縮，對急性 PE 具有高度特異性
+- **TR jet velocity 上升**：透過三尖瓣逆流速度估算 RVSP，間接反映肺動脈壓力
+- **IVC 擴張**：反映右心充盈壓升高，> 2.1 cm 且吸氣時無塌陷提示 RAP 升高
+
+## 鑑別診斷
+
+::: {.callout-note}
+## 右心擴大的鑑別診斷
+
+並非所有右心擴大都是肺栓塞！需要鑑別的情況包括：
+
+- 慢性肺動脈高壓（chronic pulmonary hypertension）
+- 右心衰竭（right heart failure）
+- 急性右心梗塞（RV infarction）
+- 心包填塞（cardiac tamponade）
+- 張力性氣胸（tension pneumothorax）
+:::
+
+## 討論議題
+
+::: {.callout-note}
+## 討論
+
+1. 4-point compression test 的敏感度與特異度各為多少？
+2. McConnell's sign 與慢性右心擴大的 RV wall motion 有何不同？
+3. IVC 擴張且無呼吸變異，除了 PE 以外還可能代表什麼？
+4. 如何區分急性與慢性右心負荷增加？
+:::
+
+## 自我評估
+
+::: {.content-visible when-format="html"}
+
+**問題 1**：4-point compression test 中，以下何者**不是**標準壓迫點？
+
+- [ ] Common Femoral Vein
+- [ ] Saphenofemoral Junction
+- [x] Posterior Tibial Vein
+- [ ] Popliteal Vein
+
+**問題 2**：心臟超音波顯示 RV/LV ratio > 1 且心室中隔向左偏移，這最可能代表什麼？
+
+- [ ] 左心衰竭
+- [x] 急性右心壓力負荷增加
+- [ ] 心包積液
+- [ ] 主動脈瓣狹窄
+
+**問題 3**：關於 McConnell's sign，以下敘述何者正確？
+
+- [ ] RV 所有壁段皆無運動
+- [ ] LV 游離壁運動不良
+- [x] RV free wall akinesia 但 apical segment 仍有收縮
+- [ ] RV apex 無運動但 free wall 正常
+
+::: {.callout-tip collapse="true"}
+## 顯示答案解析
+
+1. **Posterior Tibial Vein** 不包含在標準的 4-point compression test 中。標準四點為 CFV、Saphenofemoral junction、SFV、Popliteal vein。
+2. **RV/LV ratio > 1 合併 D-sign** 是急性右心壓力負荷增加的典型表現，常見於 massive 或 submassive PE。
+3. **McConnell's sign** 的定義為 RV free wall akinesia with apical sparing，對急性 PE 具有高度特異性，可與慢性右心擴大做區別。
+:::
+
+:::
+
+::: {.content-visible when-format="pdf"}
+::: {.callout-tip}
+## 自我評估
+
+本課程包含互動式自我評估題目，請訪問線上版本完成測驗。
+:::
+:::
+
+## 參考閱讀
+
+1. Bedside echo for chest pain: an algorithm for education and assessment. *Advances in Medical Education and Practice* 2016:7 293-300
+2. *Pocket Guide to POCUS*, Chapter 8 & 10
+3. Frederick A. Anderson Jr. & Frederick A. Spencer. Risk Factors for Venous Thromboembolism. *Circulation*. 2003; 107: I9-I16

@@ -1,8 +1,161 @@
 ---
 title: "教案 31：診斷流程與鑑別診斷"
+subtitle: "肺部超音波鑑別診斷與 BLUE Protocol"
 author: "范程羿"
+date: last-modified
+categories: [呼吸喘, 診斷流程, BLUE Protocol]
 ---
+
+## 課程目標
+
 ::: {.callout-note}
-## 內容建置中
-本課程內容正在建置中。
+## 學習目標
+
+1. 學習肺部超音波各種異常發現及其對應的可能診斷
+2. 了解 BLUE Protocol 的診斷流程與臨床應用
+3. 能夠整合超音波發現進行呼吸喘的鑑別診斷
 :::
+
+## 超音波發現與鑑別診斷
+
+| 超音波發現 | M-mode 表現 | 可能診斷 |
+|-----------|------------|---------|
+| Lung sliding + A-lines | Seashore sign | 正常、COPD、氣喘 |
+| Lung sliding 消失 + A-lines | Barcode / Stratosphere sign | 氣胸 |
+| B-lines（多條） | -- | 肺水腫、間質性肺病 |
+| Consolidation | -- | 肺炎、肺塌陷 |
+| Pleural effusion | -- | 心衰竭、感染、腫瘤 |
+| Lung point | -- | 氣胸邊界 |
+
+### 各項超音波發現詳解
+
+#### Lung Sliding 消失 + A-lines
+
+- M-mode 下呈現 **Barcode sign**（又稱 Stratosphere sign）
+- 上下方均為平行水平線條，無顆粒狀散點
+- 高度懷疑**氣胸**
+
+::: {.callout-warning}
+## 重點提示
+
+Lung sliding 消失不等於氣胸。需同時觀察 A-lines 的存在，並搭配臨床表現綜合判斷。其他造成 lung sliding 消失的原因包括肋膜沾黏、肺實質化等。
+:::
+
+#### B-lines
+
+- 從胸膜線垂直向下延伸的高回音線條，如雷射光束
+- 會隨呼吸移動，延伸至螢幕底部，且會消除 A-lines
+- **多條 B-lines**（每個肋間 >= 3 條）提示肺泡間質症候群（alveolar-interstitial syndrome）
+- 常見於**肺水腫**與**間質性肺病**
+
+#### Consolidation（實變）
+
+- 肺組織因發炎、感染等原因失去含氣而呈現類似肝臟的實質影像（hepatization）
+- 可能伴隨 **air bronchogram**（支氣管含氣徵象）
+- 常見於**肺炎**與**肺塌陷**
+
+#### Pleural Effusion（肋膜積液）
+
+- 在肋膜腔內可見無回音（anechoic）的液體聚集
+- 依據回音性可初步判斷積液性質（transudative vs. exudative）
+- 常見於**心衰竭、感染、腫瘤**
+
+#### Lung Point（肺點）
+
+- 在氣胸的邊界處，可見 lung sliding 存在與消失的交界點
+- Lung point 的出現對氣胸的診斷具有**高度特異性**
+- 可用於評估氣胸的範圍大小
+
+## BLUE Protocol
+
+::: {.callout-note}
+## BLUE Protocol
+
+**BLUE** = **B**edside **L**ung **U**ltrasound in **E**mergency
+
+BLUE Protocol 是一套系統性的床邊肺部超音波診斷流程，用於急性呼吸衰竭病人的快速鑑別診斷。
+:::
+
+### 診斷步驟
+
+**步驟 1：確認 Lung Sliding**
+
+- 在前胸壁上方（upper BLUE point）與下方（lower BLUE point）評估
+- Lung sliding 存在 → 進入步驟 2
+- Lung sliding 消失 → 考慮氣胸，尋找 lung point
+
+**步驟 2：評估 A-lines 或 B-lines**
+
+- A-lines 為主 → A-profile → 考慮 COPD / 氣喘 / 肺栓塞
+- B-lines 為主 → B-profile → 考慮肺水腫
+
+**步驟 3：檢查 Pleural Effusion**
+
+- 在 PLAPS point（後外側肺泡與肋膜症候群點）評估
+- 有積液 → 考慮肺炎合併肋膜積液、心衰竭
+
+**步驟 4：檢查 Consolidation**
+
+- 在後胸壁或下肺野評估
+- 有實變 → 考慮肺炎、肺塌陷
+
+**步驟 5：整合 DVT 評估**
+
+- 若為 A-profile 且無其他明顯發現
+- 加做下肢深部靜脈超音波評估
+- DVT 陽性 → 高度懷疑**肺栓塞**
+
+::: {.callout-warning}
+## 重點提示
+
+BLUE Protocol 的診斷準確率在原始研究中達 90.5%，但仍需結合臨床表現、病史與其他檢查綜合判斷，不應僅依賴超音波結果做出診斷。
+:::
+
+## 自我評估
+
+::: {.content-visible when-format="html"}
+
+**問題 1**：M-mode 下出現 Barcode sign（Stratosphere sign），最可能的診斷為何？
+
+- [ ] 肺水腫
+- [ ] 肺炎
+- [x] 氣胸
+- [ ] 正常肺部
+
+**問題 2**：BLUE Protocol 中，前胸壁 lung sliding 存在且以 B-lines 為主（B-profile），最可能的診斷為何？
+
+- [x] 肺水腫
+- [ ] 氣胸
+- [ ] COPD
+- [ ] 肺栓塞
+
+**問題 3**：下列何者對氣胸的診斷具有最高的特異性？
+
+- [ ] A-lines
+- [ ] Lung sliding 消失
+- [ ] Barcode sign
+- [x] Lung point
+
+::: {.callout-tip collapse="true"}
+## 顯示答案解析
+
+1. **Barcode sign** 代表 M-mode 下 lung sliding 消失，上下方均為平行線條，是氣胸的典型表現。
+2. **B-profile**（lung sliding 存在 + 多條 B-lines）在 BLUE Protocol 中對應肺水腫的診斷。
+3. **Lung point** 是氣胸邊界處 lung sliding 存在與消失的交界，對氣胸的診斷特異性接近 100%。
+:::
+
+:::
+
+::: {.content-visible when-format="pdf"}
+::: {.callout-tip}
+## 自我評估
+
+本課程包含互動式自我評估題目，請訪問線上版本完成測驗。
+:::
+:::
+
+## 參考閱讀
+
+1. Lichtenstein, D.A. & Meziere, G.A. Relevance of lung ultrasound in the diagnosis of acute respiratory failure: the BLUE protocol. *Chest* 134(1), 117-125 (2008)
+2. Lichtenstein, D.A. Lung ultrasound in the critically ill. *Ann. Intensive Care* 4, 1 (2014)
+3. Karen S. Cosby et al. *Practical Guide to Emergency Ultrasound*, chapter 5

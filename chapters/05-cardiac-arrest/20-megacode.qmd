@@ -1,8 +1,121 @@
 ---
 title: "教案 20：實際演練與 Megacode"
+subtitle: "高擬真模擬演練"
 author: "陳麒心"
+date: last-modified
+categories: [心跳停止, Megacode, POCUS]
 ---
+
+## 課程目標
+
 ::: {.callout-note}
-## 內容建置中
-本課程內容正在建置中。
+## 學習目標
+
+1. 團隊合作與有效溝通
+2. 不中斷 CPR 的前提下進行超音波評估
+3. 根據超音波發現調整急救策略
+4. 快速辨識可逆原因並處置
 :::
+
+## 課程說明
+
+::: {.callout-warning}
+## 重點提示
+
+透過高擬真模擬，讓學員在模擬情境中整合 ACLS 流程與超音波應用。本課程著重於實際操作與團隊合作演練。
+:::
+
+## 演練重點
+
+### 1. 團隊合作與有效溝通
+
+- 依照 ACLS 團隊分工（C1、C2、A1、A2、S1、S2、L）執行各自任務
+- 使用 closed-loop communication 確認指令
+- Leader 負責統籌指揮與超音波操作
+
+### 2. 不中斷 CPR 的超音波評估
+
+- 遵循 US-CAB protocol 流程
+- 僅在 pulse check 時進行超音波（10 秒內）
+- 預先放置探頭於劍突下位置
+
+### 3. 根據超音波發現調整策略
+
+- 心包積液 → 心包穿刺
+- 右心擴大 → 考慮肺栓塞，給予血栓溶解劑
+- 無肺滑動 → 針刺減壓
+- IVC 塌陷 → 大量輸液
+
+### 4. 快速辨識可逆原因
+
+- 整合 5H5T 鑑別診斷
+- 利用超音波快速篩檢可逆病因
+- 即時處置以提升急救成功率
+
+## 演練流程
+
+| 階段 | 時間 | 內容 |
+|------|------|------|
+| 簡報 | 10 分鐘 | 場景介紹、角色分配 |
+| 模擬演練 | 20 分鐘 | 高擬真模擬情境操作 |
+| 回饋討論 | 15 分鐘 | Debriefing、影片回顧 |
+| 重複演練 | 15 分鐘 | 角色輪換、再次演練 |
+
+## 討論議題
+
+::: {.callout-note}
+## 討論
+
+1. 演練中團隊溝通有哪些可以改進的地方？
+2. 超音波評估是否在 10 秒內完成？
+3. 是否正確辨識出可逆原因並做出適當處置？
+4. Leader 的指揮與決策是否明確？
+:::
+
+## 自我評估
+
+::: {.content-visible when-format="html"}
+
+**問題 1**：在 Megacode 演練中，超音波操作主要由哪個角色負責？
+
+- [ ] C1
+- [ ] A1
+- [ ] S1
+- [x] L（Leadership）
+
+**問題 2**：演練中發現心包積液，應立即進行什麼處置？
+
+- [ ] 給予 epinephrine
+- [x] 心包穿刺
+- [ ] 電擊
+- [ ] 插管
+
+**問題 3**：以下何者是超音波在 CPR 中的正確使用原則？
+
+- [ ] 隨時可以進行超音波檢查
+- [ ] 超音波比壓胸更重要
+- [x] 僅在 pulse check 時進行，不可中斷 CPR
+- [ ] 超音波需要至少 30 秒才能完成評估
+
+::: {.callout-tip collapse="true"}
+## 顯示答案解析
+
+1. **Leadership** 負責 ECHO 操作與指揮決策，統籌整個急救流程。
+2. 超音波發現**心包積液**時，應立即進行**心包穿刺**以解除心包填塞。
+3. 超音波評估必須在 **pulse check** 時進行，**10 秒內**完成，絕不可中斷高品質的 CPR。
+:::
+
+:::
+
+::: {.content-visible when-format="pdf"}
+::: {.callout-tip}
+## 自我評估
+
+本課程包含互動式自我評估題目，請訪問線上版本完成測驗。
+:::
+:::
+
+## 參考閱讀
+
+1. Lien, WC et al., US-CAB protocol for ultrasonographic evaluation during cardiopulmonary resuscitation: validation and potential impact. *Resuscitation*, 2018;127:125-131.
+2. Lien, WC et al., A novel US-CAB protocol for ultrasonographic evaluation during cardiopulmonary resuscitation. *Resuscitation*, 2017;115:e1-e2.

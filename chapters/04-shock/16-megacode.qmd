@@ -1,8 +1,107 @@
 ---
 title: "教案 16：實際演練與 Megacode"
+subtitle: "RUSH Protocol 模擬演練"
 author: "陳麒心"
+date: last-modified
+categories: [休克, 實際演練, POCUS]
 ---
+
+## 學習目標
+
 ::: {.callout-note}
-## 內容建置中
-本課程內容正在建置中。
+## Learning Objectives
+
+1. 透過模擬情境，實際操作 RUSH Protocol
+2. 快速完成 RUSH Protocol 掃描（目標 < 5 分鐘）
+3. 正確判讀超音波影像並鑑別休克類型
+4. 根據超音波發現調整治療策略
+5. 練習團隊溝通與分工
 :::
+
+## 演練概述
+
+::: {.callout-warning}
+## 練習重點
+
+透過模擬情境，讓學員實際操作 RUSH Protocol，並在團隊中練習溝通與分工。
+
+1. 快速完成 RUSH Protocol 掃描（目標 < 5 分鐘）
+2. 正確判讀超音波影像
+3. 根據超音波發現調整治療策略
+4. 團隊溝通與分工
+:::
+
+## 演練流程
+
+### Phase 1：個人技術練習
+
+| 步驟 | 內容 | 時間目標 |
+|------|------|----------|
+| Pump | 心臟四個標準切面、LVEF 評估、心包積液 | 2 分鐘 |
+| Tank | IVC 測量與呼吸變異、肋膜積液、FAST | 2 分鐘 |
+| Pipes | 腹主動脈、下肢靜脈壓迫 | 1 分鐘 |
+
+### Phase 2：情境模擬演練
+
+::: {.callout-tip appearance="simple"}
+## 模擬情境範例
+
+**情境一：低容性休克**
+68 歲女性，大量解黑便後意識改變。血壓 78/50 mmHg，心跳 130 次/分。
+
+- 預期超音波發現：IVC 塌陷、心臟過動、FAST 可能陰性
+- 處置重點：大量輸液、輸血、照會腸胃科
+
+**情境二：阻塞性休克（肺栓塞）**
+55 歲男性，術後第 5 天突發呼吸困難、胸痛。血壓 85/60 mmHg，心跳 110 次/分，血氧 88%。
+
+- 預期超音波發現：右心擴大、IVC 擴張、可能有 DVT
+- 處置重點：抗凝治療、考慮血栓溶解
+
+**情境三：心因性休克**
+72 歲男性，胸痛 3 小時，ECG 顯示 anterior STEMI。血壓 75/50 mmHg，心跳 100 次/分。
+
+- 預期超音波發現：左心室收縮差、前壁運動異常、B-lines
+- 處置重點：升壓劑、緊急心導管
+
+**情境四：敗血性休克**
+80 歲女性，發燒、畏寒、排尿疼痛 3 天。血壓 70/40 mmHg，心跳 120 次/分，體溫 39.2°C。
+
+- 預期超音波發現：IVC 塌陷或小、心臟過動、可能有腎水腫
+- 處置重點：輸液復甦、廣效抗生素、升壓劑
+:::
+
+### Phase 3：Megacode 團隊演練
+
+團隊角色分配：
+
+| 角色 | 任務 |
+|------|------|
+| Team Leader | 指揮全局、下達醫囑、整合資訊 |
+| 超音波操作者 | 執行 RUSH Protocol、回報發現 |
+| 處置執行者 | 建立靜脈通路、給藥、輸液 |
+| 記錄者 | 記錄時間、醫囑、檢查結果 |
+
+## 評估標準
+
+| 評估項目 | 標準 |
+|----------|------|
+| RUSH Protocol 完成時間 | < 5 分鐘 |
+| 影像品質 | 能辨識主要結構 |
+| 判讀正確性 | 正確辨識休克類型 |
+| 治療決策 | 根據超音波發現調整治療 |
+| 團隊溝通 | 清楚回報發現、有效指揮 |
+
+## 自我評量
+
+1. RUSH Protocol 的掃描順序為何？每個步驟包含哪些檢查？
+2. 在團隊演練中，超音波操作者的角色與責任為何？
+3. 若 RUSH Protocol 發現 IVC 塌陷且心臟過動，應如何處置？
+4. 若發現右心室擴大合併 IVC 擴張，最可能的診斷為何？應如何處置？
+5. 如何在高壓情境下有效地進行團隊溝通？
+
+## 參考資料
+
+1. Perera P, et al. The RUSH exam: Rapid Ultrasound in SHock in the evaluation of the critically ill. *Emerg Med Clin North Am*. 2010;28(1):29-56.
+2. POCUS 101 - RUSH Exam Ultrasound Protocol Step by Step Guide. <https://www.pocus101.com/rush-exam-ultrasound-protocol-step-by-step-guide/>
+3. UBC IMPOCUS - Hemodynamics. <https://www.ubcimpocus.com/hemodynamics>

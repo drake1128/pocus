@@ -1,8 +1,142 @@
 ---
 title: "教案 22：解剖及生理"
+subtitle: "深層靜脈解剖與超音波掃描基礎"
 author: "謝慕揚、林彥良"
+date: last-modified
+categories: [肺栓塞, DVT, 解剖]
 ---
+
+## 課程目標
+
 ::: {.callout-note}
-## 內容建置中
-本課程內容正在建置中。
+## 學習目標
+
+1. 熟悉下肢深層靜脈的解剖位置與走向
+2. 熟悉上肢與中央靜脈的解剖結構
+3. 了解超音波掃描靜脈時的基本探頭位置與方向
 :::
+
+## 下肢深層靜脈
+
+::: {.callout-warning}
+## 重點提示
+
+下肢深層靜脈是 DVT 最常發生的位置，熟悉解剖結構是正確執行壓迫測試的基礎。
+:::
+
+| 縮寫 | 全名 | 說明 |
+|------|------|------|
+| CFV | Common Femoral Vein | 總股靜脈，位於腹股溝韌帶下方 |
+| SFV | Superficial Femoral Vein | 股淺靜脈（屬於深層靜脈系統） |
+| DFV | Deep Femoral Vein | 股深靜脈 |
+| — | Popliteal Vein | 膕靜脈，位於膝窩處 |
+| — | Posterior Tibial Vein | 後脛靜脈，位於內踝後方 |
+
+::: {.callout-warning}
+## 重要提醒
+
+Superficial Femoral Vein（SFV）名稱中雖有 "superficial"，但它屬於**深層靜脈系統**。SFV 的血栓屬於 DVT，需要抗凝治療！
+:::
+
+### 下肢靜脈解剖走向
+
+- **腹股溝處**：Common Femoral Vein（CFV）接收來自 Great Saphenous Vein（GSV）的匯入，形成 Saphenofemoral junction
+- **大腿中段**：CFV 分為 Superficial Femoral Vein（SFV）與 Deep Femoral Vein（DFV）
+- **膝窩處**：SFV 延續為 Popliteal Vein
+- **小腿處**：Popliteal Vein 分為 Anterior Tibial Vein、Posterior Tibial Vein 與 Peroneal Vein
+
+## 上肢與中央靜脈
+
+| 縮寫 | 全名 | 說明 |
+|------|------|------|
+| IJV | Internal Jugular Vein | 內頸靜脈 |
+| — | Subclavian Vein | 鎖骨下靜脈 |
+| — | Brachiocephalic Vein | 頭臂靜脈（無名靜脈） |
+| SVC | Superior Vena Cava | 上腔靜脈 |
+
+### 上肢靜脈解剖走向
+
+- **頸部**：Internal Jugular Vein（IJV）位於頸動脈外側
+- **鎖骨下方**：Subclavian Vein 走行於鎖骨後方
+- **縱膈腔**：IJV 與 Subclavian Vein 匯合形成 Brachiocephalic Vein
+- **右心房前**：左右 Brachiocephalic Vein 匯合形成 Superior Vena Cava（SVC）
+
+::: {.callout-warning}
+## 重點提示
+
+長期留置中央靜脈導管（如 Hickman catheter、port-A）的病人，需注意 SVC thrombosis 的可能性，尤其出現上半身水腫與側枝循環時。
+:::
+
+## 超音波掃描基礎
+
+### 探頭選擇
+
+| 探頭類型 | 適用部位 |
+|----------|----------|
+| 線性探頭（Linear probe） | 下肢靜脈壓迫測試、頸部靜脈評估 |
+| 相位陣列探頭（Phased array） | 心臟超音波評估 PE 相關發現 |
+| 弧形探頭（Curvilinear probe） | IVC 評估 |
+
+### 掃描姿勢與病人擺位
+
+- **下肢 DVT 掃描**：病人仰臥，膝蓋微彎，髖關節外旋外展（frog-leg position）
+- **膕靜脈掃描**：病人膝蓋微彎，或側臥位
+- **頸部靜脈掃描**：病人仰臥，頭部稍微轉向對側
+
+## 討論議題
+
+::: {.callout-note}
+## 討論
+
+1. 為什麼 Superficial Femoral Vein 雖然名稱有 "superficial" 卻屬於深層靜脈系統？
+2. DVT 壓迫測試需要掃描哪些解剖位置？
+3. 上肢靜脈栓塞與下肢靜脈栓塞的常見原因有何不同？
+:::
+
+## 自我評估
+
+::: {.content-visible when-format="html"}
+
+**問題 1**：以下哪條靜脈**不屬於**深層靜脈系統？
+
+- [ ] Common Femoral Vein
+- [ ] Superficial Femoral Vein
+- [x] Great Saphenous Vein
+- [ ] Popliteal Vein
+
+**問題 2**：Saphenofemoral junction 是哪兩條靜脈的交匯處？
+
+- [x] Common Femoral Vein 與 Great Saphenous Vein
+- [ ] Superficial Femoral Vein 與 Deep Femoral Vein
+- [ ] Popliteal Vein 與 Posterior Tibial Vein
+- [ ] Internal Jugular Vein 與 Subclavian Vein
+
+**問題 3**：左右 Brachiocephalic Vein 匯合後形成什麼結構？
+
+- [ ] Internal Jugular Vein
+- [ ] Subclavian Vein
+- [x] Superior Vena Cava
+- [ ] Inferior Vena Cava
+
+::: {.callout-tip collapse="true"}
+## 顯示答案解析
+
+1. **Great Saphenous Vein** 屬於淺層靜脈系統，雖然 SFV 名稱中有 superficial，但它屬於深層靜脈。
+2. **Saphenofemoral junction** 是 GSV 匯入 CFV 的位置，位於腹股溝處，是 DVT 壓迫測試的重要掃描點之一。
+3. 左右 **Brachiocephalic Vein** 匯合形成 **SVC**，進入右心房。
+:::
+
+:::
+
+::: {.content-visible when-format="pdf"}
+::: {.callout-tip}
+## 自我評估
+
+本課程包含互動式自我評估題目，請訪問線上版本完成測驗。
+:::
+:::
+
+## 參考閱讀
+
+1. *Pocket Guide to POCUS*, Chapter 8 & 10
+2. Frederick A. Anderson Jr. & Frederick A. Spencer. Risk Factors for Venous Thromboembolism. *Circulation*. 2003; 107: I9-I16

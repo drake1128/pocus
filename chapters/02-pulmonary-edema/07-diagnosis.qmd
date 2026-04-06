@@ -1,9 +1,197 @@
 ---
 title: "教案 7：診斷流程與鑑別診斷"
+subtitle: "肺部超音波診斷流程與鑑別診斷"
 author: "黃冠智"
+date: last-modified
+categories: [急性肺水腫, 診斷流程, 鑑別診斷]
 ---
 
+## 課程目標
+
 ::: {.callout-note}
-## 內容建置中
-本課程內容正在建置中。
+## 學習目標
+
+1. 掌握肺部超音波的基本徵象與臨床意義
+2. 了解 B-lines 的定義、分級與鑑別診斷
+3. 能運用超音波發現區分心因性肺水腫、肺炎、ARDS 等疾病
+4. 熟悉肺部超音波的系統性掃描流程
 :::
+
+## 肺部超音波基本徵象
+
+::: {.callout-warning}
+## 重點提示
+
+肺部超音波的判讀核心在於辨識 **A-lines**（正常）與 **B-lines**（異常），並結合臨床資訊進行鑑別診斷。
+:::
+
+### 超音波發現與臨床意義
+
+| 超音波發現 | 臨床意義 | 可能診斷 |
+|-----------|---------|---------|
+| A-lines | 正常肺部或氣胸 | 正常、COPD、氣胸 |
+| B-lines（少量） | 輕度間質水腫 | 早期肺水腫 |
+| B-lines（瀰漫性） | 肺泡-間質症候群 | 肺水腫、ARDS、肺炎 |
+| 實變（Consolidation） | 肺組織實變 | 肺炎、肺塌陷 |
+| 肋膜積液 | 液體聚積 | 心衰竭、感染、惡性腫瘤 |
+
+## B-lines 詳解
+
+::: {.panel-tabset}
+
+### 定義與特徵
+
+B-lines 的超音波特徵：
+
+- 起自肋膜線（pleural line）的**垂直高回音線**
+- 延伸至螢幕底端且**不消失**
+- 隨呼吸與肋膜線**同步移動**
+- 會**遮蓋** A-lines
+
+### 分級與判讀
+
+| 分級 | B-lines 數量 | 臨床意義 |
+|------|-------------|---------|
+| 正常 | 每個肋間 ≤ 2 條 | 無明顯間質水腫 |
+| 輕度 | 每個肋間 3-5 條 | 輕度間質水腫 |
+| 中度 | 密集但可分辨 | 中度肺水腫 |
+| 重度（white lung） | 融合成白色區域 | 嚴重肺泡水腫 |
+
+### B-lines 的鑑別
+
+B-lines 並非肺水腫的專一指標，需鑑別：
+
+| 疾病 | B-lines 分布 | 其他特徵 |
+|------|-------------|---------|
+| 心因性肺水腫 | 雙側對稱、瀰漫性 | 常合併肋膜積液、IVC 擴張 |
+| ARDS | 雙側但可能不對稱 | 肋膜線不規則、常有實變 |
+| 肺炎 | 局部或單側為主 | 常合併實變、動態支氣管充氣徵 |
+| 肺纖維化 | 雙側、以下肺為主 | 肋膜線不規則、B-lines 較固定 |
+
+:::
+
+## 系統性掃描流程
+
+::: {.callout-note}
+## BLUE Protocol
+
+BLUE（Bedside Lung Ultrasound in Emergency）是急診常用的肺部超音波系統性評估流程，每側胸壁掃描三個區域：
+
+1. **Upper BLUE point**（前上區）
+2. **Lower BLUE point**（前下區）
+3. **PLAPS point**（後外側肋膜區）
+:::
+
+### 掃描步驟
+
+1. 病人取半坐臥姿或仰臥姿
+2. 使用 **curvilinear probe**（凸面探頭）或 **phased array probe**（相位陣列探頭）
+3. 依序掃描雙側各三個標準點位
+4. 記錄每個點位的超音波發現（A-lines、B-lines、實變、肋膜積液）
+5. 結合心臟超音波結果綜合判斷
+
+## 鑑別診斷流程
+
+::: {.panel-tabset}
+
+### 流程圖概念
+
+**Step 1**：評估肋膜滑動（lung sliding）
+
+- 有肋膜滑動 → 排除該區域氣胸
+- 無肋膜滑動 → 考慮氣胸或肺實變
+
+**Step 2**：評估 A-lines vs B-lines
+
+- A-lines 為主 → 正常或 COPD 或肺栓塞
+- B-lines 為主 → 進入 Step 3
+
+**Step 3**：B-lines 分布型態
+
+- 雙側對稱瀰漫 → 心因性肺水腫可能性高
+- 不對稱或局部 → ARDS、肺炎
+
+**Step 4**：結合心臟超音波
+
+- LV 功能差或瓣膜異常 → 心因性肺水腫
+- LV 功能正常 → 非心因性原因
+
+### 整合判讀
+
+| 肺部超音波 | 心臟超音波 | 最可能診斷 |
+|-----------|-----------|-----------|
+| 雙側瀰漫 B-lines | LV 功能差 / 瓣膜異常 | 心因性肺水腫 |
+| 雙側瀰漫 B-lines | LV 功能正常 | ARDS |
+| 局部 B-lines + 實變 | LV 功能正常 | 肺炎 |
+| A-lines + 無 lung sliding | 正常 | 氣胸 |
+| A-lines | RV 擴大 | 肺栓塞 |
+
+:::
+
+## 討論議題
+
+::: {.callout-note}
+## 討論
+
+1. 為什麼心因性肺水腫的 B-lines 通常呈雙側對稱分布？
+2. 如何區分 B-lines 與超音波偽影（如 comet-tail artifact）？
+3. 在臨床實務上，BLUE protocol 的掃描順序可以如何調整？
+:::
+
+## 自我評估
+
+::: {.content-visible when-format="html"}
+
+**問題 1**：以下何者是 B-line 的正確描述？
+
+- [ ] 起自肋膜線的水平高回音線
+- [x] 起自肋膜線的垂直高回音線，延伸至螢幕底端
+- [ ] 僅出現在氣胸病人
+- [ ] 不隨呼吸移動
+
+**問題 2**：雙側對稱瀰漫性 B-lines 合併左心室功能下降，最可能的診斷是？
+
+- [ ] 肺炎
+- [ ] ARDS
+- [x] 心因性肺水腫
+- [ ] 氣胸
+
+**問題 3**：以下何種超音波發現最能區分 ARDS 與心因性肺水腫？
+
+- [ ] B-lines 的數量
+- [x] B-lines 分布是否對稱，以及肋膜線是否規則
+- [ ] A-lines 的數量
+- [ ] 探頭的頻率
+
+**問題 4**：BLUE protocol 中，PLAPS point 位於何處？
+
+- [ ] 前胸壁上方
+- [ ] 前胸壁下方
+- [x] 後外側肋膜區
+- [ ] 劍突下
+
+::: {.callout-tip collapse="true"}
+## 顯示答案解析
+
+1. **B-line** 是起自肋膜線的垂直高回音線，延伸至螢幕底端且不消失，會隨呼吸與肋膜線同步移動，並遮蓋 A-lines。
+2. **雙側對稱瀰漫 B-lines + LV 功能下降**是心因性肺水腫的典型超音波表現，因為左心衰竭導致肺靜脈壓力均勻升高。
+3. **ARDS** 的 B-lines 分布常不對稱且肋膜線不規則（可有小實變），而心因性肺水腫通常 B-lines 雙側對稱且肋膜線光滑。
+4. **PLAPS（Posterolateral Alveolar and/or Pleural Syndrome）point** 位於後外側肋膜區，是偵測肋膜積液與後側肺實變的重要掃描位置。
+:::
+
+:::
+
+::: {.content-visible when-format="pdf"}
+::: {.callout-tip}
+## 自我評估
+
+本課程包含互動式自我評估題目，請訪問線上版本完成測驗。
+:::
+:::
+
+## 參考閱讀
+
+1. Lichtenstein DA. BLUE-Protocol and FALLS-Protocol: Two Applications of Lung Ultrasound in the Critically Ill. *Chest*. 2015;147(6):1659-1670
+2. Volpicelli G, et al. International evidence-based recommendations for point-of-care lung ultrasound. *Intensive Care Med*. 2012;38(4):577-591
+3. *Pocket Guide to POCUS: Point-of-Care Tips for Point-of-Care Ultrasound*
+4. Alec Vahanian et al., 2021 ESC/EACTS Guidelines for the management of valvular heart disease. *European Heart Journal* (2021) 00, 1-72

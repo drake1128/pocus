@@ -1,8 +1,131 @@
 ---
 title: "教案 14：分類、鑑別診斷、病生理"
+subtitle: "休克的分類與超音波鑑別"
 author: "陳麒心"
+date: last-modified
+categories: [休克, 分類, 鑑別診斷]
 ---
+
+## 學習目標
+
 ::: {.callout-note}
-## 內容建置中
-本課程內容正在建置中。
+## Learning Objectives
+
+1. 了解休克的四大分類及其病生理機轉
+2. 掌握各類休克的常見原因與臨床表現
+3. 理解超音波在休克鑑別診斷中的角色
+4. 能根據超音波發現區分不同類型的休克
 :::
+
+## 休克的分類
+
+::: {.callout-warning}
+## 關鍵觀念
+
+休克依據病生理機轉可分為四大類：低容性、阻塞性、心因性與分佈性休克。不同類型的休克在超音波下有不同的特徵性發現，有助於快速鑑別診斷。
+:::
+
+| 類型 | 機轉 | 常見原因 | 超音波發現 |
+|------|------|----------|------------|
+| 低容性休克 Hypovolemic | 血管內容積不足 | 出血、脫水 | IVC 塌陷、心臟過動 |
+| 阻塞性休克 Obstructive | 血流回流受阻 | PE、心包填塞、張力性氣胸 | 右心擴大、心包積液、無肺滑動 |
+| 心因性休克 Cardiogenic | 心臟幫浦功能不足 | AMI、心肌病變 | 左心收縮差、心壁運動異常 |
+| 分佈性休克 Distributive | 血管阻力下降 | 敗血症、過敏、神經性 | IVC 擴張、心臟過動 |
+
+## 低容性休克 (Hypovolemic Shock)
+
+### 病生理
+
+血管內容積不足導致前負荷(preload)下降，心輸出量減少，進而造成組織灌流不足。
+
+### 常見原因
+
+- **出血性：** 外傷、消化道出血、腹腔內出血、產後出血
+- **非出血性：** 嚴重脫水、嘔吐腹瀉、燒傷、第三空間液體流失
+
+### 超音波特徵
+
+- IVC 直徑小，呼吸變異大（塌陷）
+- 心臟呈現過動(hyperdynamic)狀態
+- 心腔較小
+
+## 阻塞性休克 (Obstructive Shock)
+
+### 病生理
+
+心臟外部因素阻礙血液回流或射出，導致心輸出量急遽下降。
+
+### 常見原因與超音波發現
+
+| 病因 | 超音波關鍵發現 |
+|------|----------------|
+| 肺栓塞 (PE) | 右心室擴大、RV/LV ratio > 1、D-sign |
+| 心包填塞 (Cardiac tamponade) | 心包積液、右心房/右心室舒張期塌陷 |
+| 張力性氣胸 (Tension pneumothorax) | 無肺滑動(absent lung sliding)、無 B-lines |
+
+## 心因性休克 (Cardiogenic Shock)
+
+### 病生理
+
+心臟幫浦功能不足，無法維持足夠的心輸出量。
+
+### 常見原因
+
+- 急性心肌梗塞 (AMI)
+- 急性心肌炎
+- 擴張性心肌病變
+- 急性瓣膜功能不全
+- 嚴重心律不整
+
+### 超音波特徵
+
+- 左心室收縮功能差（LVEF 降低）
+- 心壁運動異常 (regional wall motion abnormality)
+- IVC 擴張且呼吸變異小
+- 可能合併肋膜積液、B-lines（肺水腫）
+
+## 分佈性休克 (Distributive Shock)
+
+### 病生理
+
+全身血管阻力下降，導致有效循環血量相對不足。
+
+### 常見原因
+
+- **敗血性休克 (Septic shock)：** 最常見
+- **過敏性休克 (Anaphylactic shock)**
+- **神經性休克 (Neurogenic shock)**
+
+### 超音波特徵
+
+- 心臟呈過動狀態（早期代償）
+- IVC 可能擴張（晚期）或塌陷（早期）
+- 需結合臨床情境判讀
+
+## 鑑別診斷流程
+
+::: {.callout-warning}
+## 臨床重點
+
+休克的鑑別診斷應結合：
+
+1. **臨床表現：** 病史、理學檢查
+2. **超音波發現：** 心臟功能、IVC、肺部、腹部
+3. **實驗室檢查：** Lactate、血液氣體分析、心肌酵素
+
+多種類型的休克可能同時存在（如敗血性休克合併心因性休克），需全面性評估。
+:::
+
+## 自我評量
+
+1. 請列出休克的四大分類及其主要病生理機轉。
+2. 低容性休克與分佈性休克在超音波下的 IVC 表現有何不同？
+3. 哪些超音波發現提示阻塞性休克？請分別說明肺栓塞、心包填塞、張力性氣胸的特徵。
+4. 心因性休克的超音波特徵為何？
+5. 為何休克的鑑別診斷需要結合臨床與超音波發現？
+
+## 參考資料
+
+1. Tintinalli's Emergency Medicine: A Comprehensive Study Guide, 9th Edition. Chapter: Shock.
+2. Perera P, et al. The RUSH exam: Rapid Ultrasound in SHock in the evaluation of the critically ill. *Emerg Med Clin North Am*. 2010;28(1):29-56.
+3. Seif D, et al. Bedside ultrasound in resuscitation and the rapid ultrasound in shock protocol. *Crit Care Res Pract*. 2012;2012:503254.

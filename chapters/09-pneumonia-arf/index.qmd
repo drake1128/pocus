@@ -5,7 +5,7 @@ subtitle: "Pneumonia & Acute Respiratory Failure"
 
 ## 章節簡介
 
-肺部超音波可協助診斷肺炎與評估呼吸衰竭的嚴重度。
+肺炎與急性呼吸衰竭是重症醫學中常見的問題。床邊超音波可以快速評估肺部病變、追蹤治療效果，並協助呼吸器參數調整。
 
 ## 本章課程
 
@@ -17,8 +17,3 @@ subtitle: "Pneumonia & Acute Respiratory Failure"
 ## 編修醫師
 
 多位醫師共同編修
-
-::: {.callout-note}
-## 內容建置中
-本章節內容正在建置中。
-:::

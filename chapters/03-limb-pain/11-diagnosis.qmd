@@ -1,9 +1,183 @@
 ---
 title: "教案 11：診斷流程與鑑別診斷"
+subtitle: "Doppler 波型判讀與鑑別診斷"
 author: "林姝含"
+date: last-modified
+categories: [急性肢端疼痛, 診斷流程, 鑑別診斷]
 ---
 
+## 課程目標
+
 ::: {.callout-note}
-## 內容建置中
-本課程內容正在建置中。
+## 學習目標
+
+1. 學會判讀下肢動脈的 Doppler 波型，區分正常與異常波型
+2. 了解不同程度血管狹窄對應的波型變化
+3. 掌握急性肢端疼痛的鑑別診斷流程與超音波輔助判斷
 :::
+
+## Doppler 波型判讀
+
+::: {.callout-warning}
+## 重點提示
+
+Doppler 波型是評估動脈血流狀態最重要的工具之一。正常的下肢動脈應呈現三相波型，隨著狹窄程度加重，波型會逐漸改變。
+:::
+
+### 波型分類
+
+| 波型 | 英文 | 意義 | 臨床判讀 |
+|------|------|------|----------|
+| 三相波型 | Triphasic | 正常動脈 | 包含收縮期正向波、舒張早期逆流波、舒張晚期正向波 |
+| 雙相波型 | Biphasic | 輕度狹窄 | 失去舒張早期逆流波，僅剩收縮期與舒張晚期正向波 |
+| 單相波型 | Monophasic | 嚴重狹窄或阻塞 | 僅有緩慢上升的收縮期正向波，波幅降低 |
+| 無波型 | Absent | 完全阻塞 | 無法偵測到血流訊號 |
+
+### 三相波型（Triphasic）
+
+::: {.callout-note}
+## 正常波型特徵
+
+- **第一相**：收縮期快速上升的正向波（sharp systolic peak）
+- **第二相**：舒張早期短暫的逆流波（brief reversal）
+- **第三相**：舒張晚期的小正向波（forward diastolic flow）
+- 此波型代表正常的高阻力末梢血管床
+:::
+
+### 雙相波型（Biphasic）
+
+::: {.callout-note}
+## 輕度異常
+
+- 失去第二相（逆流波消失）
+- 可能代表近端有輕度狹窄，或遠端血管阻力下降
+- 臨床上需結合其他檢查進一步評估
+:::
+
+### 單相波型（Monophasic）
+
+::: {.callout-warning}
+## 警示徵兆
+
+- 僅有低幅度、緩慢上升的正向波
+- 代表嚴重狹窄或近端有顯著阻塞
+- 此波型出現在患側時，需高度警覺血管急症
+:::
+
+### 無波型（Absent）
+
+::: {.callout-warning}
+## 緊急狀況
+
+- 完全無法偵測到 Doppler 訊號
+- 代表該段血管完全阻塞
+- 需立即安排進一步影像檢查或血管外科會診
+:::
+
+## 鑑別診斷流程
+
+### 依臨床表現區分
+
+| 臨床表現 | 可能診斷 | 超音波發現 |
+|----------|----------|------------|
+| Cold and pale | Acute limb ischemia | 動脈 Doppler 波型減弱或消失 |
+| Cold and swollen | DVT 合併動脈痙攣 | 靜脈內血栓、靜脈不可壓縮 |
+| Hot and swollen | Cellulitis / Necrotizing fasciitis | 軟組織水腫、可能見 cobblestone sign |
+| 關節紅腫 | Gouty / Septic arthritis | 關節積液 |
+| 膝後腫脹 | Baker's cyst rupture | 膕窩囊腫破裂 |
+
+### 急性肢端缺血 vs 深層靜脈栓塞
+
+| 特徵 | 急性肢端缺血 (ALI) | 深層靜脈栓塞 (DVT) |
+|------|---------------------|---------------------|
+| 皮膚溫度 | 冰冷 | 可能正常或微溫 |
+| 皮膚顏色 | 蒼白或發紺 | 腫脹發紅 |
+| 脈搏 | 減弱或消失 | 通常正常 |
+| 腫脹程度 | 通常不腫 | 明顯腫脹 |
+| 疼痛特性 | 急性劇烈疼痛 | 脹痛、沉重感 |
+| 超音波重點 | 動脈 Doppler | 靜脈壓迫試驗 |
+
+## 超音波診斷要點
+
+::: {.callout-tip}
+## 臨床要訣
+
+**動脈評估**
+
+1. 比較雙側對應位置的 Doppler 波型
+2. 注意 peak systolic velocity (PSV) 的變化：狹窄處 PSV 會升高
+3. PSV ratio > 2 提示狹窄 > 50%；PSV ratio > 4 提示狹窄 > 75%
+
+**靜脈評估（排除 DVT）**
+
+1. Compression test：正常靜脈可被完全壓扁
+2. 無法壓扁的靜脈高度提示血栓存在
+3. 重點掃描位置：CFV（股總靜脈）與 PopV（膕靜脈）
+:::
+
+## 討論議題
+
+::: {.callout-note}
+## 討論
+
+1. 如何區分急性肢端缺血與慢性肢端缺血？
+2. 在急診情境下，哪些 Doppler 波型的改變需要立即轉介血管外科？
+3. 超音波在排除 DVT 的角色為何？其敏感度與特異度如何？
+:::
+
+## 自我評估
+
+::: {.content-visible when-format="html"}
+
+**問題 1**：正常的下肢動脈 Doppler 波型應為何種型態？
+
+- [x] Triphasic（三相波型）
+- [ ] Biphasic（雙相波型）
+- [ ] Monophasic（單相波型）
+- [ ] Continuous（連續波型）
+
+**問題 2**：以下何種 Doppler 波型代表嚴重狹窄或阻塞？
+
+- [ ] Triphasic
+- [ ] Biphasic
+- [x] Monophasic
+- [ ] 以上皆非
+
+**問題 3**：深層靜脈栓塞（DVT）的超音波診斷，最重要的檢查手法為何？
+
+- [ ] Color Doppler 觀察血流方向
+- [ ] 測量 peak systolic velocity
+- [x] Compression test（壓迫試驗）
+- [ ] 觀察動脈波型
+
+**問題 4**：病人下肢冰冷蒼白、足背動脈無搏動，Doppler 檢查顯示 ATA 無波型，最可能的診斷為何？
+
+- [x] Acute limb ischemia
+- [ ] Deep vein thrombosis
+- [ ] Cellulitis
+- [ ] Gouty arthritis
+
+::: {.callout-tip collapse="true"}
+## 顯示答案解析
+
+1. 正常下肢動脈為**三相波型（Triphasic）**，包含收縮期正向波、舒張早期逆流波、舒張晚期正向波。
+2. **單相波型（Monophasic）**僅有低幅度正向波，代表近端有嚴重狹窄或阻塞。
+3. DVT 的超音波診斷以**壓迫試驗（Compression test）**為最重要的手法，正常靜脈可被完全壓扁，無法壓扁則高度提示血栓。
+4. 冰冷蒼白、無脈搏、Doppler 無波型，符合**急性肢端缺血（Acute limb ischemia）**的典型表現。
+:::
+
+:::
+
+::: {.content-visible when-format="pdf"}
+::: {.callout-tip}
+## 自我評估
+
+本課程包含互動式自我評估題目，請訪問線上版本完成測驗。
+:::
+:::
+
+## 參考閱讀
+
+1. Creager MA, Kaufman JA, Conte MS. Acute limb ischemia. *N Engl J Med*. 2012 Jun 7;366(23):2198-206.
+2. 2017 ESC Guidelines on the Diagnosis and Treatment of Peripheral Arterial Diseases. *Eur Heart J*. 2018 Mar 1;39(9):763-816.
+3. Introduction to Vascular Ultrasonography. 7th edition, Pellerito JS, Polak JF.

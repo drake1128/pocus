@@ -1,8 +1,124 @@
 ---
 title: "教案 15：RUSH Protocol"
+subtitle: "RUSH Protocol 系統性評估"
 author: "陳麒心"
+date: last-modified
+categories: [休克, RUSH Protocol, POCUS]
 ---
+
+## 學習目標
+
 ::: {.callout-note}
-## 內容建置中
-本課程內容正在建置中。
+## Learning Objectives
+
+1. 了解 RUSH Protocol 的架構與系統性評估流程
+2. 掌握 Pump、Tank、Pipes 三大評估步驟
+3. 學會利用 IVC 評估輸液治療反應 (fluid responsiveness)
+4. 能將 RUSH Protocol 應用於休克病人的鑑別診斷
 :::
+
+## RUSH Protocol 簡介
+
+::: {.callout-warning}
+## 關鍵觀念
+
+**RUSH = Rapid Ultrasound for Shock and Hypotension**
+
+RUSH Protocol 是一套系統性的床邊超音波評估方法，將評估分為三大部分：
+
+1. **Pump（幫浦）：** 心臟功能評估
+2. **Tank（油箱）：** 容積狀態評估
+3. **Pipes（管線）：** 血管評估
+:::
+
+## Step 1：Pump（幫浦）— 心臟功能評估
+
+心臟是循環系統的幫浦，評估重點包括：
+
+### 整體收縮功能
+
+- 以目測法 (eyeballing) 評估左心室收縮功能
+- 觀察 EPSS (E-point septal separation)
+- 正常 LVEF > 55%
+
+### 心包膜積液
+
+- 心包腔內是否有液體聚積
+- 是否有心包填塞的徵象（右心房/右心室舒張期塌陷）
+
+### 右心室大小
+
+- RV/LV ratio 是否 > 1（提示右心室擴大）
+- D-sign（心室中隔向左偏移）
+- 提示肺栓塞或肺高壓
+
+## Step 2：Tank（油箱）— 容積狀態評估
+
+評估體內的液體容積狀態：
+
+### IVC 直徑與呼吸變異
+
+IVC（下腔靜脈）是評估容積狀態與輸液反應最重要的指標之一。
+
+| IVC 直徑 | 呼吸變異 | 臨床意義 |
+|----------|----------|----------|
+| < 2.1 cm | > 50% collapse | CVP 0-5 mmHg，可能有輸液反應 |
+| < 2.1 cm | < 50% collapse | CVP 5-10 mmHg |
+| > 2.1 cm | < 50% collapse | CVP 10-20 mmHg，可能無輸液反應 |
+| > 2.1 cm | 無變異 | CVP > 20 mmHg |
+
+::: {.callout-warning}
+## IVC 評估注意事項
+
+- 測量位置：肝靜脈匯入 IVC 處下方約 2 cm
+- 自主呼吸病人：吸氣時 IVC 塌陷
+- 正壓通氣病人：吸氣時 IVC 擴張（判讀方向相反）
+- IVC 評估需結合臨床情境，不可單獨作為輸液依據
+:::
+
+### 肋膜積液
+
+- 評估雙側肋膜腔是否有積液
+- 大量肋膜積液可影響血液動力學
+
+### 腹水
+
+- 評估腹腔是否有游離液體
+- Morrison's pouch、脾腎間隙、骨盆腔
+
+## Step 3：Pipes（管線）— 血管評估
+
+### 主動脈評估
+
+- **腹主動脈瘤 (AAA)：** 腹主動脈直徑 > 3 cm
+- **主動脈剝離 (Aortic dissection)：** 管腔內可見內膜瓣 (intimal flap)
+
+### DVT 檢查
+
+- 評估下肢深部靜脈血栓
+- 壓迫法 (compression test)：正常靜脈可完全壓扁
+- 常見檢查部位：股總靜脈 (CFV)、股淺靜脈 (SFV)、膕靜脈 (popliteal vein)
+
+## RUSH Protocol 整合判讀
+
+| 休克類型 | Pump | Tank (IVC) | Pipes |
+|----------|------|------------|-------|
+| 低容性 | 過動、心腔小 | 塌陷 | 主動脈可能正常 |
+| 阻塞性 (PE) | RV 擴大 | 擴張 | 可能有 DVT |
+| 阻塞性 (Tamponade) | 心包積液 | 擴張 | 正常 |
+| 心因性 | 收縮差 | 擴張 | 正常 |
+| 分佈性 | 過動（早期）| 變異大 | 正常 |
+
+## 自我評量
+
+1. RUSH Protocol 的三大評估步驟各代表什麼？
+2. IVC 直徑 < 2.1 cm 且呼吸變異 > 50%，代表什麼臨床意義？
+3. 正壓通氣病人的 IVC 評估與自主呼吸病人有何不同？
+4. RUSH Protocol 中，哪些發現提示肺栓塞？
+5. 請描述 RUSH Protocol 在低容性休克中的典型超音波發現。
+
+## 參考資料
+
+1. Perera P, et al. The RUSH exam: Rapid Ultrasound in SHock in the evaluation of the critically ill. *Emerg Med Clin North Am*. 2010;28(1):29-56.
+2. POCUS 101 - RUSH Exam Ultrasound Protocol Step by Step Guide. <https://www.pocus101.com/rush-exam-ultrasound-protocol-step-by-step-guide/>
+3. UBC IMPOCUS - Hemodynamics. <https://www.ubcimpocus.com/hemodynamics>

@@ -1,8 +1,160 @@
 ---
 title: "教案 24：治療"
+subtitle: "DVT 與 PE 的治療原則"
 author: "謝慕揚、林彥良"
+date: last-modified
+categories: [肺栓塞, DVT, 治療]
 ---
+
+## 課程目標
+
 ::: {.callout-note}
-## 內容建置中
-本課程內容正在建置中。
+## 學習目標
+
+1. 了解 DVT 的治療策略，包括藥物與機械性治療
+2. 了解急性肺栓塞依嚴重度分級的治療原則
+3. 能夠根據臨床情境選擇適當的治療方式
 :::
+
+## DVT 治療
+
+### 抗凝血治療
+
+::: {.callout-warning}
+## 重點提示
+
+抗凝血治療是 DVT 的基石治療，目的在於防止血栓延伸與預防肺栓塞。
+:::
+
+| 藥物類別 | 代表藥物 | 說明 |
+|----------|----------|------|
+| LMWH | Enoxaparin（Clexane） | 急性期首選，皮下注射，劑量依體重調整 |
+| DOAC | Rivaroxaban、Apixaban | 口服直接抗凝血劑，不需常規監測 INR |
+| Warfarin | Coumadin | 傳統口服抗凝血劑，需監測 INR（目標 2.0-3.0） |
+| UFH | Unfractionated Heparin | 靜脈注射，適用於腎功能不全或需快速逆轉的情況 |
+
+### 機械性治療
+
+| 治療方式 | 適應症 | 說明 |
+|----------|--------|------|
+| IVC filter | 抗凝禁忌或抗凝失敗 | 預防血栓脫落至肺動脈，可放置可回收式 |
+| CDT（Catheter-Directed Thrombolysis） | 大範圍近端 DVT | 導管直接注入溶栓藥物，降低全身性出血風險 |
+| Compression stockings | 所有 DVT 病人 | 減少栓塞後症候群（post-thrombotic syndrome） |
+
+## PE 治療
+
+### 依嚴重度分級的治療策略
+
+::: {.callout-warning}
+## 重點提示
+
+急性肺栓塞的治療取決於血行動力學狀態與右心功能，需快速評估並分級。
+:::
+
+| 嚴重度分級 | 血行動力學 | RV dysfunction | Troponin | 治療策略 |
+|------------|------------|----------------|----------|----------|
+| Low-risk | 穩定 | 無 | 正常 | 抗凝血治療 |
+| Submassive | 穩定 | 有 | 可能升高 | 抗凝血 +/- 溶栓治療 |
+| Massive | 不穩定（低血壓/休克） | 有 | 升高 | 溶栓 / 取栓 / ECMO |
+
+### 各級治療詳述
+
+#### Low-risk PE
+
+- 抗凝血治療（LMWH 銜接 DOAC 或 Warfarin）
+- 可考慮早期出院與門診追蹤
+- 治療期間通常 3-6 個月
+
+#### Submassive PE
+
+- 抗凝血治療為基礎
+- 若臨床惡化，可考慮全身性溶栓（systemic thrombolysis）
+- 密切監測血行動力學變化
+- 可考慮 catheter-directed therapy
+
+#### Massive PE
+
+::: {.callout-warning}
+## 緊急處置
+
+Massive PE 是急重症，死亡率極高，需要立即積極治療！
+:::
+
+| 治療選項 | 說明 |
+|----------|------|
+| 全身性溶栓 | tPA（Alteplase）100 mg IV over 2 hours；若心跳停止可考慮 bolus dose |
+| 手術取栓 | Surgical embolectomy，適用於溶栓禁忌或溶栓失敗 |
+| 導管取栓 | Catheter-directed embolectomy |
+| ECMO | 體外膜氧合，作為 bridge therapy 穩定血行動力學 |
+
+## 治療流程整合
+
+::: {.callout-tip}
+## 臨床決策重點
+
+1. **確認診斷**：POCUS 評估 RV function + 下肢壓迫測試
+2. **嚴重度分級**：血行動力學 + RV dysfunction + biomarkers
+3. **啟動抗凝**：除非有絕對禁忌，應儘早開始抗凝治療
+4. **評估溶栓需求**：Massive PE 或惡化中的 submassive PE
+5. **多專科合作**：心臟外科、介入放射科、重症醫學
+:::
+
+## 討論議題
+
+::: {.callout-note}
+## 討論
+
+1. DVT 病人什麼情況下需要放置 IVC filter？
+2. Submassive PE 何時應考慮從抗凝升級至溶栓治療？
+3. Massive PE 合併心跳停止時，tPA 的給藥方式為何？
+4. DOAC 相較於 Warfarin 在 DVT/PE 治療上有何優勢與限制？
+:::
+
+## 自我評估
+
+::: {.content-visible when-format="html"}
+
+**問題 1**：Low-risk PE 的標準治療為何？
+
+- [x] 抗凝血治療
+- [ ] 全身性溶栓
+- [ ] 手術取栓
+- [ ] ECMO
+
+**問題 2**：以下何種情況屬於 massive PE？
+
+- [ ] 血壓穩定，RV 正常，Troponin 正常
+- [ ] 血壓穩定，RV 擴大，Troponin 升高
+- [x] 低血壓或休克，RV 擴大
+- [ ] 無症狀，CT 發現 segmental PE
+
+**問題 3**：DVT 病人有抗凝禁忌時，應考慮什麼治療？
+
+- [ ] 增加 DOAC 劑量
+- [ ] 全身性溶栓
+- [x] 放置 IVC filter
+- [ ] 僅穿彈性襪
+
+::: {.callout-tip collapse="true"}
+## 顯示答案解析
+
+1. **Low-risk PE**（血行動力學穩定、無 RV dysfunction）的標準治療為抗凝血治療，不需要溶栓。
+2. **Massive PE** 的定義為血行動力學不穩定（收縮壓 < 90 mmHg 或需升壓藥），合併右心功能不全。
+3. 當病人有**抗凝禁忌**（如近期手術、活動性出血）時，應考慮放置 IVC filter 以預防 PE。
+:::
+
+:::
+
+::: {.content-visible when-format="pdf"}
+::: {.callout-tip}
+## 自我評估
+
+本課程包含互動式自我評估題目，請訪問線上版本完成測驗。
+:::
+:::
+
+## 參考閱讀
+
+1. Bedside echo for chest pain: an algorithm for education and assessment. *Advances in Medical Education and Practice* 2016:7 293-300
+2. *Pocket Guide to POCUS*, Chapter 8 & 10
+3. Frederick A. Anderson Jr. & Frederick A. Spencer. Risk Factors for Venous Thromboembolism. *Circulation*. 2003; 107: I9-I16

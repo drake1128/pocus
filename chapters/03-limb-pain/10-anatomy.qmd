@@ -1,9 +1,167 @@
 ---
 title: "教案 10：解剖、生理、病理"
+subtitle: "下肢動脈解剖與血管超音波基礎"
 author: "林姝含"
+date: last-modified
+categories: [急性肢端疼痛, 解剖, 病理]
 ---
 
+## 課程目標
+
 ::: {.callout-note}
-## 內容建置中
-本課程內容正在建置中。
+## 學習目標
+
+1. 認識下肢動脈的解剖結構與分支走向
+2. 了解各動脈段的超音波對應掃描位置
+3. 掌握血管超音波的基本操作原理與影像判讀基礎
 :::
+
+## 下肢動脈解剖
+
+::: {.callout-warning}
+## 重點提示
+
+下肢動脈的走向為由近端至遠端，從腹主動脈分支而來，依序經過骨盆、大腿、膝蓋、小腿至足部。熟悉各段動脈的名稱與位置，是進行血管超音波檢查的基礎。
+:::
+
+### 動脈分支總覽
+
+| 縮寫 | 英文全稱 | 中文名稱 | 位置說明 |
+|------|----------|----------|----------|
+| CIA | Common iliac artery | 髂總動脈 | 腹主動脈分叉後 |
+| EIA | External iliac artery | 外髂動脈 | 骨盆腔內 |
+| CFA | Common femoral artery | 股總動脈 | 腹股溝韌帶下方 |
+| SFA | Superficial femoral artery | 淺股動脈 | 大腿前內側 |
+| DFA | Deep femoral artery | 深股動脈 | 大腿深層 |
+| PopA | Popliteal artery | 膕動脈 | 膝蓋後方膕窩 |
+| ATA | Anterior tibial artery | 前脛骨動脈 | 小腿前側 |
+| PTA | Posterior tibial artery | 後脛骨動脈 | 小腿後內側 |
+| DPA | Dorsalis pedis artery | 足背動脈 | 足背 |
+
+### 動脈走向與分支關係
+
+::: {.callout-note}
+## 解剖要點
+
+**近端至遠端的分支順序：**
+
+1. **腹主動脈 (Abdominal aorta)** → 分叉為雙側 **CIA（髂總動脈）**
+2. **CIA** → 分為 **EIA（外髂動脈）** 與 internal iliac artery（內髂動脈）
+3. **EIA** → 通過腹股溝韌帶後成為 **CFA（股總動脈）**
+4. **CFA** → 分為 **SFA（淺股動脈）** 與 **DFA（深股動脈）**
+5. **SFA** → 穿過 adductor canal 後成為 **PopA（膕動脈）**
+6. **PopA** → 分為 **ATA（前脛骨動脈）** 與 tibioperoneal trunk
+7. Tibioperoneal trunk → 分為 **PTA（後脛骨動脈）** 與 peroneal artery（腓骨動脈）
+8. **ATA** → 延伸至足背成為 **DPA（足背動脈）**
+:::
+
+### 超音波掃描對應位置
+
+| 掃描位置 | 對應動脈 | 體表定位 |
+|----------|----------|----------|
+| 腹股溝處 | CFA, SFA, DFA | 腹股溝韌帶下方，股動脈搏動處 |
+| 大腿內側 | SFA | 沿 sartorius muscle 內側走行 |
+| 膝蓋後方 | PopA | 膕窩，膝關節後方 |
+| 小腿前側 | ATA | 脛骨與腓骨之間 |
+| 內踝後方 | PTA | 內踝後方可觸及搏動處 |
+| 足背 | DPA | 第一、二蹠骨之間 |
+
+## 血管超音波基本原理
+
+### B-mode（二維灰階影像）
+
+::: {.callout-tip}
+## 操作要點
+
+- 辨識血管的位置、管徑、管壁結構
+- 觀察管腔內是否有血栓或斑塊
+- 動脈與靜脈的區分：動脈壁較厚、不易壓扁；靜脈壁薄、可被壓扁
+:::
+
+### Color Doppler（彩色都卜勒）
+
+::: {.callout-tip}
+## 操作要點
+
+- 顯示血流方向與相對速度
+- 紅色表示血流朝向探頭，藍色表示血流遠離探頭
+- 可快速判斷血管是否通暢
+- 注意 aliasing（混疊）現象可能代表狹窄處血流加速
+:::
+
+### Pulsed-wave Doppler（脈衝式都卜勒）
+
+::: {.callout-tip}
+## 操作要點
+
+- 取得特定位置的血流速度波型
+- 可測量 peak systolic velocity (PSV) 與 end-diastolic velocity (EDV)
+- 波型形態可判斷血管狹窄程度（詳見教案 11）
+:::
+
+## 討論議題
+
+::: {.callout-note}
+## 討論
+
+1. CFA 在超音波影像上如何與 CFV（股總靜脈）區分？
+2. 為什麼 SFA 在臨床上是最常發生動脈阻塞的位置之一？
+3. 在急診情境下，最實用的掃描位置有哪些？
+:::
+
+## 自我評估
+
+::: {.content-visible when-format="html"}
+
+**問題 1**：股總動脈（CFA）是由哪條動脈延伸而來？
+
+- [ ] Common iliac artery
+- [x] External iliac artery
+- [ ] Internal iliac artery
+- [ ] Superficial femoral artery
+
+**問題 2**：膕動脈（PopA）位於以下何處？
+
+- [ ] 腹股溝韌帶下方
+- [ ] 大腿前內側
+- [x] 膝蓋後方膕窩
+- [ ] 小腿前側
+
+**問題 3**：以下關於 Color Doppler 的敘述，何者正確？
+
+- [ ] 紅色一定代表動脈血流
+- [ ] 藍色一定代表靜脈血流
+- [x] 顏色代表血流相對於探頭的方向
+- [ ] Color Doppler 可精確測量血流速度
+
+**問題 4**：足背動脈（DPA）是以下哪條動脈的延伸？
+
+- [x] Anterior tibial artery
+- [ ] Posterior tibial artery
+- [ ] Peroneal artery
+- [ ] Popliteal artery
+
+::: {.callout-tip collapse="true"}
+## 顯示答案解析
+
+1. **External iliac artery** 通過腹股溝韌帶後即成為股總動脈（CFA）。
+2. **膕動脈**位於膝蓋後方的膕窩，是淺股動脈穿過 adductor canal 後的延續。
+3. Color Doppler 的顏色代表血流**相對於探頭的方向**，紅色為朝向探頭，藍色為遠離探頭，與動脈或靜脈無直接關係。
+4. **前脛骨動脈（ATA）**延伸至足背即成為足背動脈（DPA）。
+:::
+
+:::
+
+::: {.content-visible when-format="pdf"}
+::: {.callout-tip}
+## 自我評估
+
+本課程包含互動式自我評估題目，請訪問線上版本完成測驗。
+:::
+:::
+
+## 參考閱讀
+
+1. Defined a specific abnormality at lower extremity artery. *Rutherford's Vascular Surgery and Endovascular Therapy*. 10th edition.
+2. 2017 ESC Guidelines on the Diagnosis and Treatment of Peripheral Arterial Diseases. *Eur Heart J*. 2018 Mar 1;39(9):763-816.
+3. Introduction to Vascular Ultrasonography. 7th edition, Pellerito JS, Polak JF.

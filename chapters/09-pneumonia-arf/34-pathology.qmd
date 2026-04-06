@@ -1,7 +1,78 @@
 ---
 title: "教案 34：病理結構"
+subtitle: "B-lines、肺實變與肋膜積液"
+author: "多位醫師"
+date: last-modified
+categories: [肺炎, ARF, 病理結構, POCUS]
 ---
+
 ::: {.callout-note}
-## 內容建置中
-本課程內容正在建置中。
+## 學習目標
+
+1. 認識 B-lines 的特徵與臨床意義
+2. 辨識肺實變（consolidation）的超音波表現
+3. 了解肋膜積液的超音波特徵與分類
 :::
+
+## B-lines
+
+B-lines 是肺部超音波中最重要的異常徵象之一，其特徵包括：
+
+- 從胸膜線發出的垂直高回音線
+- 延伸至螢幕底部
+- 隨呼吸與 lung sliding 移動
+- 代表肺間質水腫或發炎
+
+### B-lines 臨床解讀
+
+| B-lines 數量 | 臨床意義 |
+|:-------------|:---------|
+| 0-2 條/視野 | 正常 |
+| 3 條以上/視野 | 間質症候群（肺水腫、間質性肺病、ARDS） |
+| 融合 B-lines | 嚴重肺泡-間質症候群 |
+| 局部 B-lines | 局部肺炎、肺挫傷 |
+| 瀰漫性 B-lines | 心因性肺水腫、ARDS |
+
+## 肺實變（Consolidation）
+
+肺實變是肺泡被液體或細胞填充後的超音波表現：
+
+- **外觀**：類似肝臟組織（hepatization）
+- **Air bronchogram**：實變中的高回音點或線，代表含氣的支氣管
+
+::: {.callout-warning}
+## 動態 vs 靜態 Air Bronchogram
+
+- **Dynamic air bronchogram**：呼吸時會移動 → 較支持**肺炎**
+- **Static air bronchogram**：不會隨呼吸移動 → 較支持**肺塌陷**
+
+區分兩者對於臨床處置非常重要！
+:::
+
+## 肋膜積液
+
+肋膜積液在超音波下表現為肋膜腔內的無回音或低回音區域。
+
+### 特徵性表現
+
+- **Quad sign**：四邊形徵象，由胸壁、胸膜線、肺臟和橫膈形成
+- **Sinusoid sign**：M-mode 下，積液區域呈現正弦波狀
+
+### Simple vs Complex
+
+- **Simple（單純性）**：無回音、均勻，通常為滲出液
+- **Complex（複雜性）**：含有內部回音、分隔或碎片，可能為膿胸、血胸
+
+## 自我評量
+
+1. 描述 B-lines 的五個定義特徵。
+2. 如何區分局部性與瀰漫性 B-lines？各自代表什麼臨床意義？
+3. 說明 dynamic 與 static air bronchogram 的差異及其臨床意義。
+4. 什麼是 quad sign 和 sinusoid sign？它們在診斷肋膜積液中的角色為何？
+5. 如何使用超音波區分 simple 與 complex 肋膜積液？
+
+## 參考文獻
+
+1. Lichtenstein DA, Mezière GA. Relevance of lung ultrasound in the diagnosis of acute respiratory failure: the BLUE protocol. *Chest*. 2008;134(1):117-125.
+2. Lichtenstein D, et al. The comet-tail artifact: an ultrasound sign of alveolar-interstitial syndrome. *Am J Respir Crit Care Med*. 1997;156(5):1640-1646.
+3. Bouhemad B, et al. Ultrasound assessment of antibiotic-induced pulmonary reaeration in ventilator-associated pneumonia. *Crit Care Med*. 2010;38(1):84-92.

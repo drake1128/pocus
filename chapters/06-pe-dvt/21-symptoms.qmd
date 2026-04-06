@@ -1,8 +1,174 @@
 ---
 title: "教案 21：症狀辨識"
+subtitle: "靜脈栓塞與急性肺栓塞的症狀辨識"
 author: "謝慕揚、林彥良"
+date: last-modified
+categories: [肺栓塞, DVT, 症狀辨識, POCUS]
 ---
+
+## 課程目標
+
 ::: {.callout-note}
-## 內容建置中
-本課程內容正在建置中。
+## 學習目標
+
+1. 透過不同案例，讓學生更了解 POCUS 的使用時機
+2. 了解靜脈栓塞與急性肺栓塞可能存在有生命危險之診斷
+3. 藉由 POCUS 可以幫助臨床醫師發現或排除這些潛在的急重症
 :::
+
+## 案例介紹
+
+::: {.panel-tabset}
+
+### 案例一
+
+::: {.callout-tip appearance="simple"}
+## 案例一：術後下肢腫脹合併呼吸困難
+
+77 歲女性，過去有慢性腎病長期在門診追蹤。一週前因摔倒導致左大腿骨折，接受手術進行內固定後，躺床數天才開始逐漸練習下床活動。然而第一天在病房下床復健後，病患覺得有點喘。
+
+**生命徵象**
+
+| 項目 | 數值 |
+|------|------|
+| 體溫 | 37.0°C |
+| 心跳 | 101 次/分 |
+| 呼吸 | 21 次/分 |
+| 血壓 | 108/67 mmHg |
+| 血氧 | 91% |
+
+病患主訴除了喘以外，手術後左大腿和小腿也越來越緊繃，理學檢查顯示左大腿明顯比右大腿腫脹，且兩邊大腿腿圍相差 8 cm。
+:::
+
+### 案例二
+
+::: {.callout-tip appearance="simple"}
+## 案例二：突發性昏厥與心跳停止
+
+72 歲男性，過去長期抽菸，因為慢性咳嗽不會好，就診時胸部 X 光顯示疑似肺部腫瘤。出院當日早上當病患走出電梯門口時，突然吸不到空氣，幾秒鐘後隨即昏倒在地。急救五分鐘後恢復自主循環，但不到兩分鐘後又摸不到脈搏，心電圖則顯示竇性頻脈（PEA）。
+
+**床邊超音波發現：右心擴大。**
+:::
+
+### 案例三
+
+::: {.callout-tip appearance="simple"}
+## 案例三：上半身腫脹與側枝循環
+
+64 歲男性，因為腎臟衰竭須長期進行血液透析，四年前於外院從右頸部置放 Hickman catheter。主訴最近兩個月上半身及雙手越來越腫脹，前胸及脖子的皮膚可見許多彎曲的微小血管（側枝循環）。
+:::
+
+:::
+
+## 靜脈栓塞的臨床表現
+
+::: {.callout-warning}
+## 重點提示：靜脈栓塞的多樣化表現
+
+靜脈栓塞不一定只表現在下肢！需要注意各種不同的臨床情境。
+:::
+
+a. 單側下肢腫脹、疼痛，慢性皮膚潰瘍
+b. 雙側下肢水腫合併腹部表面明顯側枝循環（portal vein / IVC thrombosis）
+c. 頭頸部脹紅、雙側上肢水腫、合併上半身皮膚明顯側枝循環（SVC thrombosis）
+d. CVC 打不上（不會回血或者導絲無法送入）
+e. 無症狀（pelvic vein DVT，約佔 3-7%）
+
+## 急性肺栓塞的臨床表現
+
+::: {.callout-warning}
+## 重點提示：急性肺栓塞的臨床光譜
+
+肺栓塞的表現從無症狀到猝死，臨床光譜極廣，需要高度警覺。
+:::
+
+a. 突發性的喘、胸痛、咳血、血氧降低
+b. 突發性 sudden collapse with pulseless electrical activity
+c. 無症狀（意外發現的 segmental pulmonary embolism）
+
+## 病史詢問重點
+
+| 項目 | 內容 |
+|------|------|
+| 腫脹時間 | 肢體腫脹發生時間與病程 |
+| 風險因子 | Immobilization、靜脈內植入物（如 CVC、port-A） |
+| 易栓疾病 | 惡性腫瘤、抗磷脂質症候群、荷爾蒙使用、懷孕 |
+| 理學檢查 | 雙側上下肢不對稱腫脹、側枝循環 |
+| 共病評估 | 若懷疑 DVT 需評估 PE 是否共存，反之亦然 |
+
+## 基本檢查
+
+| 檢查項目 | 臨床意義 |
+|----------|----------|
+| ECG | 最常見 sinus tachycardia；若合併 RV strain pattern（S1Q3T3、precordial TWI、RBBB），要懷疑 submassive or massive PE |
+| CXR | 可能出現 Westermark sign |
+| ABG | 評估低血氧與呼吸性鹼中毒 |
+| D-dimer | 高敏感度排除工具 |
+| Troponin-T | 評估心肌損傷 |
+| NT-proBNP | 評估右心衰竭嚴重度 |
+
+::: {.callout-warning}
+## 重要提醒
+
+Troponin-T 也可以因為 acute right heart failure 而升高！不是每個 Troponin-T elevation 都是 AMI！
+:::
+
+## 討論議題
+
+::: {.callout-note}
+## 討論
+
+1. 面對術後病人突然喘起來，你的鑑別診斷有哪些？
+2. 案例二中 PEA 合併右心擴大，最可能的診斷是什麼？
+3. 長期留置中央靜脈導管的病人出現上半身水腫，應考慮什麼？
+4. DVT 與 PE 的風險因子有哪些共通之處？
+:::
+
+## 自我評估
+
+::: {.content-visible when-format="html"}
+
+**問題 1**：以下何者**不是**深層靜脈栓塞的典型臨床表現？
+
+- [ ] 單側下肢腫脹
+- [ ] CVC 無法回血
+- [x] 雙側對稱性下肢水腫
+- [ ] 無症狀
+
+**問題 2**：術後病人突然出現呼吸困難，心電圖顯示 S1Q3T3，最可能的診斷為何？
+
+- [ ] 急性心肌梗塞
+- [x] 急性肺栓塞
+- [ ] 張力性氣胸
+- [ ] 心包填塞
+
+**問題 3**：關於 Troponin-T 升高，以下敘述何者正確？
+
+- [ ] Troponin-T 升高一定代表急性心肌梗塞
+- [ ] 肺栓塞不會造成 Troponin-T 升高
+- [x] Acute right heart failure 也可以造成 Troponin-T 升高
+- [ ] Troponin-T 正常可以排除肺栓塞
+
+::: {.callout-tip collapse="true"}
+## 顯示答案解析
+
+1. **雙側對稱性下肢水腫**通常提示全身性原因（如心衰竭、肝硬化），而非單側 DVT。DVT 典型表現為單側不對稱腫脹。
+2. **S1Q3T3** 是急性右心負荷增加的心電圖表現，合併術後臥床的風險因子，最可能為急性肺栓塞。
+3. **Acute right heart failure**（如 massive PE 導致的右心衰竭）也會造成 Troponin-T 升高，臨床上需與 AMI 做鑑別。
+:::
+
+:::
+
+::: {.content-visible when-format="pdf"}
+::: {.callout-tip}
+## 自我評估
+
+本課程包含互動式自我評估題目，請訪問線上版本完成測驗。
+:::
+:::
+
+## 參考閱讀
+
+1. Bedside echo for chest pain: an algorithm for education and assessment. *Advances in Medical Education and Practice* 2016:7 293-300
+2. *Pocket Guide to POCUS*, Chapter 8 & 10
+3. Frederick A. Anderson Jr. & Frederick A. Spencer. Risk Factors for Venous Thromboembolism. *Circulation*. 2003; 107: I9-I16

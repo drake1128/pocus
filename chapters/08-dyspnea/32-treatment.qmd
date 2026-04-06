@@ -1,8 +1,155 @@
 ---
 title: "教案 32：治療及後續追蹤"
+subtitle: "氣胸治療與超音波追蹤"
 author: "范程羿"
+date: last-modified
+categories: [呼吸喘, 治療, 追蹤]
 ---
+
+## 課程目標
+
 ::: {.callout-note}
-## 內容建置中
-本課程內容正在建置中。
+## 學習目標
+
+1. 了解氣胸的各種治療方式及其適應症
+2. 學習使用肺部超音波追蹤治療效果
+3. 認識其他常見肺部疾病的超音波追蹤指標
 :::
+
+## 氣胸治療
+
+### 1. 觀察（小量氣胸）
+
+- 適用於小量、無症狀或症狀輕微的氣胸
+- 給予高濃度氧氣可加速氣體再吸收
+- 需定期追蹤胸部 X 光或床邊超音波
+
+### 2. 針刺減壓（張力性氣胸）
+
+::: {.callout-warning}
+## 緊急處置
+
+張力性氣胸為危及生命的急症，需立即進行 needle decompression：
+
+- 部位：患側第二肋間隙，鎖骨中線
+- 使用 14-16G 的大口徑針頭
+- 針刺後應可聽到氣體排出的聲音
+- 成功減壓後需接續放置胸管
+:::
+
+### 3. 胸管置放（中至大量氣胸）
+
+- 適用於中至大量的氣胸，或針刺減壓後的後續處置
+- 置入部位：患側第四至第五肋間隙，腋中線
+- 接上引流系統（water seal drainage）
+- 觀察氣泡排出與肺部復張情形
+
+### 4. Pigtail Catheter（豬尾巴引流管）
+
+- 較胸管細小，置入創傷較少
+- 適用於單純性氣胸或肋膜積液的引流
+- 可在超音波導引下安全置入
+- 病人舒適度較傳統胸管佳
+
+| 治療方式 | 適應症 | 特點 |
+|---------|--------|------|
+| 觀察 | 小量、無症狀 | 高濃度氧氣加速吸收 |
+| 針刺減壓 | 張力性氣胸 | 緊急處置，需後續胸管 |
+| 胸管置放 | 中至大量氣胸 | 標準引流方式 |
+| Pigtail catheter | 單純性氣胸、積液 | 創傷小，舒適度佳 |
+
+## 超音波追蹤
+
+::: {.callout-note}
+## 追蹤原則
+
+肺部超音波可作為治療效果的即時追蹤工具，避免反覆照射 X 光，特別適合重症加護病房與急診的床邊評估。
+:::
+
+### 氣胸追蹤
+
+- **治療目標**：Lung sliding 恢復
+- 治療前：Lung sliding 消失 + A-lines + Barcode sign
+- 治療後：Lung sliding 恢復 + Seashore sign
+- Lung point 位置的移動可評估氣胸範圍的變化
+
+### 肋膜積液追蹤
+
+- **治療目標**：積液量減少
+- 引流前後比較肋膜腔內液體的量
+- 可使用超音波量化積液量（測量最大積液深度）
+- 追蹤引流管位置是否適當
+
+### 肺水腫追蹤
+
+- **治療目標**：B-lines 減少
+- 利尿治療前後比較 B-lines 的數量與分布
+- B-lines 數量的減少代表肺泡間質水分改善
+- 可作為利尿劑療效的即時評估指標
+
+### 肺炎追蹤
+
+- **治療目標**：實變範圍縮小
+- 追蹤 consolidation 的範圍大小
+- 觀察 air bronchogram 的變化（動態 vs. 靜態）
+- 動態 air bronchogram 提示肺炎；靜態 air bronchogram 提示肺塌陷
+
+::: {.callout-tip}
+## 臨床小技巧
+
+定期使用超音波追蹤可以：
+
+- 早期發現治療無效或病情惡化
+- 減少不必要的放射線暴露
+- 即時調整治療策略
+- 作為與病人及家屬溝通的輔助工具
+:::
+
+## 自我評估
+
+::: {.content-visible when-format="html"}
+
+**問題 1**：張力性氣胸的 needle decompression 應在何處進行？
+
+- [x] 患側第二肋間隙，鎖骨中線
+- [ ] 患側第五肋間隙，腋中線
+- [ ] 患側第四肋間隙，腋前線
+- [ ] 健側第二肋間隙，鎖骨中線
+
+**問題 2**：使用超音波追蹤肺水腫的治療效果，應觀察下列何者的變化？
+
+- [ ] A-lines 數量
+- [x] B-lines 數量
+- [ ] Lung sliding 速度
+- [ ] Bat sign 大小
+
+**問題 3**：下列何者為肺炎超音波追蹤的重要指標？
+
+- [ ] A-lines 消失
+- [ ] Lung point 移動
+- [x] Consolidation 範圍與 air bronchogram 變化
+- [ ] Seashore sign 出現
+
+::: {.callout-tip collapse="true"}
+## 顯示答案解析
+
+1. **第二肋間隙、鎖骨中線**是 needle decompression 的標準位置，此處胸壁較薄且避開主要血管。
+2. **B-lines 數量**的減少代表肺泡間質水分改善，是追蹤肺水腫治療效果的最佳超音波指標。
+3. **Consolidation 範圍與 air bronchogram** 的變化是追蹤肺炎治療效果的重要指標，範圍縮小代表治療有效。
+:::
+
+:::
+
+::: {.content-visible when-format="pdf"}
+::: {.callout-tip}
+## 自我評估
+
+本課程包含互動式自我評估題目，請訪問線上版本完成測驗。
+:::
+:::
+
+## 參考閱讀
+
+1. Lichtenstein, D.A. Lung ultrasound in the critically ill. *Ann. Intensive Care* 4, 1 (2014)
+2. Roberts, D.J. et al. Clinical Manifestations of Tension Pneumothorax. *J Trauma Acute Care Surg* 2015
+3. Karen S. Cosby et al. *Practical Guide to Emergency Ultrasound*, chapter 5

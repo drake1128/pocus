@@ -1,6 +1,6 @@
 # POCUS 教案集 專案進度追蹤
 
-**最後更新**: 2026-02-19
+**最後更新**: 2026-04-06
 **網站網址**: https://drake1128.github.io/pocus/index.html
 **GitHub Repo**: https://github.com/drake1128/pocus
 
@@ -12,8 +12,8 @@
 
 | 專案 | 路徑 | 用途 | 狀態 |
 |------|------|------|------|
-| **Quarto 網站** | `pocus-guide/` | GitHub Pages 線上教學網站 | ✅ 已上線 |
-| **LaTeX 教科書** | `latex/` | PDF 教師手冊（含試教照片） | 🔄 開發中 |
+| **Quarto 網站** | `pocus-guide/` | GitHub Pages 線上教學網站（主力） | ✅ 已上線，內容轉換中 |
+| **LaTeX 教科書** | `latex/` | PDF 教師手冊（原始內容來源） | 📦 內容已轉移至 Quarto |
 
 ---
 
@@ -241,81 +241,80 @@ jobs:
 ### 內容完成度
 - [x] 首頁 (`index.qmd`) - 完整
 - [x] 課程總覽 (`chapters/00-overview.qmd`) - 完整
-- [x] 教案 1：症狀辨識 (`01-symptoms.qmd`) - 完整範例，含案例與測驗
+- [x] 教案 1-4：急性胸痛（原有 Quarto 內容）- 完整
+- [x] 教案 5-36：全部教案從 LaTeX 轉換至 Quarto - 2026-04-06 完成
 
 ---
 
 ## 📝 待辦事項
 
-### 高優先級 - 章節內容
+### 章節內容完成狀態
 
 #### 第一部分：心血管急症
 | 教案 | 檔案 | 狀態 | 負責醫師 |
 |------|------|------|----------|
 | 1 | `01-chest-pain/01-symptoms.qmd` | ✅ 完成 | 曾新育 |
-| 2 | `01-chest-pain/02-anatomy.qmd` | ⬜ 待填寫 | 曾新育 |
-| 3 | `01-chest-pain/03-diagnosis.qmd` | ⬜ 待填寫 | 曾新育 |
-| 4 | `01-chest-pain/04-treatment.qmd` | ⬜ 待填寫 | 曾新育 |
-| 5 | `02-pulmonary-edema/05-symptoms.qmd` | ⬜ 待填寫 | 黃冠智 |
-| 6 | `02-pulmonary-edema/06-anatomy.qmd` | ⬜ 待填寫 | 黃冠智 |
-| 7 | `02-pulmonary-edema/07-diagnosis.qmd` | ⬜ 待填寫 | 黃冠智 |
-| 8 | `02-pulmonary-edema/08-treatment.qmd` | ⬜ 待填寫 | 黃冠智 |
+| 2 | `01-chest-pain/02-anatomy.qmd` | ✅ 完成 | 曾新育 |
+| 3 | `01-chest-pain/03-diagnosis.qmd` | ✅ 完成 | 曾新育 |
+| 4 | `01-chest-pain/04-treatment.qmd` | ✅ 完成 | 曾新育 |
+| 5 | `02-pulmonary-edema/05-symptoms.qmd` | ✅ 完成 | 黃冠智 |
+| 6 | `02-pulmonary-edema/06-anatomy.qmd` | ✅ 完成 | 黃冠智 |
+| 7 | `02-pulmonary-edema/07-diagnosis.qmd` | ✅ 完成 | 黃冠智 |
+| 8 | `02-pulmonary-edema/08-treatment.qmd` | ✅ 完成 | 黃冠智 |
 
 #### 第二部分：肢端血管與血栓疾病
 | 教案 | 檔案 | 狀態 | 負責醫師 |
 |------|------|------|----------|
-| 9 | `03-limb-pain/09-symptoms.qmd` | ⬜ 待填寫 | 林姝含 |
-| 10 | `03-limb-pain/10-anatomy.qmd` | ⬜ 待填寫 | 林姝含 |
-| 11 | `03-limb-pain/11-diagnosis.qmd` | ⬜ 待填寫 | 林姝含 |
-| 12 | `03-limb-pain/12-treatment.qmd` | ⬜ 待填寫 | 林姝含 |
-| 21 | `06-pe-dvt/21-symptoms.qmd` | ⬜ 待填寫 | 謝慕揚、林彥良 |
-| 22 | `06-pe-dvt/22-anatomy.qmd` | ⬜ 待填寫 | 謝慕揚、林彥良 |
-| 23 | `06-pe-dvt/23-diagnosis.qmd` | ⬜ 待填寫 | 謝慕揚、林彥良 |
-| 24 | `06-pe-dvt/24-treatment.qmd` | ⬜ 待填寫 | 謝慕揚、林彥良 |
+| 9 | `03-limb-pain/09-symptoms.qmd` | ✅ 完成 | 林姝含 |
+| 10 | `03-limb-pain/10-anatomy.qmd` | ✅ 完成 | 林姝含 |
+| 11 | `03-limb-pain/11-diagnosis.qmd` | ✅ 完成 | 林姝含 |
+| 12 | `03-limb-pain/12-treatment.qmd` | ✅ 完成 | 林姝含 |
+| 21 | `06-pe-dvt/21-symptoms.qmd` | ✅ 完成 | 謝慕揚、林彥良 |
+| 22 | `06-pe-dvt/22-anatomy.qmd` | ✅ 完成 | 謝慕揚、林彥良 |
+| 23 | `06-pe-dvt/23-diagnosis.qmd` | ✅ 完成 | 謝慕揚、林彥良 |
+| 24 | `06-pe-dvt/24-treatment.qmd` | ✅ 完成 | 謝慕揚、林彥良 |
 
 #### 第三部分：休克與心跳停止
 | 教案 | 檔案 | 狀態 | 負責醫師 |
 |------|------|------|----------|
-| 13 | `04-shock/13-recognition.qmd` | ⬜ 待填寫 | 陳麒心 |
-| 14 | `04-shock/14-classification.qmd` | ⬜ 待填寫 | 陳麒心 |
-| 15 | `04-shock/15-rush-protocol.qmd` | ⬜ 待填寫 | 陳麒心 |
-| 16 | `04-shock/16-megacode.qmd` | ⬜ 待填寫 | 陳麒心 |
-| 17 | `05-cardiac-arrest/17-acls.qmd` | ⬜ 待填寫 | 陳麒心 |
-| 18 | `05-cardiac-arrest/18-differential.qmd` | ⬜ 待填寫 | 陳麒心 |
-| 19 | `05-cardiac-arrest/19-e-als.qmd` | ⬜ 待填寫 | 陳麒心 |
-| 20 | `05-cardiac-arrest/20-megacode.qmd` | ⬜ 待填寫 | 陳麒心 |
+| 13 | `04-shock/13-recognition.qmd` | ✅ 完成 | 陳麒心 |
+| 14 | `04-shock/14-classification.qmd` | ✅ 完成 | 陳麒心 |
+| 15 | `04-shock/15-rush-protocol.qmd` | ✅ 完成 | 陳麒心 |
+| 16 | `04-shock/16-megacode.qmd` | ✅ 完成 | 陳麒心 |
+| 17 | `05-cardiac-arrest/17-acls.qmd` | ✅ 完成 | 陳麒心 |
+| 18 | `05-cardiac-arrest/18-differential.qmd` | ✅ 完成 | 陳麒心 |
+| 19 | `05-cardiac-arrest/19-e-als.qmd` | ✅ 完成 | 陳麒心 |
+| 20 | `05-cardiac-arrest/20-megacode.qmd` | ✅ 完成 | 陳麒心 |
 
 #### 第四部分：腹部與呼吸急症
 | 教案 | 檔案 | 狀態 | 負責醫師 |
 |------|------|------|----------|
-| 25 | `07-abdominal-pain/25-gi.qmd` | ⬜ 待填寫 | 李宜家 |
-| 26 | `07-abdominal-pain/26-renal-vascular.qmd` | ⬜ 待填寫 | 李宜家 |
-| 27 | `07-abdominal-pain/27-female.qmd` | ⬜ 待填寫 | 李宜家 |
-| 28 | `07-abdominal-pain/28-comprehensive.qmd` | ⬜ 待填寫 | 李宜家 |
-| 29 | `08-dyspnea/29-symptoms.qmd` | ⬜ 待填寫 | 范程羿 |
-| 30 | `08-dyspnea/30-anatomy.qmd` | ⬜ 待填寫 | 范程羿 |
-| 31 | `08-dyspnea/31-diagnosis.qmd` | ⬜ 待填寫 | 范程羿 |
-| 32 | `08-dyspnea/32-treatment.qmd` | ⬜ 待填寫 | 范程羿 |
-| 33 | `09-pneumonia-arf/33-basics.qmd` | ⬜ 待填寫 | 多位醫師 |
-| 34 | `09-pneumonia-arf/34-pathology.qmd` | ⬜ 待填寫 | 多位醫師 |
-| 35 | `09-pneumonia-arf/35-basic-application.qmd` | ⬜ 待填寫 | 多位醫師 |
-| 36 | `09-pneumonia-arf/36-advanced.qmd` | ⬜ 待填寫 | 多位醫師 |
+| 25 | `07-abdominal-pain/25-gi.qmd` | ✅ 完成 | 李宜家 |
+| 26 | `07-abdominal-pain/26-renal-vascular.qmd` | ✅ 完成 | 李宜家 |
+| 27 | `07-abdominal-pain/27-female.qmd` | ✅ 完成 | 李宜家 |
+| 28 | `07-abdominal-pain/28-comprehensive.qmd` | ✅ 完成 | 李宜家 |
+| 29 | `08-dyspnea/29-symptoms.qmd` | ✅ 完成 | 范程羿 |
+| 30 | `08-dyspnea/30-anatomy.qmd` | ✅ 完成 | 范程羿 |
+| 31 | `08-dyspnea/31-diagnosis.qmd` | ✅ 完成 | 范程羿 |
+| 32 | `08-dyspnea/32-treatment.qmd` | ✅ 完成 | 范程羿 |
+| 33 | `09-pneumonia-arf/33-basics.qmd` | ✅ 完成 | 多位醫師 |
+| 34 | `09-pneumonia-arf/34-pathology.qmd` | ✅ 完成 | 多位醫師 |
+| 35 | `09-pneumonia-arf/35-basic-application.qmd` | ✅ 完成 | 多位醫師 |
+| 36 | `09-pneumonia-arf/36-advanced.qmd` | ✅ 完成 | 多位醫師 |
 
 #### 附錄
 | 檔案 | 狀態 |
 |------|------|
-| `appendices/a-machine-operation.qmd` | ⬜ 待填寫 |
-| `appendices/b-abbreviations.qmd` | ⬜ 待填寫 |
-| `appendices/c-references.qmd` | ⬜ 待填寫 |
+| `appendices/a-machine-operation.qmd` | ✅ 完成 |
+| `appendices/b-abbreviations.qmd` | ✅ 完成 |
+| `appendices/c-references.qmd` | ✅ 完成 |
 
 ---
 
-### 中優先級 - 圖片與多媒體
+### 下一步 - 圖片與多媒體
 
 #### 圖片需求
 - [ ] 建立 `images/` 資料夾結構
-  - [ ] `images/common/` - 共用圖片（心臟解剖、探頭等）
-  - [ ] `images/lesson01/` ~ `images/lesson36/` - 各課程專用圖片
 - [ ] 從現有 PDF 教案提取圖片（使用 `scripts/extract_pdf_images.py`）
 - [ ] 超音波影像截圖
 - [ ] 解剖示意圖
@@ -323,28 +322,21 @@ jobs:
 
 #### 影片資源
 - [ ] 收集/製作超音波示範影片
-- [ ] 上傳至 YouTube
-- [ ] 在課程中嵌入影片連結
+- [ ] 上傳至 YouTube 並嵌入課程
 
 ---
 
-### 低優先級 - 功能增強
+### 後續優化
 
 #### 樣式改進
-- [ ] 恢復自訂 SCSS 樣式（`assets/css/custom.scss`）
-- [ ] 調整 POCUS 品牌色系
-- [ ] 優化表格樣式
+- [ ] 恢復自訂 SCSS 樣式
+- [ ] 調整品牌色系與表格樣式
 - [ ] 改進行動版閱讀體驗
 
-#### PDF 輸出
-- [ ] 設定 PDF 格式（需要 TinyTeX + CJK 字型）
-- [ ] 測試中文 PDF 輸出
-- [ ] 加入 QR Code 連結影片
-
-#### 互動功能
-- [ ] 評估是否需要 webexercises R 套件
+#### 功能增強
+- [ ] 設定中文語言 (`lang: zh-TW`)
 - [ ] 加入更多自我評估題目
-- [ ] 考慮加入進度追蹤功能
+- [ ] 考慮 PDF 輸出（TinyTeX + CJK）
 
 ---
 
@@ -449,14 +441,20 @@ author: "醫師姓名"
 | 階段 | 目標 | 狀態 |
 |------|------|------|
 | Phase 1 | 網站架構與部署 | ✅ 完成 |
-| Phase 2 | 第一章完整內容 | 🔄 進行中 |
-| Phase 3 | 所有章節基本內容 | ⬜ 待開始 |
+| Phase 2 | 第一章完整內容 | ✅ 完成 |
+| Phase 3 | 所有章節基本內容（LaTeX 轉 Quarto） | ✅ 完成 |
 | Phase 4 | 圖片與影片整合 | ⬜ 待開始 |
-| Phase 5 | PDF 輸出與最終校對 | ⬜ 待開始 |
+| Phase 5 | 樣式優化與最終校對 | ⬜ 待開始 |
 
 ---
 
 ## 📝 更新日誌
+
+### 2026-04-06
+- ✅ 專案方向調整：取消試教計畫，專注於 Quarto 網頁教材
+- ✅ 全部 36 堂教案內容從 LaTeX 轉換至 Quarto .qmd 格式
+- ✅ 所有章節 index.qmd 更新（移除「建置中」標示）
+- ✅ 進度文件更新以反映新方向
 
 ### 2026-02-19
 - ✅ 初始專案建立

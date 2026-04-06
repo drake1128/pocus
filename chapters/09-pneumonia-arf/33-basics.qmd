@@ -1,7 +1,66 @@
 ---
 title: "教案 33：超音波基礎"
+subtitle: "肺部超音波基本原理與操作"
+author: "多位醫師"
+date: last-modified
+categories: [肺炎, ARF, 超音波基礎, POCUS]
 ---
+
 ::: {.callout-note}
-## 內容建置中
-本課程內容正在建置中。
+## 學習目標
+
+1. 認識肺部超音波的基本原理與操作
+2. 了解正常與異常肺部超音波表現
+3. 學習系統性的肺部超音波掃描方法
 :::
+
+## 基本原理
+
+::: {.callout-warning}
+## 關鍵觀念
+
+超音波無法穿透空氣，因此正常充氣的肺部主要是看「假影」的變化。
+:::
+
+肺部超音波的原理與其他部位不同。由於肺部充滿空氣，超音波無法像在腹部或心臟一樣直接成像。我們觀察的是超音波在不同介面（如胸壁與肺部之間）所產生的假影（artifact），並藉由這些假影的變化來判斷肺部的狀態。
+
+## 探頭選擇
+
+不同的探頭各有優勢，可依據臨床需求選擇：
+
+- **Curvilinear probe（腹超探頭）**：穿透力佳，適合深部結構
+- **Linear probe（高頻探頭）**：解析度高，適合胸膜與淺層結構
+- **Phased array probe（心臟探頭）**：可從肋間隙進入
+
+## 掃描位置與技巧
+
+系統性的掃描方法可以確保不遺漏病灶：
+
+1. **前胸**：患者仰臥，探頭放置於肋間隙
+2. **側胸**：腋前線至腋後線區域
+3. **後背**：患者坐起或側臥
+4. **技巧**：探頭平行肋間隙，避免肋骨遮擋
+
+## 正常肺部超音波表現
+
+| 表現 | 說明 |
+|:-----|:-----|
+| Bat sign | 兩根肋骨（翅膀）與胸膜線（身體）形成蝙蝠狀 |
+| Pleural line | 高回音的水平線，代表臟層與壁層胸膜 |
+| Lung sliding | 呼吸時胸膜的滑動，代表肺部貼附於胸壁 |
+| A-lines | 胸膜線的等距離重複假影，代表正常充氣肺部 |
+| Seashore sign | M-mode 下，胸膜線以上呈水平線（沙灘），以下呈顆粒狀（海浪） |
+
+## 自我評量
+
+1. 為什麼肺部超音波主要觀察「假影」而非直接成像？
+2. 描述 Bat sign 的組成結構及其臨床意義。
+3. 在 M-mode 下，正常肺部會呈現什麼特徵？這個特徵為什麼稱為 Seashore sign？
+4. 比較三種常用探頭在肺部超音波中的優缺點。
+5. 說明系統性肺部超音波掃描的步驟與注意事項。
+
+## 參考文獻
+
+1. Lichtenstein DA. Lung ultrasound in the critically ill. *Ann Intensive Care*. 2014;4(1):1.
+2. Volpicelli G, et al. International evidence-based recommendations for point-of-care lung ultrasound. *Intensive Care Med*. 2012;38(4):577-591.
+3. Mayo PH, et al. Point-of-care ultrasonography. *N Engl J Med*. 2018;379(11):1082-1090.

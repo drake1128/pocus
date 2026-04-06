@@ -1,9 +1,170 @@
 ---
 title: "教案 9：症狀辨識"
+subtitle: "急性肢端疼痛的症狀辨識與超音波適應症"
 author: "林姝含"
+date: last-modified
+categories: [急性肢端疼痛, 症狀辨識, POCUS]
 ---
 
+## 課程目標
+
 ::: {.callout-note}
-## 內容建置中
-本課程內容正在建置中。
+## 學習目標
+
+1. 學習評估急性肢端疼痛之嚴重度，認識急性肢端疼痛可能伴隨的症狀表現
+2. 學會辨識需緊急處理的 red flags，及床邊緊急超音波掃描的適應症
+3. 認識急性肢端疼痛的可能鑑別診斷，及各個疾病之解剖、生理、病理基礎
 :::
+
+## 案例介紹
+
+::: {.callout-tip appearance="simple"}
+## 臨床案例
+
+77 歲男性，因為左下肢疼痛、酸麻、無力來到急診。四個月前，他曾因為週邊血管疾病，接受過導管血管氣球擴張手術，並在右大腿放置一支金屬支架。理學檢查，發現左腳足背動脈摸不到，左腳後脛骨動脈也無搏動。與右下肢相比，左下肢在膝蓋以下冰冷。
+
+**過去病史**
+
+| 項目 | 說明 |
+|------|------|
+| Atrial fibrillation | 心房顫動 |
+| CAD | 冠狀動脈疾病 |
+| PAOD | 週邊動脈阻塞性疾病 |
+| CKD | 慢性腎臟病 (Cre 1.7 mg/dL) |
+
+**病程分析**
+
+病人因為 atrial fibrillation 且 poor compliance，發生 atrial fibrillation 相關的 systemic embolization，造成 acute limb ischemia，發生在左側下肢。
+:::
+
+## 鑑別診斷
+
+::: {.callout-warning}
+## 重點提示
+
+急性肢端疼痛的病人，需考慮以下鑑別診斷：
+:::
+
+### 血管性 (Vascular)
+
+- **Acute limb ischemia**（急性肢端缺血）
+- **Deep vein thrombosis**（深層靜脈栓塞）
+
+### 感染性 (Infectious)
+
+- **Necrotizing fasciitis**（壞死性筋膜炎）
+
+### 肌肉骨骼 (Musculoskeletal)
+
+- **Arthritis**（關節炎）：gouty arthritis（痛風性關節炎）、septic arthritis（化膿性關節炎）等
+- **Baker's cyst rupture**（貝克氏囊腫破裂）
+
+## 急性下肢缺血的 6Ps
+
+| 中文名稱 | 英文 | 說明 |
+|----------|------|------|
+| 感覺異常 | Paresthesia | 麻木、刺痛感 |
+| 疼痛 | Pain | 肢端疼痛，程度不等 |
+| 蒼白 | Pallor | 皮膚顏色變白 |
+| 無脈搏 | Pulselessness | 摸不到遠端脈搏 |
+| 溫度改變 | Poikilothermia | 肢端冰冷 |
+| 癱瘓 | Paralysis | 肌肉無力或癱瘓 |
+
+::: {.callout-tip}
+## 臨床要訣
+
+其中以**溫度降低**在臨床上具有相當的敏感性與特異性。用雙手觸診後，交替比較雙腳在 foot、ankle、calf、knee、thigh 各個高度的溫度，可以快速發現雙腳的溫度差異。
+:::
+
+## 病史詢問重點
+
+::: {.callout-warning}
+## 系統性問診
+
+- 使用 **LQQOPERA** 系統性問診架構
+- 特別強調：**症狀多久以內發生？**（急性 vs 慢性）
+- 區分三種臨床表現：
+  - **Cold and pale**（冰冷蒼白）→ 動脈阻塞
+  - **Cold and swollen**（冰冷腫脹）→ 需考慮混合病因
+  - **Hot and swollen**（紅腫熱痛）→ 感染或發炎
+- 是否伴隨**感覺異常**？（提示神經或血管受損程度）
+:::
+
+## 超音波檢查流程
+
+::: {.callout-note}
+## 掃描步驟
+
+1. **雙腳都該掃描**，先掃描正常沒症狀的腳，做為比較依據
+2. 先摸健側腳的**足背動脈** (dorsalis pedis artery)、**後脛骨動脈** (posterior tibial artery) 的搏動點
+3. **2D echo** 先嘗試辨識血管，再開 **color**，最後啟動 **PW** 定位取得 Doppler 波型供判讀
+4. 掃描位置依序：**CFA → SFA → DFA → PopA → ATA → PTA**
+:::
+
+## 討論議題
+
+::: {.callout-note}
+## 討論
+
+1. 面對急性肢端疼痛的病人，如何快速判斷是否為血管急症？
+2. 6Ps 中哪些是不可逆損傷的徵兆？
+3. 什麼情況下需要立即安排血管外科會診？
+4. 床邊超音波在急性肢端缺血中能提供哪些資訊？
+:::
+
+## 自我評估
+
+::: {.content-visible when-format="html"}
+
+**問題 1**：急性肢端缺血的 6Ps 中，以下何者在臨床上具有較高的敏感性與特異性？
+
+- [ ] Pain（疼痛）
+- [ ] Pallor（蒼白）
+- [x] Poikilothermia（溫度改變）
+- [ ] Paralysis（癱瘓）
+
+**問題 2**：本案例病人最可能的診斷為何？
+
+- [x] Acute limb ischemia due to systemic embolization
+- [ ] Deep vein thrombosis
+- [ ] Necrotizing fasciitis
+- [ ] Baker's cyst rupture
+
+**問題 3**：進行下肢動脈超音波掃描時，以下何者為正確的操作順序？
+
+- [ ] 先掃描患側，再掃描健側做比較
+- [x] 先掃描健側做為基準，再掃描患側
+- [ ] 只需掃描患側即可
+- [ ] 只需掃描足背動脈
+
+**問題 4**：病人表現為「cold and pale」的肢端，最可能的病因為何？
+
+- [x] 動脈阻塞
+- [ ] 深層靜脈栓塞
+- [ ] 蜂窩性組織炎
+- [ ] 痛風性關節炎
+
+::: {.callout-tip collapse="true"}
+## 顯示答案解析
+
+1. **Poikilothermia（溫度改變）**在臨床上具有相當的敏感性與特異性，可透過雙手交替比較雙腳各高度的溫度來快速判斷。
+2. 病人有 atrial fibrillation 病史且 poor compliance，最可能因 systemic embolization 造成 **acute limb ischemia**。
+3. 正確做法是**先掃描健側**，建立正常基準後再掃描患側進行比較。
+4. **Cold and pale** 代表動脈血流受阻，肢端缺血導致蒼白與冰冷。
+:::
+
+:::
+
+::: {.content-visible when-format="pdf"}
+::: {.callout-tip}
+## 自我評估
+
+本課程包含互動式自我評估題目，請訪問線上版本完成測驗。
+:::
+:::
+
+## 參考閱讀
+
+1. Creager MA, Kaufman JA, Conte MS. Acute limb ischemia. *N Engl J Med*. 2012 Jun 7;366(23):2198-206.
+2. 2017 ESC Guidelines on the Diagnosis and Treatment of Peripheral Arterial Diseases. *Eur Heart J*. 2018 Mar 1;39(9):763-816.
+3. 2016 AHA/ACC Guideline on the Management of Patients With Lower Extremity Peripheral Artery Disease. *Circulation*. 2017 Mar 21;135(12):e726-e779.

@@ -1,7 +1,105 @@
 ---
 title: "教案 36：進階應用"
+subtitle: "ARDS 評估、呼吸器調整與橫膈超音波"
+author: "多位醫師"
+date: last-modified
+categories: [肺炎, ARF, 進階應用, POCUS]
 ---
+
 ::: {.callout-note}
-## 內容建置中
-本課程內容正在建置中。
+## 學習目標
+
+1. 認識 ARDS 的超音波特徵
+2. 學習使用超音波協助呼吸器參數調整
+3. 掌握橫膈超音波的評估方法
+4. 了解心肺整合超音波的臨床應用
 :::
+
+## ARDS 的超音波特徵
+
+ARDS 在肺部超音波下具有特徵性的表現：
+
+- 瀰漫性不均勻 B-lines
+- 前胸 spared areas（保留區域）
+- 後下肺葉實變
+- Lung sliding 減少
+- 排除心因性（需結合心臟超音波）
+
+::: {.callout-warning}
+## ARDS vs 心因性肺水腫
+
+兩者皆可出現瀰漫性 B-lines，但 ARDS 的 B-lines 分布不均勻，常伴有 spared areas 和後下肺葉實變；心因性肺水腫的 B-lines 則較均勻、對稱，常伴有肋膜積液和心臟擴大。
+:::
+
+## 超音波導引呼吸器調整
+
+### 1. PEEP 調整
+
+- 監測 B-lines 的變化以評估肺部復張效果
+- 觀察實變區域是否隨 PEEP 增加而改善
+
+### 2. 肺復張評估
+
+- 追蹤實變區域是否恢復充氣
+- 觀察 dynamic air bronchogram 的變化
+- LUS Score 下降代表通氣改善
+
+### 3. 脫離呼吸器評估
+
+- LUS score 改善提示可嘗試脫離
+- 橫膈運動評估可預測脫離成功率
+
+## 橫膈超音波
+
+橫膈超音波是評估呼吸功能的重要工具。
+
+### 掃描方法
+
+- **位置**：腋中線，以肝脾為音窗
+- **模式**：M-mode 測量吸氣時橫膈下降幅度
+
+### 正常值與判讀
+
+| 測量 | 正常值 |
+|:-----|:-------|
+| 安靜呼吸橫膈位移 | > 1 cm |
+| 深呼吸橫膈位移 | > 4-5 cm |
+| 功能不全 | < 1 cm 或矛盾運動 |
+
+::: {.callout-tip}
+## 臨床情境
+
+一位使用呼吸器的 72 歲女性，肺炎治療後準備脫離呼吸器。LUS Score 從入院時的 24 分降至 12 分。橫膈超音波顯示右側橫膈位移為 1.8 cm（安靜呼吸），深呼吸時可達 5 cm。
+
+這些數據顯示肺部通氣明顯改善，橫膈功能正常，支持嘗試脫離呼吸器。
+:::
+
+## 整合應用：心臟 + 肺部 + IVC 完整評估
+
+在重症病人中，整合心臟、肺部與 IVC 超音波可提供全面的血流動力學與呼吸評估：
+
+- **鑑別心因性 vs 非心因性呼吸衰竭**：心臟功能 + B-lines 分布
+- **容積狀態評估**：IVC 大小與變異度 + 肺部 B-lines
+- **監測治療反應**：連續追蹤 LUS Score、心臟功能與 IVC 變化
+- **偵測併發症**：肋膜積液、心包膜積液、氣胸
+
+::: {.callout-warning}
+## 整合評估的重要性
+
+單一項目的超音波可能產生誤導。例如，B-lines 可能來自肺炎或肺水腫；IVC 擴張可能是心衰竭或正壓呼吸的影響。只有整合多項評估結果，才能做出正確的臨床判斷。
+:::
+
+## 自我評量
+
+1. 列舉 ARDS 在肺部超音波下的五個主要特徵。
+2. 如何利用超音波區分 ARDS 與心因性肺水腫？
+3. 說明超音波如何協助 PEEP 調整與肺復張評估。
+4. 橫膈超音波的掃描方法與正常值為何？如何判斷橫膈功能不全？
+5. 為什麼整合心臟、肺部與 IVC 超音波評估比單一項目更有臨床價值？
+
+## 參考文獻
+
+1. Copetti R, et al. Lung ultrasonography in ARDS. *Minerva Anestesiol*. 2014;80(10):1142-1151.
+2. Bouhemad B, et al. Bedside ultrasound assessment of positive end-expiratory pressure-induced lung recruitment. *Am J Respir Crit Care Med*. 2011;183(3):341-347.
+3. Matamis D, et al. Sonographic evaluation of the diaphragm in critically ill patients. *Intensive Care Med*. 2013;39(5):801-810.
+4. Lichtenstein DA. BLUE-protocol and FALLS-protocol: two applications of lung ultrasound in the critically ill. *Chest*. 2015;147(6):1659-1670.
