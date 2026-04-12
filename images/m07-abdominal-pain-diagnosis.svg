@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <title>Module 07: Abdominal Pain Differential Diagnosis</title>
+  <defs>
+    <pattern id="hatch-45" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="5" stroke="#000" stroke-width="0.8"/>
+    </pattern>
+    <pattern id="hatch-135" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(135)">
+      <line x1="0" y1="0" x2="0" y2="5" stroke="#000" stroke-width="0.8"/>
+    </pattern>
+    <pattern id="cross-hatch" patternUnits="userSpaceOnUse" width="4" height="4">
+      <line x1="0" y1="0" x2="4" y2="4" stroke="#000" stroke-width="0.6"/>
+      <line x1="4" y1="0" x2="0" y2="4" stroke="#000" stroke-width="0.6"/>
+    </pattern>
+    <pattern id="dense-hatch" patternUnits="userSpaceOnUse" width="3" height="3" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="3" stroke="#000" stroke-width="0.8"/>
+    </pattern>
+    <pattern id="stipple" patternUnits="userSpaceOnUse" width="6" height="6">
+      <circle cx="1" cy="1" r="0.6" fill="#000"/>
+      <circle cx="4" cy="4" r="0.6" fill="#000"/>
+    </pattern>
+    <pattern id="tissue-hatch" patternUnits="userSpaceOnUse" width="6" height="6">
+      <line x1="0" y1="3" x2="6" y2="3" stroke="#000" stroke-width="0.5"/>
+      <line x1="3" y1="0" x2="3" y2="6" stroke="#000" stroke-width="0.3"/>
+    </pattern>
+    <!-- Clip paths for sector shapes -->
+    <clipPath id="sector-left">
+      <path d="M133,120 L50,500 L216,500 Z"/>
+    </clipPath>
+    <clipPath id="sector-center">
+      <path d="M400,120 L317,500 L483,500 Z"/>
+    </clipPath>
+    <clipPath id="sector-right">
+      <path d="M667,120 L584,500 L750,500 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="#fff"/>
+
+  <!-- Outer border -->
+  <rect x="5" y="5" width="790" height="590" fill="none" stroke="#000" stroke-width="5"/>
+  <rect x="10" y="10" width="780" height="580" fill="none" stroke="#000" stroke-width="2"/>
+
+  <!-- Title bar -->
+  <rect x="15" y="15" width="770" height="50" fill="#000"/>
+  <text x="400" y="38" font-family="serif" font-size="18" font-weight="bold" fill="#fff" text-anchor="middle">Module 07: Abdominal Pain — Differential Diagnosis</text>
+  <text x="400" y="56" font-family="serif" font-size="14" fill="#fff" text-anchor="middle">急性腹痛鑑別診斷</text>
+
+  <!-- ======= PANEL 1: AAA (Left) ======= -->
+  <rect x="18" y="72" width="250" height="520" fill="none" stroke="#000" stroke-width="3"/>
+
+  <!-- Panel label -->
+  <rect x="28" y="78" width="230" height="30" fill="#000"/>
+  <text x="143" y="98" font-family="serif" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">AAA 腹主動脈瘤</text>
+
+  <!-- Sector shape background -->
+  <path d="M133,125 L48,490 L218,490 Z" fill="#000" stroke="#000" stroke-width="3"/>
+
+  <!-- Ultrasound sector content - AAA cross section -->
+  <!-- Surrounding tissue (gray via hatching) -->
+  <path d="M133,125 L48,490 L218,490 Z" fill="url(#stipple)" stroke="none" clip-path="url(#sector-left)"/>
+
+  <!-- Vertebral body at bottom -->
+  <path d="M100,430 L166,430 L170,460 Q133,475 96,460 Z" fill="#fff" stroke="#fff" stroke-width="2"/>
+  <path d="M105,435 L161,435 L164,455 Q133,466 102,455 Z" fill="url(#cross-hatch)" stroke="#fff" stroke-width="1.5"/>
+  <!-- Vertebral body outline -->
+  <path d="M100,430 L166,430 L170,460 Q133,475 96,460 Z" fill="none" stroke="#fff" stroke-width="2"/>
+
+  <!-- Dilated aorta - cross section (>3cm) -->
+  <circle cx="133" cy="340" r="60" fill="#000" stroke="#fff" stroke-width="2.5"/>
+  <circle cx="133" cy="340" r="55" fill="#000" stroke="#fff" stroke-width="1"/>
+  <!-- Aortic wall - thick bright line -->
+  <circle cx="133" cy="340" r="58" fill="none" stroke="#fff" stroke-width="3"/>
+  <!-- Lumen -->
+  <circle cx="133" cy="340" r="45" fill="#000" stroke="#fff" stroke-width="1.5"/>
+
+  <!-- Thrombus in wall (between outer wall and lumen) - crescent -->
+  <path d="M88,310 Q78,340 88,370 Q95,360 92,340 Q95,320 88,310 Z" fill="url(#dense-hatch)" stroke="#fff" stroke-width="1"/>
+
+  <!-- Measurement calipers -->
+  <!-- Horizontal caliper line -->
+  <line x1="65" y1="340" x2="201" y2="340" stroke="#fff" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <!-- Caliper marks (+ signs) -->
+  <line x1="73" y1="335" x2="73" y2="345" stroke="#fff" stroke-width="2"/>
+  <line x1="68" y1="340" x2="78" y2="340" stroke="#fff" stroke-width="2"/>
+  <line x1="193" y1="335" x2="193" y2="345" stroke="#fff" stroke-width="2"/>
+  <line x1="188" y1="340" x2="198" y2="340" stroke="#fff" stroke-width="2"/>
+
+  <!-- Measurement text -->
+  <text x="133" y="270" font-family="monospace" font-size="14" fill="#fff" text-anchor="middle" font-weight="bold">4.2 cm</text>
+
+  <!-- IVC to the right -->
+  <ellipse cx="190" cy="380" rx="18" ry="22" fill="#000" stroke="#fff" stroke-width="1.5"/>
+  <text x="190" y="375" font-family="monospace" font-size="8" fill="#fff" text-anchor="middle">IVC</text>
+
+  <!-- Sector border -->
+  <path d="M133,125 L48,490 L218,490 Z" fill="none" stroke="#fff" stroke-width="2"/>
+
+  <!-- Depth markers -->
+  <line x1="52" y1="200" x2="58" y2="200" stroke="#fff" stroke-width="1"/>
+  <line x1="52" y1="300" x2="58" y2="300" stroke="#fff" stroke-width="1"/>
+  <line x1="52" y1="400" x2="58" y2="400" stroke="#fff" stroke-width="1"/>
+
+  <!-- Label below panel -->
+  <text x="133" y="510" font-family="serif" font-size="11" fill="#000" text-anchor="middle">Abdominal Aortic Aneurysm</text>
+  <text x="133" y="525" font-family="serif" font-size="10" fill="#000" text-anchor="middle">橫切面 &gt;3cm = 動脈瘤</text>
+
+  <!-- Arrow pointing to dilation -->
+  <path d="M50,270 L70,300" fill="none" stroke="#000" stroke-width="2"/>
+  <polygon points="70,300 63,294 68,293" fill="#000"/>
+  <text x="38" y="265" font-family="serif" font-size="9" fill="#000" text-anchor="middle">擴張</text>
+
+
+  <!-- ======= PANEL 2: Cholecystitis (Center) ======= -->
+  <rect x="275" y="72" width="250" height="520" fill="none" stroke="#000" stroke-width="3"/>
+
+  <!-- Panel label -->
+  <rect x="285" y="78" width="230" height="30" fill="#000"/>
+  <text x="400" y="98" font-family="serif" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">急性膽囊炎 Cholecystitis</text>
+
+  <!-- Sector shape background -->
+  <path d="M400,125 L315,490 L485,490 Z" fill="#000" stroke="#000" stroke-width="3"/>
+
+  <!-- Tissue background -->
+  <path d="M400,125 L315,490 L485,490 Z" fill="url(#stipple)" stroke="none" clip-path="url(#sector-center)"/>
+
+  <!-- Liver tissue (upper area) -->
+  <path d="M400,140 L340,300 L460,300 Z" fill="url(#dense-hatch)" stroke="none" clip-path="url(#sector-center)"/>
+  <text x="400" y="200" font-family="monospace" font-size="10" fill="#fff" text-anchor="middle">Liver</text>
+
+  <!-- Gallbladder - enlarged with thick wall -->
+  <!-- Outer wall (thickened >3mm) -->
+  <path d="M370,280 Q385,260 415,262 Q435,270 440,310 Q442,360 430,400 Q415,430 400,435 Q385,430 375,400 Q362,360 365,310 Q365,290 370,280 Z" fill="#000" stroke="#fff" stroke-width="3"/>
+
+  <!-- Inner wall -->
+  <path d="M377,288 Q390,272 412,274 Q428,280 432,310 Q434,355 424,392 Q412,420 400,424 Q388,420 380,392 Q370,355 372,310 Q373,295 377,288 Z" fill="#000" stroke="#fff" stroke-width="1.5"/>
+
+  <!-- Gallbladder lumen (anechoic/black) -->
+  <path d="M384,295 Q395,282 410,284 Q422,290 425,312 Q427,350 419,385 Q410,408 400,412 Q390,408 385,385 Q378,350 380,312 Q381,300 384,295 Z" fill="#000" stroke="none"/>
+
+  <!-- Wall thickening indicator arrows -->
+  <line x1="365" y1="330" x2="380" y2="330" stroke="#fff" stroke-width="1.5"/>
+  <text x="352" y="328" font-family="monospace" font-size="8" fill="#fff" text-anchor="middle">&gt;3mm</text>
+
+  <!-- Gallstone (bright echo with shadow) -->
+  <ellipse cx="400" cy="390" rx="12" ry="8" fill="#fff" stroke="#fff" stroke-width="2"/>
+  <!-- Acoustic shadow behind stone -->
+  <path d="M388,398 L378,480 L422,480 L412,398 Z" fill="#000" stroke="none"/>
+  <!-- Shadow borders -->
+  <line x1="388" y1="398" x2="378" y2="480" stroke="#fff" stroke-width="0.8"/>
+  <line x1="412" y1="398" x2="422" y2="480" stroke="#fff" stroke-width="0.8"/>
+
+  <!-- Pericholecystic fluid (small anechoic collection around GB) -->
+  <path d="M365,290 Q360,310 358,340 Q356,370 362,395" fill="none" stroke="#fff" stroke-width="2.5"/>
+  <path d="M438,290 Q442,310 444,340 Q446,370 440,395" fill="none" stroke="#fff" stroke-width="2.5"/>
+  <!-- Fluid label -->
+  <text x="345" y="360" font-family="monospace" font-size="7" fill="#fff" text-anchor="end" transform="rotate(-90 345,360)">fluid</text>
+
+  <!-- Sector border -->
+  <path d="M400,125 L315,490 L485,490 Z" fill="none" stroke="#fff" stroke-width="2"/>
+
+  <!-- Depth markers -->
+  <line x1="319" y1="200" x2="325" y2="200" stroke="#fff" stroke-width="1"/>
+  <line x1="319" y1="300" x2="325" y2="300" stroke="#fff" stroke-width="1"/>
+  <line x1="319" y1="400" x2="325" y2="400" stroke="#fff" stroke-width="1"/>
+
+  <!-- Labels below panel -->
+  <text x="400" y="510" font-family="serif" font-size="11" fill="#000" text-anchor="middle">Acute Cholecystitis Signs:</text>
+  <text x="400" y="525" font-family="serif" font-size="10" fill="#000" text-anchor="middle">壁增厚 + 膽囊周圍積液 + 結石</text>
+  <text x="400" y="540" font-family="serif" font-size="10" fill="#000" text-anchor="middle">Sonographic Murphy Sign (+)</text>
+
+
+  <!-- ======= PANEL 3: Hydronephrosis (Right) ======= -->
+  <rect x="532" y="72" width="250" height="520" fill="none" stroke="#000" stroke-width="3"/>
+
+  <!-- Panel label -->
+  <rect x="542" y="78" width="230" height="30" fill="#000"/>
+  <text x="657" y="98" font-family="serif" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">腎積水 Hydronephrosis</text>
+
+  <!-- Sector shape background -->
+  <path d="M667,125 L582,490 L752,490 Z" fill="#000" stroke="#000" stroke-width="3"/>
+
+  <!-- Tissue background -->
+  <path d="M667,125 L582,490 L752,490 Z" fill="url(#stipple)" stroke="none" clip-path="url(#sector-right)"/>
+
+  <!-- Kidney outline (bean shape, longitudinal) -->
+  <path d="M667,200 Q720,220 730,300 Q735,380 720,420 Q700,450 667,455 Q634,450 614,420 Q599,380 604,300 Q610,220 667,200 Z" fill="url(#dense-hatch)" stroke="#fff" stroke-width="2.5"/>
+
+  <!-- Renal cortex (outer parenchyma) - slightly brighter -->
+  <path d="M667,210 Q712,228 722,300 Q726,372 712,412 Q696,440 667,444 Q638,440 622,412 Q608,372 612,300 Q618,228 667,210 Z" fill="url(#hatch-45)" stroke="#fff" stroke-width="1.5"/>
+
+  <!-- Dilated collecting system / pelvis (anechoic = black) -->
+  <!-- Central pelvis -->
+  <ellipse cx="667" cy="320" rx="35" ry="50" fill="#000" stroke="#fff" stroke-width="1.5"/>
+
+  <!-- Dilated calyces (branching black areas) -->
+  <!-- Upper calyces -->
+  <ellipse cx="650" cy="250" rx="15" ry="20" fill="#000" stroke="#fff" stroke-width="1"/>
+  <ellipse cx="685" cy="255" rx="12" ry="18" fill="#000" stroke="#fff" stroke-width="1"/>
+  <rect x="655" y="260" width="15" height="30" fill="#000" stroke="none"/>
+
+  <!-- Lower calyces -->
+  <ellipse cx="650" cy="400" rx="15" ry="18" fill="#000" stroke="#fff" stroke-width="1"/>
+  <ellipse cx="685" cy="395" rx="12" ry="16" fill="#000" stroke="#fff" stroke-width="1"/>
+  <rect x="655" y="375" width="15" height="25" fill="#000" stroke="none"/>
+
+  <!-- Middle connections -->
+  <path d="M650,270 Q660,290 660,310" fill="none" stroke="none"/>
+  <rect x="658" y="280" width="18" height="15" fill="#000" stroke="none"/>
+  <rect x="658" y="355" width="18" height="20" fill="#000" stroke="none"/>
+
+  <!-- Renal capsule bright line -->
+  <path d="M667,205 Q715,223 725,300 Q729,375 715,415 Q698,445 667,450 Q636,445 619,415 Q605,375 609,300 Q615,223 667,205 Z" fill="none" stroke="#fff" stroke-width="2"/>
+
+  <!-- Medullary pyramids (dark triangles between calyces) -->
+  <path d="M625,290 L640,280 L638,305 Z" fill="#000" stroke="#fff" stroke-width="0.8"/>
+  <path d="M625,350 L640,340 L638,365 Z" fill="#000" stroke="#fff" stroke-width="0.8"/>
+  <path d="M695,290 L710,280 L708,305 Z" fill="#000" stroke="#fff" stroke-width="0.8"/>
+  <path d="M695,350 L710,340 L708,365 Z" fill="#000" stroke="#fff" stroke-width="0.8"/>
+
+  <!-- Grading indicator -->
+  <text x="667" y="475" font-family="monospace" font-size="10" fill="#fff" text-anchor="middle">Grade III</text>
+
+  <!-- Sector border -->
+  <path d="M667,125 L582,490 L752,490 Z" fill="none" stroke="#fff" stroke-width="2"/>
+
+  <!-- Depth markers -->
+  <line x1="586" y1="200" x2="592" y2="200" stroke="#fff" stroke-width="1"/>
+  <line x1="586" y1="300" x2="592" y2="300" stroke="#fff" stroke-width="1"/>
+  <line x1="586" y1="400" x2="592" y2="400" stroke="#fff" stroke-width="1"/>
+
+  <!-- Labels below panel -->
+  <text x="667" y="510" font-family="serif" font-size="11" fill="#000" text-anchor="middle">Hydronephrosis Grade III</text>
+  <text x="667" y="525" font-family="serif" font-size="10" fill="#000" text-anchor="middle">腎盂及腎盞擴張 (無回音區)</text>
+  <text x="667" y="540" font-family="serif" font-size="10" fill="#000" text-anchor="middle">Dilated Pelvis + Calyces</text>
+
+  <!-- Bottom decorative border -->
+  <line x1="20" y1="555" x2="780" y2="555" stroke="#000" stroke-width="1"/>
+  <line x1="20" y1="558" x2="780" y2="558" stroke="#000" stroke-width="0.5"/>
+
+  <!-- Footer text -->
+  <text x="400" y="575" font-family="serif" font-size="10" fill="#000" text-anchor="middle" font-style="italic">Point-of-Care Ultrasound — Abdominal Emergency Findings</text>
+</svg>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <pattern id="crosshatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#000" stroke-width="1.2"/>
+      <line x1="0" y1="0" x2="6" y2="0" stroke="#000" stroke-width="1.2"/>
+    </pattern>
+    <pattern id="hatch-dense" width="3" height="3" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="3" stroke="#000" stroke-width="1"/>
+    </pattern>
+    <pattern id="hatch-vert" width="5" height="5" patternUnits="userSpaceOnUse">
+      <line x1="2.5" y1="0" x2="2.5" y2="5" stroke="#000" stroke-width="0.8"/>
+    </pattern>
+    <pattern id="hatch-light" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(30)">
+      <line x1="0" y1="0" x2="0" y2="8" stroke="#000" stroke-width="0.7"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="#fff"/>
+
+  <!-- Border frame -->
+  <rect x="8" y="8" width="784" height="584" fill="none" stroke="#000" stroke-width="5"/>
+  <rect x="14" y="14" width="772" height="572" fill="none" stroke="#000" stroke-width="2"/>
+
+  <!-- Ultrasound screen area (main view) -->
+  <rect x="60" y="80" width="680" height="420" rx="10" fill="#000" stroke="#000" stroke-width="5"/>
+  <!-- Screen inner border -->
+  <rect x="70" y="90" width="660" height="400" fill="#000" stroke="#fff" stroke-width="1"/>
+
+  <!-- Hand holding probe at the top -->
+  <!-- Wrist/forearm -->
+  <path d="M340,20 C330,20 310,25 300,40 C290,55 285,70 290,85 L310,85 C305,70 308,55 315,45 C322,35 335,30 350,30 C365,30 378,35 385,45 C392,55 395,70 390,85 L410,85 C415,70 410,55 400,40 C390,25 370,20 360,20Z" fill="#fff" stroke="#000" stroke-width="4"/>
+  <!-- Hand hatching -->
+  <line x1="310" y1="40" x2="325" y2="55" stroke="#000" stroke-width="1"/>
+  <line x1="315" y1="35" x2="330" y2="50" stroke="#000" stroke-width="1"/>
+  <line x1="375" y1="35" x2="385" y2="50" stroke="#000" stroke-width="1"/>
+  <line x1="370" y1="40" x2="380" y2="55" stroke="#000" stroke-width="1"/>
+  <!-- Fingers -->
+  <path d="M310,75 C305,78 300,82 298,88" fill="none" stroke="#000" stroke-width="3"/>
+  <path d="M320,78 C315,82 312,86 310,90" fill="none" stroke="#000" stroke-width="3"/>
+  <path d="M380,78 C385,82 388,86 390,90" fill="none" stroke="#000" stroke-width="3"/>
+  <path d="M390,75 C395,78 400,82 402,88" fill="none" stroke="#000" stroke-width="3"/>
+
+  <!-- Probe body -->
+  <rect x="330" y="70" width="40" height="25" rx="5" fill="#fff" stroke="#000" stroke-width="4"/>
+  <rect x="338" y="90" width="24" height="8" rx="3" fill="#000"/>
+  <!-- Probe indicator -->
+  <circle cx="340" cy="82" r="3" fill="#000"/>
+
+  <!-- Ultrasound waves emanating -->
+  <path d="M350,98 L300,140" fill="none" stroke="#fff" stroke-width="1" stroke-dasharray="4,3"/>
+  <path d="M350,98 L400,140" fill="none" stroke="#fff" stroke-width="1" stroke-dasharray="4,3"/>
+  <path d="M350,98 L350,140" fill="none" stroke="#fff" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- LEFT RIB SHADOW -->
+  <path d="M80,130 C90,125 110,120 130,130 C140,135 145,180 145,250 C145,320 140,380 130,430 C120,450 100,455 85,450 L75,450 L75,135Z" fill="url(#crosshatch)" stroke="#000" stroke-width="4"/>
+  <!-- Rib acoustic shadow -->
+  <rect x="75" y="140" width="75" height="340" fill="url(#hatch-dense)" opacity="0.6"/>
+
+  <!-- RIGHT RIB SHADOW -->
+  <path d="M720,130 C710,125 690,120 670,130 C660,135 655,180 655,250 C655,320 660,380 670,430 C680,450 700,455 715,450 L725,450 L725,135Z" fill="url(#crosshatch)" stroke="#000" stroke-width="4"/>
+  <rect x="650" y="140" width="75" height="340" fill="url(#hatch-dense)" opacity="0.6"/>
+
+  <!-- PLEURAL LINE -->
+  <line x1="150" y1="150" x2="650" y2="150" stroke="#fff" stroke-width="4"/>
+  <!-- Pleural line texture -->
+  <line x1="155" y1="148" x2="645" y2="148" stroke="#fff" stroke-width="1"/>
+  <line x1="155" y1="153" x2="645" y2="153" stroke="#fff" stroke-width="1"/>
+
+  <!-- B-LINES (dramatic vertical white artifacts) -->
+  <!-- B-line 1 -->
+  <line x1="200" y1="155" x2="200" y2="480" stroke="#fff" stroke-width="5"/>
+  <line x1="197" y1="155" x2="197" y2="480" stroke="#fff" stroke-width="1.5"/>
+  <line x1="203" y1="155" x2="203" y2="480" stroke="#fff" stroke-width="1.5"/>
+  <!-- B-line shimmer -->
+  <line x1="194" y1="200" x2="194" y2="400" stroke="#fff" stroke-width="0.5" opacity="0.5"/>
+  <line x1="206" y1="180" x2="206" y2="420" stroke="#fff" stroke-width="0.5" opacity="0.5"/>
+
+  <!-- B-line 2 -->
+  <line x1="270" y1="155" x2="270" y2="480" stroke="#fff" stroke-width="5"/>
+  <line x1="267" y1="155" x2="267" y2="480" stroke="#fff" stroke-width="1.5"/>
+  <line x1="273" y1="155" x2="273" y2="480" stroke="#fff" stroke-width="1.5"/>
+  <line x1="264" y1="210" x2="264" y2="390" stroke="#fff" stroke-width="0.5" opacity="0.5"/>
+  <line x1="276" y1="190" x2="276" y2="410" stroke="#fff" stroke-width="0.5" opacity="0.5"/>
+
+  <!-- B-line 3 -->
+  <line x1="340" y1="155" x2="340" y2="480" stroke="#fff" stroke-width="5"/>
+  <line x1="337" y1="155" x2="337" y2="480" stroke="#fff" stroke-width="1.5"/>
+  <line x1="343" y1="155" x2="343" y2="480" stroke="#fff" stroke-width="1.5"/>
+  <line x1="334" y1="220" x2="334" y2="380" stroke="#fff" stroke-width="0.5" opacity="0.5"/>
+  <line x1="346" y1="200" x2="346" y2="400" stroke="#fff" stroke-width="0.5" opacity="0.5"/>
+
+  <!-- B-line 4 -->
+  <line x1="410" y1="155" x2="410" y2="480" stroke="#fff" stroke-width="5"/>
+  <line x1="407" y1="155" x2="407" y2="480" stroke="#fff" stroke-width="1.5"/>
+  <line x1="413" y1="155" x2="413" y2="480" stroke="#fff" stroke-width="1.5"/>
+  <line x1="404" y1="195" x2="404" y2="415" stroke="#fff" stroke-width="0.5" opacity="0.5"/>
+  <line x1="416" y1="215" x2="416" y2="395" stroke="#fff" stroke-width="0.5" opacity="0.5"/>
+
+  <!-- B-line 5 -->
+  <line x1="480" y1="155" x2="480" y2="480" stroke="#fff" stroke-width="5"/>
+  <line x1="477" y1="155" x2="477" y2="480" stroke="#fff" stroke-width="1.5"/>
+  <line x1="483" y1="155" x2="483" y2="480" stroke="#fff" stroke-width="1.5"/>
+  <line x1="474" y1="205" x2="474" y2="405" stroke="#fff" stroke-width="0.5" opacity="0.5"/>
+  <line x1="486" y1="185" x2="486" y2="425" stroke="#fff" stroke-width="0.5" opacity="0.5"/>
+
+  <!-- B-line 6 -->
+  <line x1="550" y1="155" x2="550" y2="480" stroke="#fff" stroke-width="5"/>
+  <line x1="547" y1="155" x2="547" y2="480" stroke="#fff" stroke-width="1.5"/>
+  <line x1="553" y1="155" x2="553" y2="480" stroke="#fff" stroke-width="1.5"/>
+  <line x1="544" y1="215" x2="544" y2="395" stroke="#fff" stroke-width="0.5" opacity="0.5"/>
+  <line x1="556" y1="195" x2="556" y2="415" stroke="#fff" stroke-width="0.5" opacity="0.5"/>
+
+  <!-- B-line 7 -->
+  <line x1="620" y1="155" x2="620" y2="480" stroke="#fff" stroke-width="5"/>
+  <line x1="617" y1="155" x2="617" y2="480" stroke="#fff" stroke-width="1.5"/>
+  <line x1="623" y1="155" x2="623" y2="480" stroke="#fff" stroke-width="1.5"/>
+
+  <!-- Label: B-lines -->
+  <rect x="300" y="105" width="200" height="30" fill="#000" stroke="#fff" stroke-width="1"/>
+  <text x="400" y="126" font-family="sans-serif" font-size="16" fill="#fff" text-anchor="middle" font-weight="bold">B-Lines (Lung Rockets)</text>
+
+  <!-- Annotation arrows -->
+  <line x1="170" y1="150" x2="170" y2="170" stroke="#fff" stroke-width="2"/>
+  <text x="170" y="185" font-family="sans-serif" font-size="10" fill="#fff" text-anchor="middle">Pleural</text>
+  <text x="170" y="197" font-family="sans-serif" font-size="10" fill="#fff" text-anchor="middle">Line</text>
+
+  <!-- Depth markers on right -->
+  <text x="738" y="165" font-family="monospace" font-size="9" fill="#fff">0cm</text>
+  <text x="738" y="245" font-family="monospace" font-size="9" fill="#fff">5cm</text>
+  <text x="738" y="325" font-family="monospace" font-size="9" fill="#fff">10cm</text>
+  <text x="738" y="405" font-family="monospace" font-size="9" fill="#fff">15cm</text>
+  <text x="738" y="475" font-family="monospace" font-size="9" fill="#fff">20cm</text>
+
+  <!-- Title area at bottom -->
+  <rect x="200" y="520" width="400" height="50" fill="#000"/>
+  <text x="400" y="550" font-family="serif" font-size="24" fill="#fff" text-anchor="middle" font-weight="bold">Module 02: Pulmonary Edema</text>
+
+  <!-- Decorative corners -->
+  <path d="M15,15 L45,15 L45,19 L19,19 L19,45 L15,45Z" fill="#000"/>
+  <path d="M785,15 L755,15 L755,19 L781,19 L781,45 L785,45Z" fill="#000"/>
+  <path d="M15,585 L45,585 L45,581 L19,581 L19,555 L15,555Z" fill="#000"/>
+  <path d="M785,585 L755,585 L755,581 L781,581 L781,555 L785,555Z" fill="#000"/>
+</svg>

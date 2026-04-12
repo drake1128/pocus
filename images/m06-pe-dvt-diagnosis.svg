@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <pattern id="hatch-45" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="5" stroke="#000" stroke-width="1"/>
+    </pattern>
+    <pattern id="hatch-135" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(135)">
+      <line x1="0" y1="0" x2="0" y2="5" stroke="#000" stroke-width="1"/>
+    </pattern>
+    <pattern id="xhatch-fine" patternUnits="userSpaceOnUse" width="4" height="4">
+      <line x1="0" y1="0" x2="4" y2="4" stroke="#000" stroke-width="0.7"/>
+      <line x1="4" y1="0" x2="0" y2="4" stroke="#000" stroke-width="0.7"/>
+    </pattern>
+    <pattern id="thrombus-fill" patternUnits="userSpaceOnUse" width="4" height="4">
+      <line x1="0" y1="0" x2="4" y2="4" stroke="#000" stroke-width="1"/>
+      <line x1="4" y1="0" x2="0" y2="4" stroke="#000" stroke-width="1"/>
+      <line x1="2" y1="0" x2="2" y2="4" stroke="#000" stroke-width="0.5"/>
+    </pattern>
+    <pattern id="horiz-light" patternUnits="userSpaceOnUse" width="5" height="5">
+      <line x1="0" y1="2.5" x2="5" y2="2.5" stroke="#000" stroke-width="0.6"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="600" fill="#fff"/>
+  <rect x="8" y="8" width="784" height="584" fill="none" stroke="#000" stroke-width="4"/>
+  <rect x="14" y="14" width="772" height="572" fill="none" stroke="#000" stroke-width="1.5"/>
+
+  <!-- Title -->
+  <text x="400" y="48" text-anchor="middle" font-family="Georgia, serif" font-size="24" font-weight="bold" fill="#000">PE / DVT — Differential Diagnosis</text>
+  <text x="400" y="70" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#000">肺栓塞 / 深層靜脈栓塞鑑別診斷</text>
+  <line x1="60" y1="80" x2="740" y2="80" stroke="#000" stroke-width="2.5"/>
+
+  <!-- Three panel dividers -->
+  <line x1="272" y1="85" x2="272" y2="570" stroke="#000" stroke-width="2.5"/>
+  <line x1="528" y1="85" x2="528" y2="570" stroke="#000" stroke-width="2.5"/>
+
+  <!-- ===== PANEL 1 (LEFT): RV Dilation ===== -->
+  <g transform="translate(143, 320)">
+    <!-- Panel header -->
+    <text x="0" y="-200" text-anchor="middle" font-family="Georgia, serif" font-size="17" font-weight="bold" fill="#000">RV Dilation</text>
+    <text x="0" y="-180" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#000">右心室擴大</text>
+
+    <!-- Ultrasound sector frame -->
+    <path d="M0,-155 L-105,80 A118,118 0 0,0 105,80 Z" fill="#fff" stroke="#000" stroke-width="2.5"/>
+    <path d="M0,-155 L-105,80 A118,118 0 0,0 105,80 Z" fill="url(#horiz-light)" opacity="0.1"/>
+
+    <!-- Apical 4-chamber view -->
+    <!-- Heart outline -->
+    <path d="M0,-120 C-55,-105 -85,-50 -80,10 C-75,50 -50,75 0,80 C50,75 75,50 80,10 C85,-50 55,-105 0,-120Z" fill="none" stroke="#000" stroke-width="2.5"/>
+
+    <!-- Septum (bowing toward LV) -->
+    <path d="M5,-110 C18,-60 20,0 15,70" fill="none" stroke="#000" stroke-width="2.5"/>
+
+    <!-- AV valve plane -->
+    <line x1="-50" y1="-30" x2="5" y2="-15" stroke="#000" stroke-width="2"/>
+    <line x1="55" y1="-30" x2="15" y2="-15" stroke="#000" stroke-width="2"/>
+
+    <!-- RV (left side of image, DILATED) -->
+    <text x="-35" y="-55" text-anchor="middle" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#000">RV</text>
+    <!-- RV hatching to emphasize dilation -->
+    <ellipse cx="-35" cy="-10" rx="35" ry="55" fill="url(#hatch-45)" opacity="0.12"/>
+
+    <!-- LV (right side, compressed) -->
+    <text x="42" y="-55" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#000">LV</text>
+
+    <!-- RV/LV measurement lines -->
+    <!-- RV width -->
+    <line x1="-70" y1="30" x2="5" y2="30" stroke="#000" stroke-width="2"/>
+    <polygon points="-70,28 -70,32 -75,30" fill="#000"/>
+    <polygon points="5,28 5,32 10,30" fill="#000"/>
+    <!-- LV width -->
+    <line x1="18" y1="30" x2="65" y2="30" stroke="#000" stroke-width="1.5"/>
+    <polygon points="18,28 18,32 13,30" fill="#000"/>
+    <polygon points="65,28 65,32 70,30" fill="#000"/>
+
+    <!-- Ratio label -->
+    <rect x="-50" y="50" width="100" height="22" rx="3" fill="#000"/>
+    <text x="0" y="65" text-anchor="middle" font-family="monospace" font-size="11" fill="#fff">RV/LV &gt; 1.0</text>
+
+    <!-- Bottom label -->
+    <text x="0" y="105" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#000" font-style="italic">Apical 4-chamber view</text>
+
+    <!-- RA/LA labels -->
+    <text x="-35" y="10" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#000">RA</text>
+    <text x="42" y="10" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#000">LA</text>
+  </g>
+
+  <!-- ===== PANEL 2 (CENTER): McConnell's Sign ===== -->
+  <g transform="translate(400, 320)">
+    <!-- Panel header -->
+    <text x="0" y="-200" text-anchor="middle" font-family="Georgia, serif" font-size="17" font-weight="bold" fill="#000">McConnell's Sign</text>
+    <text x="0" y="-180" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#000">McConnell 徵象</text>
+
+    <!-- Ultrasound sector frame -->
+    <path d="M0,-155 L-105,80 A118,118 0 0,0 105,80 Z" fill="#fff" stroke="#000" stroke-width="2.5"/>
+    <path d="M0,-155 L-105,80 A118,118 0 0,0 105,80 Z" fill="url(#horiz-light)" opacity="0.1"/>
+
+    <!-- Apical 4-chamber view -->
+    <!-- Heart outline -->
+    <path d="M0,-120 C-55,-105 -85,-50 -80,10 C-75,50 -50,75 0,80 C50,75 75,50 80,10 C85,-50 55,-105 0,-120Z" fill="none" stroke="#000" stroke-width="2.5"/>
+
+    <!-- Septum -->
+    <path d="M5,-110 C15,-60 18,0 12,70" fill="none" stroke="#000" stroke-width="2.5"/>
+
+    <!-- AV valves -->
+    <line x1="-50" y1="-30" x2="5" y2="-15" stroke="#000" stroke-width="2"/>
+    <line x1="55" y1="-30" x2="15" y2="-15" stroke="#000" stroke-width="2"/>
+
+    <!-- RV free wall - AKINETIC mid-segment, MOVING apex -->
+    <!-- RV free wall outline -->
+    <path d="M-80,-80 C-85,-40 -82,10 -75,50 C-65,70 -40,78 0,80" fill="none" stroke="#000" stroke-width="2.5"/>
+
+    <!-- Akinetic segment marked with bold hatching -->
+    <path d="M-82,-60 C-85,-30 -84,0 -80,30" fill="none" stroke="#000" stroke-width="5"/>
+    <!-- Cross-hatching on akinetic segment -->
+    <line x1="-90" y1="-50" x2="-75" y2="-50" stroke="#000" stroke-width="2"/>
+    <line x1="-92" y1="-35" x2="-76" y2="-35" stroke="#000" stroke-width="2"/>
+    <line x1="-93" y1="-20" x2="-76" y2="-20" stroke="#000" stroke-width="2"/>
+    <line x1="-92" y1="-5" x2="-77" y2="-5" stroke="#000" stroke-width="2"/>
+    <line x1="-90" y1="10" x2="-78" y2="10" stroke="#000" stroke-width="2"/>
+    <line x1="-88" y1="25" x2="-78" y2="25" stroke="#000" stroke-width="2"/>
+
+    <!-- Akinesis arrows (pointing to wall, not moving) -->
+    <line x1="-100" y1="-45" x2="-90" y2="-45" stroke="#000" stroke-width="2"/>
+    <text x="-108" y="-40" font-family="monospace" font-size="7" fill="#000" text-anchor="end">Akinetic</text>
+    <line x1="-100" y1="0" x2="-90" y2="0" stroke="#000" stroke-width="2"/>
+
+    <!-- Apical sparing - moving apex with motion arrows -->
+    <path d="M-60,55 C-50,65 -30,72 -10,75" fill="none" stroke="#000" stroke-width="2.5"/>
+    <!-- Motion arrows at apex (normal contraction) -->
+    <line x1="-45" y1="75" x2="-38" y2="68" stroke="#000" stroke-width="2.5"/>
+    <polygon points="-40,70 -36,66 -42,65" fill="#000"/>
+    <line x1="-25" y1="80" x2="-20" y2="72" stroke="#000" stroke-width="2.5"/>
+    <polygon points="-22,74 -18,70 -24,70" fill="#000"/>
+
+    <!-- Sparing label -->
+    <text x="-15" y="95" font-family="monospace" font-size="8" fill="#000">Apical sparing</text>
+
+    <!-- Labels -->
+    <text x="-40" y="-55" text-anchor="middle" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#000">RV</text>
+    <text x="42" y="-55" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#000">LV</text>
+
+    <!-- Bottom label -->
+    <text x="0" y="110" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#000" font-style="italic">RV free wall akinesis</text>
+    <text x="0" y="124" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#000" font-style="italic">with apical sparing</text>
+  </g>
+
+  <!-- ===== PANEL 3 (RIGHT): DVT ===== -->
+  <g transform="translate(657, 320)">
+    <!-- Panel header -->
+    <text x="0" y="-200" text-anchor="middle" font-family="Georgia, serif" font-size="17" font-weight="bold" fill="#000">DVT</text>
+    <text x="0" y="-180" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#000">深層靜脈栓塞</text>
+
+    <!-- Ultrasound frame (rectangular for vascular) -->
+    <rect x="-100" y="-155" width="200" height="260" rx="6" fill="#fff" stroke="#000" stroke-width="2.5"/>
+    <rect x="-95" y="-150" width="190" height="250" fill="url(#horiz-light)" opacity="0.08"/>
+
+    <!-- Cross-section view of femoral vessels -->
+    <!-- Background tissue -->
+    <ellipse cx="0" cy="-60" rx="80" ry="60" fill="url(#hatch-45)" opacity="0.08"/>
+
+    <!-- Femoral Artery (smaller, compressible) -->
+    <circle cx="-30" cy="-80" r="20" fill="#fff" stroke="#000" stroke-width="2.5"/>
+    <text x="-30" y="-76" text-anchor="middle" font-family="monospace" font-size="9" fill="#000">FA</text>
+    <!-- Pulsation marks -->
+    <circle cx="-30" cy="-80" r="25" fill="none" stroke="#000" stroke-width="1" stroke-dasharray="3,3"/>
+
+    <!-- Femoral Vein (larger, non-compressible with thrombus) -->
+    <circle cx="30" cy="-75" r="28" fill="#fff" stroke="#000" stroke-width="3"/>
+    <!-- Thrombus inside vein -->
+    <circle cx="30" cy="-75" r="22" fill="url(#thrombus-fill)" stroke="#000" stroke-width="2"/>
+    <text x="30" y="-71" text-anchor="middle" font-family="monospace" font-size="9" fill="#fff" font-weight="bold">FV</text>
+
+    <!-- Labels -->
+    <text x="-30" y="-108" text-anchor="middle" font-family="Georgia, serif" font-size="9" fill="#000">Femoral A.</text>
+    <text x="30" y="-110" text-anchor="middle" font-family="Georgia, serif" font-size="9" fill="#000">Femoral V.</text>
+
+    <!-- Non-compressible indicator -->
+    <!-- Compression arrows pressing on vein -->
+    <line x1="30" y1="-120" x2="30" y2="-108" stroke="#000" stroke-width="2.5"/>
+    <polygon points="28,-108 32,-108 30,-103" fill="#000"/>
+    <line x1="30" y1="-38" x2="30" y2="-48" stroke="#000" stroke-width="2.5"/>
+    <polygon points="28,-48 32,-48 30,-53" fill="#000"/>
+    <!-- X showing non-compressible -->
+    <line x1="62" y1="-88" x2="74" y2="-62" stroke="#000" stroke-width="3"/>
+    <line x1="74" y1="-88" x2="62" y2="-62" stroke="#000" stroke-width="3"/>
+
+    <!-- Longitudinal view below -->
+    <line x1="-90" y1="-20" x2="90" y2="-20" stroke="#000" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+    <!-- Longitudinal vein view -->
+    <!-- Vein walls -->
+    <path d="M-80,20 C-40,18 20,18 80,20" fill="none" stroke="#000" stroke-width="2.5"/>
+    <path d="M-80,55 C-40,53 20,53 80,55" fill="none" stroke="#000" stroke-width="2.5"/>
+
+    <!-- Echogenic thrombus inside -->
+    <ellipse cx="10" cy="37" rx="45" ry="12" fill="url(#thrombus-fill)" stroke="#000" stroke-width="2"/>
+
+    <!-- Thrombus label -->
+    <line x1="10" y1="52" x2="10" y2="68" stroke="#000" stroke-width="1.5"/>
+    <text x="10" y="80" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#000" font-weight="bold">Thrombus 血栓</text>
+
+    <!-- Non-compressible label -->
+    <rect x="-55" y="88" width="110" height="18" rx="3" fill="#000"/>
+    <text x="0" y="101" text-anchor="middle" font-family="monospace" font-size="10" fill="#fff">Non-compressible</text>
+  </g>
+
+  <!-- Corner decorations -->
+  <path d="M18,18 L48,18 L48,22 L22,22 L22,48 L18,48Z" fill="#000"/>
+  <path d="M782,18 L752,18 L752,22 L778,22 L778,48 L782,48Z" fill="#000"/>
+  <path d="M18,582 L48,582 L48,578 L22,578 L22,552 L18,552Z" fill="#000"/>
+  <path d="M782,582 L752,582 L752,578 L778,578 L778,552 L782,552Z" fill="#000"/>
+</svg>

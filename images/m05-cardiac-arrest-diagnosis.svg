@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <pattern id="hatch-r" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="5" stroke="#000" stroke-width="1"/>
+    </pattern>
+    <pattern id="hatch-l" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(135)">
+      <line x1="0" y1="0" x2="0" y2="5" stroke="#000" stroke-width="1"/>
+    </pattern>
+    <pattern id="xhatch" patternUnits="userSpaceOnUse" width="5" height="5">
+      <line x1="0" y1="0" x2="5" y2="5" stroke="#000" stroke-width="0.7"/>
+      <line x1="5" y1="0" x2="0" y2="5" stroke="#000" stroke-width="0.7"/>
+    </pattern>
+    <pattern id="horiz" patternUnits="userSpaceOnUse" width="5" height="5">
+      <line x1="0" y1="2.5" x2="5" y2="2.5" stroke="#000" stroke-width="0.7"/>
+    </pattern>
+    <pattern id="dense" patternUnits="userSpaceOnUse" width="3" height="3" patternTransform="rotate(30)">
+      <line x1="0" y1="0" x2="0" y2="3" stroke="#000" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="600" fill="#fff"/>
+  <rect x="8" y="8" width="784" height="584" fill="none" stroke="#000" stroke-width="4"/>
+  <rect x="14" y="14" width="772" height="572" fill="none" stroke="#000" stroke-width="1.5"/>
+
+  <!-- Title -->
+  <text x="400" y="48" text-anchor="middle" font-family="Georgia, serif" font-size="24" font-weight="bold" fill="#000">H's and T's — Reversible Causes</text>
+  <text x="400" y="70" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#000">心臟停止可逆原因 — POCUS 對應</text>
+  <line x1="60" y1="80" x2="740" y2="80" stroke="#000" stroke-width="2.5"/>
+
+  <!-- Grid: 3 columns x 2 rows -->
+  <!-- Row 1: y=90-320, Row 2: y=320-560 -->
+  <!-- Col widths: ~245px each centered at 155, 400, 645 -->
+
+  <!-- Vertical dividers -->
+  <line x1="272" y1="85" x2="272" y2="565" stroke="#000" stroke-width="2"/>
+  <line x1="528" y1="85" x2="528" y2="565" stroke="#000" stroke-width="2"/>
+  <!-- Horizontal divider -->
+  <line x1="20" y1="322" x2="780" y2="322" stroke="#000" stroke-width="2"/>
+
+  <!-- ===== PANEL 1: Hypovolemia (top-left) ===== -->
+  <g transform="translate(146, 200)">
+    <text x="0" y="-95" text-anchor="middle" font-family="Georgia, serif" font-size="16" font-weight="bold" fill="#000">Hypovolemia</text>
+    <text x="0" y="-77" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#000">低血容</text>
+
+    <!-- Ultrasound frame -->
+    <rect x="-80" y="-65" width="160" height="120" rx="6" fill="#fff" stroke="#000" stroke-width="2.5"/>
+    <rect x="-75" y="-60" width="150" height="110" fill="url(#horiz)" opacity="0.1"/>
+
+    <!-- Collapsed IVC -->
+    <path d="M-55,0 C-35,-2 0,-4 35,-3 C50,-2 60,0 65,2" fill="none" stroke="#000" stroke-width="3"/>
+    <path d="M-55,6 C-35,4 0,2 35,3 C50,4 60,5 65,6" fill="none" stroke="#000" stroke-width="3"/>
+
+    <!-- Near-total collapse arrows -->
+    <line x1="0" y1="-18" x2="0" y2="-6" stroke="#000" stroke-width="2"/>
+    <polygon points="-2,-6 2,-6 0,-2" fill="#000"/>
+    <line x1="0" y1="18" x2="0" y2="8" stroke="#000" stroke-width="2"/>
+    <polygon points="-2,8 2,8 0,4" fill="#000"/>
+
+    <text x="0" y="72" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#000" font-style="italic">Collapsed IVC</text>
+  </g>
+
+  <!-- ===== PANEL 2: Hypoxia / Pneumothorax (top-center) ===== -->
+  <g transform="translate(400, 200)">
+    <text x="0" y="-95" text-anchor="middle" font-family="Georgia, serif" font-size="16" font-weight="bold" fill="#000">Hypoxia</text>
+    <text x="0" y="-77" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#000">低血氧（氣胸）</text>
+
+    <!-- Ultrasound frame -->
+    <rect x="-80" y="-65" width="160" height="120" rx="6" fill="#fff" stroke="#000" stroke-width="2.5"/>
+    <rect x="-75" y="-60" width="150" height="110" fill="url(#horiz)" opacity="0.1"/>
+
+    <!-- Lung with absent sliding - M-mode barcode sign hint -->
+    <!-- Pleural line -->
+    <line x1="-60" y1="-10" x2="60" y2="-10" stroke="#000" stroke-width="3"/>
+    <!-- Above: A-lines (horizontal) -->
+    <line x1="-55" y1="-30" x2="55" y2="-30" stroke="#000" stroke-width="1.5"/>
+    <line x1="-50" y1="-45" x2="50" y2="-45" stroke="#000" stroke-width="1"/>
+    <!-- Below: stratosphere sign (parallel lines = no movement) -->
+    <line x1="-60" y1="5" x2="60" y2="5" stroke="#000" stroke-width="1.5"/>
+    <line x1="-60" y1="15" x2="60" y2="15" stroke="#000" stroke-width="1.5"/>
+    <line x1="-60" y1="25" x2="60" y2="25" stroke="#000" stroke-width="1.5"/>
+    <line x1="-60" y1="35" x2="60" y2="35" stroke="#000" stroke-width="1.5"/>
+
+    <!-- X mark for absent sliding -->
+    <line x1="-15" y1="-18" x2="15" y2="-2" stroke="#000" stroke-width="2.5"/>
+    <line x1="15" y1="-18" x2="-15" y2="-2" stroke="#000" stroke-width="2.5"/>
+
+    <text x="0" y="72" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#000" font-style="italic">Absent lung sliding</text>
+  </g>
+
+  <!-- ===== PANEL 3: Tamponade (top-right) ===== -->
+  <g transform="translate(654, 200)">
+    <text x="0" y="-95" text-anchor="middle" font-family="Georgia, serif" font-size="16" font-weight="bold" fill="#000">Tamponade</text>
+    <text x="0" y="-77" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#000">心包填塞</text>
+
+    <!-- Ultrasound frame -->
+    <rect x="-80" y="-65" width="160" height="120" rx="6" fill="#fff" stroke="#000" stroke-width="2.5"/>
+    <rect x="-75" y="-60" width="150" height="110" fill="url(#horiz)" opacity="0.1"/>
+
+    <!-- Pericardial effusion -->
+    <ellipse cx="0" cy="0" rx="55" ry="38" fill="#fff" stroke="#000" stroke-width="2"/>
+    <ellipse cx="0" cy="0" rx="55" ry="38" fill="url(#xhatch)" opacity="0.25"/>
+    <!-- Heart inside -->
+    <ellipse cx="-5" cy="0" rx="30" ry="25" fill="#fff" stroke="#000" stroke-width="2.5"/>
+    <!-- RV diastolic collapse -->
+    <path d="M22,-18 C16,-10 16,10 22,18" fill="none" stroke="#000" stroke-width="2" stroke-dasharray="4,2"/>
+    <!-- Arrow showing collapse -->
+    <line x1="40" y1="0" x2="28" y2="0" stroke="#000" stroke-width="2"/>
+    <polygon points="28,-2 28,2 24,0" fill="#000"/>
+
+    <text x="0" y="72" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#000" font-style="italic">Pericardial effusion</text>
+  </g>
+
+  <!-- ===== PANEL 4: Tension Pneumothorax (bottom-left) ===== -->
+  <g transform="translate(146, 440)">
+    <text x="0" y="-95" text-anchor="middle" font-family="Georgia, serif" font-size="16" font-weight="bold" fill="#000">Tension PTX</text>
+    <text x="0" y="-77" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#000">張力性氣胸</text>
+
+    <!-- Ultrasound frame -->
+    <rect x="-80" y="-65" width="160" height="120" rx="6" fill="#fff" stroke="#000" stroke-width="2.5"/>
+    <rect x="-75" y="-60" width="150" height="110" fill="url(#horiz)" opacity="0.1"/>
+
+    <!-- M-mode Barcode/Stratosphere sign -->
+    <!-- Vertical time axis lines -->
+    <line x1="-60" y1="-50" x2="-60" y2="45" stroke="#000" stroke-width="1.5"/>
+    <!-- Pleural line in M-mode -->
+    <line x1="-60" y1="-5" x2="60" y2="-5" stroke="#000" stroke-width="2.5"/>
+    <!-- All parallel lines (barcode = no seashore) -->
+    <line x1="-55" y1="-45" x2="55" y2="-45" stroke="#000" stroke-width="1"/>
+    <line x1="-55" y1="-35" x2="55" y2="-35" stroke="#000" stroke-width="1"/>
+    <line x1="-55" y1="-25" x2="55" y2="-25" stroke="#000" stroke-width="1"/>
+    <line x1="-55" y1="-15" x2="55" y2="-15" stroke="#000" stroke-width="1"/>
+    <line x1="-55" y1="5" x2="55" y2="5" stroke="#000" stroke-width="1"/>
+    <line x1="-55" y1="15" x2="55" y2="15" stroke="#000" stroke-width="1"/>
+    <line x1="-55" y1="25" x2="55" y2="25" stroke="#000" stroke-width="1"/>
+    <line x1="-55" y1="35" x2="55" y2="35" stroke="#000" stroke-width="1"/>
+
+    <!-- Label on image -->
+    <text x="40" y="-38" font-family="monospace" font-size="8" fill="#000">M-mode</text>
+
+    <text x="0" y="72" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#000" font-style="italic">Barcode sign (M-mode)</text>
+  </g>
+
+  <!-- ===== PANEL 5: Thrombosis PE (bottom-center) ===== -->
+  <g transform="translate(400, 440)">
+    <text x="0" y="-95" text-anchor="middle" font-family="Georgia, serif" font-size="16" font-weight="bold" fill="#000">Thrombosis (PE)</text>
+    <text x="0" y="-77" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#000">肺栓塞</text>
+
+    <!-- Ultrasound frame -->
+    <rect x="-80" y="-65" width="160" height="120" rx="6" fill="#fff" stroke="#000" stroke-width="2.5"/>
+    <rect x="-75" y="-60" width="150" height="110" fill="url(#horiz)" opacity="0.1"/>
+
+    <!-- Apical 4-chamber with dilated RV -->
+    <!-- Heart outline -->
+    <path d="M0,-48 C-40,-35 -55,-5 -50,25 C-45,40 -25,45 0,45 C25,45 45,40 50,25 C55,-5 40,-35 0,-48Z" fill="none" stroke="#000" stroke-width="2"/>
+    <!-- Septum -->
+    <line x1="0" y1="-45" x2="0" y2="42" stroke="#000" stroke-width="2"/>
+    <!-- AV valves -->
+    <line x1="-30" y1="-8" x2="0" y2="5" stroke="#000" stroke-width="2"/>
+    <line x1="30" y1="-8" x2="0" y2="5" stroke="#000" stroke-width="2"/>
+
+    <!-- RV is larger (right side of image = anatomical left) -->
+    <!-- RV label (big) -->
+    <text x="-25" y="-22" text-anchor="middle" font-family="monospace" font-size="12" font-weight="bold" fill="#000">RV</text>
+    <!-- LV label (small) -->
+    <text x="25" y="-22" text-anchor="middle" font-family="monospace" font-size="9" fill="#000">LV</text>
+    <!-- RV >> LV indicator -->
+    <text x="0" y="38" text-anchor="middle" font-family="monospace" font-size="8" fill="#000">RV &gt;&gt; LV</text>
+
+    <text x="0" y="72" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#000" font-style="italic">Dilated RV</text>
+  </g>
+
+  <!-- ===== PANEL 6: Thrombosis MI (bottom-right) ===== -->
+  <g transform="translate(654, 440)">
+    <text x="0" y="-95" text-anchor="middle" font-family="Georgia, serif" font-size="16" font-weight="bold" fill="#000">Thrombosis (MI)</text>
+    <text x="0" y="-77" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#000">心肌梗塞</text>
+
+    <!-- Ultrasound frame -->
+    <rect x="-80" y="-65" width="160" height="120" rx="6" fill="#fff" stroke="#000" stroke-width="2.5"/>
+    <rect x="-75" y="-60" width="150" height="110" fill="url(#horiz)" opacity="0.1"/>
+
+    <!-- Heart in PSLA-like view -->
+    <ellipse cx="0" cy="0" rx="48" ry="35" fill="none" stroke="#000" stroke-width="2"/>
+    <!-- LV cavity -->
+    <ellipse cx="5" cy="0" rx="28" ry="20" fill="#fff" stroke="#000" stroke-width="2"/>
+
+    <!-- Wall motion abnormality - akinetic segment with X marks -->
+    <!-- Normal segments (arrows showing motion) -->
+    <path d="M-40,10 L-34,8" fill="none" stroke="#000" stroke-width="2"/>
+    <polygon points="-34,6 -34,10 -30,8" fill="#000"/>
+    <path d="M-35,-15 L-30,-12" fill="none" stroke="#000" stroke-width="2"/>
+    <polygon points="-30,-14 -30,-10 -26,-12" fill="#000"/>
+
+    <!-- Akinetic segment (marked area with hatching) -->
+    <path d="M20,-30 C35,-22 42,-10 42,0" fill="none" stroke="#000" stroke-width="4"/>
+    <!-- X marks on akinetic wall -->
+    <line x1="28" y1="-28" x2="36" y2="-20" stroke="#000" stroke-width="2.5"/>
+    <line x1="36" y1="-28" x2="28" y2="-20" stroke="#000" stroke-width="2.5"/>
+    <line x1="36" y1="-15" x2="44" y2="-7" stroke="#000" stroke-width="2.5"/>
+    <line x1="44" y1="-15" x2="36" y2="-7" stroke="#000" stroke-width="2.5"/>
+
+    <!-- Label -->
+    <text x="45" y="18" font-family="monospace" font-size="7" fill="#000">RWMA</text>
+
+    <text x="0" y="72" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#000" font-style="italic">Wall motion abnormality</text>
+  </g>
+
+  <!-- Corner decorations -->
+  <path d="M18,18 L48,18 L48,22 L22,22 L22,48 L18,48Z" fill="#000"/>
+  <path d="M782,18 L752,18 L752,22 L778,22 L778,48 L782,48Z" fill="#000"/>
+  <path d="M18,582 L48,582 L48,578 L22,578 L22,552 L18,552Z" fill="#000"/>
+  <path d="M782,582 L752,582 L752,578 L778,578 L778,552 L782,552Z" fill="#000"/>
+</svg>

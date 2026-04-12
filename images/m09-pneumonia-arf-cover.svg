@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <title>Module 09: Pneumonia and Acute Respiratory Failure - Cover</title>
+  <defs>
+    <pattern id="hatch-light" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#000" stroke-width="0.8"/>
+    </pattern>
+    <pattern id="hatch-medium" patternUnits="userSpaceOnUse" width="4" height="4" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="4" stroke="#000" stroke-width="1"/>
+    </pattern>
+    <pattern id="cross-hatch" patternUnits="userSpaceOnUse" width="4" height="4">
+      <line x1="0" y1="0" x2="4" y2="4" stroke="#000" stroke-width="0.6"/>
+      <line x1="4" y1="0" x2="0" y2="4" stroke="#000" stroke-width="0.6"/>
+    </pattern>
+    <pattern id="cross-hatch-dense" patternUnits="userSpaceOnUse" width="3" height="3">
+      <line x1="0" y1="0" x2="3" y2="3" stroke="#000" stroke-width="0.7"/>
+      <line x1="3" y1="0" x2="0" y2="3" stroke="#000" stroke-width="0.7"/>
+    </pattern>
+    <pattern id="stipple" patternUnits="userSpaceOnUse" width="6" height="6">
+      <circle cx="1" cy="1" r="0.5" fill="#000"/>
+      <circle cx="4" cy="4" r="0.5" fill="#000"/>
+    </pattern>
+    <pattern id="dense-stipple" patternUnits="userSpaceOnUse" width="4" height="4">
+      <circle cx="1" cy="1" r="0.6" fill="#000"/>
+      <circle cx="3" cy="3" r="0.6" fill="#000"/>
+      <circle cx="1" cy="3" r="0.4" fill="#000"/>
+      <circle cx="3" cy="1" r="0.4" fill="#000"/>
+    </pattern>
+    <pattern id="hepatization" patternUnits="userSpaceOnUse" width="5" height="5">
+      <line x1="0" y1="2.5" x2="5" y2="2.5" stroke="#000" stroke-width="0.5"/>
+      <line x1="2.5" y1="0" x2="2.5" y2="5" stroke="#000" stroke-width="0.3"/>
+      <circle cx="1" cy="1" r="0.3" fill="#000"/>
+      <circle cx="4" cy="4" r="0.3" fill="#000"/>
+    </pattern>
+    <clipPath id="main-sector">
+      <path d="M400,55 L120,530 L680,530 Z"/>
+    </clipPath>
+    <clipPath id="inset-sector">
+      <path d="M680,80 L620,260 L740,260 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="#fff"/>
+  <rect x="6" y="6" width="788" height="588" fill="none" stroke="#000" stroke-width="5"/>
+  <rect x="12" y="12" width="776" height="576" fill="none" stroke="#000" stroke-width="2"/>
+
+  <!-- Title -->
+  <rect x="22" y="20" width="360" height="55" fill="#000"/>
+  <text x="202" y="44" font-family="serif" font-size="19" font-weight="bold" fill="#fff" text-anchor="middle">Module 09</text>
+  <text x="202" y="64" font-family="serif" font-size="13" fill="#fff" text-anchor="middle">Pneumonia &amp; ARF 肺炎與急性呼吸衰竭</text>
+
+  <!-- Main ultrasound image - large sector showing consolidation -->
+  <path d="M400,55 L120,530 L680,530 Z" fill="#000" stroke="#000" stroke-width="4"/>
+
+  <!-- Background tissue -->
+  <path d="M400,55 L120,530 L680,530 Z" fill="url(#stipple)" stroke="none" clip-path="url(#main-sector)"/>
+
+  <!-- Probe at apex of sector -->
+  <rect x="385" y="30" width="30" height="32" rx="5" fill="#fff" stroke="#000" stroke-width="3.5"/>
+  <rect x="390" y="58" width="20" height="8" rx="2" fill="#000"/>
+  <!-- Probe cable -->
+  <path d="M400,30 Q380,20 350,18 Q300,15 250,20 Q200,28 180,40" fill="none" stroke="#000" stroke-width="3"/>
+  <!-- Cable hatching -->
+  <path d="M350,18 Q300,16 250,21" fill="none" stroke="#000" stroke-width="1.5"/>
+
+  <!-- Ribs on either side -->
+  <!-- Left rib pair -->
+  <ellipse cx="240" cy="145" rx="35" ry="14" fill="url(#cross-hatch)" stroke="#fff" stroke-width="3"/>
+  <!-- Rib shadow -->
+  <path d="M210,159 L170,530" fill="none" stroke="#000" stroke-width="8" opacity="0.3" clip-path="url(#main-sector)"/>
+  <path d="M270,159 L240,530" fill="none" stroke="#000" stroke-width="8" opacity="0.3" clip-path="url(#main-sector)"/>
+
+  <!-- Right rib pair -->
+  <ellipse cx="560" cy="145" rx="35" ry="14" fill="url(#cross-hatch)" stroke="#fff" stroke-width="3"/>
+  <path d="M530,159 L500,530" fill="none" stroke="#000" stroke-width="8" opacity="0.3" clip-path="url(#main-sector)"/>
+  <path d="M590,159 L560,530" fill="none" stroke="#000" stroke-width="8" opacity="0.3" clip-path="url(#main-sector)"/>
+
+  <!-- Pleural line -->
+  <line x1="265" y1="170" x2="535" y2="170" stroke="#fff" stroke-width="4"/>
+  <text x="550" y="168" font-family="monospace" font-size="10" fill="#fff">Pleural line</text>
+
+  <!-- CONSOLIDATED LUNG (hepatization - tissue-like appearance) -->
+  <!-- The consolidated area looks like liver tissue -->
+  <path d="M260,175 L530,175 L600,440 Q500,500 400,510 Q300,500 200,440 Z" fill="url(#hepatization)" stroke="none" clip-path="url(#main-sector)"/>
+
+  <!-- Consolidated lung outline -->
+  <path d="M260,175 L530,175 L600,440 Q500,500 400,510 Q300,500 200,440 Z" fill="none" stroke="#fff" stroke-width="2" clip-path="url(#main-sector)"/>
+
+  <!-- Hepatization texture - additional cross-hatching for tissue look -->
+  <path d="M280,200 L510,200 L570,400 Q480,460 400,470 Q320,460 230,400 Z" fill="url(#dense-stipple)" stroke="none" opacity="0.5" clip-path="url(#main-sector)"/>
+
+  <!-- Air bronchograms (bright dots and lines within consolidated dark tissue) -->
+  <!-- Main bronchial tree -->
+  <path d="M400,200 L400,280" stroke="#fff" stroke-width="3"/>
+  <path d="M400,280 L360,340" stroke="#fff" stroke-width="2.5"/>
+  <path d="M400,280 L440,340" stroke="#fff" stroke-width="2.5"/>
+  <path d="M360,340 L330,390" stroke="#fff" stroke-width="2"/>
+  <path d="M360,340 L370,400" stroke="#fff" stroke-width="2"/>
+  <path d="M440,340 L470,390" stroke="#fff" stroke-width="2"/>
+  <path d="M440,340 L430,400" stroke="#fff" stroke-width="2"/>
+  <!-- Smaller branches -->
+  <path d="M330,390 L310,420" stroke="#fff" stroke-width="1.5"/>
+  <path d="M330,390 L345,430" stroke="#fff" stroke-width="1.5"/>
+  <path d="M470,390 L490,420" stroke="#fff" stroke-width="1.5"/>
+  <path d="M470,390 L455,430" stroke="#fff" stroke-width="1.5"/>
+  <path d="M370,400 L355,440" stroke="#fff" stroke-width="1.2"/>
+  <path d="M430,400 L445,440" stroke="#fff" stroke-width="1.2"/>
+
+  <!-- Bright dots (air bronchogram punctate echoes) -->
+  <circle cx="400" cy="220" r="3" fill="#fff"/>
+  <circle cx="400" cy="250" r="2.5" fill="#fff"/>
+  <circle cx="380" cy="310" r="2" fill="#fff"/>
+  <circle cx="420" cy="310" r="2" fill="#fff"/>
+  <circle cx="350" cy="360" r="2" fill="#fff"/>
+  <circle cx="450" cy="360" r="2" fill="#fff"/>
+  <circle cx="340" cy="400" r="1.5" fill="#fff"/>
+  <circle cx="460" cy="400" r="1.5" fill="#fff"/>
+  <circle cx="370" cy="380" r="1.5" fill="#fff"/>
+  <circle cx="430" cy="380" r="1.5" fill="#fff"/>
+  <circle cx="320" cy="420" r="1.5" fill="#fff"/>
+  <circle cx="480" cy="420" r="1.5" fill="#fff"/>
+  <circle cx="395" cy="440" r="2" fill="#fff"/>
+  <circle cx="410" cy="430" r="1.5" fill="#fff"/>
+
+  <!-- Label for air bronchograms -->
+  <text x="400" y="195" font-family="monospace" font-size="10" fill="#fff" text-anchor="middle" font-weight="bold">Air Bronchograms</text>
+  <text x="400" y="475" font-family="monospace" font-size="12" fill="#fff" text-anchor="middle" font-weight="bold">CONSOLIDATION</text>
+  <text x="400" y="490" font-family="monospace" font-size="9" fill="#fff" text-anchor="middle">Hepatization 肝化</text>
+
+  <!-- Depth markers -->
+  <line x1="130" y1="200" x2="140" y2="200" stroke="#fff" stroke-width="1.5"/>
+  <line x1="130" y1="300" x2="140" y2="300" stroke="#fff" stroke-width="1.5"/>
+  <line x1="130" y1="400" x2="140" y2="400" stroke="#fff" stroke-width="1.5"/>
+  <line x1="130" y1="500" x2="140" y2="500" stroke="#fff" stroke-width="1.5"/>
+
+  <!-- Main sector border -->
+  <path d="M400,55 L120,530 L680,530 Z" fill="none" stroke="#fff" stroke-width="2.5"/>
+
+  <!-- ======= INSET: Normal lung comparison (top right) ======= -->
+  <rect x="610" y="68" width="170" height="210" fill="#fff" stroke="#000" stroke-width="3"/>
+  <rect x="616" y="74" width="158" height="22" fill="#000"/>
+  <text x="695" y="90" font-family="serif" font-size="10" font-weight="bold" fill="#fff" text-anchor="middle">Normal Lung 正常肺</text>
+
+  <!-- Small sector for normal lung -->
+  <path d="M695,100 L640,260 L750,260 Z" fill="#000" stroke="#fff" stroke-width="1.5"/>
+  <path d="M695,100 L640,260 L750,260 Z" fill="url(#stipple)" stroke="none" clip-path="url(#inset-sector)"/>
+
+  <!-- Normal: ribs -->
+  <ellipse cx="665" cy="130" rx="12" ry="6" fill="url(#cross-hatch)" stroke="#fff" stroke-width="1.5"/>
+  <ellipse cx="725" cy="130" rx="12" ry="6" fill="url(#cross-hatch)" stroke="#fff" stroke-width="1.5"/>
+
+  <!-- Normal: pleural line -->
+  <line x1="673" y1="140" x2="717" y2="140" stroke="#fff" stroke-width="2.5"/>
+
+  <!-- Normal: A-lines -->
+  <line x1="666" y1="165" x2="724" y2="165" stroke="#fff" stroke-width="1.8"/>
+  <line x1="660" y1="190" x2="730" y2="190" stroke="#fff" stroke-width="1.5"/>
+  <line x1="654" y1="215" x2="736" y2="215" stroke="#fff" stroke-width="1.2"/>
+  <line x1="648" y1="240" x2="742" y2="240" stroke="#fff" stroke-width="0.8"/>
+
+  <!-- Normal sector border -->
+  <path d="M695,100 L640,260 L750,260 Z" fill="none" stroke="#fff" stroke-width="1.5"/>
+
+  <!-- Comparison arrow and text -->
+  <text x="695" y="273" font-family="serif" font-size="8" fill="#000" text-anchor="middle" font-style="italic">A-lines = Normal aeration</text>
+
+  <!-- VS label between inset and main -->
+  <text x="610" y="300" font-family="serif" font-size="14" fill="#000" font-weight="bold">vs.</text>
+
+  <!-- Annotations outside sector -->
+  <!-- Arrow pointing to air bronchogram -->
+  <path d="M90,300 L140,300 L200,280" fill="none" stroke="#000" stroke-width="2.5"/>
+  <polygon points="200,280 192,282 194,290" fill="#000"/>
+  <text x="80" y="290" font-family="serif" font-size="10" fill="#000" text-anchor="end">Air</text>
+  <text x="80" y="302" font-family="serif" font-size="10" fill="#000" text-anchor="end">Bronchogram</text>
+  <text x="80" y="314" font-family="serif" font-size="9" fill="#000" text-anchor="end">氣管支氣管徵</text>
+
+  <!-- Arrow pointing to consolidation texture -->
+  <path d="M90,420 L160,420 L230,400" fill="none" stroke="#000" stroke-width="2.5"/>
+  <polygon points="230,400 222,400 224,408" fill="#000"/>
+  <text x="80" y="410" font-family="serif" font-size="10" fill="#000" text-anchor="end">Tissue-like</text>
+  <text x="80" y="422" font-family="serif" font-size="10" fill="#000" text-anchor="end">= Hepatization</text>
+  <text x="80" y="434" font-family="serif" font-size="9" fill="#000" text-anchor="end">肺實質化</text>
+
+  <!-- Bottom label bar -->
+  <rect x="150" y="540" width="500" height="40" fill="#fff" stroke="#000" stroke-width="2"/>
+  <text x="400" y="558" font-family="serif" font-size="12" fill="#000" text-anchor="middle" font-weight="bold">Lung Consolidation with Air Bronchograms — 肺實質化合併氣管支氣管徵</text>
+  <text x="400" y="573" font-family="serif" font-size="10" fill="#000" text-anchor="middle" font-style="italic">The lung appears tissue-like (hepatized) with bright branching air within</text>
+
+  <!-- Corner decorations -->
+  <path d="M18,18 L48,18 L48,20 L20,20 L20,48 L18,48 Z" fill="#000"/>
+  <path d="M782,18 L752,18 L752,20 L780,20 L780,48 L782,48 Z" fill="#000"/>
+  <path d="M18,582 L48,582 L48,580 L20,580 L20,552 L18,552 Z" fill="#000"/>
+  <path d="M782,582 L752,582 L752,580 L780,580 L780,552 L782,552 Z" fill="#000"/>
+</svg>

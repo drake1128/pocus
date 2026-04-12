@@ -3,9 +3,13 @@ title: "呼吸喘"
 subtitle: "Dyspnea"
 ---
 
+![呼吸喘 — 肺部超音波掃描](../../images/m08-dyspnea-cover.svg){width=100% fig-alt="肺部超音波多區掃描的黑白版畫風格插圖"}
+
 ## 章節簡介
 
 呼吸喘為急診與住院病人常見的主訴，背後可能的診斷多樣，即時的診斷才能給予對應的治療。
+
+![呼吸喘鑑別診斷 — A-lines、B-lines、胸腔積液](../../images/m08-dyspnea-diagnosis.svg){width=100% fig-alt="正常 A-lines、肺水腫 B-lines、胸腔積液超音波鑑別版畫插圖"}
 
 ## 本章課程
 

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <pattern id="crosshatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#000" stroke-width="1.2"/>
+      <line x1="0" y1="0" x2="6" y2="0" stroke="#000" stroke-width="1.2"/>
+    </pattern>
+    <pattern id="hatch-dense" width="3" height="3" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="3" stroke="#000" stroke-width="1"/>
+    </pattern>
+    <pattern id="hatch-light" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(-30)">
+      <line x1="0" y1="0" x2="0" y2="8" stroke="#000" stroke-width="0.7"/>
+    </pattern>
+    <pattern id="hatch-horiz" width="5" height="5" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="2.5" x2="5" y2="2.5" stroke="#000" stroke-width="0.8"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="#fff"/>
+
+  <!-- Outer border -->
+  <rect x="5" y="5" width="790" height="590" fill="none" stroke="#000" stroke-width="5"/>
+
+  <!-- Title bar -->
+  <rect x="5" y="5" width="790" height="55" fill="#000"/>
+  <text x="400" y="40" font-family="serif" font-size="22" fill="#fff" text-anchor="middle" font-weight="bold">肺水腫鑑別診斷 — Pulmonary Edema Differential</text>
+
+  <!-- LEFT PANEL: B-lines pattern -->
+  <rect x="20" y="75" width="370" height="505" fill="#fff" stroke="#000" stroke-width="4"/>
+  <!-- Panel header -->
+  <rect x="20" y="75" width="370" height="45" fill="#000"/>
+  <text x="205" y="105" font-family="serif" font-size="18" fill="#fff" text-anchor="middle" font-weight="bold">B-lines ≥ 3 = 肺水腫</text>
+
+  <!-- Probe orientation icon -->
+  <rect x="188" y="130" width="18" height="35" rx="4" fill="#000"/>
+  <rect x="191" y="163" width="12" height="7" rx="2" fill="#000"/>
+  <!-- Indicator dot -->
+  <circle cx="193" cy="143" r="3" fill="#fff"/>
+  <!-- Waves -->
+  <path d="M197,172 C205,180 205,180 197,188" fill="none" stroke="#000" stroke-width="1.5"/>
+  <path d="M197,172 C189,180 189,180 197,188" fill="none" stroke="#000" stroke-width="1.5"/>
+
+  <!-- Ultrasound screen area -->
+  <rect x="40" y="200" width="330" height="300" fill="#000" stroke="#000" stroke-width="3"/>
+
+  <!-- Rib shadows left -->
+  <path d="M45,210 L45,490 L75,490 L75,210Z" fill="url(#crosshatch)" stroke="#fff" stroke-width="1" opacity="0.5"/>
+  <!-- Rib shadows right -->
+  <path d="M340,210 L340,490 L365,490 L365,210Z" fill="url(#crosshatch)" stroke="#fff" stroke-width="1" opacity="0.5"/>
+
+  <!-- Pleural line -->
+  <line x1="75" y1="230" x2="340" y2="230" stroke="#fff" stroke-width="3.5"/>
+  <text x="60" y="228" font-family="sans-serif" font-size="8" fill="#fff" transform="rotate(-90,60,228)">Pleura</text>
+
+  <!-- B-line 1 -->
+  <line x1="115" y1="233" x2="115" y2="495" stroke="#fff" stroke-width="4.5"/>
+  <line x1="112" y1="233" x2="112" y2="495" stroke="#fff" stroke-width="1.5"/>
+  <line x1="118" y1="233" x2="118" y2="495" stroke="#fff" stroke-width="1.5"/>
+
+  <!-- B-line 2 -->
+  <line x1="165" y1="233" x2="165" y2="495" stroke="#fff" stroke-width="4.5"/>
+  <line x1="162" y1="233" x2="162" y2="495" stroke="#fff" stroke-width="1.5"/>
+  <line x1="168" y1="233" x2="168" y2="495" stroke="#fff" stroke-width="1.5"/>
+
+  <!-- B-line 3 -->
+  <line x1="215" y1="233" x2="215" y2="495" stroke="#fff" stroke-width="4.5"/>
+  <line x1="212" y1="233" x2="212" y2="495" stroke="#fff" stroke-width="1.5"/>
+  <line x1="218" y1="233" x2="218" y2="495" stroke="#fff" stroke-width="1.5"/>
+
+  <!-- B-line 4 -->
+  <line x1="265" y1="233" x2="265" y2="495" stroke="#fff" stroke-width="4.5"/>
+  <line x1="262" y1="233" x2="262" y2="495" stroke="#fff" stroke-width="1.5"/>
+  <line x1="268" y1="233" x2="268" y2="495" stroke="#fff" stroke-width="1.5"/>
+
+  <!-- B-line 5 -->
+  <line x1="315" y1="233" x2="315" y2="495" stroke="#fff" stroke-width="4.5"/>
+  <line x1="312" y1="233" x2="312" y2="495" stroke="#fff" stroke-width="1.5"/>
+  <line x1="318" y1="233" x2="318" y2="495" stroke="#fff" stroke-width="1.5"/>
+
+  <!-- Count label -->
+  <rect x="80" y="500" width="250" height="28" fill="#fff" stroke="#000" stroke-width="2"/>
+  <text x="205" y="520" font-family="sans-serif" font-size="13" fill="#000" text-anchor="middle" font-weight="bold">5 B-lines = Positive for 肺水腫</text>
+
+  <!-- Annotation: arrows showing B-lines go from pleural line to bottom -->
+  <text x="205" y="218" font-family="sans-serif" font-size="10" fill="#fff" text-anchor="middle">Pleural Line</text>
+  <!-- Down arrow indicators -->
+  <text x="90" y="370" font-family="sans-serif" font-size="20" fill="#fff" text-anchor="middle">↓</text>
+  <text x="90" y="400" font-family="sans-serif" font-size="9" fill="#fff" text-anchor="middle">Extend</text>
+  <text x="90" y="412" font-family="sans-serif" font-size="9" fill="#fff" text-anchor="middle">to bottom</text>
+
+  <!-- A-line remnants (faint, to show they're replaced by B-lines) -->
+  <line x1="80" y1="290" x2="330" y2="290" stroke="#fff" stroke-width="0.5" stroke-dasharray="4,8" opacity="0.3"/>
+  <line x1="80" y1="350" x2="330" y2="350" stroke="#fff" stroke-width="0.5" stroke-dasharray="4,8" opacity="0.3"/>
+  <line x1="80" y1="410" x2="330" y2="410" stroke="#fff" stroke-width="0.5" stroke-dasharray="4,8" opacity="0.3"/>
+
+  <!-- Label -->
+  <rect x="55" y="540" width="300" height="30" fill="#fff" stroke="#000" stroke-width="2"/>
+  <text x="205" y="561" font-family="serif" font-size="15" fill="#000" text-anchor="middle" font-weight="bold">Multiple B-lines (Wet Lung)</text>
+
+  <!-- RIGHT PANEL: Pleural Effusion -->
+  <rect x="410" y="75" width="370" height="505" fill="#fff" stroke="#000" stroke-width="4"/>
+  <rect x="410" y="75" width="370" height="45" fill="#000"/>
+  <text x="595" y="105" font-family="serif" font-size="18" fill="#fff" text-anchor="middle" font-weight="bold">胸腔積液 Pleural Effusion</text>
+
+  <!-- Probe orientation icon -->
+  <rect x="578" y="130" width="18" height="35" rx="4" fill="#000"/>
+  <rect x="581" y="163" width="12" height="7" rx="2" fill="#000"/>
+  <circle cx="583" cy="143" r="3" fill="#fff"/>
+  <path d="M587,172 C595,180 595,180 587,188" fill="none" stroke="#000" stroke-width="1.5"/>
+  <path d="M587,172 C579,180 579,180 587,188" fill="none" stroke="#000" stroke-width="1.5"/>
+
+  <!-- Ultrasound screen area -->
+  <rect x="430" y="200" width="330" height="300" fill="#000" stroke="#000" stroke-width="3"/>
+
+  <!-- Diaphragm (bright curved line at bottom) -->
+  <path d="M435,430 C480,400 540,380 595,380 C650,380 710,400 755,430" fill="none" stroke="#fff" stroke-width="4"/>
+  <!-- Diaphragm hatching below -->
+  <path d="M435,430 C480,400 540,380 595,380 C650,380 710,400 755,430 L755,495 L435,495Z" fill="url(#hatch-horiz)" stroke="none" opacity="0.3"/>
+
+  <!-- Liver/spleen (solid organ below diaphragm) -->
+  <path d="M435,440 C480,410 540,395 595,395 C650,395 710,410 755,440 L755,495 L435,495Z" fill="#fff" stroke="#fff" stroke-width="1"/>
+  <!-- Organ texture -->
+  <line x1="460" y1="450" x2="480" y2="445" stroke="#000" stroke-width="0.5"/>
+  <line x1="500" y1="440" x2="520" y2="435" stroke="#000" stroke-width="0.5"/>
+  <line x1="540" y1="430" x2="560" y2="425" stroke="#000" stroke-width="0.5"/>
+  <line x1="580" y1="428" x2="600" y2="423" stroke="#000" stroke-width="0.5"/>
+  <line x1="620" y1="430" x2="640" y2="425" stroke="#000" stroke-width="0.5"/>
+  <line x1="660" y1="435" x2="680" y2="430" stroke="#000" stroke-width="0.5"/>
+  <line x1="700" y1="442" x2="720" y2="437" stroke="#000" stroke-width="0.5"/>
+  <text x="595" y="470" font-family="sans-serif" font-size="12" fill="#000" text-anchor="middle">Liver/Spleen</text>
+
+  <!-- Anechoic effusion space (black area above diaphragm) -->
+  <!-- Already black background serves as the effusion -->
+  <text x="530" y="360" font-family="sans-serif" font-size="14" fill="#fff" text-anchor="middle" font-weight="bold">Effusion</text>
+  <text x="530" y="378" font-family="sans-serif" font-size="12" fill="#fff" text-anchor="middle">(Anechoic)</text>
+
+  <!-- Compressed lung (jellyfish sign) - floating tissue in effusion -->
+  <path d="M600,260 C615,255 630,258 640,265 C650,272 645,285 635,290 C625,295 610,292 600,285 C590,278 588,268 600,260Z" fill="#fff" stroke="#fff" stroke-width="2"/>
+  <!-- Jellyfish tentacles (lung tissue strands) -->
+  <path d="M605,290 C603,305 607,315 605,330" fill="none" stroke="#fff" stroke-width="2"/>
+  <path d="M615,292 C617,308 613,320 615,335" fill="none" stroke="#fff" stroke-width="2"/>
+  <path d="M625,290 C623,305 627,318 625,332" fill="none" stroke="#fff" stroke-width="2"/>
+  <path d="M635,288 C633,300 637,312 635,325" fill="none" stroke="#fff" stroke-width="1.5"/>
+  <!-- Label -->
+  <text x="660" y="260" font-family="sans-serif" font-size="10" fill="#fff" text-anchor="start">Compressed</text>
+  <text x="660" y="273" font-family="sans-serif" font-size="10" fill="#fff" text-anchor="start">Lung</text>
+  <text x="660" y="286" font-family="sans-serif" font-size="10" fill="#fff" text-anchor="start">(Jellyfish Sign)</text>
+  <!-- Arrow to compressed lung -->
+  <line x1="657" y1="270" x2="643" y2="275" stroke="#fff" stroke-width="1.5"/>
+
+  <!-- Spine shadow -->
+  <rect x="580" y="430" width="30" height="65" fill="#000" stroke="#fff" stroke-width="1"/>
+  <text x="595" y="488" font-family="sans-serif" font-size="8" fill="#fff" text-anchor="middle">Spine</text>
+  <!-- Spine sign (visible above diaphragm = effusion) -->
+  <rect x="580" y="370" width="30" height="60" fill="#000" stroke="#fff" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="540" y="405" font-family="sans-serif" font-size="8" fill="#fff" text-anchor="end">Spine Sign (+)</text>
+
+  <!-- Chest wall at top -->
+  <rect x="435" y="205" width="320" height="30" fill="url(#hatch-dense)" stroke="#fff" stroke-width="1" opacity="0.5"/>
+  <text x="595" y="222" font-family="sans-serif" font-size="10" fill="#fff" text-anchor="middle">Chest Wall</text>
+
+  <!-- Count label -->
+  <rect x="450" y="500" width="280" height="28" fill="#fff" stroke="#000" stroke-width="2"/>
+  <text x="595" y="520" font-family="sans-serif" font-size="12" fill="#000" text-anchor="middle" font-weight="bold">Anechoic space + Jellyfish Sign</text>
+
+  <!-- Label -->
+  <rect x="445" y="540" width="300" height="30" fill="#fff" stroke="#000" stroke-width="2"/>
+  <text x="595" y="561" font-family="serif" font-size="15" fill="#000" text-anchor="middle" font-weight="bold">Pleural Effusion (胸腔積液)</text>
+
+  <!-- Decorative corners -->
+  <path d="M10,10 L35,10 L35,14 L14,14 L14,35 L10,35Z" fill="#000"/>
+  <path d="M790,10 L765,10 L765,14 L786,14 L786,35 L790,35Z" fill="#000"/>
+  <path d="M10,590 L35,590 L35,586 L14,586 L14,565 L10,565Z" fill="#000"/>
+  <path d="M790,590 L765,590 L765,586 L786,586 L786,565 L790,565Z" fill="#000"/>
+</svg>

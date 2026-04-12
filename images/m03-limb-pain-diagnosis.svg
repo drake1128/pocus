@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <pattern id="crosshatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#000" stroke-width="1.2"/>
+      <line x1="0" y1="0" x2="6" y2="0" stroke="#000" stroke-width="1.2"/>
+    </pattern>
+    <pattern id="hatch-dense" width="3" height="3" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="3" stroke="#000" stroke-width="1"/>
+    </pattern>
+    <pattern id="hatch-light" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(-30)">
+      <line x1="0" y1="0" x2="0" y2="8" stroke="#000" stroke-width="0.7"/>
+    </pattern>
+    <pattern id="thrombus" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(30)">
+      <line x1="0" y1="0" x2="0" y2="5" stroke="#000" stroke-width="1.5"/>
+      <line x1="0" y1="0" x2="5" y2="0" stroke="#000" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="hatch-muscle" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(60)">
+      <line x1="0" y1="0" x2="0" y2="4" stroke="#000" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="#fff"/>
+
+  <!-- Outer border -->
+  <rect x="5" y="5" width="790" height="590" fill="none" stroke="#000" stroke-width="5"/>
+
+  <!-- Title bar -->
+  <rect x="5" y="5" width="790" height="55" fill="#000"/>
+  <text x="400" y="40" font-family="serif" font-size="22" fill="#fff" text-anchor="middle" font-weight="bold">肢體疼痛鑑別 — Limb Pain: Compression Ultrasound</text>
+
+  <!-- LEFT PANEL: Normal Compression -->
+  <rect x="20" y="75" width="370" height="505" fill="#fff" stroke="#000" stroke-width="4"/>
+  <rect x="20" y="75" width="370" height="45" fill="#000"/>
+  <text x="205" y="100" font-family="serif" font-size="16" fill="#fff" text-anchor="middle" font-weight="bold">正常壓迫: 靜脈完全塌陷</text>
+  <text x="205" y="135" font-family="sans-serif" font-size="13" fill="#000" text-anchor="middle" font-weight="bold">Normal Compression</text>
+
+  <!-- BEFORE compression (top) -->
+  <rect x="40" y="150" width="330" height="185" fill="url(#hatch-muscle)" stroke="#000" stroke-width="3" opacity="0.3"/>
+  <rect x="40" y="150" width="330" height="185" fill="#fff" stroke="#000" stroke-width="3"/>
+  <rect x="40" y="150" width="330" height="185" fill="url(#hatch-light)" stroke="none" opacity="0.2"/>
+
+  <text x="205" y="172" font-family="sans-serif" font-size="12" fill="#000" text-anchor="middle" font-weight="bold">Before Compression</text>
+
+  <!-- Probe at top -->
+  <rect x="155" y="145" width="80" height="12" rx="3" fill="#000"/>
+  <!-- Probe indicator -->
+  <circle cx="170" cy="151" r="2.5" fill="#fff"/>
+
+  <!-- Artery (small, round, thick wall) - stays round -->
+  <circle cx="250" cy="260" r="28" fill="#fff" stroke="#000" stroke-width="5"/>
+  <circle cx="250" cy="260" r="22" fill="#fff" stroke="#000" stroke-width="2"/>
+  <text x="250" y="264" font-family="sans-serif" font-size="11" fill="#000" text-anchor="middle" font-weight="bold">A</text>
+
+  <!-- Vein (larger, round, thin wall) -->
+  <circle cx="150" cy="265" r="38" fill="#fff" stroke="#000" stroke-width="3"/>
+  <circle cx="150" cy="265" r="34" fill="#fff" stroke="#000" stroke-width="1"/>
+  <text x="150" y="269" font-family="sans-serif" font-size="13" fill="#000" text-anchor="middle" font-weight="bold">V</text>
+  <!-- Vein is compressible indicator -->
+  <text x="150" y="310" font-family="sans-serif" font-size="9" fill="#000" text-anchor="middle">(Round, open)</text>
+
+  <!-- Arrow down showing compression -->
+  <line x1="145" y1="340" x2="145" y2="365" stroke="#000" stroke-width="3"/>
+  <polygon points="145,370 137,358 153,358" fill="#000"/>
+  <line x1="165" y1="340" x2="165" y2="365" stroke="#000" stroke-width="3"/>
+  <polygon points="165,370 157,358 173,358" fill="#000"/>
+  <text x="205" y="360" font-family="sans-serif" font-size="12" fill="#000" text-anchor="middle" font-weight="bold">COMPRESS</text>
+
+  <!-- AFTER compression (bottom) -->
+  <rect x="40" y="380" width="330" height="185" fill="#fff" stroke="#000" stroke-width="3"/>
+  <rect x="40" y="380" width="330" height="185" fill="url(#hatch-light)" stroke="none" opacity="0.2"/>
+
+  <text x="205" y="402" font-family="sans-serif" font-size="12" fill="#000" text-anchor="middle" font-weight="bold">After Compression</text>
+
+  <!-- Probe pressing down -->
+  <rect x="155" y="375" width="80" height="12" rx="3" fill="#000"/>
+  <circle cx="170" cy="381" r="2.5" fill="#fff"/>
+  <!-- Pressure arrows -->
+  <polygon points="195,373 190,365 200,365" fill="#000"/>
+
+  <!-- Artery stays round -->
+  <circle cx="250" cy="480" r="28" fill="#fff" stroke="#000" stroke-width="5"/>
+  <circle cx="250" cy="480" r="22" fill="#fff" stroke="#000" stroke-width="2"/>
+  <text x="250" y="484" font-family="sans-serif" font-size="11" fill="#000" text-anchor="middle" font-weight="bold">A</text>
+
+  <!-- Vein COLLAPSED (flat ellipse) -->
+  <ellipse cx="150" cy="483" rx="38" ry="5" fill="#fff" stroke="#000" stroke-width="3"/>
+  <text x="150" y="502" font-family="sans-serif" font-size="10" fill="#000" text-anchor="middle" font-weight="bold">V (collapsed)</text>
+
+  <!-- Checkmark -->
+  <text x="80" y="530" font-family="sans-serif" font-size="28" fill="#000" text-anchor="middle" font-weight="bold">&#x2713;</text>
+  <text x="205" y="555" font-family="sans-serif" font-size="14" fill="#000" text-anchor="middle" font-weight="bold">Normal = No DVT</text>
+
+  <!-- RIGHT PANEL: DVT - Non-compressible -->
+  <rect x="410" y="75" width="370" height="505" fill="#fff" stroke="#000" stroke-width="4"/>
+  <rect x="410" y="75" width="370" height="45" fill="#000"/>
+  <text x="595" y="100" font-family="serif" font-size="16" fill="#fff" text-anchor="middle" font-weight="bold">DVT: 靜脈無法壓迫</text>
+  <text x="595" y="135" font-family="sans-serif" font-size="13" fill="#000" text-anchor="middle" font-weight="bold">DVT: Non-Compressible Vein</text>
+
+  <!-- BEFORE compression (top) -->
+  <rect x="430" y="150" width="330" height="185" fill="#fff" stroke="#000" stroke-width="3"/>
+  <rect x="430" y="150" width="330" height="185" fill="url(#hatch-light)" stroke="none" opacity="0.2"/>
+
+  <text x="595" y="172" font-family="sans-serif" font-size="12" fill="#000" text-anchor="middle" font-weight="bold">Before Compression</text>
+
+  <!-- Probe at top -->
+  <rect x="545" y="145" width="80" height="12" rx="3" fill="#000"/>
+  <circle cx="560" cy="151" r="2.5" fill="#fff"/>
+
+  <!-- Artery -->
+  <circle cx="640" cy="260" r="28" fill="#fff" stroke="#000" stroke-width="5"/>
+  <circle cx="640" cy="260" r="22" fill="#fff" stroke="#000" stroke-width="2"/>
+  <text x="640" y="264" font-family="sans-serif" font-size="11" fill="#000" text-anchor="middle" font-weight="bold">A</text>
+
+  <!-- Vein with thrombus inside -->
+  <circle cx="540" cy="265" r="38" fill="#fff" stroke="#000" stroke-width="3"/>
+  <circle cx="540" cy="265" r="34" fill="#fff" stroke="#000" stroke-width="1"/>
+  <!-- THROMBUS (dark mass inside vein) -->
+  <ellipse cx="540" cy="265" rx="28" ry="25" fill="url(#thrombus)" stroke="#000" stroke-width="2"/>
+  <!-- Thrombus texture -->
+  <circle cx="530" cy="258" r="5" fill="#000" opacity="0.4"/>
+  <circle cx="545" cy="270" r="6" fill="#000" opacity="0.4"/>
+  <circle cx="552" cy="255" r="4" fill="#000" opacity="0.4"/>
+  <circle cx="535" cy="275" r="4" fill="#000" opacity="0.3"/>
+  <text x="540" y="269" font-family="sans-serif" font-size="10" fill="#fff" text-anchor="middle" font-weight="bold">Thrombus</text>
+  <text x="540" y="310" font-family="sans-serif" font-size="9" fill="#000" text-anchor="middle">(Echogenic mass)</text>
+
+  <!-- Arrow down showing compression -->
+  <line x1="535" y1="340" x2="535" y2="365" stroke="#000" stroke-width="3"/>
+  <polygon points="535,370 527,358 543,358" fill="#000"/>
+  <line x1="555" y1="340" x2="555" y2="365" stroke="#000" stroke-width="3"/>
+  <polygon points="555,370 547,358 563,358" fill="#000"/>
+  <text x="595" y="360" font-family="sans-serif" font-size="12" fill="#000" text-anchor="middle" font-weight="bold">COMPRESS</text>
+
+  <!-- AFTER compression (bottom) -->
+  <rect x="430" y="380" width="330" height="185" fill="#fff" stroke="#000" stroke-width="3"/>
+  <rect x="430" y="380" width="330" height="185" fill="url(#hatch-light)" stroke="none" opacity="0.2"/>
+
+  <text x="595" y="402" font-family="sans-serif" font-size="12" fill="#000" text-anchor="middle" font-weight="bold">After Compression</text>
+
+  <!-- Probe pressing down -->
+  <rect x="545" y="375" width="80" height="12" rx="3" fill="#000"/>
+  <circle cx="560" cy="381" r="2.5" fill="#fff"/>
+  <polygon points="585,373 580,365 590,365" fill="#000"/>
+
+  <!-- Artery stays round -->
+  <circle cx="640" cy="480" r="28" fill="#fff" stroke="#000" stroke-width="5"/>
+  <circle cx="640" cy="480" r="22" fill="#fff" stroke="#000" stroke-width="2"/>
+  <text x="640" y="484" font-family="sans-serif" font-size="11" fill="#000" text-anchor="middle" font-weight="bold">A</text>
+
+  <!-- Vein STILL ROUND (cannot compress due to thrombus) -->
+  <circle cx="540" cy="480" r="35" fill="#fff" stroke="#000" stroke-width="3"/>
+  <circle cx="540" cy="480" r="31" fill="#fff" stroke="#000" stroke-width="1"/>
+  <!-- Thrombus still inside -->
+  <ellipse cx="540" cy="480" rx="25" ry="23" fill="url(#thrombus)" stroke="#000" stroke-width="2"/>
+  <circle cx="530" cy="473" r="5" fill="#000" opacity="0.4"/>
+  <circle cx="545" cy="485" r="6" fill="#000" opacity="0.4"/>
+  <circle cx="552" cy="470" r="4" fill="#000" opacity="0.4"/>
+  <circle cx="535" cy="490" r="4" fill="#000" opacity="0.3"/>
+  <text x="540" y="484" font-family="sans-serif" font-size="9" fill="#fff" text-anchor="middle" font-weight="bold">Thrombus</text>
+
+  <text x="540" y="522" font-family="sans-serif" font-size="10" fill="#000" text-anchor="middle" font-weight="bold">V (still round!)</text>
+
+  <!-- X mark -->
+  <text x="470" y="530" font-family="sans-serif" font-size="28" fill="#000" text-anchor="middle" font-weight="bold">&#x2717;</text>
+  <text x="595" y="555" font-family="sans-serif" font-size="14" fill="#000" text-anchor="middle" font-weight="bold">DVT Positive (+)</text>
+
+  <!-- Comparison arrow between panels -->
+  <line x1="393" y1="300" x2="407" y2="300" stroke="#000" stroke-width="3"/>
+  <text x="400" y="290" font-family="sans-serif" font-size="10" fill="#000" text-anchor="middle">vs</text>
+
+  <!-- Decorative corners -->
+  <path d="M10,10 L35,10 L35,14 L14,14 L14,35 L10,35Z" fill="#000"/>
+  <path d="M790,10 L765,10 L765,14 L786,14 L786,35 L790,35Z" fill="#000"/>
+  <path d="M10,590 L35,590 L35,586 L14,586 L14,565 L10,565Z" fill="#000"/>
+  <path d="M790,590 L765,590 L765,586 L786,586 L786,565 L790,565Z" fill="#000"/>
+</svg>

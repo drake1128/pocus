@@ -3,6 +3,8 @@ title: "急性胸痛"
 subtitle: "Acute Chest Pain"
 ---
 
+![急性胸痛 — 床邊超音波評估](../../images/m01-chest-pain-cover.svg){width=100% fig-alt="醫師以超音波探頭進行胸部掃描的黑白版畫風格插圖"}
+
 ## 章節簡介
 
 急性胸痛是急診常見的主訴之一，可能代表危及生命的疾病，也可能是良性的肌肉骨骼疼痛。床邊超音波可以快速協助臨床醫師辨識或排除致命性診斷。
@@ -22,6 +24,8 @@ subtitle: "Acute Chest Pain"
 :::
 
 ## 致命性診斷
+
+![胸痛鑑別診斷 — 心包積液、主動脈剝離、氣胸](../../images/m01-chest-pain-diagnosis.svg){width=100% fig-alt="三種致命性胸痛的超音波鑑別診斷版畫插圖"}
 
 急性胸痛必須優先排除的致命性診斷包括：
 

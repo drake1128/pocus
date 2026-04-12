@@ -3,9 +3,13 @@ title: "急性肺水腫"
 subtitle: "Acute Pulmonary Edema"
 ---
 
+![急性肺水腫 — 肺部超音波 B-lines](../../images/m02-pulmonary-edema-cover.svg){width=100% fig-alt="肺部超音波顯示 B-lines 的黑白版畫風格插圖"}
+
 ## 章節簡介
 
 大葉性肺炎有時與心臟衰竭急性肺水腫難以區分，急性心衰往往合併全身性發炎反應症候群(SIRS)。有賴於 POCUS，這些病患有機會在床邊接受心超檢查，儘早確立診斷。
+
+![肺水腫鑑別診斷 — B-lines 與胸腔積液](../../images/m02-pulmonary-edema-diagnosis.svg){width=100% fig-alt="B-lines 與胸腔積液超音波鑑別診斷版畫插圖"}
 
 ## 本章課程
 

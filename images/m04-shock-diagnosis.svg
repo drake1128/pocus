@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <pattern id="hatch-diag" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="5" stroke="#000" stroke-width="1"/>
+    </pattern>
+    <pattern id="hatch-horiz" patternUnits="userSpaceOnUse" width="5" height="5">
+      <line x1="0" y1="2.5" x2="5" y2="2.5" stroke="#000" stroke-width="0.8"/>
+    </pattern>
+    <pattern id="crosshatch" patternUnits="userSpaceOnUse" width="5" height="5">
+      <line x1="0" y1="0" x2="5" y2="5" stroke="#000" stroke-width="0.8"/>
+      <line x1="5" y1="0" x2="0" y2="5" stroke="#000" stroke-width="0.8"/>
+    </pattern>
+    <pattern id="dense-diag" patternUnits="userSpaceOnUse" width="3" height="3" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="3" stroke="#000" stroke-width="1"/>
+    </pattern>
+    <clipPath id="sector-tl">
+      <path d="M200,155 L200,105 A95,95 0 0,1 295,200 L200,200Z M200,200 A95,95 0 0,1 105,200 L105,155 A95,95 0 0,0 200,105Z" />
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="#fff"/>
+
+  <!-- Border -->
+  <rect x="8" y="8" width="784" height="584" fill="none" stroke="#000" stroke-width="4"/>
+  <rect x="14" y="14" width="772" height="572" fill="none" stroke="#000" stroke-width="1.5"/>
+
+  <!-- Title -->
+  <text x="400" y="52" text-anchor="middle" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="#000">Shock Differential Diagnosis</text>
+  <text x="400" y="72" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#000">休克鑑別診斷 — POCUS Findings</text>
+  <line x1="80" y1="82" x2="720" y2="82" stroke="#000" stroke-width="2.5"/>
+
+  <!-- Dividing lines -->
+  <line x1="400" y1="90" x2="400" y2="570" stroke="#000" stroke-width="3"/>
+  <line x1="20" y1="330" x2="780" y2="330" stroke="#000" stroke-width="3"/>
+
+  <!-- ========== TOP LEFT: Cardiogenic ========== -->
+  <g transform="translate(200, 205)">
+    <!-- Label -->
+    <text x="0" y="-95" text-anchor="middle" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#000">Cardiogenic</text>
+    <text x="0" y="-75" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#000">心因性休克</text>
+
+    <!-- Ultrasound sector frame -->
+    <path d="M0,-60 L-80,55 A90,90 0 0,0 80,55 Z" fill="#fff" stroke="#000" stroke-width="3"/>
+    <path d="M0,-60 L-80,55 A90,90 0 0,0 80,55 Z" fill="url(#hatch-horiz)" opacity="0.15"/>
+
+    <!-- Dilated heart - poorly contracting -->
+    <!-- LV (large, dilated) -->
+    <ellipse cx="-15" cy="10" rx="35" ry="45" fill="#fff" stroke="#000" stroke-width="3"/>
+    <ellipse cx="-15" cy="10" rx="30" ry="38" fill="url(#hatch-diag)" stroke="none" opacity="0.2"/>
+    <!-- RV -->
+    <path d="M20,-30 C45,-20 45,30 20,40 L20,-30Z" fill="#fff" stroke="#000" stroke-width="2.5"/>
+    <!-- Septum -->
+    <line x1="20" y1="-30" x2="20" y2="40" stroke="#000" stroke-width="2.5"/>
+
+    <!-- Poor contraction arrows (small, weak) -->
+    <line x1="-55" y1="10" x2="-48" y2="10" stroke="#000" stroke-width="2"/>
+    <polygon points="-48,8 -48,12 -44,10" fill="#000"/>
+    <line x1="22" y1="10" x2="28" y2="10" stroke="#000" stroke-width="2"/>
+
+    <!-- Label -->
+    <text x="0" y="68" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#000" font-style="italic">Dilated, poor EF</text>
+  </g>
+
+  <!-- ========== TOP RIGHT: Hypovolemic ========== -->
+  <g transform="translate(600, 205)">
+    <!-- Label -->
+    <text x="0" y="-95" text-anchor="middle" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#000">Hypovolemic</text>
+    <text x="0" y="-75" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#000">低血容性休克</text>
+
+    <!-- Ultrasound sector frame -->
+    <path d="M0,-60 L-80,55 A90,90 0 0,0 80,55 Z" fill="#fff" stroke="#000" stroke-width="3"/>
+    <path d="M0,-60 L-80,55 A90,90 0 0,0 80,55 Z" fill="url(#hatch-horiz)" opacity="0.15"/>
+
+    <!-- IVC - flat/collapsed -->
+    <!-- Vessel walls -->
+    <path d="M-60,5 C-40,2 0,-2 40,-5 C55,-6 65,-5 70,-3" fill="none" stroke="#000" stroke-width="3"/>
+    <path d="M-60,15 C-40,12 0,8 40,5 C55,4 65,5 70,7" fill="none" stroke="#000" stroke-width="3"/>
+
+    <!-- Collapse arrows -->
+    <line x1="-10" y1="-15" x2="-10" y2="-4" stroke="#000" stroke-width="2"/>
+    <polygon points="-12,-4 -8,-4 -10,0" fill="#000"/>
+    <line x1="-10" y1="22" x2="-10" y2="12" stroke="#000" stroke-width="2"/>
+    <polygon points="-12,12 -8,12 -10,8" fill="#000"/>
+
+    <line x1="20" y1="-18" x2="20" y2="-8" stroke="#000" stroke-width="2"/>
+    <polygon points="18,-8 22,-8 20,-4" fill="#000"/>
+    <line x1="20" y1="22" x2="20" y2="12" stroke="#000" stroke-width="2"/>
+    <polygon points="18,12 22,12 20,8" fill="#000"/>
+
+    <!-- Respiration indicator -->
+    <path d="M-50,35 L-35,25 L-20,35 L-5,25 L10,35 L25,25 L40,35" fill="none" stroke="#000" stroke-width="1.5"/>
+
+    <text x="0" y="55" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#000" font-style="italic">Flat IVC, &gt;50% collapse</text>
+  </g>
+
+  <!-- ========== BOTTOM LEFT: Obstructive ========== -->
+  <g transform="translate(200, 450)">
+    <!-- Label -->
+    <text x="0" y="-95" text-anchor="middle" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#000">Obstructive</text>
+    <text x="0" y="-75" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#000">阻塞性休克</text>
+
+    <!-- Ultrasound sector frame -->
+    <path d="M0,-60 L-80,55 A90,90 0 0,0 80,55 Z" fill="#fff" stroke="#000" stroke-width="3"/>
+    <path d="M0,-60 L-80,55 A90,90 0 0,0 80,55 Z" fill="url(#hatch-horiz)" opacity="0.15"/>
+
+    <!-- Pericardial effusion -->
+    <!-- Outer pericardium -->
+    <ellipse cx="0" cy="5" rx="55" ry="40" fill="#fff" stroke="#000" stroke-width="2.5"/>
+    <!-- Effusion space (hatched) -->
+    <ellipse cx="0" cy="5" rx="55" ry="40" fill="url(#crosshatch)" stroke="none" opacity="0.3"/>
+    <!-- Heart inside -->
+    <ellipse cx="-8" cy="5" rx="28" ry="28" fill="#fff" stroke="#000" stroke-width="2.5"/>
+    <!-- RV collapse -->
+    <path d="M20,-15 C12,-8 12,12 20,20" fill="none" stroke="#000" stroke-width="2.5" stroke-dasharray="4,3"/>
+    <!-- Collapse arrow -->
+    <line x1="35" y1="3" x2="25" y2="3" stroke="#000" stroke-width="2"/>
+    <polygon points="25,1 25,5 21,3" fill="#000"/>
+
+    <text x="0" y="60" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#000" font-style="italic">Tamponade, RV collapse</text>
+  </g>
+
+  <!-- ========== BOTTOM RIGHT: Distributive ========== -->
+  <g transform="translate(600, 450)">
+    <!-- Label -->
+    <text x="0" y="-95" text-anchor="middle" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#000">Distributive</text>
+    <text x="0" y="-75" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#000">分佈性休克</text>
+
+    <!-- Ultrasound sector frame -->
+    <path d="M0,-60 L-80,55 A90,90 0 0,0 80,55 Z" fill="#fff" stroke="#000" stroke-width="3"/>
+    <path d="M0,-60 L-80,55 A90,90 0 0,0 80,55 Z" fill="url(#hatch-horiz)" opacity="0.15"/>
+
+    <!-- Hyperdynamic heart (small cavity, thick walls) -->
+    <!-- LV thick walls -->
+    <ellipse cx="-10" cy="0" rx="22" ry="30" fill="#fff" stroke="#000" stroke-width="4.5"/>
+    <ellipse cx="-10" cy="0" rx="12" ry="18" fill="#fff" stroke="#000" stroke-width="2"/>
+    <!-- RV -->
+    <path d="M12,-25 C25,-15 25,15 12,25" fill="none" stroke="#000" stroke-width="3"/>
+
+    <!-- Dynamic arrows (strong contraction) -->
+    <line x1="-40" y1="0" x2="-28" y2="0" stroke="#000" stroke-width="2.5"/>
+    <polygon points="-28,-3 -28,3 -23,0" fill="#000"/>
+    <line x1="30" y1="0" x2="18" y2="0" stroke="#000" stroke-width="2.5"/>
+    <polygon points="18,-3 18,3 13,0" fill="#000"/>
+    <line x1="-10" y1="-40" x2="-10" y2="-32" stroke="#000" stroke-width="2.5"/>
+    <polygon points="-13,-32 -7,-32 -10,-27" fill="#000"/>
+
+    <!-- Dilated IVC below -->
+    <path d="M-45,38 C-25,36 15,36 45,38" fill="none" stroke="#000" stroke-width="3"/>
+    <path d="M-45,48 C-25,46 15,46 45,48" fill="none" stroke="#000" stroke-width="3"/>
+    <text x="55" y="46" font-family="Georgia, serif" font-size="9" fill="#000">IVC</text>
+
+    <text x="0" y="65" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#000" font-style="italic">Hyperdynamic, dilated IVC</text>
+  </g>
+
+  <!-- Corner decorations -->
+  <path d="M18,18 L48,18 L48,22 L22,22 L22,48 L18,48Z" fill="#000"/>
+  <path d="M782,18 L752,18 L752,22 L778,22 L778,48 L782,48Z" fill="#000"/>
+  <path d="M18,582 L48,582 L48,578 L22,578 L22,552 L18,552Z" fill="#000"/>
+  <path d="M782,582 L752,582 L752,578 L778,578 L778,552 L782,552Z" fill="#000"/>
+</svg>
