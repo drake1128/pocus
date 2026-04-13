@@ -3,13 +3,9 @@ title: "肺炎與急性呼吸衰竭"
 subtitle: "Pneumonia & Acute Respiratory Failure"
 ---
 
-![肺炎與急性呼吸衰竭 — 肺實質化與氣管支氣管徵](../../images/m09-pneumonia-arf-cover.svg){width=100% fig-alt="肺實質化與 air bronchograms 的黑白版畫風格插圖"}
-
 ## 章節簡介
 
 肺炎與急性呼吸衰竭是重症醫學中常見的問題。床邊超音波可以快速評估肺部病變、追蹤治療效果，並協助呼吸器參數調整。
-
-![肺炎鑑別診斷 — 肝化徵象、動態氣管支氣管徵、肺搏動](../../images/m09-pneumonia-arf-diagnosis.svg){width=100% fig-alt="肝化徵象、動態氣管支氣管徵、肺搏動超音波鑑別版畫插圖"}
 
 ## 本章課程
 

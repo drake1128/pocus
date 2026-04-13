@@ -3,13 +3,11 @@ title: "休克"
 subtitle: "Shock"
 ---
 
-![休克 — RUSH Protocol 評估](../../images/m04-shock-cover.svg){width=100% fig-alt="RUSH Protocol 超音波評估的黑白版畫風格插圖"}
+![封面圖 — RUSH Protocol 三步驟](../../images/封面圖%20—%20RUSH%20Protocol%20三步驟.jpeg){fig-alt="RUSH 三大評估：Pump 心臟、Tank 容積 IVC、Pipes 管路"}
 
 ## 章節簡介
 
 休克是常見的急症，需盡早辨識、鑑別休克原因並進行復甦治療。造成休克的原因可概略分成低容性(hypovolemic)、阻塞性(obstructive)、心因性(cardiogenic)及再分佈性(distributive)休克，不同休克之臨床表現不盡相同，所需之治療也不同。床邊焦點式超音波可協助鑑別診斷以及判斷輸液治療反應。
-
-![四類休克超音波鑑別](../../images/m04-shock-diagnosis.svg){width=100% fig-alt="心因性、低血容性、阻塞性、分佈性休克超音波鑑別版畫插圖"}
 
 ## 本章課程
 

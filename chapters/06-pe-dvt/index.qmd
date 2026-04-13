@@ -3,13 +3,9 @@ title: "急性肺栓塞與靜脈栓塞"
 subtitle: "PE & DVT"
 ---
 
-![肺栓塞與深層靜脈栓塞 — 右心擴大與 DVT](../../images/m06-pe-dvt-cover.svg){width=100% fig-alt="右心室擴大與深層靜脈栓塞的黑白版畫風格插圖"}
-
 ## 章節簡介
 
 靜脈栓塞與急性肺栓塞是內科病患猝死原因之一，能否及時診斷相當重要。超音波可協助床邊快速評估深層靜脈栓塞與右心功能，在急重症情境中提供關鍵的診斷線索。
-
-![PE/DVT 鑑別診斷 — RV 擴大、McConnell's Sign、DVT](../../images/m06-pe-dvt-diagnosis.svg){width=100% fig-alt="RV 擴大、McConnell 徵象、DVT 超音波鑑別版畫插圖"}
 
 ## 本章課程
 

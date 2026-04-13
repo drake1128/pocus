@@ -3,13 +3,15 @@ title: "急性肢端疼痛"
 subtitle: "Acute Limb Pain"
 ---
 
-![急性肢端疼痛 — 下肢血管超音波](../../images/m03-limb-pain-cover.svg){width=100% fig-alt="下肢血管超音波壓迫試驗的黑白版畫風格插圖"}
+![封面圖 — 下肢血管超音波掃描](../../images/封面圖%20—%20下肢血管超音波掃描.jpeg){fig-alt="探頭置於腹股溝處掃描股動脈，下肢動脈解剖走向示意"}
 
 ## 章節簡介
 
 急性肢端疼痛為老年病患可能發生的急性病症。臨床上需要及時的診斷與轉介，才能避免發生截肢或死亡。
 
-![DVT 鑑別診斷 — 壓迫試驗](../../images/m03-limb-pain-diagnosis.svg){width=100% fig-alt="DVT 壓迫試驗正常與異常對照版畫插圖"}
+## 關鍵超音波影像
+
+![診斷圖 — Doppler 波形分級](../../images/診斷圖%20—%20Doppler%20波形分級.jpeg){fig-alt="四格並排：Triphasic 正常、Biphasic 輕中度狹窄、Monophasic 重度狹窄、Absent 完全阻塞"}
 
 ## 本章課程
 

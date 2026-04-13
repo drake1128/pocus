@@ -3,13 +3,9 @@ title: "心跳停止"
 subtitle: "Cardiac Arrest"
 ---
 
-![心跳停止 — CPR 中超音波評估](../../images/m05-cardiac-arrest-cover.svg){width=100% fig-alt="CPR 過程中使用超音波評估的黑白版畫風格插圖"}
-
 ## 章節簡介
 
 心跳停止的復甦急救除了 ACLS 流程與團隊合作之外，超音波的使用可以輔助鑑別診斷以及治療的導引，因此也是急救過程中很重要的一環。納入超音波於急救復甦的流程之概念如 e-ALS 或 US-CAB 也越來越蓬勃發展。
-
-![心跳停止可逆原因 — H's and T's 超音波鑑別](../../images/m05-cardiac-arrest-diagnosis.svg){width=100% fig-alt="H's and T's 可逆原因超音波鑑別診斷版畫插圖"}
 
 ## 本章課程
 
