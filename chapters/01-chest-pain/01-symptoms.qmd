@@ -94,6 +94,8 @@ categories: [急性胸痛, 症狀辨識, POCUS]
 
 :::
 
+![Levine sign — 典型急性冠心症胸痛表現](../../images/angina%20levine%20sign.jpeg){fig-alt="病人以緊握的拳頭置於胸前描述壓迫性胸痛，即 Levine sign" width="60%" fig-align="center"}
+
 ## 致命性診斷
 
 ::: {.callout-warning}

@@ -62,6 +62,8 @@ categories: [急性胸痛, 解剖, 病理]
 | 心尖四腔 | Apical 4-Chamber (A4C) | 四個腔室、瓣膜 |
 | 劍乙下 | Subcostal (SC) | 心包膜、IVC |
 
+![Apical views — 心尖切面示意](../../images/echo%20apical%20views.jpeg){fig-alt="心尖四腔、五腔、兩腔、三腔切面之示意圖" width="75%" fig-align="center"}
+
 ## 病理生理
 
 ::: {.callout-warning}
