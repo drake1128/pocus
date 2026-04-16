@@ -37,7 +37,13 @@ footer: "休克 Shock"
 | 阻塞性 | 擴張, RV:LV >0.9 | RV 擴大或心包填塞 |
 | 分佈性 | 變異大 | 高動力（早期） |
 
-<!-- 診斷圖待製作完成後加入 -->
+---
+
+## 診斷圖 — 六類休克臨床表現
+
+![w:720 center](../images/診斷圖%20—%20六類休克臨床表現.jpeg)
+
+六類休克臨床樣貌：Hypovolemic、Cardiogenic、Obstructive、Neurogenic、Anaphylactic、Septic
 
 ---
 

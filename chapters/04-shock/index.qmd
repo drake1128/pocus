@@ -9,6 +9,10 @@ subtitle: "Shock"
 
 休克是常見的急症，需盡早辨識、鑑別休克原因並進行復甦治療。造成休克的原因可概略分成低容性(hypovolemic)、阻塞性(obstructive)、心因性(cardiogenic)及再分佈性(distributive)休克，不同休克之臨床表現不盡相同，所需之治療也不同。床邊焦點式超音波可協助鑑別診斷以及判斷輸液治療反應。
 
+## 關鍵超音波影像
+
+![診斷圖 — 六類休克臨床表現](../../images/診斷圖%20—%20六類休克臨床表現.jpeg){fig-alt="六類休克臨床樣貌：Hypovolemic、Cardiogenic、Obstructive、Neurogenic、Anaphylactic、Septic"}
+
 ## 本章課程
 
 1. [教案 13：辨識、病史詢問、理學檢查](13-recognition.qmd)
