@@ -3,9 +3,15 @@ title: "呼吸喘"
 subtitle: "Dyspnea"
 ---
 
+![封面圖 — BLUE Protocol 肺部掃描區域](../../images/封面圖%20—%20BLUE%20Protocol%20肺部掃描區域.jpeg){fig-alt="BLUE Protocol 肺部掃描區域：上肺區、下肺區、PLAPS 點（Posterolateral Alveolar and/or Pleural Syndrome）"}
+
 ## 章節簡介
 
 呼吸喘為急診與住院病人常見的主訴，背後可能的診斷多樣，即時的診斷才能給予對應的治療。
+
+## 關鍵超音波影像
+
+![診斷圖 — 肺部超音波五大徵象](../../images/診斷圖%20—%20肺部超音波五大徵象.jpeg){fig-alt="肺部超音波五大徵象：A-lines、B-lines、肺實質化、胸腔積液、肺滑動消失"}
 
 ## 本章課程
 
