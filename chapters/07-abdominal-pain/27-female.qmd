@@ -1,64 +1,222 @@
 ---
-title: "教案 27：女性急性腹痛"
+title: "教案 27｜🤰 女性急性腹痛"
 subtitle: "女性急性腹痛的鑑別診斷與超音波評估"
 author: "李宜家"
 date: last-modified
 categories: [急性腹痛, 婦科急症, POCUS]
 ---
 
-## 學習目標
+::: {.callout-note appearance="minimal" icon="false"}
+## 📌 本課速覽
+
+**婦科急症 5 大鑑別 × 骨盆腔 POCUS 5 大評估 × Douglas pouch 的關鍵地位**
+讀完之後，你會知道為什麼**「育齡女性腹痛 + 驗孕陽性」必須在 1 小時內排除異位妊娠**，
+以及為什麼 Douglas pouch 是骨盆 POCUS **最高 CP 值的單一視窗**。
+:::
+
+## 🎯 學習目標
 
 ::: {.callout-note}
 ## Learning Objectives
 
-1. 學習女性急性腹痛的常見婦科鑑別診斷
-2. 學習骨盆腔超音波的基本評估方法
-3. 了解婦科急症的超音波關鍵發現
+1. 認識女性急性腹痛的 **5 大婦科急症鑑別**。
+2. 操作 **骨盆腔 POCUS 5 大評估**：子宮、IUP、附件、游離液、Douglas pouch。
+3. 學會 **β-hCG + POCUS 整合判讀** — 異位妊娠 vs IUP 的決策。
+4. 掌握 **Douglas pouch** 在女性腹痛中的關鍵地位。
+5. 理解「**任何育齡女性腹痛都先驗孕**」的臨床原則。
 :::
 
-## 婦科急症鑑別診斷
-
-女性急性腹痛需考慮以下婦科急症：
-
-- **異位妊娠（Ectopic pregnancy）**
-- **卵巢囊腫破裂（Ruptured ovarian cyst）**
-- **卵巢扭轉（Ovarian torsion）**
-- **黃體破裂（Ruptured corpus luteum）**
-- **骨盆腔發炎（PID, Pelvic inflammatory disease）**
+## 🚨 婦科急症 5 大鑑別
 
 ::: {.callout-warning}
-## Key Point
-女性病患經常被忽略婦科疾病，停經後是否有陰道不正常出血或分泌物都要詢問。育齡女性的急性腹痛務必先排除異位妊娠。
+## ⚠️ 育齡女性腹痛必想的 5 個診斷
+
+每一個都可能在 1-6 小時內影響生育能力或生命。
 :::
 
-## 超音波檢查重點
+| 鑑別診斷 | 高危族群 | POCUS 招牌 | 緊急度 |
+|----------|----------|-----------|:------:|
+| 🚨 **異位妊娠 (Ectopic pregnancy)** | 育齡女性 + β-hCG (+) + IUD / PID 史 | **空子宮 + 附件腫塊 + Douglas 積液** | 🔴 立刻 OR |
+| 🌪 **卵巢扭轉 (Ovarian torsion)** | 卵巢囊腫 > 5 cm | 卵巢腫大 + Doppler 血流消失 | 🔴 6 hr 內 |
+| 💧 **黃體 / 卵巢囊腫破裂** | 排卵期前後 | Free fluid + 卵巢囊腫塌陷 | 🟡 視出血量 |
+| 🦠 **PID（骨盆腔發炎）** | 性活躍、IUD | 子宮腔內積液、輸卵管積膿 | 🟡 抗生素 |
+| 🩸 **流產 / 不完全流產** | 早孕女性 | IUP 但無胎心 / 妊娠囊變形 | 🟡 產科處置 |
 
-### 評估項目
+: 婦科急症 5 大鑑別 + POCUS {.striped .hover tbl-colwidths="[28,30,30,12]"}
 
-| 檢查項目 | 評估重點 |
-|----------|----------|
-| 子宮大小形態 | 子宮是否正常大小、有無肌瘤或其他異常 |
-| IUP（Intrauterine pregnancy） | 是否可見子宮內妊娠囊、胎心搏動 |
-| 附屬器腫塊 | 卵巢囊腫、實質性腫塊、混合性腫塊 |
-| 腹水/骨盆腔積液 | 游離液體量與分布 |
-| Douglas pouch | 子宮直腸窩是否有積液（最低處易積液） |
+::: {.callout-warning}
+## 🚨 鐵則：「**任何育齡女性腹痛都先驗孕**」
 
-### Douglas Pouch 的重要性
+不問月經史、不問避孕、**直接驗 β-hCG**。
+- β-hCG (+) → 立刻 POCUS 找 IUP，找不到就懷疑 ectopic
+- β-hCG (-) → 排除妊娠相關，但仍需骨盆 POCUS
+:::
 
-Douglas pouch（子宮直腸窩）是骨盆腔最低點，少量游離液體會先在此處聚集。在急性腹痛的女性病患中，Douglas pouch 積液可能提示：
+## 🩺 骨盆腔 POCUS 5 大評估
 
-- 異位妊娠破裂出血
-- 卵巢囊腫或黃體破裂
-- 腹膜炎合併腹水
+::: {.callout-note}
+## 🔍 系統性評估 5 個結構
 
-## 自我評量
+| # | 評估 | 重點 | 異常 → 想 |
+|:-:|------|------|----------|
+| 1 | **子宮** | 大小、形態、肌瘤、IUP | 子宮肌瘤、IUP、IUD 位置 |
+| 2 | **IUP** | 妊娠囊 + yolk sac + 胎心 | 確認 = 排除 ectopic |
+| 3 | **附屬器** | 卵巢、輸卵管、附件腫塊 | Cyst、torsion、ectopic、tubo-ovarian abscess |
+| 4 | **腹水 / 骨盆腔積液** | 量 + 分布 | 出血、感染、破裂 |
+| 5 | **Douglas pouch** | **骨盆最低點，少量液先積此** | 異位破裂、囊腫破裂、PID |
 
-1. 育齡女性急性腹痛時，最優先需要排除的診斷為何？
-2. 異位妊娠的超音波典型發現有哪些？
-3. Douglas pouch 積液在女性急性腹痛中代表什麼臨床意義？
-4. 卵巢扭轉的超音波表現有哪些特徵？
-5. 為什麼女性病患的急性腹痛問診中一定要詢問月經史與陰道出血？
+: 骨盆腔 POCUS 5 大評估 {.striped .hover tbl-colwidths="[5,30,40,25]"}
+:::
 
-## 參考文獻
+### 🤰 IUP（子宮內妊娠）的 3 階段表現
 
-1. Ma OJ, Mateer JR, Blaivas M. *Emergency Ultrasound*. 2nd edition. McGraw-Hill.
+| 孕週 | β-hCG | POCUS 應看到 |
+|:----:|:-----:|--------------|
+| **5-6 週** | 1500-2000 mIU/mL（discriminatory zone） | **妊娠囊 (gestational sac)** |
+| **6-7 週** | 5000-10000 | **+ Yolk sac**（黃囊） |
+| **> 7 週** | 50000+ | **+ 胚胎 + 胎心搏動** |
+
+: IUP 3 階段超音波表現對照 {.striped tbl-colwidths="[16,38,46]"}
+
+::: {.callout-caution}
+## 🪤 異位妊娠的關鍵警訊
+
+**β-hCG > discriminatory zone（1500-2000）** 但 **POCUS 看不到 IUP** =
+**異位妊娠直到證明不是**！
+
+→ 必須立刻：
+1. 詳細掃描雙側附屬器找腫塊
+2. 看 Douglas pouch 有無 free fluid
+3. 婦產科會診 + 考慮 laparoscopy
+:::
+
+## 💧 Douglas Pouch 的關鍵地位
+
+::: {.callout-warning}
+## ⚠️ 為什麼 Douglas pouch 這麼重要？
+
+**Douglas pouch（子宮直腸窩）= 骨盆腔最低點 = 少量游離液體最先聚積處**
+
+→ 在女性急性腹痛中，**Douglas pouch 積液**可能提示：
+
+| 可能診斷 | 機轉 |
+|----------|------|
+| **異位妊娠破裂** | 輸卵管出血流入骨盆 |
+| **卵巢囊腫破裂** | 囊液 + 出血 |
+| **黃體破裂** | 排卵後黃體出血 |
+| **PID + tubo-ovarian abscess** | 發炎滲液 |
+| **腹膜炎合併腹水** | 全腹腔病灶 |
+
+: Douglas pouch 積液的 5 大可能病因 {.striped tbl-colwidths="[36,64]"}
+:::
+
+::: {.callout-tip}
+## 🎯 量化 Douglas pouch 積液
+
+| 量 | 描述 | 臨床意義 |
+|:--:|------|----------|
+| 微量 | 厚度 < 1 cm | 可能生理（排卵後）|
+| **中量** | 1-2 cm | **需懷疑病理性** |
+| **大量** | > 2 cm 或填滿 cul-de-sac | **強烈病理性，考慮 OR** |
+
+: Douglas pouch 積液量解讀 {.striped tbl-colwidths="[18,32,50]"}
+:::
+
+## 🪤 常見診斷錯誤
+
+::: {.callout-caution}
+## ⚠️ 4 大常見錯誤
+
+1. **沒驗孕就排除 ectopic** — 任何育齡女性腹痛都要先 β-hCG
+2. **看到 IUP 就放心** — 罕見的 **heterotopic pregnancy**（同時 IUP + ectopic），
+   IVF 病人發生率 ~ 1%
+3. **忽略 Douglas pouch** — 是骨盆 POCUS 最重要的單一視窗
+4. **卵巢扭轉太晚診斷** — Doppler 血流消失 = 已嚴重缺血，
+   早期可能 venous flow 異常但 arterial flow 仍在
+:::
+
+## 💬 自我評量
+
+::: {.callout-note}
+## 🗣️ 課堂討論
+
+1. **育齡女性急性腹痛**最優先排除的診斷？
+2. **異位妊娠**的 POCUS 典型發現有哪些？
+3. **Douglas pouch 積液**在女性腹痛中代表什麼？
+4. **卵巢扭轉**的 POCUS 表現有哪些特徵？
+5. 為什麼女性腹痛問診**一定要問月經史**？
+:::
+
+## ✅ 自我評估
+
+::: {.content-visible when-format="html"}
+
+::: {.callout-note appearance="default"}
+## 📝 問題 1
+育齡女性急性腹痛，**最優先**排除的診斷是？
+
+- [ ] PID
+- [ ] 卵巢囊腫破裂
+- [x] **異位妊娠**
+- [ ] 子宮肌瘤
+:::
+
+::: {.callout-note appearance="default"}
+## 📝 問題 2
+**β-hCG 2500 + POCUS 找不到 IUP**，該怎麼想？
+
+- [ ] 妊娠太早，等 1 週再驗
+- [x] **強烈懷疑異位妊娠，立刻評估**
+- [ ] 需先做 CT
+- [ ] β-hCG 假陽性
+:::
+
+::: {.callout-note appearance="default"}
+## 📝 問題 3
+**Douglas pouch** 在女性骨盆腔的解剖位置是？
+
+- [ ] 最高點
+- [ ] 子宮前方
+- [x] **骨盆腔最低點（子宮直腸窩）**
+- [ ] 卵巢內
+:::
+
+::: {.callout-tip collapse="true"}
+## 💡 顯示答案解析
+
+1. **異位妊娠**是育齡女性腹痛的「**漏掉就死人**」診斷。任何育齡女性腹痛先驗 β-hCG。
+2. **β-hCG > 1500-2000（discriminatory zone）但 POCUS 無 IUP** = 異位妊娠直到證明不是。
+   立刻掃附屬器 + Douglas pouch + 婦產科會診。
+3. **Douglas pouch = 子宮直腸窩 = 骨盆腔最低點**，少量游離液最先在此聚積，
+   是異位妊娠破裂、囊腫破裂、PID 的關鍵發現位置。
+:::
+
+:::
+
+::: {.content-visible when-format="pdf"}
+::: {.callout-tip}
+## 自我評估
+
+請訪問線上版本完成測驗。
+:::
+:::
+
+## 🎓 回家三句話
+
+::: {.callout-important}
+## 🏠 帶回家的 Take-home Messages
+
+1. **任何育齡女性腹痛 → 先驗 β-hCG → POCUS 找 IUP** —
+   找不到 IUP 但 β-hCG 高 = 異位妊娠直到證明不是，立刻會診婦產科。
+2. **Douglas pouch 是骨盆 POCUS 最高 CP 值的單一視窗** —
+   骨盆最低點，少量液先積此，是異位破裂、囊腫破裂、PID 的關鍵發現位置。
+3. **看到 IUP 別急著放心** — IVF 病人有 ~ 1% heterotopic pregnancy，
+   仍要掃附屬器確認沒有同時 ectopic。
+:::
+
+## 📚 參考閱讀
+
+1. Ma OJ, Mateer JR, Blaivas M. **Emergency Ultrasound**, 2nd ed. McGraw-Hill.
+2. Stein JC, et al. **Emergency physician ultrasonography for evaluating patients at risk for ectopic pregnancy: a meta-analysis.** *Ann Emerg Med.* 2010;56(6):674-683.
+3. Doubilet PM, et al. **Diagnostic criteria for nonviable pregnancy early in the first trimester.** *N Engl J Med.* 2013;369(15):1443-1451.
+4. ACOG Practice Bulletin No. 193: **Tubal Ectopic Pregnancy.** *Obstet Gynecol.* 2018;131(3):e91-e103.

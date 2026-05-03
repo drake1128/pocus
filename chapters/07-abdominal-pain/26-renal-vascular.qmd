@@ -1,71 +1,216 @@
 ---
-title: "教案 26：腎泌尿系統、血管疾病"
+title: "教案 26｜🩺 腎泌尿系統、血管疾病"
 subtitle: "腎臟超音波與腹主動脈瘤評估"
 author: "李宜家"
 date: last-modified
 categories: [急性腹痛, 腎泌尿, 血管疾病, POCUS]
 ---
 
-## 學習目標
+::: {.callout-note appearance="minimal" icon="false"}
+## 📌 本課速覽
+
+**腎臟 5 大評估 × 水腎 5 級分類 × AAA 測量 SOP × 老年腹痛必排除清單**
+讀完之後，你會知道為什麼 **「老年男性突發腰背痛 + 休克」必須在 30 秒內掃 AAA**，
+以及水腎 ≠ 阻塞的 3 個常見陷阱。
+:::
+
+## 🎯 學習目標
 
 ::: {.callout-note}
 ## Learning Objectives
 
-1. 學習腎臟超音波的基本評估方法與常見異常發現
-2. 學習水腎的分級與臨床意義
-3. 學習腹主動脈瘤（AAA）的超音波評估與測量方法
+1. 操作 **腎臟 POCUS 5 大評估**（大小、水腎、結石、囊腫、腫瘤）。
+2. 熟練 **水腎 5 級分類** 與臨床對應。
+3. 掌握 **AAA 測量 SOP**：outer-to-outer wall + 雙軸 + 全長掃描。
+4. 學會 **AAA 危險分層**（> 3 cm 診斷、> 5.5 cm 高破裂風險）。
+5. 建立「**老年腹痛 / 腰背痛先掃 AAA**」的反射性思維。
 :::
 
-## 腎臟超音波評估
-
-腎臟超音波檢查應評估以下重點：
-
-- **大小形態**：正常成人腎臟約 9--12 cm
-- **Hydronephrosis（水腎）**：腎盂腎盞擴張程度
-- **腎結石**：強回音伴隨後方音影
-- **腎囊腫**：無回音圓形病灶，需評估是否為單純囊腫
-- **腎腫瘤**：實質性腫塊，需進一步影像檢查
-
-### 水腎分級
-
-| 分級 | 描述 |
-|------|------|
-| Grade 0 | 正常，無腎盂擴張 |
-| Grade 1 | 輕度腎盂擴張，無腎盞擴張 |
-| Grade 2 | 腎盂擴張合併部分腎盞擴張 |
-| Grade 3 | 腎盂與所有腎盞明顯擴張 |
-| Grade 4 | 嚴重擴張合併皮質變薄 |
+## 🫘 腎臟 POCUS 評估
 
 ::: {.callout-warning}
-## Key Point
-水腎不等於尿路阻塞。懷孕、膀胱過度充盈等情況也可能造成輕度水腎。需結合臨床症狀判斷。
+## ⚠️ 腎臟超音波 5 大評估
+
+| # | 評估 | 異常 |
+|:-:|------|------|
+| 1 | **大小形態** | 正常 9-12 cm；萎縮 → 慢性病；腫大 → 急性 / 阻塞 |
+| 2 | **Hydronephrosis** | 腎盂腎盞擴張 → 阻塞？容量過多？ |
+| 3 | **腎結石** | 強回音 + **後方音影**（acoustic shadow） |
+| 4 | **腎囊腫** | 無回音 + 圓形 + 壁薄 = simple cyst |
+| 5 | **腎腫瘤** | 實質性腫塊 → 進階影像（CT/MRI） |
+
+: 腎臟 POCUS 5 大評估 {.striped .hover tbl-colwidths="[5,28,67]"}
 :::
 
-## 腹主動脈瘤（AAA）評估
+### 💧 水腎 5 級分類
 
-### 正常值與診斷標準
+| 分級 | 描述 | 臨床意義 |
+|:----:|------|----------|
+| **Grade 0** | 無腎盂擴張 | 正常 |
+| **Grade 1** | 輕度腎盂擴張、**無**腎盞擴張 | 早期阻塞 / 生理性 |
+| **Grade 2** | 腎盂擴張 + **部分**腎盞擴張 | 顯著阻塞 |
+| **Grade 3** | 腎盂 + **所有**腎盞明顯擴張 | 嚴重阻塞 |
+| **Grade 4** | 嚴重擴張 + **皮質變薄** | 慢性、不可逆損傷 |
 
-| 項目 | 數值 |
-|------|------|
-| 正常腹主動脈直徑 | < 2 cm |
-| 腹主動脈瘤定義 | > 3 cm |
-| 破裂高風險 | > 5.5 cm |
+: 水腎 5 級對照 {.striped tbl-colwidths="[15,40,45]"}
 
-### 測量方法
+::: {.callout-caution}
+## 🪤 水腎 ≠ 阻塞 — 3 大陷阱
+
+1. **生理性水腎**：懷孕（特別是右側）、膀胱過度充盈
+2. **Vesicoureteral reflux**：膀胱壓力過高的代償
+3. **Pyelonephritis** 早期：發炎本身就會輕度水腫
+
+→ 必須結合**症狀（疼痛、發燒）+ lab（UA、Cr）+ 對側比較**判讀。
+:::
+
+## 🩸 腹主動脈瘤（AAA）評估
 
 ::: {.callout-warning}
-## Key Point
-AAA 測量應採用 **outer wall to outer wall** 的方式，取最大橫徑。應在橫切面與縱切面皆進行測量，確保準確性。
+## 🚨 老年男性 + 腹痛 / 腰背痛 / 休克 → 30 秒掃 AAA！
+
+**破裂死亡率 80-90%**，POCUS 確診後**直接送 OR**，別等 CT。
+這是 POCUS 真正能救命的場景之一。
 :::
 
-## 自我評量
+### 📐 AAA 直徑分級
 
-1. 水腎 Grade 2 與 Grade 3 的超音波表現有何不同？
-2. 腹主動脈瘤的超音波測量應如何操作？為什麼要用 outer wall to outer wall？
-3. 腎結石在超音波下的典型表現為何？
-4. 哪些臨床情境下應特別注意篩檢 AAA？
-5. 水腎一定代表尿路阻塞嗎？還有哪些原因可能造成水腎？
+| 直徑 | 分類 | 處置 |
+|:----:|:----:|------|
+| **< 2 cm** | 正常 | 無需追蹤 |
+| 2-3 cm | Ectasia（擴張） | 監測但非 AAA |
+| **3-4 cm** | 小型 AAA | **每年**追蹤 US |
+| 4-5 cm | 中型 AAA | **每 6 個月**追蹤 |
+| **5-5.5 cm** | 大型 AAA | 評估手術 / EVAR |
+| **> 5.5 cm** | 高破裂風險 | **建議介入治療** |
+| **> 6 cm** | 極高風險 | 1 年破裂率 ~ 10% |
 
-## 參考文獻
+: AAA 直徑分級與處置（2018 SVS guideline）{.striped .hover tbl-colwidths="[18,32,50]"}
 
-1. Ma OJ, Mateer JR, Blaivas M. *Emergency Ultrasound*. 2nd edition. McGraw-Hill.
+### 🔬 AAA 測量 SOP
+
+::: {.callout-warning}
+## ⚠️ 4 大測量原則
+
+1. **Outer wall to outer wall** — 不是 lumen，是包含血栓的全寬
+2. **取最大橫徑** — 全長掃描找最寬處
+3. **雙軸測量** — 短軸（橫切）+ 長軸（縱切）相互驗證
+4. **全長掃描** — 從劍突下到分叉處（umbilicus 附近）
+:::
+
+### 🚨 AAA Rupture 的 POCUS 警訊
+
+| 徵象 | 描述 |
+|------|------|
+| **AAA + 周圍血腫** | 主動脈外圍 hypoechoic 區域 |
+| **腹腔游離液體** | FAST 陽性 |
+| **後腹腔血腫** | Retroperitoneal hematoma |
+| **休克 + AAA** | 不需等其他證據，直接送 OR |
+
+: AAA rupture POCUS 4 大警訊 {.striped tbl-colwidths="[34,66]"}
+
+::: {.callout-tip}
+## 🎯 AAA 篩檢推薦對象（USPSTF 2019）
+
+- **男性 65-75 歲 + 抽菸史** → **強烈建議**一次性篩檢
+- 男性 65-75 歲 + 無抽菸史 → 可考慮
+- 女性 65-75 歲 + 抽菸史 → 個別評估
+- 一等親有 AAA 病史 → 60 歲開始追蹤
+:::
+
+## 🪤 常見錯誤
+
+::: {.callout-caution}
+## ⚠️ 4 大常見誤判
+
+1. **小水腎就以為是阻塞** — Grade 1 在懷孕、膀胱滿都會有
+2. **AAA 用 inner-to-inner 測量** — 會低估真實大小（漏掉血栓）
+3. **只測短軸不測長軸** — 可能因切面斜而高估
+4. **沒掃到分叉處** — 漏掉 iliac aneurysm
+:::
+
+## 💬 自我評量
+
+::: {.callout-note}
+## 🗣️ 課堂討論
+
+1. 水腎 **Grade 2 vs Grade 3** 的超音波表現差異？
+2. AAA 測量為什麼要 **outer-to-outer wall**？
+3. 腎結石的 **典型 POCUS 表現** 為何？
+4. 哪些病人應特別**篩檢 AAA**？
+5. **水腎一定是尿路阻塞嗎**？還有哪些原因？
+:::
+
+## ✅ 自我評估
+
+::: {.content-visible when-format="html"}
+
+::: {.callout-note appearance="default"}
+## 📝 問題 1
+**AAA** 的診斷標準是腹主動脈直徑 > 多少？
+
+- [ ] 2 cm
+- [x] **3 cm**
+- [ ] 5 cm
+- [ ] 5.5 cm
+:::
+
+::: {.callout-note appearance="default"}
+## 📝 問題 2
+**AAA 高破裂風險**的直徑閾值是？
+
+- [ ] 3 cm
+- [ ] 4 cm
+- [x] **5.5 cm**
+- [ ] 7 cm
+:::
+
+::: {.callout-note appearance="default"}
+## 📝 問題 3
+水腎 **Grade 4** 與 Grade 3 最關鍵的差異是？
+
+- [ ] 腎盂擴張程度
+- [ ] 腎盞擴張數量
+- [x] **皮質變薄**
+- [ ] 結石存在
+:::
+
+::: {.callout-tip collapse="true"}
+## 💡 顯示答案解析
+
+1. **AAA 診斷標準 > 3 cm**（正常 < 2 cm）。**> 5.5 cm 為高破裂風險**，建議介入。
+2. **Outer-to-outer wall** 才能涵蓋管壁血栓 — 用 inner-to-inner 會低估真實大小，
+   錯失介入時機。
+3. **Grade 4 = 嚴重擴張 + 皮質變薄** — 代表慢性、不可逆損傷。
+   Grade 3 雖然嚴重擴張但皮質仍正常，及時解除阻塞仍可恢復。
+:::
+
+:::
+
+::: {.content-visible when-format="pdf"}
+::: {.callout-tip}
+## 自我評估
+
+請訪問線上版本完成測驗。
+:::
+:::
+
+## 🎓 回家三句話
+
+::: {.callout-important}
+## 🏠 帶回家的 Take-home Messages
+
+1. **老年腹痛 / 腰背痛 → 30 秒掃 AAA** — 是 POCUS 真正救命的場景。
+   別等 CT，看到 > 5 cm + 周圍血腫 + 休克 = 立刻送 OR。
+2. **水腎 ≠ 阻塞** — 5 級分類要結合症狀 + lab + 對側對比，
+   別看到 Grade 1 就過度治療。
+3. **AAA 測量必須 outer-to-outer wall + 雙軸** — inner-to-inner 會低估，
+   單軸會因切面斜而高估，雙軸交叉驗證才準確。
+:::
+
+## 📚 參考閱讀
+
+1. Ma OJ, Mateer JR, Blaivas M. **Emergency Ultrasound**, 2nd ed. McGraw-Hill.
+2. Chaikof EL, et al. **The Society for Vascular Surgery practice guidelines on the care of patients with an abdominal aortic aneurysm.** *J Vasc Surg.* 2018;67(1):2-77.e2.
+3. **USPSTF Recommendation Statement: Screening for Abdominal Aortic Aneurysm.** *JAMA.* 2019;322(22):2211-2218.
+4. Onen A. **Grading of hydronephrosis: an ongoing challenge.** *Front Pediatr.* 2020;8:458.

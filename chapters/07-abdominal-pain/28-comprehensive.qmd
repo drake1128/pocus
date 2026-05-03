@@ -1,63 +1,279 @@
 ---
-title: "教案 28：綜合討論鑑別診斷練習"
+title: "教案 28｜🎯 綜合討論鑑別診斷練習"
 subtitle: "依據疼痛位置的綜合鑑別診斷"
 author: "李宜家"
 date: last-modified
 categories: [急性腹痛, 鑑別診斷, POCUS]
 ---
 
-## 學習目標
+::: {.callout-note appearance="minimal" icon="false"}
+## 📌 本課速覽
+
+**9 大象限思考法 × 5 個臨床情境練習 × POCUS 對應策略**
+這一課把前 3 課的技能（GI / 腎血管 / 婦科）整合到一個「**疼痛位置 → 鑑別 → POCUS 重點**」的決策矩陣。
+:::
+
+## 🎯 學習目標
 
 ::: {.callout-note}
 ## Learning Objectives
 
-1. 學習依據腹痛位置進行系統性鑑別診斷
-2. 整合前三堂課的 POCUS 技能，進行綜合診斷練習
-3. 建立急性腹痛的臨床決策思維
+1. 學會**依據疼痛位置**進行系統性鑑別診斷（9 大象限）。
+2. 整合前 3 課的 POCUS 技能進行**綜合判讀**。
+3. 建立 **「疼痛位置 → 鑑別清單 → POCUS 重點」** 的決策框架。
+4. 認識**轉移痛、放射痛、非典型表現**的常見陷阱。
+5. 練習在 5 個臨床情境中執行完整 POCUS 評估。
 :::
 
-## 依據疼痛位置的鑑別診斷
+## 🗺 9 大象限鑑別診斷對照表
 
 ::: {.callout-warning}
-## Key Point
-腹痛位置是鑑別診斷的重要線索，但不應僅依靠位置判斷。轉移痛、放射痛、及非典型表現都需要納入考量。
+## ⚠️ 疼痛位置是線索，不是答案
+
+腹痛的位置可以縮小範圍，但**轉移痛、放射痛、非典型表現**很常見。
+例如闌尾炎可能臍周開始、心肌梗塞可能上腹痛。
 :::
 
-| 疼痛位置 | 可能診斷 |
-|----------|----------|
-| 右上腹 | 膽囊炎、膽道結石、肝膿瘍、肝腫瘤、肝炎 |
-| 上腹中央 | 胃潰瘍、十二指腸潰瘍、胰臟炎、AAA |
-| 左上腹 | 脾臟問題、胃潰瘍、左腎問題 |
-| 右腰 | 右腎結石、右腎盂腎炎 |
-| 臍周 | 小腸阻塞、早期闌尾炎、腸繫膜缺血 |
-| 左腰 | 左腎結石、左腎盂腎炎 |
-| 右下腹 | 闌尾炎、右側卵巢問題、右側疝氣 |
-| 下腹中央 | 膀胱炎、子宮問題、直腸問題 |
-| 左下腹 | 憩室炎、左側卵巢問題、左側疝氣 |
-| 全腹 | 腸阻塞、腹膜炎、腸穿孔 |
+| 疼痛位置 | 可能診斷 | 不可漏診 |
+|----------|----------|----------|
+| 🟦 **右上腹 (RUQ)** | 膽囊炎、膽道結石、肝膿瘍、肝腫瘤、肝炎、肺炎 | Sonographic Murphy's sign |
+| 🟦 **上腹中央 (Epigastric)** | 胃 / 十二指腸潰瘍、胰臟炎、**AAA**、**MI** | AAA、心肌梗塞 |
+| 🟦 **左上腹 (LUQ)** | 脾臟（梗塞、破裂）、胃潰瘍、左腎、肺炎 | 脾臟破裂（外傷後）|
+| 🟧 **右腰 (Right flank)** | 右腎結石、右腎盂腎炎、**AAA** | 漏右腎 + AAA |
+| 🟧 **臍周 (Periumbilical)** | **小腸阻塞**、早期闌尾炎、**腸繫膜缺血**、**AAA** | 4 個都會死 |
+| 🟧 **左腰 (Left flank)** | 左腎結石、左腎盂腎炎 | AAA 仍要排除 |
+| 🟥 **右下腹 (RLQ)** | **闌尾炎**、右側卵巢、右側疝氣、迴盲炎 | 婦科鑑別 |
+| 🟥 **下腹中央 (Suprapubic)** | 膀胱炎、**子宮 / 異位妊娠**、直腸 | β-hCG！ |
+| 🟥 **左下腹 (LLQ)** | **憩室炎**、左側卵巢、左側疝氣 | 老人憩室炎 |
+| ⚪ **全腹 (Diffuse)** | **腸阻塞**、**腹膜炎**、**腸穿孔**、**AAA rupture** | 全部致命 |
 
-## POCUS 綜合評估策略
+: 9 大象限 + 全腹 鑑別診斷對照 {.striped .hover tbl-colwidths="[18,52,30]"}
 
-根據疼痛位置，選擇對應的 POCUS 掃描重點：
+## 🎯 POCUS 綜合掃描策略
+
+::: {.callout-tip}
+## 🔍 「疼痛位置 → POCUS 重點」對照
+
+依疼痛位置選擇對應的 POCUS 掃描重點，避免「全腹亂掃」浪費時間。
+:::
 
 | 疼痛位置 | POCUS 掃描重點 |
 |----------|---------------|
-| 右上腹 | 膽囊（結石、壁厚、Murphy's sign）、CBD、肝臟 |
-| 上腹中央 | 胃、十二指腸、胰臟、腹主動脈 |
-| 左上腹 | 脾臟、左腎、脾腎間隙積液 |
-| 側腰 | 腎臟（水腎、結石）、輸尿管 |
-| 臍周 | 小腸（擴張、keyboard sign）、腹主動脈 |
-| 下腹 | 膀胱、子宮/附屬器、Douglas pouch |
-| 全腹 | 系統性全腹掃描、FAST 評估游離液體 |
+| **RUQ** | 膽囊（結石、壁厚、Murphy's）、CBD、肝臟、右腎 |
+| **Epigastric** | 胃、十二指腸、胰臟、**腹主動脈** |
+| **LUQ** | 脾臟、左腎、**脾腎間隙積液**（FAST）|
+| **側腰** | 腎臟（水腎、結石）、輸尿管 |
+| **臍周** | 小腸（擴張、keyboard sign）、**腹主動脈**、闌尾 |
+| **下腹** | 膀胱、子宮 / 附屬器、**Douglas pouch** |
+| **全腹** | **完整 7 區掃描 + FAST**（4 點評估游離液體）|
 
-## 自我評量
+: 依疼痛位置的 POCUS 策略 {.striped tbl-colwidths="[20,80]"}
 
-1. 一位 45 歲男性主訴右上腹痛合併發燒，POCUS 應優先評估哪些結構？
-2. 臍周疼痛的病患，POCUS 發現 keyboard sign，最可能的診斷為何？
-3. 一位 30 歲女性左下腹痛，驗孕陽性，POCUS 應如何評估？
-4. 上腹中央疼痛的老年病患，除了腸胃疾病外，還需考慮哪個致命性診斷？
-5. 全腹痛合併腹膜刺激徵象的病患，POCUS 可以提供哪些有用資訊？
+## 🩺 5 個整合臨床情境
 
-## 參考文獻
+::: {.panel-tabset}
 
-1. Ma OJ, Mateer JR, Blaivas M. *Emergency Ultrasound*. 2nd edition. McGraw-Hill.
+### 情境 1｜RUQ + 發燒
+
+::: {.callout-tip appearance="default"}
+## 🧑 案例：45 歲男性・RUQ 劇痛 + 發燒 38.5°C
+
+**📋 鑑別清單**：膽囊炎、膽道結石、肝膿瘍、急性肝炎
+
+**🩺 POCUS 優先評估**：
+1. **膽囊壁厚** > 3 mm？
+2. **Sonographic Murphy's sign**？
+3. **膽囊內結石**？特別 cystic duct 是否卡住？
+4. **CBD 內徑**？> 6 mm 警戒
+5. **Pericholecystic fluid**（膽囊周圍液體）？
+6. 肝實質是否有 hypoechoic abscess？
+
+→ 若 4-5 項陽性 = 急性膽囊炎，立即會診外科 + 抗生素。
+:::
+
+### 情境 2｜臍周 + Keyboard sign
+
+::: {.callout-tip appearance="default"}
+## 🧓 案例：65 歲女性・臍周絞痛 + Keyboard sign
+
+**📋 預期診斷**：**小腸阻塞 (SBO)**
+
+**🩺 POCUS 確認 4 大徵象**：
+1. ✅ 腸內徑 > 2.5 cm
+2. ✅ Keyboard sign（plicae 像琴鍵）
+3. ✅ 腸內液體 to-and-fro
+4. ⚠️ 腹水（漿膜層發炎）
+
+**🎯 處置**：
+- NPO + NG decompression
+- IV fluid + 電解質校正
+- 一般外科會診
+- 若有腹水或全腹痛 → 警戒 strangulated bowel
+:::
+
+### 情境 3｜LLQ + 育齡女性 + β-hCG (+)
+
+::: {.callout-tip appearance="default"}
+## 🤰 案例：30 歲女性・左下腹痛 + β-hCG 陽性
+
+**📋 鑑別**：**異位妊娠**（最優先排除）、卵巢囊腫破裂、PID
+
+**🩺 POCUS 流程**：
+1. **子宮腔**：找 IUP（妊娠囊 + yolk sac）
+2. β-hCG 數值對照 discriminatory zone
+3. **左附屬器**：腫塊、囊腫
+4. **Douglas pouch**：游離液體
+
+**判讀**：
+- IUP (+) → 大致排除 ectopic（除非 IVF heterotopic）
+- IUP (-) + β-hCG > 1500 → **強烈懷疑異位妊娠**，立刻會診婦產科
+- Douglas 大量積液 → 強烈提示破裂出血
+:::
+
+### 情境 4｜上腹 + 老年男性 + 休克
+
+::: {.callout-tip appearance="default"}
+## 🧓 案例：72 歲男性・上腹痛 + 冷汗 + 休克
+
+**📋 鑑別 — 都會死**：
+1. **AAA rupture**（最優先）
+2. **Mesenteric ischemia**
+3. Massive MI（下壁）
+4. Perforated ulcer
+
+**🩺 POCUS 30 秒救命掃**：
+1. **腹主動脈 — short axis 從劍突下到分叉**
+   - 若 > 5 cm + 周圍血腫 → **AAA rupture，立刻 OR**
+2. 心臟 PLAX → RWMA？心包積液？
+3. FAST → 腹腔游離液
+4. ECG + Troponin 同步
+
+→ 別等 CT，別等 lab。POCUS 是這類病人的 **「不會死的最後一道線」**。
+:::
+
+### 情境 5｜全腹 + 腹膜刺激徵
+
+::: {.callout-tip appearance="default"}
+## 🧓 案例：60 歲女性・全腹痛 + 反彈痛 + 板狀腹
+
+**📋 鑑別**：腸穿孔、瀰漫性腹膜炎、腸繫膜缺血
+
+**🩺 POCUS 系統評估**：
+1. **腸壁** — 增厚？無 peristalsis？
+2. **腹腔游離氣體** — 肝臟前緣強回音線（perforation）
+3. **腹水量** — FAST 4 點
+4. **腸繫膜血流** — Color Doppler
+5. **腸壁 pneumatosis intestinalis** — 腸壁內氣體（嚴重缺血）
+
+→ POCUS + lab + CT 三管齊下，立即外科會診。
+:::
+
+:::
+
+## 🪤 常見鑑別錯誤
+
+::: {.callout-caution}
+## ⚠️ 5 大臨床陷阱
+
+1. **被疼痛位置綁架** — 闌尾炎可能臍周開始；MI 可能上腹痛
+2. **沒掃 AAA** — 老年腹痛 / 腰痛 / 休克都要 30 秒掃 AAA
+3. **女性沒驗 β-hCG** — 任何育齡女性腹痛**都要驗孕**
+4. **看到一個診斷就停手** — 多重診斷常見（如老人 GI bleed + AKI）
+5. **過度依賴 CT** — 不穩定病人別送 CT 室，POCUS 床邊先評估
+:::
+
+## 💬 自我評量
+
+::: {.callout-note}
+## 🗣️ 課堂討論
+
+1. 45 歲男性 **RUQ 痛 + 發燒**，POCUS 應優先評估什麼？
+2. 臍周痛 + **Keyboard sign**，最可能診斷？
+3. 30 歲女性 **左下腹痛 + 驗孕陽性**，POCUS 怎麼評估？
+4. 老年人 **上腹痛**，除了 GI 還要想什麼致命診斷？
+5. **全腹痛 + 腹膜刺激徵**，POCUS 提供哪些資訊？
+:::
+
+## ✅ 自我評估
+
+::: {.content-visible when-format="html"}
+
+::: {.callout-note appearance="default"}
+## 📝 問題 1
+**老年男性 + 上腹痛 + 休克**，第一個要排除的致命診斷？
+
+- [ ] 急性胰臟炎
+- [x] **AAA rupture**
+- [ ] 膽囊炎
+- [ ] 胃穿孔
+:::
+
+::: {.callout-note appearance="default"}
+## 📝 問題 2
+**任何育齡女性急性腹痛**，第一個要做的檢查是？
+
+- [ ] CT
+- [ ] 抽血
+- [x] **β-hCG（驗孕）**
+- [ ] X-ray
+:::
+
+::: {.callout-note appearance="default"}
+## 📝 問題 3
+**Keyboard sign + 腸內徑 > 2.5 cm + 腸內液體 to-and-fro**，最可能診斷？
+
+- [ ] 闌尾炎
+- [ ] 膽囊炎
+- [x] **小腸阻塞 (SBO)**
+- [ ] 憩室炎
+:::
+
+::: {.callout-tip collapse="true"}
+## 💡 顯示答案解析
+
+1. **AAA rupture** 死亡率 80-90%，老年男性 + 上腹 / 腰背痛 + 休克 = POCUS 30 秒掃 AAA。
+2. **β-hCG** 是育齡女性腹痛的第一線檢查 — 驗孕 + POCUS 找 IUP 是排除異位妊娠的標準流程。
+3. **SBO 三件套** = 腸擴張 + keyboard sign + to-and-fro，POCUS 敏感度 91%，
+   比 KUB (50%) 強很多。
+:::
+
+:::
+
+::: {.content-visible when-format="pdf"}
+::: {.callout-tip}
+## 自我評估
+
+請訪問線上版本完成測驗。
+:::
+:::
+
+## 🏆 本章總結
+
+::: {.callout-important}
+## 🌟 第七章關鍵要點
+
+1. **腹痛 POCUS 是 7 區系統掃 + 依位置調整重點** — 別漏 AAA 與 Douglas pouch。
+2. **3 大致命診斷不可漏** — AAA、ectopic pregnancy、mesenteric ischemia。
+3. **「老年男性 + 腹痛 / 腰背痛 / 休克 = 30 秒掃 AAA」** — 是 POCUS 真正救命場景。
+4. **「任何育齡女性腹痛 = 先驗孕 + POCUS 找 IUP」** — 漏掉 ectopic 會死人。
+5. **9 大象限思考是輔助，不是答案** — 結合病史 + 理學 + lab 才完整。
+:::
+
+## 🎓 回家三句話
+
+::: {.callout-important}
+## 🏠 帶回家的 Take-home Messages
+
+1. **疼痛位置只是線索** — 9 大象限對照表有用，但**轉移痛、非典型表現很常見**。
+   闌尾炎可能臍周開始、MI 可能上腹痛。
+2. **3 個致命診斷必排除** — AAA（老年）、ectopic pregnancy（育齡女）、mesenteric ischemia（老人 + AF/CHF）。
+3. **POCUS 不是萬能但是床邊救命的最後一道線** — 特別是不穩定病人不能送 CT 時，
+   30 秒的腹主動脈 + FAST + 心臟 = 救命起手式。
+:::
+
+## 📚 參考閱讀
+
+1. Ma OJ, Mateer JR, Blaivas M. **Emergency Ultrasound**, 2nd ed. McGraw-Hill.
+2. Cartwright SL, Knudson MP. **Evaluation of acute abdominal pain in adults.** *Am Fam Physician.* 2008;77(7):971-978.
+3. Reginelli A, et al. **Imaging of acute abdominal emergencies: A pictorial review.** *Radiol Med.* 2017;122(2):145-157.
+4. Macaluso CR, McNamara RM. **Evaluation and management of acute abdominal pain in the emergency department.** *Int J Gen Med.* 2012;5:789-797.

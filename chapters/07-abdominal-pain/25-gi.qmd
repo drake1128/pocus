@@ -1,92 +1,214 @@
 ---
-title: "教案 25：腸胃疾病引起的急性腹痛"
+title: "教案 25｜🩺 腸胃疾病引起的急性腹痛"
 subtitle: "腸胃疾病引起的急性腹痛與 POCUS 系統性掃描"
 author: "李宜家"
 date: last-modified
 categories: [急性腹痛, 腸胃疾病, POCUS]
 ---
 
-## 學習目標
+::: {.callout-note appearance="minimal" icon="false"}
+## 📌 本課速覽
+
+**1 個小腸阻塞案例 × 7 區系統性掃描 × 膽囊 / 闌尾 / 腸阻塞 3 大關鍵徵象**
+讀完之後，你會知道為什麼**「便秘 + 腹脹 + 沒排氣 3 天」**這個組合在急診不是「給軟便藥就好」，
+以及如何在 5 分鐘內掃完腹部 7 個區域。
+:::
+
+## 🎯 學習目標
 
 ::: {.callout-note}
 ## Learning Objectives
 
-1. 學習如何對急性腹痛病患問診、收集有用的資訊
-2. 學習如何使用 POCUS 排除或確定某些鑑別診斷
-3. 學習針對急性腹痛診斷的綜合練習
+1. 學習急性腹痛**問診的關鍵資訊**（OPQRST + 紅旗徵兆）。
+2. 操作 **POCUS 7 區系統性掃描** SOP，避免遺漏。
+3. 認識 **膽囊炎、小腸阻塞、闌尾炎** 3 大常見急症的關鍵徵象。
+4. 學會**結石 vs 息肉、結石 vs 鈣化**的鑑別。
+5. 培養「**先掃 → 再 CT**」的思維，不要直接送 CT。
 :::
 
-## 臨床案例
+## 📋 臨床案例
 
-::: {.callout-tip}
-## Clinical Case
+::: {.callout-tip appearance="default"}
+## 🧓 Case　60 歲女性・腹脹 + 3 天無解便
 
-60 歲女性，剖腹產過兩次，停經後長期服用安眠藥，平日會便秘，B 肝帶原，腹脹症狀已斷斷續續兩個月，每次解便量都一點點，主訴當日肚臍周圍大痛，三日無解便、排氣少。
+60 歲女性，**剖腹產 × 2**、停經後**長期服用安眠藥**、**便秘體質**、**B 肝帶原**。
+**腹脹症狀斷斷續續 2 個月**，每次解便量都很少。
+**今日**主訴肚臍周圍**大痛 + 3 天無解便 + 排氣很少**。
 
-**Vital Signs**
+**🩺 Vital Signs**
 
-| 項目 | 數值 |
-|------|------|
-| 血壓 | 152/83 mmHg |
-| 心跳 | 80/min |
-| 血氧 | 98% |
-| 體溫 | 36.3°C |
+| 項目 | 數值 | 解讀 |
+|------|------|------|
+| 血壓 | 152 / 83 | ⚠️ 偏高（疼痛代償）|
+| 心跳 | 80 | 正常 |
+| 血氧 | 98 % | 正常 |
+| 體溫 | 36.3 °C | 無感染熱 |
+
+🔑 **臨床線索**：
+- 剖腹產 × 2 → **腹腔沾黏高風險**
+- 便秘 + 安眠藥（鴉片類成分？）→ **慢性蠕動不足**
+- 急性腹脹 + 無解便排氣 → **小腸阻塞 (SBO)** 經典三徵
+
+**🔬 預期 POCUS 發現**
+- **小腸明顯擴張** > 2.5 cm
+- **Keyboard sign**（plicae circulares 排成琴鍵狀）
+- 腸內**液體堆積、來回擺動**（to-and-fro）
+- 可能有**少量腹水**
+
+→ 不需要等 CT，POCUS 已可診斷 SBO，立刻 NG decompression + surgery 會診。
 :::
 
-## POCUS 系統性掃描流程
+## 🗺 POCUS 7 區系統性掃描 SOP
 
 ::: {.callout-warning}
-## Key Point
-建議建立個人習慣的系統性掃描流程，依據腹部區域逐一檢查，避免遺漏重要發現。
+## ⚠️ 建立個人習慣的順序
+
+依**腹部 7 區**逐一掃描，避免遺漏。建議順序：**中上 → 右上 → 左上 → 中腹 → 右下 → 左下 → 中下**。
 :::
 
-### 中上腹
+### 1️⃣ 中上腹（劍突下）
 
-- 劍突下看胃是否脹
-- 十二指腸是否脹（很深的潰瘍超音波底下有機會可見）
+::: {.callout-note}
+## 🩺 評估重點
 
-### 右上腹
+| 結構 | 看什麼 | 異常 → 想 |
+|------|--------|----------|
+| **胃** | 是否脹大 + 內容物 | Gastric outlet obstruction |
+| **十二指腸** | 是否脹大、深部潰瘍 | DU、obstruction |
 
-- 膽囊是否存在（是否開刀過）、膽囊是否脹、膽囊壁是否增厚 fat-stranding
-- 是否有膽結石膽砂、如何區分膽結石和膽息肉
-- 膽結石是否卡在 cystic duct、是否有 echo Murphy's sign
-- IHD、CBD 是否有擴張
-- 肝臟是否有肝硬化（肝臟表面是否平整或看左葉肝尖是否變鈍角）
-- 是否脂肪肝，肝內實質是否均質（排除 infiltrating HCC）
-- 是否有 hyperdense 或 hypodense lesion
-- 可以開 color doppler 看 portal vein 是否有 filling defect
+→ 胃內若有**大量食物殘渣 + 病人禁食很久** → 強烈提示 outlet obstruction。
+:::
 
-### 左上腹
+### 2️⃣ 右上腹（RUQ）
 
-- 看脾臟和腎臟間是否有腹水
+::: {.callout-note}
+## 🩺 膽囊 + 肝臟 8 大評估
 
-### 中腹（肚臍周圍）
+| 結構 | 評估點 | 異常 |
+|------|--------|------|
+| **膽囊** | 存在？大小？壁厚？ | 急性膽囊炎：壁厚 > 3 mm + fat stranding |
+| **膽結石** | 高回音 + 後方音影 + **重力下沉** | 結石（vs 息肉：不沉、貼壁、有 vessel） |
+| **Cystic duct** | 結石卡住？ | Acute cholecystitis 病因 |
+| **Sonographic Murphy's** | 探頭壓膽囊處最痛 | 急性膽囊炎特異徵象 |
+| **CBD** | 內徑（< 6 mm，每 10 歲多 1 mm） | Choledocholithiasis、obstruction |
+| **IHD** | 是否擴張 | 阻塞性黃疸 |
+| **肝臟表面** | 平整？left lobe 鈍角？ | 肝硬化 |
+| **肝實質** | 均質？hyper / hypo lesion？ | HCC、轉移、膿瘍 |
+| **Portal vein** | Color Doppler 有無 filling defect | Portal vein thrombosis |
 
-- 看胰臟，是否有腫，是否有 pseudocyst
-- 腸壁是否增厚、是否有 keyboard sign、是否腸內液體堆積內徑異常脹
+: RUQ POCUS 9 大評估 {.striped .hover tbl-colwidths="[22,40,38]"}
+:::
 
-### 右下腹
+::: {.callout-tip}
+## 🎯 膽結石 vs 膽息肉的 4 大鑑別
 
-- 看闌尾是否腫脹，是否有糞石卡到
-- 探頭可以從髂骨找到髂肌 iliacus muscle 往內上側找到盲腸、迴盲瓣，然後左右稍微滑動找到條狀物
-- 結腸壁是否腫脹、是否有膿包、是否有憩室炎
+| 特徵 | 結石 | 息肉 |
+|:----:|:----:|:----:|
+| **重力影響** | 沉到底 | 不動 |
+| **後方音影** | 有 | 無 |
+| **附著於壁** | 不附著（除非 impacted） | **附著於壁** |
+| **Color Doppler** | 無血流 | **可能有 vessel stalk** |
 
-### 左下腹
+: 膽結石 vs 息肉 4 維度速辨 {.striped tbl-colwidths="[28,36,36]"}
+:::
 
-- 結腸壁是否腫脹、是否有膿包、是否有憩室炎
+### 3️⃣ 左上腹（LUQ）
 
-### 中下腹
+| 結構 | 看什麼 |
+|------|--------|
+| **脾腎間隙** | 是否有腹水（FAST 陽性提示） |
+| **脾臟** | 大小、是否破裂、subcapsular hematoma |
+| **左腎** | 水腎、結石 |
 
-- 是否有腹水
+### 4️⃣ 中腹（臍周）
 
-## 自我評量
+::: {.callout-warning}
+## ⚠️ 小腸阻塞的 POCUS 4 大徵象
 
-1. 急性腹痛病患問診時，應收集哪些關鍵資訊以協助鑑別診斷？
-2. POCUS 系統性掃描流程中，右上腹應評估哪些結構與徵象？
-3. 如何利用超音波區分膽結石與膽息肉？
-4. 什麼是 keyboard sign？它代表什麼臨床意義？
-5. 案例中的病患最可能的診斷為何？POCUS 可能看到什麼發現？
+| 徵象 | 描述 | 敏感度 |
+|------|------|:------:|
+| **腸內徑 > 2.5 cm** | 小腸顯著擴張 | 91% |
+| **Keyboard sign** | plicae circulares 像琴鍵 | 高 |
+| **腸內液體 to-and-fro** | 內容物來回擺動（早期 dynamic ileus）| 高 |
+| **腹水** | 漿膜層發炎滲出 | 70% |
 
-## 參考文獻
+: 小腸阻塞 POCUS 4 大徵象 {.striped tbl-colwidths="[24,55,21]"}
 
-1. Ma OJ, Mateer JR, Blaivas M. *Emergency Ultrasound*. 2nd edition. McGraw-Hill.
+→ **POCUS 對 SBO 敏感度 91%、特異度 84%**，比 KUB（敏感度 50%）好很多。
+:::
+
+也評估：
+- **胰臟** — peripancreatic edema、pseudocyst（急性胰臟炎不一定看得到，但若有 pseudocyst 即確認）
+- **腹主動脈** — 順便排除 AAA
+
+### 5️⃣ 右下腹（RLQ）
+
+::: {.callout-note}
+## 🩺 闌尾炎的 POCUS 評估
+
+| 步驟 | 動作 |
+|:----:|------|
+| 1️⃣ | 從**髂骨**找到 **iliacus muscle** |
+| 2️⃣ | 沿肌肉**內上**找到**盲腸 + 迴盲瓣** |
+| 3️⃣ | 左右滑動找**條狀闌尾** |
+| 4️⃣ | 評估：**直徑 > 6 mm、不可壓縮、糞石、周圍 fat stranding** |
+
+→ 同時評估結腸壁（看是否有 colitis、abscess、憩室炎）。
+:::
+
+### 6️⃣ 左下腹（LLQ）
+
+| 結構 | 看什麼 |
+|------|--------|
+| **乙狀結腸** | 壁是否增厚、憩室炎、abscess |
+| **左卵巢**（女性） | 卵巢扭轉、囊腫破裂 |
+
+### 7️⃣ 中下腹
+
+| 結構 | 看什麼 |
+|------|--------|
+| **膀胱** | 過度充盈（urinary retention）、結石、腫瘤 |
+| **Douglas pouch** | 游離液體 |
+| **子宮**（女性） | 大小、IUP、附屬器 |
+
+## 🪤 常見掃描錯誤
+
+::: {.callout-caution}
+## ⚠️ 學員容易忽略的 4 個地方
+
+1. **沒掃 AAA** — 老年腹痛必掃！別漏掉這個 30 秒的救命動作
+2. **看到膽結石就停手** — 膽結石不一定是疼痛源，要找 **acute cholecystitis 徵象**（壁厚 + Murphy's）
+3. **闌尾找不到就放棄** — 一半的人 POCUS 找不到闌尾正常 — 結合臨床 + lab + CT
+4. **沒看 Douglas pouch** — 是骨盆腔最低點，少量游離液最先聚積
+:::
+
+## 💬 自我評量
+
+::: {.callout-note}
+## 🗣️ 課堂討論
+
+1. 急性腹痛問診**關鍵資訊** 5 件套？（OPQRST + 紅旗）
+2. POCUS 7 區掃描**右上腹**有哪 9 大評估？
+3. 膽結石 vs 膽息肉的 **4 大鑑別**？
+4. **Keyboard sign** 是什麼？代表什麼診斷？
+5. 案例病人最可能診斷？POCUS 預期看到什麼？
+:::
+
+## 🎓 回家三句話
+
+::: {.callout-important}
+## 🏠 帶回家的 Take-home Messages
+
+1. **腹部 POCUS 不是「找一個診斷」，是「7 區系統掃」** — 養成 SOP 順序，
+   就不會漏 AAA、漏膽囊炎、漏闌尾炎。
+2. **POCUS 對 SBO 敏感度 91%** — keyboard sign + 腸內 to-and-fro + 腹水 = 床邊診斷，
+   比 KUB 強很多，可以省下 CT 等待時間。
+3. **看到膽結石不等於膽囊炎** — 要看 **「壁厚 > 3 mm + sonographic Murphy's + fat stranding」** 才算急性發炎。
+:::
+
+## 📚 參考閱讀
+
+1. Ma OJ, Mateer JR, Blaivas M. **Emergency Ultrasound**, 2nd ed. McGraw-Hill.
+2. Taylor MR, et al. **Point-of-care ultrasonography in emergency department triage of acute abdominal pain.** *Acad Emerg Med.* 2013;20(10):1040-1048.
+3. Jang T, et al. **Bedside ultrasonography for the detection of acute appendicitis.** *Acad Emerg Med.* 2010;17(7):732-738.
+4. Taylor MR, et al. **A clinical evaluation of small bowel obstruction by point-of-care ultrasonography in the ED.** *Am J Emerg Med.* 2013;31(11):1571-1574.
