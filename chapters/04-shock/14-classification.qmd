@@ -1,131 +1,223 @@
 ---
-title: "教案 14：分類、鑑別診斷、病生理"
+title: "教案 14｜🔍 分類、鑑別診斷、病生理"
 subtitle: "休克的分類與超音波鑑別"
 author: "陳麒心"
 date: last-modified
 categories: [休克, 分類, 鑑別診斷]
 ---
 
-## 學習目標
+::: {.callout-note}
+## 📌 本課速覽
+
+**4 大類休克 × 6 種次分類 × Pump-Tank-Pipes 對應病生理**
+這一課讓你看到 **「為什麼分類錯就治療錯」** —
+分佈性休克狂打液體會 overload；心因性狂打液體會肺水腫；
+低容性給升壓劑會 organ ischemia 加劇。
+:::
+
+## 🎯 學習目標
 
 ::: {.callout-note}
 ## Learning Objectives
 
-1. 了解休克的四大分類及其病生理機轉
-2. 掌握各類休克的常見原因與臨床表現
-3. 理解超音波在休克鑑別診斷中的角色
-4. 能根據超音波發現區分不同類型的休克
+1. 掌握休克 **4 大分類**及其 **病生理 SOAP**（preload / pump / afterload / SVR）。
+2. 認識 **6 種次分類**（hypovolemic 細分 hemorrhagic vs non；distributive 細分 septic / anaphylactic / neurogenic）。
+3. 理解超音波在每類休克的**特徵性發現**。
+4. 學會「**SVR + CO + PCWP + CVP**」的血流動力學概念對應到 POCUS。
+5. 認識**多重複合休克**（mixed shock）— 為什麼老人 sepsis 常合併 cardiogenic。
 :::
 
-## 休克的分類
+## 📊 休克 4 大分類速覽
 
 ::: {.callout-warning}
-## 關鍵觀念
+## ⚠️ 關鍵觀念
 
-休克依據病生理機轉可分為四大類：低容性、阻塞性、心因性與分佈性休克。不同類型的休克在超音波下有不同的特徵性發現，有助於快速鑑別診斷。
+休克的本質是 **「氧氣輸送 (DO₂) 不足以支應細胞需求」**。
+依 **「氧氣輸送 = CO × CaO₂」** 拆解，4 大類休克分別影響不同環節：
 :::
 
-| 類型 | 機轉 | 常見原因 | 超音波發現 |
-|------|------|----------|------------|
-| 低容性休克 Hypovolemic | 血管內容積不足 | 出血、脫水 | IVC 塌陷、心臟過動 |
-| 阻塞性休克 Obstructive | 血流回流受阻 | PE、心包填塞、張力性氣胸 | 右心擴大、心包積液、無肺滑動 |
-| 心因性休克 Cardiogenic | 心臟幫浦功能不足 | AMI、心肌病變 | 左心收縮差、心壁運動異常 |
-| 分佈性休克 Distributive | 血管阻力下降 | 敗血症、過敏、神經性 | IVC 擴張、心臟過動 |
+| 類型 | 機轉位置 | CO | SVR | PCWP | CVP | RUSH 招牌 |
+|------|----------|:--:|:---:|:----:|:---:|-----------|
+| 🩸 **低容性** | Preload ↓ | ↓ | ↑ | ↓ | ↓ | 心過動 + IVC 塌陷 |
+| 🚧 **阻塞性** | Preload 受阻 | ↓ | ↑ | 視病因 | ↑ | RV 大 / 心包積液 / 無 sliding |
+| 💔 **心因性** | Pump ↓ | ↓ | ↑ | ↑ | ↑ | LV 收縮差 + IVC 大 + B-lines |
+| 🌊 **分佈性** | SVR ↓ | ↑ 或正常 | ↓ | 視容量 | 多變 | 心過動 + IVC 變動 |
 
-## 低容性休克 (Hypovolemic Shock)
+: 4 大休克病生理速比表 {.striped .hover tbl-colwidths="[14,16,8,8,12,8,34]"}
 
-### 病生理
+🔑 **記憶口訣**：
+- **CO 低 + SVR 高** = pump 或 preload 出問題（hypovolemic / cardiogenic / obstructive）
+- **CO 正常 / 高 + SVR 低** = pipe 出問題（distributive）
 
-血管內容積不足導致前負荷(preload)下降，心輸出量減少，進而造成組織灌流不足。
+## 🩸 低容性休克 (Hypovolemic Shock)
 
-### 常見原因
+### 🔬 病生理
 
-- **出血性：** 外傷、消化道出血、腹腔內出血、產後出血
-- **非出血性：** 嚴重脫水、嘔吐腹瀉、燒傷、第三空間液體流失
+```
+血管內容積 ↓ → 前負荷 (preload) ↓ → 心輸出量 ↓ → 灌流不足
+```
 
-### 超音波特徵
+代償反應：交感神經興奮 → tachycardia + vasoconstriction → 早期 BP 維持。
+失代償後 → BP 崩潰 + 末梢冰冷。
 
-- IVC 直徑小，呼吸變異大（塌陷）
-- 心臟呈現過動(hyperdynamic)狀態
-- 心腔較小
+### 🩹 細分 2 類
 
-## 阻塞性休克 (Obstructive Shock)
+| 次分類 | 來源 | 線索 |
+|--------|------|------|
+| **Hemorrhagic** | 外傷、GI bleed、AAA rupture、產後出血 | Hb 急降、明顯出血源 |
+| **Non-hemorrhagic** | 嚴重嘔吐腹瀉、燒傷、polyuria、third-spacing | 脫水病史 |
 
-### 病生理
+: 低容性休克 2 細類 {.striped tbl-colwidths="[26,40,34]"}
 
-心臟外部因素阻礙血液回流或射出，導致心輸出量急遽下降。
+### 🫀 POCUS 特徵
 
-### 常見原因與超音波發現
+- **IVC 直徑小**（< 1.5 cm）+ **呼吸變異 > 50%**
+- **心臟過動 (hyperdynamic LV)** — 因 preload 不足，每次收縮幾乎排空
+- **心腔小**（end-systolic kissing walls — 「kissing ventricles」）
+- FAST 可能陽性（如腹腔內出血）
+- 主動脈：**檢查有無 AAA rupture**
 
-| 病因 | 超音波關鍵發現 |
-|------|----------------|
-| 肺栓塞 (PE) | 右心室擴大、RV/LV ratio > 1、D-sign |
-| 心包填塞 (Cardiac tamponade) | 心包積液、右心房/右心室舒張期塌陷 |
-| 張力性氣胸 (Tension pneumothorax) | 無肺滑動(absent lung sliding)、無 B-lines |
+## 🚧 阻塞性休克 (Obstructive Shock)
 
-## 心因性休克 (Cardiogenic Shock)
+### 🔬 病生理
 
-### 病生理
+心臟外部因素阻礙血流 → CO 急降。
 
-心臟幫浦功能不足，無法維持足夠的心輸出量。
+### 🚨 3 大病因（每一個都會死）
 
-### 常見原因
+| 病因 | 機轉 | POCUS 招牌徵象 |
+|------|------|---------------|
+| **🫁 PE** (Massive PE) | 肺血管阻塞 → RV afterload ↑ | RV/LV > 1、D-sign、McConnell |
+| **💧 Tamponade** | 心包壓力 ↑ → diastolic filling ↓ | 心包積液 + RA / RV 舒張期塌陷 |
+| **💨 Tension PTX** | 縱膈偏移 → 大血管被扭曲 | 無 lung sliding + barcode sign + lung point |
 
-- 急性心肌梗塞 (AMI)
-- 急性心肌炎
-- 擴張性心肌病變
-- 急性瓣膜功能不全
-- 嚴重心律不整
-
-### 超音波特徵
-
-- 左心室收縮功能差（LVEF 降低）
-- 心壁運動異常 (regional wall motion abnormality)
-- IVC 擴張且呼吸變異小
-- 可能合併肋膜積液、B-lines（肺水腫）
-
-## 分佈性休克 (Distributive Shock)
-
-### 病生理
-
-全身血管阻力下降，導致有效循環血量相對不足。
-
-### 常見原因
-
-- **敗血性休克 (Septic shock)：** 最常見
-- **過敏性休克 (Anaphylactic shock)**
-- **神經性休克 (Neurogenic shock)**
-
-### 超音波特徵
-
-- 心臟呈過動狀態（早期代償）
-- IVC 可能擴張（晚期）或塌陷（早期）
-- 需結合臨床情境判讀
-
-## 鑑別診斷流程
+: 阻塞性休克 3 大病因 + POCUS {.striped .hover tbl-colwidths="[24,32,44]"}
 
 ::: {.callout-warning}
-## 臨床重點
+## 🚨 阻塞性休克 = 5H5T 中的 3 個 T
 
-休克的鑑別診斷應結合：
-
-1. **臨床表現：** 病史、理學檢查
-2. **超音波發現：** 心臟功能、IVC、肺部、腹部
-3. **實驗室檢查：** Lactate、血液氣體分析、心肌酵素
-
-多種類型的休克可能同時存在（如敗血性休克合併心因性休克），需全面性評估。
+**T**hrombosis (PE)、**T**amponade、**T**ension PTX —
+這 3 個是 ACLS / PEA 急救時 **必須立刻找的可逆病因**。
+RUSH Protocol 在 5 分鐘內可以掃完這 3 個。
 :::
 
-## 自我評量
+## 💔 心因性休克 (Cardiogenic Shock)
 
-1. 請列出休克的四大分類及其主要病生理機轉。
-2. 低容性休克與分佈性休克在超音波下的 IVC 表現有何不同？
-3. 哪些超音波發現提示阻塞性休克？請分別說明肺栓塞、心包填塞、張力性氣胸的特徵。
-4. 心因性休克的超音波特徵為何？
-5. 為何休克的鑑別診斷需要結合臨床與超音波發現？
+### 🔬 病生理
 
-## 參考資料
+```
+心肌幫浦衰竭 → CO ↓ → 系統灌流不足 + 後續肺水腫
+```
 
-1. Tintinalli's Emergency Medicine: A Comprehensive Study Guide, 9th Edition. Chapter: Shock.
-2. Perera P, et al. The RUSH exam: Rapid Ultrasound in SHock in the evaluation of the critically ill. *Emerg Med Clin North Am*. 2010;28(1):29-56.
-3. Seif D, et al. Bedside ultrasound in resuscitation and the rapid ultrasound in shock protocol. *Crit Care Res Pract*. 2012;2012:503254.
+### 💊 5 大病因
+
+| 病因 | 比例 | 線索 |
+|------|------|------|
+| **Acute MI（特別是前壁）** | ~ 80% | ECG STEMI、Troponin↑↑ |
+| **Acute myocarditis** | ~ 5% | 病毒前驅、年輕病人 |
+| **Dilated CMP（acute decompensation）** | ~ 5% | 既往 HF 病史 |
+| **Acute valvular failure**（acute MR、acute AR） | ~ 5% | 突發大雜音、心內膜炎 |
+| **Severe arrhythmia** | ~ 5% | ECG 即可確診 |
+
+: 心因性休克 5 大病因 {.striped tbl-colwidths="[40,15,45]"}
+
+### 🫀 POCUS 特徵
+
+- **LV 收縮極差**（LVEF < 30% — 目測就明顯異常）
+- **Regional wall motion abnormality** (RWMA) — 對應冠脈分布
+- **IVC 擴張固定**（plethora — 後負荷無法應付）
+- **雙側 B-lines** + **肋膜積液**（肺水腫）
+- 進階：mitral regurgitation jet、LV thrombus
+
+## 🌊 分佈性休克 (Distributive Shock)
+
+### 🔬 病生理
+
+```
+SVR 大幅 ↓ → 有效循環容量相對不足 → 灌流不足
+（即使 CO 正常或升高）
+```
+
+### 🦠 細分 3 大類
+
+| 次分類 | 機轉 | 代表 | 早期 vs 晚期 |
+|--------|------|------|-------------|
+| **Septic shock** | 感染 → cytokine storm → vasodilation | 最常見 (~ 60%) | 早 warm shock；晚 cold shock |
+| **Anaphylactic shock** | IgE → mast cell → histamine | 食物 / 藥物過敏 | 急性 + 皮疹 + 喉頭水腫 |
+| **Neurogenic shock** | 高位脊髓損傷 → 交感失能 | 高位 SCI | bradycardia + warm + 不出汗 |
+
+: 分佈性休克 3 細類 {.striped tbl-colwidths="[22,32,24,22]"}
+
+### 🫀 POCUS 特徵
+
+- **早期**：心臟過動 (hyperdynamic) + IVC 變異大
+- **晚期**：心臟可能 sepsis cardiomyopathy → LV 收縮下降
+- **IVC**：早期塌陷（vasodilation 造成相對 hypovolemia），輸液後逐漸擴張
+- **腹部**：找 source（膽囊、腎、腹水、abscess）
+
+::: {.callout-caution}
+## 🪤 Septic Cardiomyopathy 是常見複合休克
+
+約 **40-60% septic shock** 病人會出現可逆的 LV 收縮功能下降（Sepsis-induced cardiomyopathy）。
+此時 POCUS 看 LV 變差，**不代表是 cardiogenic shock** — 是 sepsis 的併發症。
+治療仍以抗生素 + 升壓為主，輸液要謹慎。
+:::
+
+## ⚖️ 鑑別診斷流程整合
+
+::: {.callout-warning}
+## 🎯 床邊 POCUS 5 步驟分類休克
+
+1. **看 LV** → 收縮差？→ 心因性
+2. **看 RV** → 擴大 + D-sign？→ PE
+3. **看 心包** → 積液 + 塌陷？→ Tamponade
+4. **看 lung sliding** → 消失 + barcode？→ Tension PTX
+5. **看 IVC** → 塌陷？→ Hypovolemic / 早期 distributive
+                → 擴張？→ Cardiogenic / late obstructive
+:::
+
+::: {.callout-note}
+## 🩺 多重複合休克（Mixed Shock）
+
+臨床常見**多重休克並存**：
+
+- **Septic + Cardiogenic**：sepsis-induced cardiomyopathy
+- **Hypovolemic + Distributive**：sepsis 早期脫水
+- **Cardiogenic + Obstructive**：AMI 合併 RV infarct + PE
+- **Hypovolemic + Obstructive**：trauma 合併 tension PTX
+
+→ 治療必須**個別處理每一個機轉**，且**動態追蹤 POCUS** 觀察反應。
+:::
+
+## ✅ 自我評量
+
+::: {.callout-note}
+## 🗣️ 課堂討論
+
+1. 列出休克 **4 大分類及主要機轉**。
+2. **低容性 vs 分佈性**休克在 IVC 表現有何不同？
+3. 哪些 POCUS 發現提示**阻塞性休克**？分別說明 PE、tamponade、tension PTX。
+4. **心因性休克**的 POCUS 特徵 5 點？
+5. 為何休克的鑑別診斷需要結合**臨床 + POCUS** 而非單一指標？
+:::
+
+## 🎓 回家三句話
+
+::: {.callout-important}
+## 🏠 帶回家的 Take-home Messages
+
+1. **「CO + SVR」象限法快速分類休克** — 低 CO 高 SVR = preload / pump 問題；
+   高 CO 低 SVR = pipe 問題。RUSH Protocol 就是把這個四象限變成可視的影像。
+2. **阻塞性休克的 3T 是 ACLS 必找** — Thrombosis (PE)、Tamponade、Tension PTX。
+   PEA 急救時 5 分鐘內掃這 3 個就能找到 80% 可逆病因。
+3. **多重複合休克才是現實** — 老人 sepsis 常合併 cardiogenic、trauma 常合併 PTX。
+   POCUS 動態追蹤 + 個別處置每個機轉，才不會只解決一半問題。
+:::
+
+## 📚 參考閱讀
+
+1. **Tintinalli's Emergency Medicine**, 9th ed. Chapter: Shock.
+2. Perera P, et al. **The RUSH exam: Rapid Ultrasound in SHock in the evaluation of the critically ill.** *Emerg Med Clin North Am.* 2010;28(1):29-56.
+3. Seif D, et al. **Bedside ultrasound in resuscitation and the rapid ultrasound in shock protocol.** *Crit Care Res Pract.* 2012;2012:503254.
+4. Vieillard-Baron A, et al. **Septic cardiomyopathy.** *Ann Intensive Care.* 2011;1(1):6.
+5. Vincent JL, De Backer D. **Circulatory Shock.** *N Engl J Med.* 2013;369(18):1726-1734.

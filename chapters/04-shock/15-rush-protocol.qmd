@@ -1,124 +1,261 @@
 ---
-title: "教案 15：RUSH Protocol"
-subtitle: "RUSH Protocol 系統性評估"
+title: "教案 15｜🚀 RUSH Protocol"
+subtitle: "Rapid Ultrasound for Shock and Hypotension"
 author: "陳麒心"
 date: last-modified
 categories: [休克, RUSH Protocol, POCUS]
 ---
 
-## 學習目標
+::: {.callout-note appearance="minimal" icon="false"}
+## 📌 本課速覽
+
+**Pump（心）+ Tank（容積）+ Pipes（管路）= 5 分鐘床邊休克分流**
+RUSH 是 2010 年由 Perera 等人發表的 protocol，
+**敏感度 89.4% / 特異度 89.0%**（Stickles 2019 meta），現已成為急重症 POCUS 的標準。
+:::
+
+## 🎯 學習目標
 
 ::: {.callout-note}
 ## Learning Objectives
 
-1. 了解 RUSH Protocol 的架構與系統性評估流程
-2. 掌握 Pump、Tank、Pipes 三大評估步驟
-3. 學會利用 IVC 評估輸液治療反應 (fluid responsiveness)
-4. 能將 RUSH Protocol 應用於休克病人的鑑別診斷
+1. 完整掌握 **RUSH Protocol** 的 3 大評估步驟與掃描順序。
+2. 學會 **Pump（心臟）** 評估：LVEF + 心包 + RV size。
+3. 學會 **Tank（容積）** 評估：IVC + 肋膜 + FAST。
+4. 學會 **Pipes（管路）** 評估：主動脈 + 下肢靜脈。
+5. 理解 **IVC 動態評估 fluid responsiveness** 的方法與限制。
 :::
 
-## RUSH Protocol 簡介
+## 🚀 RUSH Protocol 簡介
 
 ::: {.callout-warning}
-## 關鍵觀念
+## ⚠️ RUSH = Rapid Ultrasound for Shock and Hypotension
 
-**RUSH = Rapid Ultrasound for Shock and Hypotension**
+由 **Perera 2010** 提出，目標：在 **5 分鐘內**完成床邊休克分流。
 
-RUSH Protocol 是一套系統性的床邊超音波評估方法，將評估分為三大部分：
+**3 步驟（H-I-MAP / Pump-Tank-Pipes）**：
 
-1. **Pump（幫浦）：** 心臟功能評估
-2. **Tank（油箱）：** 容積狀態評估
-3. **Pipes（管線）：** 血管評估
+| Step | 中譯 | 英文比喻 | 評估什麼 |
+|:----:|:----:|:--------:|----------|
+| 1️⃣ | 幫浦 | **Pump** | 心臟功能（LVEF + 心包 + RV）|
+| 2️⃣ | 油箱 | **Tank** | 容積狀態（IVC + 肋膜 + FAST） |
+| 3️⃣ | 管路 | **Pipes** | 大血管（主動脈 + 下肢靜脈） |
+
+: RUSH Protocol 3 步驟總覽 {.striped tbl-colwidths="[10,15,18,57]"}
 :::
 
-## Step 1：Pump（幫浦）— 心臟功能評估
+## 1️⃣ Step 1 — Pump（幫浦）
 
-心臟是循環系統的幫浦，評估重點包括：
+### 🔍 評估 3 大重點
 
-### 整體收縮功能
+::: {.callout-note}
+## 🩺 心臟切面：PLAX、PSAX、A4C、Subxiphoid 至少 1 個能用
 
-- 以目測法 (eyeballing) 評估左心室收縮功能
-- 觀察 EPSS (E-point septal separation)
-- 正常 LVEF > 55%
+| 評估 | 切面 | 異常 → 對應休克 |
+|------|------|----------------|
+| **LV 整體收縮** | A4C / PLAX | 收縮差 → cardiogenic |
+| **心包積液** | Subxiphoid 最敏感 | 積液 + 塌陷 → tamponade |
+| **RV 大小 + D-sign** | A4C + PSAX | RV/LV > 1 → PE |
 
-### 心包膜積液
+: Pump 評估 3 大重點 {.striped tbl-colwidths="[28,32,40]"}
+:::
 
-- 心包腔內是否有液體聚積
-- 是否有心包填塞的徵象（右心房/右心室舒張期塌陷）
+### 🫀 1A. 整體收縮功能（LVEF 目測法）
 
-### 右心室大小
+| LVEF | 目測描述 | 臨床意義 |
+|:----:|----------|----------|
+| **> 55%** | 心壁正常增厚 + 心腔正常收縮 | 正常 |
+| 30-55% | 心壁略增厚 + 收縮減少 | 中度下降 |
+| **< 30%** | 心壁幾乎不動 + 心腔擴大 | **嚴重下降 → cardiogenic** |
+| **過動** | 心壁強烈收縮、收縮末「kissing walls」| Hypovolemic / distributive 早期 |
 
-- RV/LV ratio 是否 > 1（提示右心室擴大）
-- D-sign（心室中隔向左偏移）
-- 提示肺栓塞或肺高壓
+: 目測法 LVEF 4 級分類 {.striped tbl-colwidths="[18,42,40]"}
 
-## Step 2：Tank（油箱）— 容積狀態評估
+::: {.callout-tip}
+## 🎯 EPSS 量化補充
 
-評估體內的液體容積狀態：
+E-point septal separation：
+- **正常 < 7 mm**
+- **> 10 mm 提示 LVEF < 30%**
 
-### IVC 直徑與呼吸變異
+簡單、可重複，適合初學者輔助目測法。
+:::
 
-IVC（下腔靜脈）是評估容積狀態與輸液反應最重要的指標之一。
+### 💧 1B. 心包積液 + Tamponade
 
-| IVC 直徑 | 呼吸變異 | 臨床意義 |
-|----------|----------|----------|
-| < 2.1 cm | > 50% collapse | CVP 0-5 mmHg，可能有輸液反應 |
-| < 2.1 cm | < 50% collapse | CVP 5-10 mmHg |
-| > 2.1 cm | < 50% collapse | CVP 10-20 mmHg，可能無輸液反應 |
-| > 2.1 cm | 無變異 | CVP > 20 mmHg |
+| 發現 | 說明 |
+|------|------|
+| **黑色 anechoic 帶**圍繞心臟 | 心包積液 |
+| **積液** > 2 cm + 環繞 | 大量積液 |
+| **RA 舒張末期塌陷** | Tamponade 早期徵兆 |
+| **RV 舒張早期塌陷** | Tamponade 確診徵象 |
+| IVC plethora | 配合 tamponade 強烈支持 |
+
+: 心包積液 + tamponade 5 個評估點 {.striped tbl-colwidths="[40,60]"}
+
+### 🫁 1C. RV 大小 + D-sign
+
+| 切面 | 看什麼 |
+|------|--------|
+| **A4C** | RV/LV ratio（正常 ≤ 0.6；急性 PE > 1.0） |
+| **PSAX** mid-papillary | LV 是否變 D-shape（septum 被推向左） |
+| 加分 | TAPSE < 16 mm、McConnell sign |
+
+: RV 評估 — 看是否 PE {.striped tbl-colwidths="[26,74]"}
+
+## 2️⃣ Step 2 — Tank（容積）
+
+### 💧 2A. IVC 直徑 + 呼吸變異（最重要）
 
 ::: {.callout-warning}
-## IVC 評估注意事項
+## ⚠️ IVC 是 RUSH 中**最常用、最容易誤判**的指標
 
-- 測量位置：肝靜脈匯入 IVC 處下方約 2 cm
-- 自主呼吸病人：吸氣時 IVC 塌陷
-- 正壓通氣病人：吸氣時 IVC 擴張（判讀方向相反）
-- IVC 評估需結合臨床情境，不可單獨作為輸液依據
+正確量測：subcostal 長軸、距 RA 入口 2 cm、量最大直徑與最小直徑（吸氣末 vs 呼氣末）。
 :::
 
-### 肋膜積液
+| IVC 直徑 | 呼吸變異 | RA 壓估計 | 臨床意義 |
+|:--------:|:--------:|:---------:|----------|
+| **< 2.1 cm** | **> 50%** | ~ 3 mmHg | 容量不足、可能 fluid responsive |
+| < 2.1 cm | < 50% | ~ 8 mmHg | 中等 |
+| > 2.1 cm | > 50% | ~ 8 mmHg | 中等 |
+| **> 2.1 cm** | **< 50%** | ~ 15 mmHg | 容量過多 / RV 失能 / tamponade |
+| > 2.5 cm | 無變異 | > 20 mmHg | Plethora — 無 fluid responsive |
 
-- 評估雙側肋膜腔是否有積液
-- 大量肋膜積液可影響血液動力學
+: IVC 評估 RA 壓對照（ASE 2010 + AHA） {.striped .hover tbl-colwidths="[20,18,18,44]"}
 
-### 腹水
+::: {.callout-caution}
+## 🪤 IVC 4 大常見誤判
 
-- 評估腹腔是否有游離液體
-- Morrison's pouch、脾腎間隙、骨盆腔
+1. **正壓通氣病人方向相反** — 吸氣 IVC 反而擴張（不是塌陷）
+2. **單看 IVC 不能下「液體有效」結論** — 需配合 PLR、stroke volume 變化
+3. **腹壓高（如腹水、肥胖）IVC 受壓** — 假性擴張
+4. **嚴重 RV failure 病人 IVC 永遠是大** — 即使在低容量
+:::
 
-## Step 3：Pipes（管線）— 血管評估
+### 💦 2B. 肋膜積液
 
-### 主動脈評估
+::: {.callout-note}
+## 🩺 評估方法
 
-- **腹主動脈瘤 (AAA)：** 腹主動脈直徑 > 3 cm
-- **主動脈剝離 (Aortic dissection)：** 管腔內可見內膜瓣 (intimal flap)
+- **PLAPS point**（後外側肋膜區）— 最敏感
+- 黑色 anechoic 帶 + 漂浮的肺尖（jellyfish sign）
+- 雙側 + 大量 → 偏向心因性 / volume overload
+- 單側 + 局部 → 感染、出血、惡性
 
-### DVT 檢查
+**大量肋膜積液 (> 1500 mL)** 可影響血流動力學 → 考慮治療性穿刺。
+:::
 
-- 評估下肢深部靜脈血栓
-- 壓迫法 (compression test)：正常靜脈可完全壓扁
-- 常見檢查部位：股總靜脈 (CFV)、股淺靜脈 (SFV)、膕靜脈 (popliteal vein)
+### 🩸 2C. FAST（Free Fluid Assessment）
 
-## RUSH Protocol 整合判讀
+::: {.callout-note}
+## 🩺 4 個標準評估點
 
-| 休克類型 | Pump | Tank (IVC) | Pipes |
-|----------|------|------------|-------|
-| 低容性 | 過動、心腔小 | 塌陷 | 主動脈可能正常 |
-| 阻塞性 (PE) | RV 擴大 | 擴張 | 可能有 DVT |
-| 阻塞性 (Tamponade) | 心包積液 | 擴張 | 正常 |
-| 心因性 | 收縮差 | 擴張 | 正常 |
-| 分佈性 | 過動（早期）| 變異大 | 正常 |
+1. **Morrison's pouch**（肝腎間隙）— 仰臥時**最低點**，最敏感
+2. **脾腎間隙**（splenorenal recess）
+3. **骨盆腔**（pelvic / Douglas pouch）
+4. **心包**（subxiphoid）
 
-## 自我評量
+→ 任一處看到 anechoic 黑帶 = 腹腔內出血或腹水。
 
-1. RUSH Protocol 的三大評估步驟各代表什麼？
-2. IVC 直徑 < 2.1 cm 且呼吸變異 > 50%，代表什麼臨床意義？
-3. 正壓通氣病人的 IVC 評估與自主呼吸病人有何不同？
-4. RUSH Protocol 中，哪些發現提示肺栓塞？
-5. 請描述 RUSH Protocol 在低容性休克中的典型超音波發現。
+外傷 / AAA rupture / 異位妊娠破裂 → FAST 陽性是緊急手術指征。
+:::
 
-## 參考資料
+## 3️⃣ Step 3 — Pipes（管路）
 
-1. Perera P, et al. The RUSH exam: Rapid Ultrasound in SHock in the evaluation of the critically ill. *Emerg Med Clin North Am*. 2010;28(1):29-56.
-2. POCUS 101 - RUSH Exam Ultrasound Protocol Step by Step Guide. <https://www.pocus101.com/rush-exam-ultrasound-protocol-step-by-step-guide/>
-3. UBC IMPOCUS - Hemodynamics. <https://www.ubcimpocus.com/hemodynamics>
+### 🩸 3A. 主動脈評估
+
+| 評估 | 切面 | 異常 |
+|------|------|------|
+| **AAA**（腹主動脈瘤） | 腹主動脈短軸 + 長軸 | 直徑 **> 3 cm** = aneurysm；> 5 cm risk for rupture |
+| **AAA rupture** | 主動脈周圍 | Hypoechoic 血腫 + 腹膜後血腫 |
+| **Aortic dissection** | PLAX / SC + 主動脈 | **Intimal flap** 在管腔內擺動 |
+
+: 主動脈評估 3 大重點 {.striped tbl-colwidths="[26,30,44]"}
+
+::: {.callout-warning}
+## 🚨 老年男性 + 突發腹痛 + 休克 → 必須掃 AAA！
+
+破裂死亡率 80-90%，**5 分鐘內 POCUS 確診後直接送 OR**。
+別浪費時間等 CT。
+:::
+
+### 🦵 3B. 下肢靜脈（DVT 篩檢）
+
+::: {.callout-note}
+## 🩺 簡易 2-point CUS
+
+休克病人合併 PE 懷疑時，掃 2 個點即可：
+
+1. **CFV**（總股靜脈）— 腹股溝韌帶下方
+2. **PopV**（膕靜脈）— 膕窩
+
+→ 壓不扁 = DVT 陽性，強化 PE 診斷。
+完整 4-point CUS 詳見 Module 06。
+:::
+
+## 🔁 RUSH Protocol 整合判讀
+
+::: {.callout-tip}
+## 🎯 5 種休克的 RUSH 對照表
+:::
+
+| 休克類型 | Pump | Tank (IVC + 肋膜) | Pipes |
+|----------|------|-------------------|-------|
+| 🩸 **低容性** | LV 過動、心腔小 | **IVC 塌陷** | AAA？FAST 陽性？ |
+| 🚧 **PE** | RV 大、D-sign、McConnell | IVC 擴張 | DVT 陽性？ |
+| 🚧 **Tamponade** | 心包積液 + 塌陷 | IVC 擴張 | 正常 |
+| 🚧 **Tension PTX** | 心臟正常 / 偏移 | **無 lung sliding** | 正常 |
+| 💔 **心因性** | LV 收縮差、RWMA | IVC 擴張 + B-lines | 正常 |
+| 🌊 **分佈性** | 早期過動 | IVC 變動 / 塌陷 | 找 source |
+
+: 6 種休克 RUSH 整合判讀 {.striped .hover tbl-colwidths="[24,30,28,18]"}
+
+## 🔬 IVC 評估 Fluid Responsiveness 進階
+
+::: {.callout-note}
+## 🩺 不只看靜態 IVC，動態追蹤更準
+
+**Fluid responsiveness** ≠ **fluid needs**。
+
+| 方法 | 操作 | 解讀 |
+|------|------|------|
+| **IVC distensibility index (dIVC)** | 正壓通氣，量呼吸週期變化 | **> 18%** 提示 fluid responsive |
+| **IVC collapsibility index (cIVC)** | 自主呼吸，量吸氣塌陷 % | **> 50%** 提示 fluid responsive |
+| **Passive Leg Raise (PLR)** | 抬腿 45° + 看 SV / IVC 變化 | SV ↑ > 10% = responsive |
+| **Fluid challenge** | 250-500 mL 快速輸液 | SV ↑ + 灌流改善 = responsive |
+
+: Fluid responsiveness 4 種評估 {.striped .hover tbl-colwidths="[26,38,36]"}
+:::
+
+## ✅ 自我評量
+
+::: {.callout-note}
+## 🗣️ 課堂討論
+
+1. **RUSH Protocol** 的 3 大步驟是什麼？各掃哪些位置？
+2. **IVC < 2.1 cm + 變異 > 50%** 代表什麼臨床意義？
+3. **正壓通氣**病人的 IVC 評估與自主呼吸有何不同？
+4. RUSH Protocol 中，哪些發現提示 **PE**？
+5. 描述 RUSH 在 **低容性休克**中的典型發現。
+:::
+
+## 🎓 回家三句話
+
+::: {.callout-important}
+## 🏠 帶回家的 Take-home Messages
+
+1. **RUSH = Pump + Tank + Pipes** — 心、容積、管路 5 分鐘掃完。
+   敏感度 89% 對 4 大類休克分流。
+2. **IVC 動態 + PLR > 單看 IVC 直徑** — 靜態 IVC 只是「估計 RA 壓」，
+   **動態才能判 fluid responsiveness**。dIVC > 18% 或 cIVC > 50% 才是真的 responsive。
+3. **老年男性 + 腹痛 + 休克 → 5 秒內掃 AAA** — 80-90% 破裂死亡率，
+   POCUS 確診後直接送 OR，別等 CT。
+:::
+
+## 📚 參考閱讀
+
+1. Perera P, et al. **The RUSH exam: Rapid Ultrasound in SHock in the evaluation of the critically ill.** *Emerg Med Clin North Am.* 2010;28(1):29-56.
+2. Stickles SP, et al. **The diagnostic accuracy of a point-of-care ultrasound protocol for shock etiology: A systematic review and meta-analysis.** *CJEM.* 2019;21(3):406-417.
+3. Rudski LG, et al. **Guidelines for the echocardiographic assessment of the right heart in adults (ASE 2010).** *J Am Soc Echocardiogr.* 2010;23(7):685-713.
+4. Monnet X, Teboul JL. **Passive leg raising: five rules, not a drop of fluid!** *Crit Care.* 2015;19:18.
+5. POCUS 101. RUSH Exam Ultrasound Protocol Step by Step Guide. <https://www.pocus101.com/rush-exam-ultrasound-protocol-step-by-step-guide/>

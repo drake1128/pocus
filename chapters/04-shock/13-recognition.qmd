@@ -1,116 +1,223 @@
 ---
-title: "教案 13：辨識、病史詢問、理學檢查"
+title: "教案 13｜🩺 辨識、病史詢問、理學檢查"
 subtitle: "休克的辨識、病史詢問與理學檢查"
 author: "陳麒心"
 date: last-modified
 categories: [休克, 辨識, POCUS]
 ---
 
-## 學習目標
+::: {.callout-note appearance="minimal" icon="false"}
+## 📌 本課速覽
+
+**2 個極端案例（septic + cardiogenic） × 灌流 4 指標 × LR-shock 工作流程**
+讀完之後，你會知道為什麼**「血壓 110/70 但 lactate 4.5」也算休克**，
+以及為什麼**「血壓 80/50 但意識清楚四肢溫」可能是 distributive 早期**。
+:::
+
+## 🎯 學習目標
 
 ::: {.callout-note}
 ## Learning Objectives
 
-1. 休克之辨識、病史詢問、理學檢查、抽血檢驗以及初步處理
-2. 休克的分類、鑑別診斷、病生理以及超音波之用途
-3. 學習並實際演練 RUSH protocol
-4. POCUS 評估輸液治療反應之方法
+1. **休克的床邊辨識**：跳脫「血壓 < 90 才算休克」的迷思。
+2. **系統性病史詢問**：用 4 大方向快速找休克病因。
+3. **理學檢查 9 大重點**：從頭到腳評估灌流與心肺。
+4. **抽血 + 影像入門**：哪些是「立刻要」、哪些是「之後補」。
+5. 認識**休克的 6 種次分類**為下一課做鋪墊。
 :::
 
-## 臨床情境
+## 📋 臨床情境
 
-::: {.callout-tip appearance="simple"}
-## Case 1
+> 📝 **建議學習方式**：先看 vital signs，**自己想 1 分鐘** 是哪一類休克，
+> 再看下面的解析。比對自己的判斷與 POCUS 結果。
 
-82 歲男性，過去病史為高血壓、糖尿病、慢性腎衰竭，主訴發燒、腹痛、全身無力至急診。
+::: {.panel-tabset}
 
-**Vital Signs：**
+### 案例一｜經典 Septic Shock
 
-| 項目 | 數值 |
-|------|------|
-| 體溫 | 38.6°C |
-| 脈搏 | 120 次/分 |
-| 呼吸速率 | 24 次/分 |
-| 血壓 | 62/40 mmHg |
-| 血氧濃度 | 94% |
+::: {.callout-tip appearance="default"}
+## 🧓 Case 1　82 歲男性・發燒 + 腹痛 + BP 62/40
 
-**理學檢查：** 四肢大理石斑、冰冷、無水腫，呼吸音正常無心雜音，無頸靜脈怒張，右上腹部有明顯反彈痛。
+82 歲男性，**HTN / DM / CKD** 門診追蹤中。**主訴**：發燒、腹痛、全身無力來急診。
+
+**🩺 Vital Signs**
+
+| 項目 | 數值 | 解讀 |
+|------|------|------|
+| 體溫 | **38.6 °C** | 🚨 發燒 |
+| 心跳 | **120 次/分** | 🚨 心搏過速 |
+| 呼吸 | **24 次/分** | ⚠️ tachypnea |
+| **血壓** | **62 / 40 mmHg** | 🚨🚨 嚴重低血壓 |
+| 血氧 | 94 % | 邊界 |
+
+**🔍 理學檢查**
+
+- 四肢**大理石斑 (mottling)**、**冰冷**、無水腫
+- 呼吸音正常、**無心雜音**
+- **無 JVE**（頸靜脈不怒張）
+- **右上腹反彈痛 (rebound tenderness)**
+
+🔑 **關鍵字**：發燒 + 腹痛 + warm-shock 進入 cold phase（mottling + 冷四肢）+ 局部 source（RUQ）
+
+→ **最可能診斷**：**Septic shock**（urinary 或 abdominal source）
+→ POCUS 預期：心臟過動 (hyperdynamic LV)、IVC 變異大、可能膽囊壁厚 / 腎水腫
 :::
 
-::: {.callout-tip appearance="simple"}
-## Case 2
+### 案例二｜經典 Cardiogenic Shock
 
-64 歲男性，過去病史為高血壓、糖尿病、CAD 3VD，在 LAD 放過 2 隻支架。主訴胸悶呼吸喘。檢傷心電圖顯示 STEMI，胸部 X 光顯示肺水腫。
+::: {.callout-tip appearance="default"}
+## 🧑‍🦳 Case 2　64 歲男性・STEMI + 肺水腫
+
+64 歲男性，**HTN / DM / CAD 3VD**（LAD 已放 2 支支架）。
+**主訴**：胸悶 + 呼吸喘。
+
+**🩻 第一線發現**
+
+- 檢傷 ECG：**STEMI**（前壁，V1-V4 ST↑）
+- 胸部 X 光：**雙側肺水腫**（蝴蝶翼狀）
+- BP 偏低、JVE 怒張、雙下肢輕度水腫
+
+🔑 **關鍵字**：CAD 病史 + STEMI + 肺水腫 + JVE → **Cardiogenic shock**
+
+→ POCUS 預期：**LV 收縮極差（LVEF < 30%）+ 前壁 RWMA + IVC 擴張固定 + 雙側 B-lines**
+→ 治療方向：**升壓 + Primary PCI**（不是狂打液體！）
 :::
 
-## 休克的定義
+:::
 
-休克的核心概念：**低血壓 → 組織灌流不足**
+## 💥 休克的定義
 
 ::: {.callout-warning}
-## 關鍵觀念
+## ⚠️ 休克 ≠ 低血壓
 
-休克不僅是血壓低，更重要的是組織灌流不足所導致的器官功能障礙。
+**休克 = 組織灌流不足 → 細胞缺氧 → 器官功能障礙**
+
+低血壓只是其中一個表現。下列任一種狀況都算休克：
+
+- 🩸 **明顯低血壓**（SBP < 90 或 MAP < 65）
+- 🩸 **正常血壓但 lactate ↑**（cryptic / occult shock，30 天死亡率仍高）
+- 🩸 **意識變化 + 末梢冰冷 + 尿量↓**（即使 BP 看似正常）
 :::
 
-## 評估組織灌流不足
+## 🔍 評估組織灌流不足（4 指標）
 
-| 評估項目 | 說明 |
-|----------|------|
-| 意識改變 | 腦部灌流不足之表現 |
-| 微血管充填時間 (CRT) | > 2 秒為異常 |
-| 大理石斑 (Skin mottling) | 皮膚微循環不良之表現 |
-| 尿量減少 | 腎臟灌流不足之指標 |
+| 指標 | 異常標準 | 機轉 |
+|------|----------|------|
+| 🧠 **意識改變** | 嗜睡、煩躁、混亂 | 腦灌流不足 |
+| 👋 **微血管充填時間 (CRT)** | > 2 秒 | 末梢循環不良 |
+| 🫧 **皮膚大理石斑 (mottling)** | 膝蓋、肘部紫斑 | 微循環崩壞，**死亡率預後指標** |
+| 💧 **尿量** | < 0.5 mL/kg/hr | 腎臟灌流不足 |
 
-## 病史詢問
+: 灌流 4 指標 — 比血壓更早出現的休克警訊 {.striped .hover tbl-colwidths="[24,30,46]"}
 
-面對疑似休克的病人，應詢問以下重點病史：
+::: {.callout-tip}
+## 🎯 床邊心法 — Mottling Score (Ait-Oufella 2011)
 
-- **過去病史：** 心臟病、肝腎疾病、免疫功能低下等
-- **感染相關症狀：** 發燒、寒顫、咳嗽、排尿疼痛、腹痛等
-- **心肺症狀：** 胸悶痛、喘、端坐呼吸
-- **創傷：** 外傷史、手術史
-- **毒物藥物使用：** 目前用藥、毒物暴露
-- **過敏史：** 藥物過敏、食物過敏
+膝蓋 mottling 範圍可預測 14 天 ICU 死亡率：
 
-## 理學檢查
+- 0 分（無）：mortality ≈ 6 %
+- 4-5 分（蔓延全大腿 / 鼠蹊）：mortality ≈ 70 %
 
-系統性的理學檢查對休克病因鑑別至關重要：
+**「mottling」不是表面現象 — 是病人預後的鏡子**。
+:::
 
-| 檢查項目 | 評估重點 |
-|----------|----------|
-| Vital signs | 血壓、心跳、體溫、呼吸速率、血氧 |
-| Conjunctiva | 貧血（蒼白）|
-| JVE（頸靜脈怒張）| 右心衰竭、心包填塞、張力性氣胸 |
-| Breathing sound | 呼吸音減弱、囉音、哮鳴音 |
-| Heart sound | 心雜音、心音減弱 |
-| Abdominal tenderness | 腹膜炎徵兆 (peritoneal signs) |
-| Pitting edema | 體液過多或心衰竭 |
-| Limb temperature | 四肢冰冷（低灌流）或溫暖（分佈性休克早期）|
-| CRT | 微血管充填時間 > 2 秒 |
+## 💬 病史詢問（4 大方向）
 
-## 檢驗項目
+::: {.callout-note}
+## 🗣️ 系統性問休克病史
 
-| 檢驗 | 目的 |
-|------|------|
-| CBC | 評估感染（白血球）、貧血（血紅素）|
-| BCS（生化檢查）| 腎功能、肝功能、電解質 |
-| Lactic acid | 組織灌流不足之指標 |
-| Blood gas analysis | 酸鹼狀態評估 |
-| Cardiac enzymes | 心肌損傷標記 |
-| D-dimer | 肺栓塞篩檢 |
-| CXR（胸部 X 光）| 肺水腫、氣胸、肺炎 |
-| ECG（心電圖）| 心律不整、ST 變化 |
+| 方向 | 問什麼 | 對應休克類型 |
+|------|--------|-------------|
+| 🦠 **感染相關** | 發燒寒顫、咳嗽、排尿痛、腹痛、傷口 | Septic shock |
+| ❤️ **心肺症狀** | 胸悶痛、喘、orthopnea、PND | Cardiogenic、obstructive |
+| 🩹 **創傷 / 手術** | 外傷史、近期手術、出血 | Hemorrhagic、PE |
+| 💊 **藥物 / 毒物 / 過敏** | 用藥史、新接觸過敏原、毒物 | Anaphylactic、drug-induced |
 
-## 自我評量
+: 休克 4 大病史方向 {.striped tbl-colwidths="[20,50,30]"}
+:::
 
-1. 休克的定義為何？如何評估組織灌流不足？
-2. Case 1 中的病人最可能是哪一類休克？請說明理由。
-3. Case 2 中的病人最可能是哪一類休克？請說明理由。
-4. 面對休克病人，病史詢問的重點為何？
-5. 理學檢查中，哪些發現可以幫助鑑別休克的類型？
+## 🔬 理學檢查 9 大重點
 
-## 參考資料
+::: {.callout-warning}
+## ⚠️ 從頭到腳系統性檢查
 
-1. Tintinalli's Emergency Medicine: A Comprehensive Study Guide, 9th Edition. Chapter: Shock.
-2. Roberts and Hedges' Clinical Procedures in Emergency Medicine and Acute Care, 7th Edition.
+每一項都對應特定休克類型，**有經驗的醫師可在 60 秒內完成**。
+:::
+
+| # | 檢查 | 異常發現 | 對應休克 |
+|:-:|------|----------|----------|
+| 1 | **Vital signs** | 5 大向量（BP/HR/RR/SpO₂/T） | 全面 |
+| 2 | **Conjunctiva** | 蒼白 → 貧血 | Hemorrhagic |
+| 3 | **JVE** | 怒張 = 中央壓力高 | Cardiogenic、tamponade、tension PTX、PE |
+| 4 | **Breathing sound** | 囉音 / 哮鳴 / 一側消失 | 心衰 / asthma / 氣胸 |
+| 5 | **Heart sound** | 心雜音 / 心音遠 / S3 | Acute MR、tamponade、HF |
+| 6 | **Abdominal tenderness** | 反彈痛、guarding | 腹腔感染、AAA |
+| 7 | **Pitting edema** | 雙下肢凹陷性水腫 | HF、容量過多 |
+| 8 | **四肢溫度** | 冷 → cold shock；熱 → warm shock 早期 | Distinguishing distributive |
+| 9 | **CRT** | > 2 秒 | 灌流不足 |
+
+: 休克理學檢查 9 大重點 {.striped .hover tbl-colwidths="[5,30,30,35]"}
+
+## 🧪 抽血 + 影像 — 立刻要 vs 之後補
+
+::: {.callout-note}
+## 🩺 LR-shock 工作流程
+
+| 立刻要（< 5 分鐘）| 接著補（< 30 分鐘） | 視情況 |
+|-------------------|---------------------|--------|
+| **POCUS（RUSH）** | CBC, BCS, electrolytes | Cardiac enzymes |
+| **ABG + lactate** | Coagulation profile | NT-proBNP |
+| **ECG** | Blood culture × 2 | D-dimer |
+| **CXR**（移動式） | Type & screen | Procalcitonin |
+| Bedside glucose | UA + urine culture | Cortisol（adrenal crisis） |
+
+: LR-shock 階段化檢查 {.striped tbl-colwidths="[34,33,33]"}
+
+🔑 **Lactate 解讀**：
+- < 2 mmol/L → 正常
+- 2-4 → 警戒
+- **> 4 → 嚴重組織灌流不足 → 啟動 sepsis bundle / shock protocol**
+:::
+
+## 🪤 常見陷阱
+
+::: {.callout-caution}
+## ⚠️ 別被這 4 個現象騙了
+
+1. **「血壓還可以」≠ 沒休克** — Cryptic shock（隱性休克）lactate 高但 BP 正常，30 天死亡率仍 17%。
+2. **「四肢溫熱」≠ 不嚴重** — Septic shock 早期 vasodilation 反而四肢熱（warm shock）。
+3. **「CVP 正常」≠ 容量足夠** — CVP 與 fluid responsiveness 相關性差，IVC dynamic 更可靠。
+4. **「年輕人 BP 100」≠ 安全** — 年輕人代償強，若 lactate 高仍要當休克處理。
+:::
+
+## 💬 自我評量
+
+::: {.callout-note}
+## 🗣️ 課堂討論
+
+1. **休克的定義為何？** 為什麼說「BP 110/70 但 lactate 4.5」也是休克？
+2. **Case 1 病人最可能是哪一類休克？** 給 3 個證據。
+3. **Case 2 病人最可能是哪一類休克？** 為什麼不能立刻打 1 L 生理食鹽水？
+4. **休克病人的病史詢問 4 大方向？**
+5. **理學檢查中，哪些發現可幫助分類休克？**
+:::
+
+## 🎓 回家三句話
+
+::: {.callout-important}
+## 🏠 帶回家的 Take-home Messages
+
+1. **休克 = 灌流不足，不只是低血壓** — 用「mottling + CRT + lactate + 意識 + 尿量」5 件套早期辨識，
+   別等到 BP 崩才喊 code blue。
+2. **病史 4 方向 + 理學 9 重點 = 60 秒分類休克** — 訓練到能用「**JVE + 四肢溫度 + 心雜音**」3 個徵象就推出 4 大類。
+3. **Cardiogenic 不能狂打液體** — Case 2 的處置方向是**升壓 + 緊急 PCI**，
+   不是 hypovolemic shock 的 fluid first。RUSH Protocol 就是要避免這類致命的方向錯誤。
+:::
+
+## 📚 參考閱讀
+
+1. **Tintinalli's Emergency Medicine: A Comprehensive Study Guide**, 9th ed. Chapter: Shock.
+2. **Roberts and Hedges' Clinical Procedures in Emergency Medicine**, 7th ed.
+3. Ait-Oufella H, et al. **Mottling score predicts survival in septic shock.** *Intensive Care Med.* 2011;37(5):801-807.
+4. Kumar A, et al. **Duration of hypotension before initiation of effective antimicrobial therapy is the critical determinant of survival in human septic shock.** *Crit Care Med.* 2006;34(6):1589-1596.
+5. Singer M, et al. **The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3).** *JAMA.* 2016;315(8):801-810.

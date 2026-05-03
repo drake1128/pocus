@@ -1,107 +1,289 @@
 ---
-title: "教案 16：實際演練與 Megacode"
-subtitle: "RUSH Protocol 模擬演練"
+title: "教案 16｜🎮 實際演練與 Megacode"
+subtitle: "RUSH Protocol 模擬演練與團隊整合"
 author: "陳麒心"
 date: last-modified
 categories: [休克, 實際演練, POCUS]
 ---
 
-## 學習目標
+::: {.callout-note appearance="minimal" icon="false"}
+## 📌 本課速覽
+
+**3 階段訓練（個人技術 → 情境模擬 → Megacode 團隊） × 4 種休克情境 × 4 角色分工**
+這一課把 RUSH Protocol 從「會掃」升級到「會用 + 會說 + 會帶團隊」。
+:::
+
+## 🎯 學習目標
 
 ::: {.callout-note}
 ## Learning Objectives
 
-1. 透過模擬情境，實際操作 RUSH Protocol
-2. 快速完成 RUSH Protocol 掃描（目標 < 5 分鐘）
-3. 正確判讀超音波影像並鑑別休克類型
-4. 根據超音波發現調整治療策略
-5. 練習團隊溝通與分工
+1. 透過模擬情境，**實際操作 RUSH Protocol** 並達到 **< 5 分鐘**目標。
+2. 正確判讀超音波影像並**鑑別休克類型**。
+3. 根據 POCUS 發現**動態調整治療策略**。
+4. 練習 **closed-loop communication** 與團隊角色分工。
+5. 訓練在高壓環境下的**決策力與抗壓性**。
 :::
 
-## 演練概述
+## 🎮 演練架構（3 階段）
 
 ::: {.callout-warning}
-## 練習重點
+## ⚠️ 訓練重點
 
-透過模擬情境，讓學員實際操作 RUSH Protocol，並在團隊中練習溝通與分工。
-
-1. 快速完成 RUSH Protocol 掃描（目標 < 5 分鐘）
-2. 正確判讀超音波影像
-3. 根據超音波發現調整治療策略
-4. 團隊溝通與分工
+從**個人技術** → **情境判讀** → **團隊整合**，
+循序漸進，不要跳階段（沒練過個人技術的人直接 Megacode 會失敗）。
 :::
 
-## 演練流程
-
-### Phase 1：個人技術練習
+### Phase 1｜個人技術練習（30 分鐘）
 
 | 步驟 | 內容 | 時間目標 |
-|------|------|----------|
-| Pump | 心臟四個標準切面、LVEF 評估、心包積液 | 2 分鐘 |
-| Tank | IVC 測量與呼吸變異、肋膜積液、FAST | 2 分鐘 |
-| Pipes | 腹主動脈、下肢靜脈壓迫 | 1 分鐘 |
+|:----:|------|:--------:|
+| 🫀 **Pump** | 心臟 4 切面（PLAX / PSAX / A4C / SC）+ LVEF 目測 + 心包 | **2 分鐘** |
+| 💧 **Tank** | IVC 量測 + 呼吸變異 + 肋膜 + FAST | **2 分鐘** |
+| 🩸 **Pipes** | 腹主動脈 short / long axis + 下肢 2-point CUS | **1 分鐘** |
+| **合計** | 完整 RUSH Protocol | **< 5 分鐘** |
 
-### Phase 2：情境模擬演練
+: Phase 1 個人技術時間目標 {.striped tbl-colwidths="[12,58,30]"}
 
-::: {.callout-tip appearance="simple"}
-## 模擬情境範例
+### Phase 2｜情境模擬演練（60 分鐘）
 
-**情境一：低容性休克**
-68 歲女性，大量解黑便後意識改變。血壓 78/50 mmHg，心跳 130 次/分。
+詳見下方 **4 種休克情境**。
 
-- 預期超音波發現：IVC 塌陷、心臟過動、FAST 可能陰性
-- 處置重點：大量輸液、輸血、照會腸胃科
+### Phase 3｜Megacode 團隊演練（60 分鐘）
 
-**情境二：阻塞性休克（肺栓塞）**
-55 歲男性，術後第 5 天突發呼吸困難、胸痛。血壓 85/60 mmHg，心跳 110 次/分，血氧 88%。
+詳見下方 **4 角色分工 + 評估標準**。
 
-- 預期超音波發現：右心擴大、IVC 擴張、可能有 DVT
-- 處置重點：抗凝治療、考慮血栓溶解
+## 🩺 4 種休克情境模擬
 
-**情境三：心因性休克**
-72 歲男性，胸痛 3 小時，ECG 顯示 anterior STEMI。血壓 75/50 mmHg，心跳 100 次/分。
+::: {.panel-tabset}
 
-- 預期超音波發現：左心室收縮差、前壁運動異常、B-lines
-- 處置重點：升壓劑、緊急心導管
+### 情境一｜🩸 低容性（GI bleed）
 
-**情境四：敗血性休克**
-80 歲女性，發燒、畏寒、排尿疼痛 3 天。血壓 70/40 mmHg，心跳 120 次/分，體溫 39.2°C。
+::: {.callout-tip appearance="default"}
+## 🧓 Case　68 歲女性・大量解黑便
 
-- 預期超音波發現：IVC 塌陷或小、心臟過動、可能有腎水腫
-- 處置重點：輸液復甦、廣效抗生素、升壓劑
+68 歲女性，**HTN + DM**，**大量解黑便 8 小時**後意識改變送急診。
+
+**🩺 Vital Signs**
+
+| 項目 | 數值 | 解讀 |
+|------|------|------|
+| BP | **78 / 50** | 🚨 低血壓 |
+| HR | **130** | 🚨 心搏過速 |
+| 意識 | E3V4M5 | ⚠️ 意識改變 |
+| 四肢 | 冰冷 + mottling | 🚨 灌流不足 |
+| Hb（檢驗 30 分鐘後） | **5.8 g/dL** | 🚨 嚴重貧血 |
+
+**🔬 預期 RUSH 發現**
+
+- **Pump**：LV 過動 (hyperdynamic) + 心腔小（kissing walls）
+- **Tank**：**IVC 塌陷** (< 1 cm + 變異 > 50%)、**FAST 陰性**（GI bleed 不會 FAST 陽性）
+- **Pipes**：主動脈 normal、無 DVT
+
+**🎯 處置重點**
+
+1. **2 條大號 IV access**（16-18G）
+2. **大量輸液 + 輸血**（target Hb > 7-8 g/dL）
+3. **照會腸胃科 → 緊急 EGD**
+4. PPI infusion、考慮 octreotide（食道靜脈瘤可能）
 :::
 
-### Phase 3：Megacode 團隊演練
+### 情境二｜🚧 阻塞性（Massive PE）
 
-團隊角色分配：
+::: {.callout-tip appearance="default"}
+## 🧓 Case　55 歲男性・術後 PE
 
-| 角色 | 任務 |
-|------|------|
-| Team Leader | 指揮全局、下達醫囑、整合資訊 |
-| 超音波操作者 | 執行 RUSH Protocol、回報發現 |
-| 處置執行者 | 建立靜脈通路、給藥、輸液 |
-| 記錄者 | 記錄時間、醫囑、檢查結果 |
+55 歲男性，**腹腔手術 5 天後**，今早突發**呼吸困難 + 胸痛 + 暈眩**。
 
-## 評估標準
+**🩺 Vital Signs**
+
+| 項目 | 數值 | 解讀 |
+|------|------|------|
+| BP | **85 / 60** | ⚠️ 低血壓 |
+| HR | **110** | ⚠️ 心搏過速 |
+| **SpO₂** | **88 %** | 🚨 低血氧 |
+| ECG | **Sinus tach + RBBB + S1Q3T3** | 🚨 RV strain |
+
+**🔬 預期 RUSH 發現**
+
+- **Pump**：**RV 大 (RV/LV > 1)**、**D-sign**、**McConnell sign**、TAPSE 14 mm
+- **Tank**：IVC 擴張 + 變異小（plethora）
+- **Pipes**：**右側 PopV 壓不扁**（DVT）
+
+**🎯 處置重點**
+
+1. **立即 IV heparin bolus + infusion**
+2. **評估 thrombolysis 適應症**（submassive 邊界）
+3. **若血流動力學持續惡化 → tPA 100 mg over 2 hr**
+4. 心臟外科 / IR / 介入心臟科 multi-disciplinary review
+5. 考慮 **VA-ECMO bridge**
+:::
+
+### 情境三｜💔 心因性（Anterior STEMI）
+
+::: {.callout-tip appearance="default"}
+## 🧑‍🦳 Case　72 歲男性・前壁 STEMI
+
+72 歲男性，**胸痛 3 小時**，ECG **anterior STEMI**（V1-V5 ST↑ 3-4 mm）。
+
+**🩺 Vital Signs**
+
+| 項目 | 數值 | 解讀 |
+|------|------|------|
+| BP | **75 / 50** | 🚨 心因性休克 |
+| HR | 100 | 邊界 |
+| **SpO₂** | **88 %**（with O₂ 5 L） | 🚨 低血氧 |
+| 肺音 | 雙下肺囉音 | ⚠️ 肺水腫 |
+
+**🔬 預期 RUSH 發現**
+
+- **Pump**：**LV 收縮極差 (LVEF ~ 20%)** + **前壁 RWMA**
+- **Tank**：IVC 擴張固定 + **雙側瀰漫 B-lines**
+- **Pipes**：normal
+
+**🎯 處置重點**
+
+1. **不要狂打液體！**（會加重肺水腫）
+2. **NIPPV** 緩解呼吸困難
+3. **升壓劑**（norepinephrine）+ **正性肌力**（dobutamine 或 milrinone）
+4. **緊急 Primary PCI**（door-to-balloon < 90 min）
+5. 考慮 **IABP / Impella**（cardiogenic shock 機械支持）
+:::
+
+### 情境四｜🌊 分佈性（Septic Shock）
+
+::: {.callout-tip appearance="default"}
+## 🧓 Case　80 歲女性・UTI 衍生 sepsis
+
+80 歲女性，**發燒 + 畏寒 + 排尿疼痛 3 天**，今日意識變差送急診。
+
+**🩺 Vital Signs**
+
+| 項目 | 數值 | 解讀 |
+|------|------|------|
+| BP | **70 / 40** | 🚨 嚴重低血壓 |
+| HR | **120** | 🚨 心搏過速 |
+| **體溫** | **39.2 °C** | 🚨 發燒 |
+| **Lactate** | **5.2 mmol/L** | 🚨 灌流不足 |
+| 四肢 | 早期溫熱、漸轉冷 | warm → cold transition |
+
+**🔬 預期 RUSH 發現**
+
+- **Pump**：LV 過動（早期 sepsis）— 但要小心 sepsis-induced cardiomyopathy
+- **Tank**：**IVC 塌陷**（vasodilation 造成相對低容量）+ 可能腎水腫（hydronephrosis = source）
+- **Pipes**：normal
+
+**🎯 處置重點**
+
+1. **SSC bundle 1 hour**：
+   - **Lactate** 量測、**血液培養 × 2**（在抗生素前）
+   - **廣效抗生素**（30-60 分鐘內）
+   - **30 mL/kg 晶體液**
+   - **升壓劑** target MAP ≥ 65（norepinephrine first-line）
+2. **找 source**：UA、urine culture、可能 KUB / CT
+3. **動態 POCUS 追蹤** fluid responsiveness（IVC + PLR）
+:::
+
+:::
+
+## 👥 Megacode 團隊角色分工
+
+::: {.callout-warning}
+## ⚠️ 4 角色制 — 每個人各司其職
+
+team-based resuscitation 比 hero-style 更有效率與安全。
+:::
+
+| 角色 | 任務 | 關鍵技能 |
+|------|------|----------|
+| 🎯 **Team Leader** | 指揮全局、下醫囑、整合資訊、決策 | Closed-loop communication、優先順序判斷 |
+| 🫀 **POCUS 操作者** | 執行 RUSH、即時回報發現 | 手感技術、簡潔回報語言 |
+| 💉 **處置執行者** | IV access、給藥、輸液、CPR | SOP 熟練度、速度 |
+| 📝 **記錄者** | 時間、醫囑、檢查、回應 | 條理清楚、可即時查詢 |
+
+: Megacode 4 角色與任務 {.striped .hover tbl-colwidths="[20,40,40]"}
+
+::: {.callout-tip}
+## 🎯 Closed-loop Communication 範例
+
+**Leader**：「給 normal saline 1 公升 IV bolus」
+**Executor**：「收到，normal saline 1 公升 IV bolus」←（重複）
+**Leader**：「Confirmed」
+**Executor**：「**已給完**，10 分鐘」←（完成回報）
+
+→ 每一個指令都「**指令 → 重複 → 確認 → 完成回報**」4 步驟。
+:::
+
+## 📊 評估標準
+
+::: {.callout-note}
+## 🎓 Megacode 5 大評估指標
 
 | 評估項目 | 標準 |
 |----------|------|
-| RUSH Protocol 完成時間 | < 5 分鐘 |
-| 影像品質 | 能辨識主要結構 |
-| 判讀正確性 | 正確辨識休克類型 |
-| 治療決策 | 根據超音波發現調整治療 |
-| 團隊溝通 | 清楚回報發現、有效指揮 |
+| **RUSH 完成時間** | **< 5 分鐘** |
+| **影像品質** | 能辨識主要結構、不糊 |
+| **判讀正確性** | 正確分類休克 + 找到關鍵 |
+| **治療決策** | POCUS 引導下調整治療 |
+| **團隊溝通** | Closed-loop、清楚、有效率 |
 
-## 自我評量
+: Megacode 評估 5 指標 {.striped tbl-colwidths="[35,65]"}
+:::
 
-1. RUSH Protocol 的掃描順序為何？每個步驟包含哪些檢查？
-2. 在團隊演練中，超音波操作者的角色與責任為何？
-3. 若 RUSH Protocol 發現 IVC 塌陷且心臟過動，應如何處置？
-4. 若發現右心室擴大合併 IVC 擴張，最可能的診斷為何？應如何處置？
-5. 如何在高壓情境下有效地進行團隊溝通？
+## 🪤 常見演練錯誤
 
-## 參考資料
+::: {.callout-caution}
+## ⚠️ 學員容易犯的 5 個錯誤
 
-1. Perera P, et al. The RUSH exam: Rapid Ultrasound in SHock in the evaluation of the critically ill. *Emerg Med Clin North Am*. 2010;28(1):29-56.
-2. POCUS 101 - RUSH Exam Ultrasound Protocol Step by Step Guide. <https://www.pocus101.com/rush-exam-ultrasound-protocol-step-by-step-guide/>
-3. UBC IMPOCUS - Hemodynamics. <https://www.ubcimpocus.com/hemodynamics>
+1. **掃太久** — 追求「美麗影像」而忽略時間目標
+2. **單向回報** — 只說「IVC 大」不說「IVC 2.5 cm 變異 < 30%」（沒有量化）
+3. **被影像綁架** — 看到 LV 收縮差就忘記繼續掃 RV、IVC、肺、腹
+4. **不考慮 mixed shock** — 一個診斷就停手，沒有想到複合機轉
+5. **團隊溝通混亂** — 沒有 closed-loop，重複醫囑或漏給藥
+:::
+
+## ✅ 自我評量
+
+::: {.callout-note}
+## 🗣️ 課堂討論
+
+1. **RUSH Protocol** 的掃描順序與每步驟內容？
+2. **POCUS 操作者**在 Megacode 中的角色與責任？
+3. **IVC 塌陷 + 心臟過動** 的休克怎麼處置？
+4. **RV 大 + IVC 大** 最可能診斷？怎麼處置？
+5. 高壓情境下，如何**有效團隊溝通**？
+:::
+
+## 🎓 回家三句話
+
+::: {.callout-important}
+## 🏠 帶回家的 Take-home Messages
+
+1. **RUSH 不是「掃完」就好，是「掃 + 說 + 用」三步驟** —
+   會掃影像不夠，要會用清楚簡潔的話讓 leader 即時做決策。
+2. **每種休克都有不同治療方向** — 低容性給液、心因性升壓、阻塞性解阻塞、分佈性 SSC bundle。
+   POCUS 引導下治療才不會方向錯。
+3. **Closed-loop communication 是團隊救命的關鍵** —
+   每個醫囑都要「指令 → 重複 → 確認 → 完成回報」，
+   團隊大小不是重點，**溝通品質才是**。
+:::
+
+## 🏆 本章總結
+
+::: {.callout-important}
+## 🌟 第四章關鍵要點
+
+1. **休克 = 灌流不足，不只是低血壓** — 用 5 件套（mottling/CRT/lactate/意識/尿量）早期辨識。
+2. **休克分 4 大類，第一線治療各不同** — RUSH 5 分鐘可分流，避免方向錯誤。
+3. **RUSH = Pump + Tank + Pipes** — 心、容積、管路系統評估，敏感度 89%。
+4. **Mixed shock 才是現實** — 老人 sepsis 常合併 cardiogenic，需動態追蹤 + 個別處置。
+5. **Megacode 訓練的是團隊** — POCUS 技術 + 溝通流程 + 決策力的綜合演練。
+:::
+
+## 📚 參考閱讀
+
+1. Perera P, et al. **The RUSH exam: Rapid Ultrasound in SHock.** *Emerg Med Clin North Am.* 2010;28(1):29-56.
+2. Stickles SP, et al. **The diagnostic accuracy of a point-of-care ultrasound protocol for shock etiology: A systematic review and meta-analysis.** *CJEM.* 2019;21(3):406-417.
+3. Hunziker S, et al. **Teamwork and Leadership in Cardiopulmonary Resuscitation.** *J Am Coll Cardiol.* 2011;57(24):2381-2388.
+4. Surviving Sepsis Campaign 2021 Guidelines. *Crit Care Med.* 2021;49(11):e1063-e1143.
+5. POCUS 101. RUSH Exam Step by Step. <https://www.pocus101.com/rush-exam-ultrasound-protocol-step-by-step-guide/>

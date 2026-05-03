@@ -1,25 +1,78 @@
 ---
-title: "休克"
-subtitle: "Shock"
+title: "💥 休克"
+subtitle: "Shock — 從辨識到 RUSH Protocol 的完整流程"
 ---
 
 ![封面圖 — RUSH Protocol 三步驟](../../images/封面圖%20—%20RUSH%20Protocol%20三步驟.jpeg){fig-alt="RUSH 三大評估：Pump 心臟、Tank 容積 IVC、Pipes 管路"}
 
-## 章節簡介
+::: {.callout-note appearance="minimal" icon="false"}
+## 🎯 本章導讀
 
-休克是常見的急症，需盡早辨識、鑑別休克原因並進行復甦治療。造成休克的原因可概略分成低容性(hypovolemic)、阻塞性(obstructive)、心因性(cardiogenic)及再分佈性(distributive)休克，不同休克之臨床表現不盡相同，所需之治療也不同。床邊焦點式超音波可協助鑑別診斷以及判斷輸液治療反應。
+休克是「**血壓低 + 灌流不足 + 細胞缺氧**」的三重複合急症。
+本章用 4 堂課帶您從 **臨床辨識 → 4 大分類病生理 → RUSH Protocol 系統評估 → Megacode 團隊整合**，
+建立一套可在床邊 **5 分鐘內**回答「**這是哪一類休克？我該打液、輸血、還是升壓？**」的 POCUS 工作流。
 
-## 關鍵超音波影像
+**對應陳麒心醫師原始教案・編修整合：休克與重症急症系列 #04**
+:::
+
+## 📖 章節簡介
+
+休克是**急診與 ICU 最常見的死亡前兆**，**每延誤 1 小時，死亡率上升 7.6%**（Kumar 2006 in septic shock）。
+傳統流程依賴 CVP、CI、SVR 等侵入性監測，但 RUSH Protocol（Rapid Ultrasound for Shock and Hypotension）
+能用 **「Pump + Tank + Pipes」3 步驟、5 分鐘** 在床邊完成休克分流，
+**敏感度 89.4%、特異度 89.0%**（Stickles 2019 meta），是現代急重症的標準起手式。
+
+## 🖼️ 關鍵超音波影像
 
 ![診斷圖 — 六類休克臨床表現](../../images/診斷圖%20—%20六類休克臨床表現.jpeg){fig-alt="六類休克臨床樣貌：Hypovolemic、Cardiogenic、Obstructive、Neurogenic、Anaphylactic、Septic"}
 
-## 本章課程
+## 🚨 休克 4 大分類（先記這張表）
 
-1. [教案 13：辨識、病史詢問、理學檢查](13-recognition.qmd)
-2. [教案 14：分類、鑑別診斷、病生理](14-classification.qmd)
-3. [教案 15：RUSH Protocol](15-rush-protocol.qmd)
-4. [教案 16：實際演練與 Megacode](16-megacode.qmd)
+::: {.callout-warning}
+## ⚠️ 4 種機轉、4 種治療路徑
 
-## 編修醫師
+每一類休克的「**第一線該做什麼**」截然不同 —
+打錯方向（如心因性休克狂打液體 → 加速肺水腫），就是醫源性傷害。
+:::
 
-陳麒心 醫師
+| 類型 | 機轉 | 經典原因 | RUSH 三件套 | 第一刀治療 |
+|------|------|---------|-------------|-----------|
+| 🩸 **低容性** Hypovolemic | 容積不足 | 出血、嚴重脫水 | 心臟過動 + IVC 塌陷 | **輸液 / 輸血 + 止血** |
+| 🚧 **阻塞性** Obstructive | 血流回流受阻 | PE、tamponade、tension PTX | RV 大 / 心包積液 / 無 lung sliding | **解除阻塞**（穿刺 / 減壓 / tPA）|
+| 💔 **心因性** Cardiogenic | 幫浦衰竭 | AMI、心肌炎、acute MR | LV 收縮差 + IVC 大 | **升壓 + revasc / mech support** |
+| 🌊 **分佈性** Distributive | 血管阻力↓ | sepsis、anaphylaxis、neurogenic | 心臟過動 + IVC 多變 | **輸液 + 升壓 + 病因治療** |
+
+: 休克 4 大類別與 RUSH POCUS 對照表 {.striped .hover tbl-colwidths="[20,18,22,28,12]"}
+
+## 🎓 學習目標
+
+::: {.callout-note}
+## 📋 完成本章後，學習者應能夠
+
+1. **辨識休克的早期警訊** — 不只看血壓，更看灌流（mottling、CRT、lactate、意識）。
+2. 理解休克的 **4 大分類及其病生理機轉**，知道為什麼分類錯就治療錯。
+3. 完整操作 **RUSH Protocol（Pump + Tank + Pipes）**，目標 **< 5 分鐘**。
+4. 利用 **IVC 動態追蹤** 評估輸液反應（fluid responsiveness）。
+5. 在 **Megacode 情境**中整合 POCUS 發現與團隊指令，做出正確處置決策。
+:::
+
+## 📚 本章四堂課程
+
+::: {.callout-tip appearance="default"}
+## 課程地圖（建議依序學習）
+
+| 教案 | 主題 | 重點 | 連結 |
+|:----:|------|------|------|
+| 1️⃣3️⃣ | **辨識、病史詢問、理學檢查** | 2 案例 + 灌流 4 指標 + LR-shock work-up | [前往 →](13-recognition.qmd) |
+| 1️⃣4️⃣ | **分類、鑑別診斷、病生理** | 4 大類休克病生理 + POCUS 鑑別 | [前往 →](14-classification.qmd) |
+| 1️⃣5️⃣ | **RUSH Protocol** | Pump + Tank + Pipes 系統評估法 | [前往 →](15-rush-protocol.qmd) |
+| 1️⃣6️⃣ | **實際演練與 Megacode** | 4 情境模擬 + 團隊角色分工 | [前往 →](16-megacode.qmd) |
+
+: 第四章四堂課程一覽 {.striped tbl-colwidths="[10,28,42,20]"}
+:::
+
+## 👨‍⚕️ 編修醫師
+
+::: {.callout-note appearance="minimal" icon="false"}
+**陳麒心 醫師**　・　休克與重症 POCUS 教學負責人（Module 04）
+:::
