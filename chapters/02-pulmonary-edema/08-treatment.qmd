@@ -1,189 +1,270 @@
 ---
-title: "教案 8：治療與追蹤"
+title: "教案 8｜💊 治療與追蹤"
 subtitle: "急性肺水腫的處置原則與超音波追蹤"
-author: "黃冠智"
+author: "洪國軒"
 date: last-modified
 categories: [急性肺水腫, 治療, 追蹤]
 ---
 
-## 課程目標
+::: {.callout-note appearance="minimal" icon="false"}
+## 📌 本課速覽
+
+**藥物 × 呼吸支持 × 介入治療 — 三層次處置 SOP**
+搭配 **B-lines / IVC / LVEF 三件套追蹤** = 床邊 30 分鐘可以判斷
+「**這個病人在改善 or 在惡化**」的最強組合拳。
+:::
+
+## 🎯 課程目標
 
 ::: {.callout-note}
 ## 學習目標
 
-1. 掌握急性肺水腫的初始處置原則
-2. 了解藥物治療、呼吸支持與介入治療的適應症
-3. 能運用超音波追蹤治療效果
-4. 熟悉 B-lines、肋膜積液、左心功能與 IVC 的動態監測方法
+1. 掌握急性肺水腫的**初始處置 4 步驟**（LMNOP 改良版）。
+2. 能依血壓 / 灌流 / 心輸出狀態選擇藥物（**利尿、血管擴張、正性肌力**）。
+3. 熟悉 **NIPPV** 作用機轉與插管時機。
+4. 知道哪些病人需要**緊急會診心臟外科或介入心臟科**。
+5. 學會用 POCUS（B-lines / IVC / LVEF）**動態追蹤治療反應**。
 :::
 
-## 急性肺水腫處置原則
+## 🚑 急性肺水腫處置原則
 
 ::: {.callout-warning}
-## 重點提示
+## ⚠️ 重點提示
 
-急性肺水腫的治療需同時處理**症狀**（呼吸衰竭）與**病因**（心衰竭、瓣膜問題等），並持續以超音波監測治療反應。
+急性肺水腫的處置必須**同時打三條戰線**：
+
+1. **症狀** — 缺氧、呼吸功 → NIPPV / 氧氣
+2. **容積與後負荷** — 利尿、血管擴張
+3. **病因** — ACS、瓣膜事件、HTN crisis、AF RVR
 :::
 
-## 治療策略
+### 📋 初始處置 4 步驟（改良 LMNOP）
+
+| 順序 | 處置 | 適用情境 | 注意 |
+|:----:|------|----------|------|
+| 1️⃣ | **L**asix（IV furosemide 40–80 mg） | 容量過多、利尿劑反應佳 | 低血壓時延後 |
+| 2️⃣ | **M**orphine（已不建議常規使用） | 焦慮、疼痛 | 增加死亡率 — 慎用 |
+| 3️⃣ | **N**itroglycerin（IV 5–200 μg/min） | **HTN crisis、SCAPE** 首選 | SBP < 90 禁用 |
+| 4️⃣ | **O**xygen / NIPPV | 中重度呼吸困難 | NIPPV 優先於插管 |
+| 5️⃣ | **P**osition（坐姿 / 半坐臥） | 所有病人 | 立即減少前負荷 |
+
+: 急性肺水腫初始 LMNOP 4 步驟 {.striped tbl-colwidths="[8,32,35,25]"}
+
+::: {.callout-caution}
+## 🪤 LMNOP 的關鍵更新（2021 ESC HF guideline）
+
+- **Morphine 已從常規藥物移除** — 老觀念認為可降前負荷與焦慮，但近年資料顯示**增加插管率與死亡率**。
+- **Nitroglycerin 對 SCAPE（HFpEF crisis）效果優於 lasix** — 因為 SCAPE 不是容量過多，是後負荷急升。
+- **Lasix 不一定第一線** — 容量正常或低的病人狂打 lasix 反而傷腎。
+:::
+
+## 💊 治療策略
 
 ::: {.panel-tabset}
 
-### 藥物治療
+### 💧 藥物治療
 
-| 藥物 | 作用機轉 | 劑量 / 用法 | 注意事項 |
-|------|---------|------------|---------|
-| Furosemide（速尿） | 利尿、降低前負荷 | IV 40-80 mg bolus，可重複給予 | 監測尿量、電解質、腎功能 |
-| IV Nitroglycerin（NTG） | 擴張靜脈與冠狀動脈，降低前負荷 | 起始 5-10 mcg/min，逐步調升 | 收縮壓 < 90 mmHg 時禁用 |
-| Dobutamine | 正性肌力作用，增加心輸出量 | 2-20 mcg/kg/min | 適用於低心輸出量狀態 |
+| 藥物 | 機轉 | 劑量 | 適用 | 禁忌 |
+|------|------|------|------|------|
+| **Furosemide** | Loop 利尿 → 降前負荷 | IV 40–80 mg bolus，可 q4–6h | 容量過多、慢性 HF 急性化 | 低血壓、AKI 嚴重時 |
+| **IV Nitroglycerin** | 降前負荷（低劑量） + 後負荷（高劑量） | 5 → 200 μg/min titration | **SCAPE、HTN crisis** | SBP < 90、PDE5i 24h 內 |
+| **Dobutamine** | β1 → 正性肌力 + β2 輕度血管擴張 | 2–20 μg/kg/min | **低心輸出 + 灌流不足** | 嚴重 tachyarrhythmia |
+| **Norepinephrine** | α1 為主、β1 輕度 | 0.05–0.5 μg/kg/min | 心因性休克、需升壓 | 嚴重低容積未補足 |
+| **Milrinone** | PDE3 抑制 → inodilator | 0.125–0.75 μg/kg/min | RV 衰竭、肺高壓 | 嚴重低血壓 |
+
+: 急性肺水腫常用 5 大藥物 {.striped .hover tbl-colwidths="[18,24,20,22,16]"}
 
 ::: {.callout-warning}
-## 重點提示
+## ⚠️ 血壓導向的選藥決策
 
-使用血管擴張劑前需確認血壓是否足夠。若病人處於心因性休克（收縮壓 < 90 mmHg），應優先使用正性肌力藥物或升壓劑。
+| SBP | 灌流 | 首選 | 備註 |
+|-----|------|------|------|
+| > 140 | 良好 | **NTG + Lasix** | SCAPE 主要打法 |
+| 100–140 | 良好 | Lasix ± low-dose NTG | 經典心因性肺水腫 |
+| 90–100 | 邊界 | 低劑量 NTG **謹慎** + 找原因 | 評估是否準備升壓 |
+| < 90 | 不良 | **Norepinephrine + Dobutamine** | 心因性休克 |
 :::
 
-### 呼吸支持
+### 🌬 呼吸支持
 
-| 等級 | 方式 | 適應症 |
-|------|------|-------|
-| 第一線 | 非侵襲性正壓呼吸（NIPPV）：CPAP 或 BiPAP | 中重度呼吸困難、血氧不足 |
-| 第二線 | 氣管插管 + 機械通氣 | NIPPV 失敗、意識改變、嚴重低氧 |
+| 等級 | 方式 | 適應症 | 證據強度 |
+|:----:|------|--------|----------|
+| 🥇 第一線 | **NIPPV (CPAP / BiPAP)** | 中重度呼吸困難、SpO₂ < 92% | **降低插管率與死亡率**（強推薦） |
+| 🥈 第二線 | HFNC（高流量鼻導管） | 不耐 NIPPV、輕中度低氧 | 可考慮 |
+| 🥉 第三線 | 插管 + 機械通氣 | NIPPV 失敗、意識變化、嚴重呼吸衰竭 | 必要時 |
 
-**NIPPV 的優點**：
+: 肺水腫呼吸支持 3 階梯 {.striped tbl-colwidths="[12,38,32,18]"}
 
-- 減少呼吸功（work of breathing）
-- 降低前負荷（正壓減少靜脈回流）
-- 改善氣體交換
-- 可降低插管率與死亡率
+**🔬 NIPPV 在心因性肺水腫的 4 大效益**
 
-### 介入治療
+1. **減少呼吸功**（work of breathing）— 立即緩解呼吸窘迫
+2. **降低前負荷** — 正壓減少靜脈回流，類似「藥物性放血」
+3. **降低後負荷**（CPAP）— 跨壁壓 ↓ → LV afterload ↓
+4. **改善氣體交換** — PEEP 撐開塌陷肺泡
 
-針對特定病因的介入治療：
+→ 這 4 點剛好對應 SCAPE 的所有病理機轉，所以**NIPPV 是 SCAPE 的「一線救命武器」**。
 
-- **瓣膜手術**：適用於嚴重瓣膜閉鎖不全或狹窄（如教案 5 的兩個案例）
-  - 急性嚴重二尖瓣閉鎖不全（腱索斷裂、乳頭肌斷裂）
-  - 人工瓣膜功能失常
-- **冠狀動脈介入（PCI）**：適用於急性冠心症合併肺水腫
-  - 緊急心導管檢查與支架置放
-  - 若多支血管病變可考慮冠狀動脈繞道手術（CABG）
-- **機械循環輔助**：心因性休克無法以藥物穩定時
-  - 主動脈內乳球幫浦（IABP）
-  - 體外膜氧合（ECMO）
+### 🏥 介入治療
+
+針對特定**根本原因**的 definitive treatment：
+
+| 適應症 | 介入方式 | 時機 |
+|--------|----------|------|
+| 急性嚴重 MR（chordae rupture） | **緊急 MV repair / replacement** | 當天 / 24 小時內 |
+| 人工瓣膜失能 | **Re-do surgery / TAVI / TMVR** | 視血流動力學 |
+| 嚴重瓣膜逆流（無法手術） | **MitraClip (TEER)** | 高危族群替代方案 |
+| 急性 STEMI 合併肺水腫 | **Primary PCI** | Door-to-Balloon < 90 min |
+| Multi-vessel CAD | CABG | 急性穩定後 |
+| 心因性休克（藥物無效） | **IABP / Impella / VA-ECMO** | 短時間內升級 |
+
+: 肺水腫之根本治療（介入層次） {.striped tbl-colwidths="[40,35,25]"}
+
+🔑 **臨床對照**：
+- 教案 5 案例一 → CABG + MVR（多支病變 + 急性 MR）
+- 教案 5 案例二 → MV re-do surgery（人工瓣膜失能）
 
 :::
 
-## 超音波追蹤重點
+## 🔍 超音波追蹤重點
 
 ::: {.callout-note}
-## 追蹤原則
+## 🔁 治療不是「給完藥就結束」— POCUS 是動態追蹤工具
 
-治療過程中應定期以超音波重新評估，監測治療反應並調整處置策略。
+每 30–60 分鐘以 POCUS 重新評估，是急性肺水腫治療的**標準動作**。
 :::
 
-### 追蹤項目
+### 📊 追蹤 4 大項目
 
 ::: {.panel-tabset}
 
-### B-lines 數量變化
+### 1. B-lines 變化
 
-- **治療前**：記錄基準 B-lines 數量與分布
-- **治療中**：每 30-60 分鐘重新掃描
-- **判讀**：
-  - B-lines 減少 → 治療有效，肺間質水分減少
-  - B-lines 無變化或增加 → 治療效果不佳，需調整策略
+| 時機 | 動作 | 判讀 |
+|------|------|------|
+| **治療前** | 8-zone 或 28-zone 計分基準 | 記錄總數 |
+| **治療中**（每 30–60 min） | 重新計分 | 數量 ↓ → 治療有效 |
+| **無變化 / 增加** | 重新評估診斷與處置 | 可能誤診 / 劑量不足 |
 
-### 肋膜積液量
+### 2. 肋膜積液
 
-- **評估方式**：在 PLAPS point 或後背掃描
-- **追蹤重點**：
-  - 積液量是否減少
-  - 是否需要進行治療性胸腔穿刺
-  - 積液性質（單純漏出液 vs 複雜性積液）
+| 評估點 | 判讀 |
+|--------|------|
+| **PLAPS point** | 量測黑色 anechoic 帶高度 |
+| 高度 < 2 cm | 少量，不需穿刺 |
+| 高度 > 5 cm + 呼吸窘迫 | 考慮**治療性 thoracentesis** |
+| 性質判讀 | 純 anechoic = 漏出液；混雜 echogenic = 滲出液 |
 
-### 左心功能（LVEF）
+### 3. LVEF 變化
 
-- **評估切面**：Apical 4-chamber view
-- **方法**：目測法（eyeballing）或 Simpson's biplane method
-- **追蹤重點**：
-  - LVEF 是否改善
-  - 室壁運動異常是否變化
-  - 瓣膜閉鎖不全程度是否改善
+| 切面 | 方法 | 追蹤點 |
+|------|------|--------|
+| A4C | 目測 (eyeballing) 或 Simpson's | LVEF 是否回升 |
+| PLAX | EPSS（E-point septal separation） | < 7 mm = 正常 |
+| PSAX | Fractional shortening | 視個案 |
 
-### IVC 直徑與呼吸變異
+### 4. IVC 動態
 
-| IVC 直徑 | 呼吸變異 | 臨床意義 |
-|----------|---------|---------|
-| > 2.1 cm | < 50% | 右心房壓高（約 15 mmHg），容量過多 |
-| > 2.1 cm | > 50% | 右心房壓中等（約 8 mmHg） |
-| ≤ 2.1 cm | > 50% | 右心房壓低（約 3 mmHg），容量不足 |
+| IVC 直徑 | 呼吸變異 | RA 壓估計 | 臨床意義 |
+|----------|----------|-----------|----------|
+| ≤ 2.1 cm | > 50% | ≈ 3 mmHg | 容量不足 |
+| > 2.1 cm | > 50% | ≈ 8 mmHg | 中等容量 |
+| **> 2.1 cm** | **< 50%** | **≈ 15 mmHg** | **容量過多 — 需利尿** |
 
-- **治療前**：IVC 擴張且呼吸變異小 → 容量過多
-- **治療後**：IVC 直徑縮小且呼吸變異增加 → 利尿效果佳
+: IVC 評估 RA 壓力對照（ASE 2010） {.striped tbl-colwidths="[20,20,25,35]"}
+
+🔑 **追蹤要點**：治療有效時 IVC 應**逐漸縮小** + **呼吸變異增加**。
 
 :::
 
-## 治療流程整合
+## 🔁 治療流程整合
 
 ::: {.callout-warning}
-## 重點提示：超音波引導的治療決策
+## 🎯 超音波導向的治療決策迴圈
 
-1. **初始評估**：心臟 + 肺部超音波 → 確認病因與嚴重度
-2. **啟動治療**：根據評估結果選擇藥物與呼吸支持
-3. **動態追蹤**：定期超音波再評估（B-lines、IVC、LVEF）
-4. **調整策略**：根據追蹤結果調整利尿劑劑量、升壓劑或考慮介入治療
+```
+1️⃣ 初始評估
+   POCUS 三件套（肺 B-lines + 心 LVEF + IVC）→ 確認診斷與嚴重度
+
+2️⃣ 啟動治療
+   依血壓選藥（NTG / Lasix / Dobu / NorEpi）+ 呼吸支持（NIPPV）
+
+3️⃣ 動態追蹤（每 30–60 min）
+   B-lines 數量 ↓？
+   IVC 直徑 ↓？
+   LVEF ↑？
+   症狀緩解？
+
+4️⃣ 調整策略
+   有效 → 持續處方 → 找根本原因
+   無效 → 換藥、加機械支持、會診介入科
+```
 :::
 
-## 討論議題
+## 💬 討論議題
 
 ::: {.callout-note}
-## 討論
+## 🗣️ 課堂討論
 
-1. 在急性肺水腫合併低血壓時，利尿劑與升壓劑的使用順序為何？
-2. NIPPV 在心因性肺水腫中為何能降低前負荷？
-3. 如何利用 IVC 的變化來評估利尿治療的效果？
-4. 什麼情況下需要緊急照會心臟外科？
+1. **急性肺水腫合併 SBP 88 mmHg，先打 lasix 還是先升壓？** （提示：找原因 + cold/wet）
+2. **NIPPV 在心因性肺水腫為什麼能「一石四鳥」？** （前負荷、後負荷、呼吸功、氣體交換）
+3. **怎麼用 IVC 動態判斷利尿是否「過頭」？**（IVC < 1.5 cm + 呼吸變異 > 50% 要警覺）
+4. **什麼情況需要在凌晨 3 點 call 心臟外科？**（急性 MR、瓣膜失能 + 休克）
 :::
 
-## 自我評估
+## ✅ 自我評估
 
 ::: {.content-visible when-format="html"}
 
-**問題 1**：急性肺水腫合併低心輸出量時，首選的正性肌力藥物是？
+::: {.callout-note appearance="default"}
+## 📝 問題 1
+急性肺水腫合併**低心輸出量**時，首選的正性肌力藥物是？
 
 - [ ] Furosemide
 - [ ] Nitroglycerin
 - [x] Dobutamine
 - [ ] Morphine
+:::
 
-**問題 2**：以下何者是 NIPPV 治療心因性肺水腫的作用機轉？
+::: {.callout-note appearance="default"}
+## 📝 問題 2
+**NIPPV** 治療心因性肺水腫的核心機轉**不包括**？
 
-- [ ] 直接增加心輸出量
-- [ ] 降低肺動脈壓
-- [x] 正壓減少靜脈回流，降低前負荷
-- [ ] 直接擴張冠狀動脈
+- [ ] 降低前負荷
+- [ ] 降低後負荷（CPAP）
+- [ ] 減少呼吸功
+- [x] 直接擴張冠狀動脈
+:::
 
-**問題 3**：治療後 IVC 直徑從 2.5 cm 縮小至 1.8 cm 且呼吸變異增加，代表什麼？
+::: {.callout-note appearance="default"}
+## 📝 問題 3
+治療後 IVC 從 **2.5 cm + 變異 < 30% → 1.8 cm + 變異 > 50%**，代表？
 
-- [x] 利尿效果佳，容量狀態改善
+- [x] 利尿有效，容量狀態改善
 - [ ] 治療無效
 - [ ] 需要更多輸液
-- [ ] 發生心包填塞
+- [ ] 心包填塞
+:::
 
-**問題 4**：以下哪種情況需要緊急照會心臟外科？
+::: {.callout-note appearance="default"}
+## 📝 問題 4
+下列何者**需要緊急會診心臟外科**？
 
-- [ ] 輕度二尖瓣閉鎖不全
-- [ ] 慢性穩定型心衰竭
-- [x] 急性腱索斷裂合併嚴重二尖瓣閉鎖不全
-- [ ] 輕度肋膜積液
+- [ ] 輕度 MR
+- [ ] 慢性穩定 HF
+- [x] **急性腱索斷裂合併嚴重 MR**
+- [ ] 少量肋膜積液
+:::
 
 ::: {.callout-tip collapse="true"}
-## 顯示答案解析
+## 💡 顯示答案解析
 
-1. **Dobutamine** 是 β1 受體促進劑，具有正性肌力作用，適用於低心輸出量狀態。Furosemide 為利尿劑，NTG 為血管擴張劑，兩者在低血壓時需謹慎使用。
-2. **NIPPV** 產生的正壓會減少靜脈回流，降低右心與左心的前負荷，同時減少呼吸功，改善肺泡氧合。
-3. **IVC 直徑縮小且呼吸變異增加**表示右心房壓力下降，中心靜脈壓降低，代表利尿治療有效，體內容量過多的狀態已改善。
-4. **急性腱索斷裂合併嚴重二尖瓣閉鎖不全**（如教案 5 案例一）屬於外科急症，藥物治療僅能暫時穩定，根本治療需要瓣膜修補或置換手術。
+1. **Dobutamine** 主要 β1 → 正性肌力，是低心輸出 + 灌流不足首選。
+   Lasix 是利尿劑、NTG 是血管擴張劑、Morphine 已不建議常規使用。
+2. NIPPV 透過正壓**直接降前負荷、降後負荷、減呼吸功、改善氣體交換**，
+   但**不會直接擴張冠狀動脈**（NTG 才有此作用）。
+3. IVC 縮小 + 呼吸變異增加 = RA 壓下降 = 容量過多狀態改善 = 利尿有效。
+4. **急性腱索斷裂**為外科急症，藥物只能短暫穩定，**根本治療必須瓣膜手術**。
+   教案 5 案例一就是典型例子。
 :::
 
 :::
@@ -196,9 +277,34 @@ categories: [急性肺水腫, 治療, 追蹤]
 :::
 :::
 
-## 參考閱讀
+## 🏆 本章總結
 
-1. McDonagh TA, et al. 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure. *European Heart Journal*. 2021;42(36):3599-3726
-2. Alec Vahanian et al., 2021 ESC/EACTS Guidelines for the management of valvular heart disease. *European Heart Journal* (2021) 00, 1-72
-3. Lichtenstein DA. BLUE-Protocol and FALLS-Protocol: Two Applications of Lung Ultrasound in the Critically Ill. *Chest*. 2015;147(6):1659-1670
-4. *Pocket Guide to POCUS: Point-of-Care Tips for Point-of-Care Ultrasound*
+::: {.callout-important}
+## 🌟 第二章關鍵要點
+
+1. **急性肺水腫不是單一疾病** — 是心、肺、容積三方角力的最終共同表現。
+2. **POCUS 三件套**（肺 B-lines + 心 LVEF + IVC）= 床邊 5–10 分鐘解答「心因 vs 非心因」。
+3. **治療要打三條戰線** — 症狀（NIPPV）、容積（Lasix）、病因（NTG / 介入 / 外科）。
+4. **POCUS 不只用於診斷，更是動態追蹤工具** — 每 30–60 分鐘重新評估，是現代肺水腫照護的標準。
+:::
+
+## 🎓 回家三句話
+
+::: {.callout-important}
+## 🏠 帶回家的 Take-home Messages
+
+1. **LMNOP 已升級** — Morphine 不要常規打、SCAPE 用 NTG 別只靠 Lasix、
+   血壓 < 90 別狂利尿，先升壓找原因。
+2. **NIPPV 是 SCAPE 一線救命武器** — 一招同時降前負荷、降後負荷、減呼吸功、改善氧合。
+   只要病人沒有意識障礙就試。
+3. **POCUS 追蹤是動態的** — B-lines 應該隨利尿減少、IVC 應該縮小且變異增加、LVEF 應該上升。
+   30–60 分鐘沒改善就要懷疑診斷或加碼治療。
+:::
+
+## 📚 參考閱讀
+
+1. McDonagh TA, et al. **2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure.** *Eur Heart J.* 2021;42(36):3599-3726.
+2. Vahanian A, et al. *2021 ESC/EACTS Guidelines for the management of valvular heart disease.* Eur Heart J. 2022;43(7):561-632.
+3. Lichtenstein DA. *BLUE-Protocol and FALLS-Protocol: Two Applications of Lung Ultrasound in the Critically Ill.* Chest. 2015;147(6):1659-1670.
+4. Masip J, et al. *Indications and practical approach to non-invasive ventilation in acute heart failure.* Eur Heart J. 2018;39(1):17-25.
+5. Felker GM, et al. *Diuretic Strategies in Patients with Acute Decompensated Heart Failure.* N Engl J Med. 2011;364(9):797-805 (DOSE Trial).

@@ -60,7 +60,7 @@ subtitle: "Point-of-Care Ultrasound Case Discussion Curriculum"
 本教材由以下醫師共同編輯：
 
 - 曾新育 醫師
-- 黃冠智 醫師
+- 洪國軒 醫師
 - 林姝含 醫師
 - 陳麒心 醫師
 - 謝慕揚 醫師

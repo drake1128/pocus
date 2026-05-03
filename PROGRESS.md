@@ -257,10 +257,10 @@ jobs:
 | 2 | `01-chest-pain/02-anatomy.qmd` | ✅ 完成 | 曾新育 |
 | 3 | `01-chest-pain/03-diagnosis.qmd` | ✅ 完成 | 曾新育 |
 | 4 | `01-chest-pain/04-treatment.qmd` | ✅ 完成 | 曾新育 |
-| 5 | `02-pulmonary-edema/05-symptoms.qmd` | ✅ 完成 | 黃冠智 |
-| 6 | `02-pulmonary-edema/06-anatomy.qmd` | ✅ 完成 | 黃冠智 |
-| 7 | `02-pulmonary-edema/07-diagnosis.qmd` | ✅ 完成 | 黃冠智 |
-| 8 | `02-pulmonary-edema/08-treatment.qmd` | ✅ 完成 | 黃冠智 |
+| 5 | `02-pulmonary-edema/05-symptoms.qmd` | ✅ 完成 | 洪國軒 |
+| 6 | `02-pulmonary-edema/06-anatomy.qmd` | ✅ 完成 | 洪國軒 |
+| 7 | `02-pulmonary-edema/07-diagnosis.qmd` | ✅ 完成 | 洪國軒 |
+| 8 | `02-pulmonary-edema/08-treatment.qmd` | ✅ 完成 | 洪國軒 |
 
 #### 第二部分：肢端血管與血栓疾病
 | 教案 | 檔案 | 狀態 | 負責醫師 |

@@ -12,7 +12,7 @@ footer: "急性肺水腫 Acute Pulmonary Edema"
 
 **POCUS 超音波案例討論教案集｜模組二**
 
-編修醫師：黃冠智 醫師
+編修醫師：洪國軒 醫師
 
 ---
 

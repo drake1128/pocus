@@ -1,171 +1,224 @@
 ---
-title: "教案 5：症狀辨識"
+title: "教案 5｜🩺 症狀辨識"
 subtitle: "急性肺水腫的症狀辨識與床邊超音波適應症"
-author: "黃冠智"
+author: "洪國軒"
 date: last-modified
 categories: [急性肺水腫, 症狀辨識, POCUS]
 ---
 
-## 課程目標
+::: {.callout-note appearance="minimal" icon="false"}
+## 📌 本課速覽
+
+**2 個「乍看是肺炎，實則是瓣膜急症」的案例 × POCUS 5 分鐘破案**
+讀完之後，你會理解為什麼「白肺 + 發燒 + CRP 高」這個組合**不能直接送呼吸器當細菌性肺炎處理**。
+:::
+
+## 🎯 課程目標
 
 ::: {.callout-note}
 ## 學習目標
 
-1. 透過不同案例，讓學生更了解 POCUS 的使用時機
-2. 能了解溶血為人工瓣膜功能失常的臨床表徵
-3. 在疫情下，個人防護裝備升級的同時，聽診器可能不易發現心雜音，這時候 POCUS 可以有效發現心臟瓣膜問題
+1. 透過**真實案例**理解 POCUS 在「肺炎 vs 肺水腫」鑑別中的角色。
+2. 認識**急性瓣膜事件**（chordae rupture、prosthetic valve dysfunction）的非典型表現。
+3. 在**個人防護裝備（PPE）升級**或聽診器難以使用的情境下，學會用 POCUS 取代聽診。
 :::
 
-## 案例介紹
+## 📋 案例介紹
+
+> 📝 **建議學習方式**：先別看後面的 POCUS 結果，把自己當成一線醫師，問
+> 「**這個 X 光雙側白白的，我會先開抗生素還是利尿劑？為什麼？**」
 
 ::: {.panel-tabset}
 
-### 案例一
+### 案例一｜「乾咳血絲」其實是腱索斷裂
 
-::: {.callout-tip appearance="simple"}
-## 案例一
+::: {.callout-tip appearance="default"}
+## 🧓 案例一　86 歲蔡先生・乾咳帶血絲
 
-86 歲蔡先生，平時在診所追蹤糖尿病，近日覺得乾咳頻繁且帶有血絲，診所懷疑他有肺部腫瘤建議到大醫院求診。
+86 歲男性，平時於診所追蹤糖尿病。**近 2 週**逐漸出現**乾咳頻繁、痰中帶血絲**，
+診所懷疑「肺部腫瘤」轉介至大醫院胸腔科門診，由急診收住院。
 
-**實驗室檢查**
+**入院檢查**
 
-| 項目 | 數值 |
-|------|------|
-| WBC | 11.8 k/uL |
-| CRP | 19.355 mg/dL |
+| 項目 | 數值 | 解讀 |
+|------|------|------|
+| WBC | 11.8 k/μL | 輕度上升 |
+| **CRP** | **19.355 mg/dL** | 🚨 顯著上升（看似感染） |
+| 體溫 | 37.2 °C | 微燒 |
+| BNP | 待後續發出 | — |
+| Chest X-ray | **雙側大範圍肺浸潤** | 看似 CAP |
 
-**影像檢查**
+🔑 **第一線判讀**：高 CRP + 雙側 infiltrates → 多數人會直接開**抗生素 + 留院觀察**。
 
-Chest X-ray：雙側大範圍肺部浸潤
+**🔬 關鍵 POCUS 發現**
 
-**Cardiac POCUS 發現**
+- **二尖瓣後葉 P2–P3 腱索斷裂**（chordae rupture）
+- 合併**嚴重二尖瓣閉鎖不全**（severe MR），離心性 jet 撞向 LA roof
+- LV 收縮力代償性增強（hyperdynamic LV）
 
-二尖瓣後葉 P2-3 腱索斷裂，合併有嚴重閉鎖不全。
+**右心導管確認**
 
-**右心導管檢查**
-
-| 項目 | 數值 |
-|------|------|
-| PA wedge 波形 | Giant V wave |
-| PA wedge pressure | 47 mmHg |
-| PA pressure | 77/26 mmHg |
-
-**處置與預後**
-
-病患隨後接受冠狀動脈繞道與二尖瓣膜置換手術，預後良好。
-:::
-
-### 案例二
-
-::: {.callout-tip appearance="simple"}
-## 案例二
-
-72 歲彭先生，2011 年於外院接受 Hancock II 32mm 二尖瓣膜置換手術，後續因心房顫動於門診追蹤。因呼吸喘到急診，發現血氧飽和度 91%，chest X-ray 發現雙側肺浸潤。
-
-**Cardiac POCUS 發現**
-
-二尖瓣人工瓣膜葉片脫垂且合併有離心斜向之重度瓣膜閉鎖不全。
+| 項目 | 數值 | 正常值 | 解讀 |
+|------|------|--------|------|
+| **PA wedge 波形** | **Giant V wave** | 無 V wave | 急性 MR 典型 |
+| **PA wedge pressure** | **47 mmHg** | 6–12 mmHg | 🚨 LA 壓極高 |
+| **PA pressure** | **77 / 26 mmHg** | < 25/10 | 重度肺高壓 |
 
 **處置與預後**
 
-緊急照會心臟外科評估後，病患接受二尖瓣膜 re-do surgery，預後良好。
+→ 緊急會診心臟外科，接受 **CABG + 二尖瓣置換手術**，預後良好。
+
+🔑 **學到什麼**：CRP 上升不一定是感染 —— **急性肺水腫合併系統性發炎反應（SIRS）** 在臨床很常見。
+:::
+
+### 案例二｜人工瓣膜 10 年後突發呼吸喘
+
+::: {.callout-tip appearance="default"}
+## 🧑‍🦳 案例二　72 歲彭先生・呼吸喘 + AF
+
+72 歲男性，**2014 年**於外院接受 **Hancock II 32 mm 二尖瓣生物瓣膜置換**，
+之後因心房顫動於門診追蹤。今日因**呼吸喘**到急診，發現：
+
+| 項目 | 數值 | 解讀 |
+|------|------|------|
+| **SpO₂** | **91 %** (Room Air) | 🚨 低血氧 |
+| 心律 | AF, RVR 130 bpm | 心搏過速 |
+| 血壓 | 105 / 72 mmHg | 邊界 |
+| Chest X-ray | **雙側肺浸潤** + 上葉再分布 | 心因性表現 |
+
+🔑 **第一線判讀**：AF RVR + 肺水腫 → 容易直接歸因為「**rate control 不良導致心衰**」。
+
+**🔬 關鍵 POCUS 發現**
+
+- 二尖瓣**人工瓣膜葉片脫垂**（leaflet prolapse）
+- 合併**離心斜向之重度瓣膜閉鎖不全**（severe paravalvular / valvular regurgitation）
+- LA 急性擴大、IVC plethora
+
+**處置與預後**
+
+→ 緊急會診心臟外科，接受**二尖瓣 re-do surgery**，預後良好。
+
+🔑 **學到什麼**：**生物瓣膜壽命 10–15 年**，到期前後若出現新發呼吸喘，**第一個要懷疑就是瓣膜失效**，不是 AF。
 :::
 
 :::
 
-## 討論議題
+## 💬 討論議題
 
 ::: {.callout-warning}
-## 重點提示
+## ⚠️ 重點提示
 
-像這樣子的 X 光，雙側都有 infiltrates，症狀上，肺炎與肺水腫有哪些病史詢問該注意？
+> **同樣是「雙側肺浸潤」的 CXR，肺炎與肺水腫的病史線索完全不同。**
+> 你必須在第一輪問診就問對問題，否則會在後面的鑑別流程裡浪費 30 分鐘。
 :::
 
 ::: {.callout-note}
-## 討論
+## 🗣️ 鑑別肺炎 vs 肺水腫的病史 4 大方向
 
-鑑別肺炎與肺水腫時，病史詢問應注意：
+| 方向 | 肺炎側線索 | 肺水腫側線索 |
+|------|-----------|-------------|
+| **🦠 感染** | 發燒、咳膿痰、接觸史、社區流行 | 通常無發燒（除非合併 SIRS） |
+| **❤️ 心臟** | 較少 | 既往 CAD / HF / 瓣膜病史、PND、orthopnea |
+| **💉 疫苗** | 流感、肺鏈、COVID 接種與否 | — |
+| **🌍 TOCC** | Travel / Occupation / Cluster / Contact | 通常陰性 |
 
-1. **感染相關**：發燒、呼吸道症狀、接觸史
-2. **心臟相關**：過去心臟病史、胸腔病史
-3. **疫苗接種狀況**：COVID-19、pneumococcus、influenza
-4. **TOCC**：travel（旅遊史）、occupation（職業史）、cluster（群聚史）、contact history（接觸史）
+: 雙側 infiltrates 病史鑑別 4 方向 {.striped tbl-colwidths="[15,42,43]"}
 :::
 
-## POCUS 適應症
+## 🔍 POCUS 適應症
 
-在這類臨床情境中，POCUS 可以協助回答以下問題：
+::: {.callout-tip}
+## POCUS 在這類情境可以回答的 3 個問題
 
-- 是否有 **pleural effusion**（肋膜積液）？
-- 是否合併 **肺積水**？
-- 是否為 **心因性肺水腫**？
+1. 是否有 **pleural effusion**（肋膜積液）？— 雙側 + 大量 → 偏心因
+2. 是否有 **interstitial syndrome**（B-lines）？— 雙側對稱 + 瀰漫 → 偏心因
+3. 是否為 **cardiogenic origin**？— LV 功能 / 瓣膜 / IVC 三件套
+:::
 
-## 超音波檢查重點
+## 🫀 超音波檢查重點
 
 ::: {.callout-warning}
-## 重點提示
+## ⚠️ 第一刀放哪裡？
 
-床邊超音波要針對 **apical 4-chamber view** 取像，評估心臟瓣膜功能與心室運動。
+針對懷疑急性瓣膜事件的病人，建議掃描順序：
+**A4C → PLAX with color → SC + IVC → Lung BLUE points**
+A4C 可同時觀察 4 腔室與瓣膜開合，是「**最高 CP 值的第一刀**」。
 :::
 
 ::: {.panel-tabset}
 
-### 實作要點
+### 🛠 實作要點
 
-- 探頭放置於心尖搏動點
-- 標記點朝向病患右側
-- 調整探頭角度以同時顯示四個腔室
-- 注意觀察瓣膜開合是否正常
+- 探頭放置於**心尖搏動點**（通常為左鎖骨中線第 5 肋間外側）
+- 標記點朝向**病患右側**（cardiac convention）
+- 微調探頭角度，使**四個腔室同時顯示**且不前縮（foreshortened）
+- 開啟 **color Doppler** 評估瓣膜逆流
+- 若懷疑人工瓣膜失能，加做 **CW Doppler** 量化逆流速度
 
-### 小組練習
-
-小組討論並實作床邊超音波之執行。
+### 🎓 小組練習
 
 ::: {.callout-note}
-一般初學者想要取得 apical 4-chamber view，需要實作時間起碼 **20 分鐘**。請耐心練習並互相指導。
+**初學者警語**：取得標準 A4C 切面通常需要 **15–20 分鐘**的練習時間。
+關鍵不是「快」，而是**確認非 foreshortened**（apex 必須是真心尖、不能是 RV 跑進來）。
+教學時請耐心引導，並互相手把手調整。
+:::
 :::
 
-:::
-
-## 自我評估
+## ✅ 自我評估
 
 ::: {.content-visible when-format="html"}
 
-**問題 1**：以下何者是人工瓣膜功能失常的臨床表徵？
+::: {.callout-note appearance="default"}
+## 📝 問題 1
+以下何者**最可能**是人工瓣膜功能失常的臨床表徵？
 
 - [ ] 肝功能異常
-- [x] 溶血
+- [x] 溶血（hemolytic anemia + LDH↑ + haptoglobin↓）
 - [ ] 腎結石
 - [ ] 皮膚紅疹
+:::
 
-**問題 2**：案例一中，PA wedge pressure 47 mmHg 代表什麼臨床意義？
+::: {.callout-note appearance="default"}
+## 📝 問題 2
+案例一中，PA wedge pressure **47 mmHg + Giant V wave** 代表什麼？
 
 - [ ] 正常肺動脈壓力
 - [ ] 右心衰竭
-- [x] 左心房壓力顯著升高，符合心因性肺水腫
+- [x] 急性嚴重二尖瓣閉鎖不全造成 LA 壓力急遽上升
 - [ ] 肺栓塞
+:::
 
-**問題 3**：在個人防護裝備升級的情況下，POCUS 的優勢為何？
+::: {.callout-note appearance="default"}
+## 📝 問題 3
+PPE 升級時，POCUS 相較於聽診器的優勢為何？
 
 - [ ] 可取代所有實驗室檢查
-- [ ] 可完全取代心導管檢查
-- [x] 在聽診器不易使用時，有效發現心臟瓣膜問題
-- [ ] 不需任何訓練即可操作
+- [ ] 可完全取代心導管
+- [x] 在聽診器難以使用時，能直接「看見」瓣膜逆流與心臟收縮力
+- [ ] 不需要訓練即可操作
+:::
 
-**問題 4**：Chest X-ray 顯示雙側肺浸潤時，以下哪些檢查有助於鑑別肺炎與心因性肺水腫？
+::: {.callout-note appearance="default"}
+## 📝 問題 4
+雙側肺浸潤的 CXR，下列哪項檢查**最能**幫助分辨心因 vs 非心因？
 
-- [ ] 僅做血液培養
-- [x] 床邊心臟超音波評估瓣膜功能
-- [ ] 僅做肺功能測試
-- [ ] 等待病理切片結果
+- [ ] 血液培養
+- [x] 床邊心臟超音波（評估 LV 功能與瓣膜）
+- [ ] 肺功能測試
+- [ ] 等病理切片
+:::
 
 ::: {.callout-tip collapse="true"}
-## 顯示答案解析
+## 💡 顯示答案解析
 
-1. **溶血**是人工瓣膜功能失常（如瓣膜葉片脫垂或閉鎖不全）的重要臨床表徵，因紅血球在異常瓣膜處受到機械性破壞。
-2. **PA wedge pressure 47 mmHg** 遠高於正常值（6-12 mmHg），代表左心房壓力顯著升高，為心因性肺水腫的直接證據。Giant V wave 則提示嚴重二尖瓣閉鎖不全。
-3. 在穿戴完整防護裝備的情況下，**聽診器可能不易發現心雜音**，此時 POCUS 可以直接目視化瓣膜開合情形，有效發現瓣膜問題。
-4. **床邊心臟超音波**可以快速評估瓣膜功能、心室收縮力與是否有心包積液，有助於鑑別心因性與非心因性肺水腫。
+1. **溶血**是人工瓣膜失能的關鍵警訊 —— 異常瓣膜葉片造成紅血球機械性破壞，
+   表現為 **anemia + LDH↑ + haptoglobin↓ + indirect bilirubin↑**。臨床上若人工瓣膜病人新發貧血，必驗 hemolysis panel。
+2. **PA wedge 47 mmHg** 遠高於正常 6–12 mmHg；**Giant V wave** 是急性 MR 特有 —
+   逆流血液衝擊未擴大的 LA 造成壓力波瞬間飆升。慢性 MR 因 LA 已代償性擴大，反而看不到 V wave。
+3. PPE 升級（COVID 流行、TB、傳染病房）時，N95 + 防護面罩讓**聽診器幾乎無用**。
+   POCUS 是「**用看的取代用聽的**」，更精準也更安全。
+4. 床邊心臟超音波可在 5 分鐘內回答「LV 功能、瓣膜、心包積液」三大問題，
+   是雙側肺浸潤鑑別**最高效率**的床邊工具。
 :::
 
 :::
@@ -178,8 +231,22 @@ Chest X-ray：雙側大範圍肺部浸潤
 :::
 :::
 
-## 參考閱讀
+## 🎓 回家三句話
 
-1. Alec Vahanian et al., 2021 ESC/EACTS Guidelines for the management of valvular heart disease. *European Heart Journal* (2021) 00, 1-72
-2. *Pocket Guide to POCUS: Point-of-Care Tips for Point-of-Care Ultrasound*
-3. *Textbook of Clinical Echocardiography* 6th edition, Catherine M. Otto
+::: {.callout-important}
+## 🏠 帶回家的 Take-home Messages
+
+1. **「白肺 + CRP 高」≠ 一定是肺炎** — 急性肺水腫常合併 SIRS。
+   案例一就是個典型的「被 CRP 騙走」的腱索斷裂。
+2. **生物瓣膜有壽命，10–15 年是警戒線** — 人工瓣膜病人新發呼吸喘，
+   先想瓣膜失效（leaflet prolapse、paravalvular leak、structural valve deterioration）。
+3. **POCUS 是延伸聽診器，更是 PPE 時代的救命工具** —
+   A4C → PLAX → SC/IVC → Lung 4 步驟，10 分鐘內回答「心 vs 肺」這個關鍵岔路問題。
+:::
+
+## 📚 參考閱讀
+
+1. Vahanian A, et al. *2021 ESC/EACTS Guidelines for the management of valvular heart disease.* Eur Heart J. 2022;43(7):561-632.
+2. Otto CM. *Textbook of Clinical Echocardiography*, 6th ed. — Chapters on MV anatomy & MR.
+3. *Pocket Guide to POCUS: Point-of-Care Tips for Point-of-Care Ultrasound.*
+4. Volpicelli G, et al. International evidence-based recommendations for point-of-care lung ultrasound. *Intensive Care Med.* 2012;38(4):577-591.
