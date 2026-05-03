@@ -68,4 +68,14 @@ book:
 
 format:
   html:
-    theme: cosmo
+    theme:
+      - cosmo
+      - assets/css/custom.scss
+    toc: true
+    toc-depth: 3
+    toc-title: "本頁目錄"
+    code-link: true
+    callout-appearance: default
+    callout-icon: true
+    fig-cap-location: bottom
+    tbl-cap-location: top

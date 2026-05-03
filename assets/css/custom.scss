@@ -1,137 +1,234 @@
 /*-- scss:defaults --*/
 
-// POCUS color scheme
-$primary: #006699;        // pocusblue
-$danger: #cc3333;         // pocusred
-$secondary: #808080;      // pocusgray
-$light: #f0f0f0;          // lightgray
+// === POCUS 教案集 — 讀書會共筆風配色 ===
+// Inspired by NTUH Hsinchu cardiovascular reading-club aesthetic
 
-// Font settings
+// Primary palette
+$pocus-blue:      #006699;   // 主色：學習目標 / 概念
+$pocus-red:       #cc3333;   // 警示：致命診斷 / 緊急處置
+$pocus-green:     #2e8b57;   // 案例 / 確認
+$pocus-orange:    #e67e22;   // 鑑別陷阱 / 注意
+$pocus-purple:    #6f42c1;   // 重點回顧 / 總結
+$pocus-teal:      #17a2b8;   // 影像 / 切面
+$pocus-gold:      #d4a017;   // 關鍵要點 / 回家三句話
+$pocus-gray:      #6c757d;
+$pocus-light:     #f6f8fa;
+$pocus-cream:     #fff8e7;
+
+$primary:         $pocus-blue;
+$danger:          $pocus-red;
+$success:         $pocus-green;
+$warning:         $pocus-orange;
+$info:            $pocus-teal;
+$secondary:       $pocus-gray;
+$light:           $pocus-light;
+
 $font-size-root: 16px;
+$body-color: #1d2129;
+$headings-font-weight: 700;
 
 /*-- scss:rules --*/
 
-// Mobile-first responsive design
+// === Mobile-first responsive ===
 @media (max-width: 576px) {
-  .sidebar {
-    width: 100% !important;
-  }
-
-  .page-columns .content {
-    padding: 0.75rem;
-  }
-
-  table {
-    font-size: 0.85rem;
-  }
-
-  h1 {
-    font-size: 1.75rem;
-  }
-
-  h2 {
-    font-size: 1.4rem;
-  }
+  .sidebar { width: 100% !important; }
+  .page-columns .content { padding: 0.75rem; }
+  table { font-size: 0.85rem; }
+  h1 { font-size: 1.75rem; }
+  h2 { font-size: 1.4rem; }
 }
-
-// Tablet adjustments
 @media (max-width: 768px) {
-  .page-columns .content {
-    padding: 1rem;
-  }
+  .page-columns .content { padding: 1rem; }
 }
 
-// Custom callout styles matching LaTeX environments
+// === Heading style — 讀書會共筆風的 emoji + 色帶 ===
+h1, h2, h3 {
+  letter-spacing: 0.02em;
+}
 
-// Key point callout (重點提示)
+h2 {
+  border-left: 6px solid $pocus-blue;
+  padding-left: 0.6rem;
+  margin-top: 2rem;
+  color: darken($pocus-blue, 5%);
+}
+
+h3 {
+  color: darken($pocus-blue, 8%);
+  border-bottom: 2px dotted lighten($pocus-blue, 35%);
+  padding-bottom: 0.25rem;
+  margin-top: 1.5rem;
+}
+
+h4 {
+  color: $pocus-purple;
+  font-weight: 700;
+}
+
+// === Callout 套色（呼應 Quarto 5 種 callout）===
+
+// 重點提示（紅）— 致命診斷、緊急處置
 .callout-warning {
-  border-left-color: $danger !important;
+  border-left-color: $pocus-red !important;
+  background-color: lighten($pocus-red, 45%) !important;
+}
+.callout-warning .callout-title {
+  background-color: lighten($pocus-red, 38%) !important;
+  color: darken($pocus-red, 8%);
 }
 
-// Discussion callout (討論議題)
+// 學習目標 / 討論議題（藍）
 .callout-note {
-  border-left-color: $primary !important;
+  border-left-color: $pocus-blue !important;
+  background-color: lighten($pocus-blue, 55%) !important;
+}
+.callout-note .callout-title {
+  background-color: lighten($pocus-blue, 50%) !important;
+  color: darken($pocus-blue, 5%);
 }
 
-// Case box styling
+// 案例 / 答案解析（綠）
 .callout-tip {
-  border-left-color: #28a745 !important;
+  border-left-color: $pocus-green !important;
+  background-color: lighten($pocus-green, 55%) !important;
+}
+.callout-tip .callout-title {
+  background-color: lighten($pocus-green, 50%) !important;
+  color: darken($pocus-green, 8%);
 }
 
-// Vital signs display
+// 鑑別陷阱（橘）
+.callout-caution {
+  border-left-color: $pocus-orange !important;
+  background-color: lighten($pocus-orange, 42%) !important;
+}
+.callout-caution .callout-title {
+  background-color: lighten($pocus-orange, 35%) !important;
+  color: darken($pocus-orange, 12%);
+}
+
+// 重點回顧 / 本章總結（金）
+.callout-important {
+  border-left-color: $pocus-gold !important;
+  background-color: lighten($pocus-gold, 42%) !important;
+}
+.callout-important .callout-title {
+  background-color: lighten($pocus-gold, 35%) !important;
+  color: darken($pocus-gold, 18%);
+}
+
+// === 表格 — 讀書會共筆的對照表風格 ===
+.table {
+  margin: 1.2rem 0;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+}
+
+.table th {
+  background-color: $pocus-blue !important;
+  color: white !important;
+  font-weight: 700;
+  border: none;
+  padding: 0.65rem 0.85rem;
+}
+
+.table td {
+  padding: 0.55rem 0.85rem;
+  vertical-align: middle;
+  border-top: 1px solid #ececec;
+}
+
+.table tbody tr:nth-child(odd) {
+  background-color: $pocus-light;
+}
+
+.table tbody tr:hover {
+  background-color: lighten($pocus-blue, 55%);
+}
+
+// === Vital signs 區塊 ===
 .vital-signs {
   font-family: 'Consolas', 'Monaco', monospace;
-  background-color: $light;
+  background-color: $pocus-light;
   padding: 0.5rem;
   border-radius: 4px;
   margin: 0.5rem 0;
 }
 
-// Video container responsive
-.quarto-video {
-  max-width: 100%;
-  margin: 1rem 0;
-}
-
-// Table improvements
-.table {
-  margin: 1rem 0;
-}
-
-.table th {
-  background-color: $primary;
-  color: white;
-}
-
-// Panel tabset styling
+// === Tabset — 案例切換 ===
 .nav-tabs {
-  border-bottom: 2px solid $primary;
+  border-bottom: 2px solid $pocus-blue;
 }
-
+.nav-tabs .nav-link {
+  color: $pocus-gray;
+  font-weight: 600;
+}
 .nav-tabs .nav-link.active {
-  border-color: $primary $primary white;
-  color: $primary;
-  font-weight: bold;
+  border-color: $pocus-blue $pocus-blue white;
+  color: $pocus-blue;
+  font-weight: 700;
+  background-color: $pocus-light;
 }
 
-// Quiz styling (for webexercises or custom quizzes)
-.quiz-question {
-  margin: 1rem 0;
-  padding: 1rem;
-  background-color: $light;
-  border-radius: 4px;
-}
-
-// Mermaid diagram styling
+// === Mermaid 圖置中 ===
 .mermaid {
   text-align: center;
   margin: 1rem 0;
 }
 
-// Chapter title styling
-.chapter-title {
-  color: $primary;
-  border-bottom: 2px solid $primary;
-  padding-bottom: 0.5rem;
+// === Quiz 區塊 ===
+.quiz-question {
+  margin: 1rem 0;
+  padding: 1rem;
+  background-color: $pocus-light;
+  border-radius: 4px;
+  border-left: 4px solid $pocus-purple;
 }
 
-// Footer styling
+// === 圖片置中＋陰影（手繪風） ===
+figure.figure {
+  text-align: center;
+  margin: 1.5rem auto;
+}
+figure.figure img {
+  max-width: 100%;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+figure.figure figcaption {
+  color: $pocus-gray;
+  font-size: 0.92rem;
+  margin-top: 0.4rem;
+}
+
+// === 「回家三句話」風格的 blockquote ===
+blockquote {
+  border-left: 5px solid $pocus-gold;
+  background-color: $pocus-cream;
+  padding: 0.8rem 1.2rem;
+  margin: 1.5rem 0;
+  border-radius: 0 6px 6px 0;
+  color: darken($pocus-gold, 25%);
+  font-style: normal;
+}
+
+// === 區段強調文字 ===
+strong { color: darken($pocus-blue, 5%); }
+em { color: darken($pocus-purple, 5%); font-style: italic; }
+
+// === Footer ===
 .page-footer {
   font-size: 0.9rem;
-  color: $secondary;
+  color: $pocus-gray;
 }
 
-// Print styles
+// === Print styles ===
 @media print {
-  .sidebar {
-    display: none;
-  }
-
-  .callout {
-    break-inside: avoid;
-  }
-
-  table {
-    break-inside: avoid;
-  }
+  .sidebar { display: none; }
+  .callout { break-inside: avoid; }
+  table { break-inside: avoid; }
+  h2 { border-left: none; padding-left: 0; }
 }

@@ -1,135 +1,185 @@
 ---
-title: "教案 3：診斷流程與鑑別診斷"
+title: "教案 3｜🔍 診斷流程與鑑別診斷"
 subtitle: "急性胸痛的超音波診斷流程"
 author: "曾新育"
 date: last-modified
 categories: [急性胸痛, 診斷流程, 鑑別診斷]
 ---
 
-## 課程目標
+::: {.callout-note appearance="minimal" icon="false"}
+## 📌 本課速覽
+
+**5 步驟流程圖 × 5 大致命診斷的關鍵 POCUS 徵象**
+床邊 5 分鐘可以完成的決策樹，搭配每個診斷的「絕對不能漏」徵象。
+:::
+
+## 🎯 課程目標
 
 ::: {.callout-note}
 ## 學習目標
 
-1. 掌握急性胸痛的系統性超音波評估流程
-2. 學習各種致命性診斷的超音波特徵
-3. 能夠整合臨床資訊與超音波發現進行鑑別診斷
+1. 掌握急性胸痛的**系統性超音波評估流程**
+2. 學習各種致命性診斷的**超音波特徵**
+3. 能夠**整合臨床資訊與超音波發現**進行鑑別診斷
 :::
 
-## 評估流程
+## 🗺️ 評估流程
 
-急性胸痛的超音波評估應採用系統性方法：
+::: {.callout-tip}
+## 🚦 床邊 POCUS 5 分鐘流程
+
+從**生命徵象穩定度**切入，分支評估**心包 → 心室 → 右心 → 肺/主動脈**。
+此流程不是診斷工具，是**「快速分流不能漏掉哪個」**的決策框架。
+:::
 
 ```{mermaid}
 flowchart TD
-    A[急性胸痛病人] --> B{生命徵象穩定?}
-    B -->|否| C[立即POCUS評估]
-    B -->|是| D[依臨床判斷安排檢查]
-    C --> E[心包積液?]
-    E -->|是| F[排除心包填塞]
-    E -->|否| G[室壁運動異常?]
-    G -->|是| H[考慮ACS]
-    G -->|否| I[右心擴大?]
-    I -->|是| J[考慮PE]
-    I -->|否| K[檢查肺部/主動脈]
+    A([急性胸痛病人]) --> B{生命徵象<br/>穩定?}
+    B -- 否 --> C[立即 POCUS 評估]
+    B -- 是 --> D[依臨床判斷<br/>安排檢查]
+    C --> E{心包積液?}
+    E -- 是 --> F[排除<br/>心包填塞]
+    E -- 否 --> G{室壁運動<br/>異常?}
+    G -- 是 --> H[考慮 ACS]
+    G -- 否 --> I{右心擴大?}
+    I -- 是 --> J[考慮 PE]
+    I -- 否 --> K[檢查肺部<br/>+ 主動脈]
+
+    style A fill:#cfe2ff,stroke:#0d6efd,stroke-width:2px
+    style C fill:#f8d7da,stroke:#dc3545,stroke-width:2px
+    style F fill:#f8d7da,stroke:#dc3545
+    style H fill:#f8d7da,stroke:#dc3545
+    style J fill:#f8d7da,stroke:#dc3545
+    style K fill:#fff3cd,stroke:#fd7e14
 ```
 
-## 超音波特徵
+## 🔬 五大致命診斷的超音波特徵
 
-### 急性冠心症（ACS）
-
-::: {.callout-warning}
-## 關鍵發現
-
-- 區域性室壁運動異常（Regional Wall Motion Abnormality, RWMA）
-- 可能合併二尖瓣逆流
-- 整體收縮功能可能下降
-:::
-
-**對應冠狀動脈**
-
-| 室壁區域 | 對應冠狀動脈 |
-|----------|--------------|
-| 前壁、前中隔 | LAD |
-| 側壁 | LCx |
-| 下壁、後壁 | RCA |
-
-### 主動脈剝離
+### 🩸 急性冠心症（ACS）
 
 ::: {.callout-warning}
-## 關鍵發現
+## ⚠️ 關鍵發現
 
-- 主動脈內膜瓣（Intimal flap）
-- 主動脈根部擴大（> 4 cm）
-- 可能合併心包積液或主動脈瓣逆流
+- **區域性室壁運動異常**（Regional Wall Motion Abnormality, **RWMA**）
+- 可能合併**二尖瓣逆流**
+- 整體**收縮功能可能下降**
+- 機械性併發症：VSD、free wall rupture、papillary muscle rupture
 :::
 
-### 心包填塞
+**🩺 RWMA 對應冠狀動脈表**
+
+| 室壁區域 | 對應冠狀動脈 | 心電圖 lead |
+|----------|:------------:|:-----------:|
+| **前壁、前中隔** | LAD | V1–V4 |
+| **側壁** | LCx | I, aVL, V5–V6 |
+| **下壁、後壁** | RCA | II, III, aVF |
+
+: 室壁－冠脈－心電圖三向對照 {.striped tbl-colwidths="[35,30,35]"}
+
+### 🩹 主動脈剝離
 
 ::: {.callout-warning}
-## 關鍵發現
+## ⚠️ 關鍵發現
 
-- 心包積液
-- 右心房舒張末期塌陷
-- 右心室舒張早期塌陷
-- IVC 擴張且無呼吸變異
+- **主動脈內膜瓣**（Intimal flap）— 線狀構造在主動脈內隨心跳擺動
+- **主動脈根部擴大**（> 4 cm）
+- 可能合併**心包積液**或**主動脈瓣逆流**
+- PLAX 與 SC 切面是首選評估視窗
 :::
 
-### 肺栓塞
+### 💧 心包填塞
 
 ::: {.callout-warning}
-## 關鍵發現
+## ⚠️ 關鍵發現
 
-- RV 擴大（RV:LV > 1:1）
-- D-sign（心室中隔向左偏移）
-- McConnell sign（RV 心尖運動正常但游離壁運動減弱）
-- TAPSE < 16 mm
+- **心包積液**（pericardial effusion）
+- **右心房舒張末期塌陷**（RA collapse in late diastole）
+- **右心室舒張早期塌陷**（RV collapse in early diastole）
+- **IVC 擴張且無呼吸變異**（plethora，> 2.1 cm + < 50% collapse）
 :::
 
-### 張力性氣胸
+### 🫁 肺栓塞（PE）
 
 ::: {.callout-warning}
-## 關鍵發現
+## ⚠️ 關鍵發現
 
-- 無肺滑動徵（Lung sliding absent）
-- 無 B-lines
-- Barcode sign（M-mode）
-- Lung point
+- **RV 擴大**（RV : LV > 1 : 1）
+- **D-sign**（心室中隔向左偏移，PSAX 切面）
+- **McConnell sign**（RV 心尖運動正常但游離壁運動減弱）
+- **TAPSE < 16 mm**（右心收縮功能下降）
+- **60/60 sign**（PAT < 60 ms + TR PG < 60 mmHg）
 :::
 
-## 鑑別診斷
+### 💨 張力性氣胸
 
-| 診斷 | 主要超音波發現 | 支持臨床特徵 |
-|------|----------------|--------------|
-| ACS | RWMA | ECG變化、Troponin上升 |
-| 主動脈剝離 | Intimal flap | 撕裂性疼痛、血壓差異 |
-| 心包填塞 | 心包積液+右心塌陷 | Beck's triad、JVD |
-| PE | RV擴大、D-sign | 單側下肢腫脹、D-dimer上升 |
-| 張力性氣胸 | 無Lung sliding | 呼吸音消失、氣管偏移 |
+::: {.callout-warning}
+## ⚠️ 關鍵發現
 
-## 自我評估
+- **無肺滑動徵**（Lung sliding **absent**）
+- **無 B-lines**
+- **Barcode sign**（M-mode：取代正常的 seashore sign）
+- **Lung point**（肺塌陷與貼壁交界處 — 100% 特異性）
+:::
+
+## ⚖️ 鑑別診斷整合表
+
+::: {.callout-tip}
+## 📊 一張表帶走 5 大殺手
+
+把超音波發現 + 臨床支持特徵放在一起，**橫向比對最有效率**。
+:::
+
+| 診斷 | 主要 POCUS 發現 | 支持臨床特徵 |
+|------|-----------------|--------------|
+| **ACS** | RWMA | ECG 變化、Troponin 上升、典型胸痛 |
+| **主動脈剝離** | Intimal flap、Ao root > 4 cm | 撕裂性疼痛、雙手血壓差 > 20 mmHg |
+| **心包填塞** | 心包積液 + 右心塌陷 | Beck's triad、JVD、奇脈 |
+| **PE** | RV 擴大、D-sign、McConnell | 單側下肢腫脹、D-dimer 上升、低血氧 |
+| **張力性氣胸** | 無 lung sliding、Barcode sign | 呼吸音消失、氣管偏移、外傷史 |
+
+: 急性胸痛 5 大致命診斷鑑別表 {.striped .hover tbl-colwidths="[18,42,40]"}
+
+## ⚠️ 鑑別陷阱（常見錯誤）
+
+::: {.callout-caution}
+## 🪤 別被這些表象騙了
+
+1. **慢性肺高壓也會 RV 擴大** — 不能只看 RV size，要看 RV 壁厚（慢性 > 5 mm）。
+2. **心包前脂肪 ≠ 心包積液** — 脂肪會隨心跳同步移動；積液在 SC 切面是黑色 anechoic 帶。
+3. **A-line 區域沒有 B-line ≠ 氣胸** — 氣胸要看「**lung sliding 消失 + lung point**」。
+4. **正常人也有少量心包積液** — 後壁 < 1 cm 可能是生理性，要看臨床表現。
+5. **McConnell sign 不是 PE 專利** — RV 梗塞、ARDS 也可能出現，需配合 D-sign 與臨床。
+:::
+
+## ✅ 自我評估
 
 ::: {.content-visible when-format="html"}
 
-**問題 1**：PLAX 切面看到主動脈內有線狀結構隨心跳擺動，最可能是？
+::: {.callout-note appearance="default"}
+## 📝 問題 1
+PLAX 切面看到主動脈內有**線狀結構隨心跳擺動**，最可能是？
 
 - [ ] 主動脈瓣鈣化
 - [x] 主動脈剝離的內膜瓣
 - [ ] 主動脈內血栓
 - [ ] 偽影
+:::
 
-**問題 2**：A4C 切面測量 RV:LV 比值為 1.2:1，合併 D-sign，最可能診斷？
+::: {.callout-note appearance="default"}
+## 📝 問題 2
+A4C 切面測量 RV : LV 比值為 **1.2 : 1**，合併 **D-sign**，最可能診斷？
 
 - [ ] 急性心肌梗塞
 - [ ] 心包填塞
 - [x] 急性肺栓塞
 - [ ] 張力性氣胸
+:::
 
 ::: {.callout-tip collapse="true"}
-## 顯示答案解析
+## 💡 顯示答案解析
 
-1. 主動脈內的線狀結構隨心跳擺動是**內膜瓣**的典型表現，高度提示主動脈剝離。
-2. **RV 擴大 + D-sign** 是急性肺栓塞造成右心負荷過重的典型表現。
+1. 主動脈內的**線狀結構隨心跳擺動**是內膜瓣（intimal flap）的典型表現，**高度提示主動脈剝離**。瓣膜鈣化是固定不動的；血栓也較少呈線狀；偽影通常在多角度掃描下會消失。
+2. **RV 擴大 + D-sign** 是急性肺栓塞造成右心壓力過載的典型雙徵象。心包填塞會看到右心**塌陷**而非擴大；張力性氣胸要看 lung sliding。
 :::
 
 :::
@@ -142,8 +192,18 @@ flowchart TD
 :::
 :::
 
-## 參考閱讀
+## 🎓 回家三句話
 
-1. *Point-of-Care Ultrasound*, Nilam J. Soni et al., Chapter on Cardiac
-2. *Emergency Ultrasound*, O. John Ma, Chapter on Cardiac Emergencies
-3. *ACEP Emergency Ultrasound Guidelines 2023*
+::: {.callout-important}
+## 🏠 帶回家的 Take-home Messages
+
+1. **流程圖只是輔助，臨床判斷才是核心** — POCUS 不能單獨確診，但能在數分鐘內**排除 / 強烈懷疑**致命診斷。
+2. **每個診斷對應 1-2 個關鍵徵象** — RWMA = ACS、Intimal flap = AD、右心塌陷 = Tamponade、D-sign = PE、Barcode = PTX。
+3. **避開五大陷阱** — 慢性 vs 急性 RV 擴大、脂肪 vs 積液、A-line vs 氣胸、生理性積液、McConnell 非 PE 專利。
+:::
+
+## 📚 參考閱讀
+
+1. *Point-of-Care Ultrasound*, Nilam J. Soni et al., Chapter on Cardiac.
+2. *Emergency Ultrasound*, O. John Ma, Chapter on Cardiac Emergencies.
+3. *ACEP Emergency Ultrasound Guidelines 2023*.

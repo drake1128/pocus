@@ -1,157 +1,200 @@
 ---
-title: "教案 4：治療與追蹤"
+title: "教案 4｜💊 治療與追蹤"
 subtitle: "急性胸痛的處置原則與超音波追蹤"
 author: "曾新育"
 date: last-modified
 categories: [急性胸痛, 治療, 追蹤]
 ---
 
-## 課程目標
+::: {.callout-note appearance="minimal" icon="false"}
+## 📌 本課速覽
+
+**5 大致命診斷的緊急處置 SOP × 4 個追蹤時機**
+從「看到了」到「處理了」到「追蹤了」— 把 POCUS 從診斷工具變成治療助手。
+:::
+
+## 🎯 課程目標
 
 ::: {.callout-note}
 ## 學習目標
 
-1. 了解各種致命性胸痛的緊急處置原則
-2. 學習如何使用超音波監測治療反應
-3. 掌握後續追蹤的時機與方法
+1. 了解各種致命性胸痛的**緊急處置原則**
+2. 學習如何使用**超音波監測治療反應**
+3. 掌握**後續追蹤的時機與方法**
 :::
 
-## 緊急處置原則
+## 🚑 緊急處置原則
 
-### 急性冠心症（ACS）
+### 🩸 急性冠心症（ACS）
 
 ::: {.panel-tabset}
 
-#### STEMI
-
-1. **立即處置**
-   - Aspirin 300 mg 嚼服
-   - P2Y12 inhibitor（Clopidogrel/Ticagrelor）
-   - Anticoagulation（Heparin/Enoxaparin）
-   - Primary PCI（目標 Door-to-Balloon < 90 分鐘）
-
-2. **超音波角色**
-   - 確認 RWMA 存在
-   - 評估併發症（MR、VSD、Free wall rupture）
-   - 監測 LV function
-
-#### NSTEMI/UA
-
-1. **風險分層**
-   - TIMI/GRACE score
-   - 高風險 → 早期侵入性策略
-
-2. **藥物治療**
-   - 抗血小板、抗凝血
-   - Beta-blocker、Statin
-
-3. **超音波角色**
-   - 評估 LV function
-   - 排除其他診斷
-
-:::
-
-### 主動脈剝離
+#### 🔴 STEMI
 
 ::: {.callout-warning}
-## 緊急處置
+## ⚡ 立即處置（時間就是心肌）
 
-1. **血壓控制**（目標 SBP 100-120 mmHg）
-   - IV Beta-blocker first（降低 dP/dt）
-   - 再加 Vasodilator if needed
+| 步驟 | 處置 | 時限 |
+|:----:|------|------|
+| 1️⃣ | **Aspirin 300 mg** 嚼服 | 立即 |
+| 2️⃣ | **P2Y12 inhibitor**（Clopidogrel / Ticagrelor / Prasugrel） | 立即 |
+| 3️⃣ | **Anticoagulation**（Heparin / Enoxaparin） | 立即 |
+| 4️⃣ | **Primary PCI** | Door-to-Balloon **< 90 分鐘** |
 
-2. **疼痛控制**
-   - IV Morphine
-
-3. **緊急會診**
-   - Type A → 緊急手術
-   - Type B → 藥物治療為主，複雜型考慮介入
+: STEMI 急性期 4 大處置 {.striped tbl-colwidths="[10,60,30]"}
 :::
 
-### 心包填塞
+**🔬 POCUS 在 STEMI 的角色**
+
+- ✅ 確認 RWMA 存在 → 支持診斷
+- ✅ 評估**機械性併發症**（MR、VSD、free wall rupture、papillary muscle rupture）
+- ✅ 監測 **LV function**（LVEF）— 對應後續 GDMT 強度
+
+#### 🟠 NSTEMI / UA
 
 ::: {.callout-warning}
-## 緊急處置
+## ⚡ 風險分層 → 治療強度
 
-1. **緊急心包穿刺**（Pericardiocentesis）
-   - 超音波導引
-   - Subxiphoid approach
+| 步驟 | 內容 |
+|------|------|
+| **1. 風險分層** | TIMI / GRACE / HEART score |
+| **2. 高風險** | → 早期侵入性策略（< 24 hr 心導管） |
+| **3. 藥物治療** | 抗血小板 + 抗凝血 + Beta-blocker + Statin + ACEI |
+| **4. POCUS 角色** | 評估 LV function、排除其他診斷（PE、AD、Tamponade） |
 
-2. **輸液擴容**
-   - 維持前負荷
-
-3. **避免**
-   - 正壓通氣（會降低靜脈回流）
-   - 過度利尿
+: NSTEMI / UA 處置流程 {.striped tbl-colwidths="[20,80]"}
 :::
 
-### 肺栓塞
+:::
 
-根據血行動力學狀態決定治療：
-
-| 分類 | 血壓 | 治療 |
-|------|------|------|
-| High-risk | 不穩定 | Thrombolysis / Embolectomy |
-| Intermediate-high | 穩定但 RV dysfunction | 抗凝 ± Thrombolysis |
-| Intermediate-low | 穩定，輕度 RV dysfunction | 抗凝 |
-| Low-risk | 穩定，無 RV dysfunction | 抗凝 |
-
-### 張力性氣胸
+### 🩹 主動脈剝離
 
 ::: {.callout-warning}
-## 緊急處置
+## ⚡ 緊急處置 — 「血壓 + 心率 + 疼痛 + 會診」
 
-1. **立即減壓**
-   - Needle decompression（第 2 肋間，鎖骨中線）
-   - 或第 4-5 肋間，腋前線
+| 步驟 | 處置 | 重點 |
+|:----:|------|------|
+| 1️⃣ | **血壓控制** SBP 100–120 mmHg | **IV β-blocker first**（先降 dP/dt）→ 再加 vasodilator |
+| 2️⃣ | **心率控制** HR < 60 bpm | Esmolol / Labetalol IV |
+| 3️⃣ | **疼痛控制** | IV Morphine（疼痛會升高血壓） |
+| 4️⃣ | **緊急會診** | **Type A → 緊急手術**；Type B → 藥物為主、複雜型考慮 TEVAR |
 
-2. **後續處置**
-   - Chest tube insertion
-   - 確認肺部復張
+: 主動脈剝離 4 步驟急救 {.striped tbl-colwidths="[10,38,52]"}
 :::
 
-## 超音波追蹤
+::: {.callout-caution}
+## 🚫 注意
+
+- **β-blocker 一定要先給** — 沒有 β-blocker 就直接 vasodilator 會反射性心搏過速、增加 dP/dt。
+- 避免使用會增加 inotropy 的藥物。
+:::
+
+### 💧 心包填塞
+
+::: {.callout-warning}
+## ⚡ 緊急處置
+
+| 步驟 | 處置 | 細節 |
+|:----:|------|------|
+| 1️⃣ | **緊急心包穿刺**（Pericardiocentesis） | **超音波導引**、Subxiphoid approach |
+| 2️⃣ | **輸液擴容** | 維持前負荷、避免血壓崩盤 |
+| 3️⃣ | **後續處置** | Pericardial window、找原因（外傷？癌症？尿毒？） |
+
+: 心包填塞 3 步驟急救 {.striped tbl-colwidths="[10,38,52]"}
+:::
+
+::: {.callout-caution}
+## 🚫 心包填塞 4 大禁忌
+
+1. ❌ **正壓通氣（PPV）** — 進一步降低靜脈回流，可能秒崩。
+2. ❌ **過度利尿** — 前負荷已不足。
+3. ❌ **Vasodilator** — 會降前負荷。
+4. ❌ **Sedation 過深** — 失去交感代償。
+:::
+
+### 🫁 肺栓塞（PE）
+
+::: {.callout-warning}
+## ⚡ 風險分層決定治療策略
+:::
+
+| 分類 | 血壓 / RV | 治療 |
+|------|-----------|------|
+| **High-risk**（Massive） | 低血壓 / 休克 | **Thrombolysis** / Embolectomy / ECMO |
+| **Intermediate-high** | 穩定 + RV dysfunction + Troponin↑ | 抗凝 ± Thrombolysis（個案討論） |
+| **Intermediate-low** | 穩定 + 輕度 RV dysfunction | 抗凝 |
+| **Low-risk** | 穩定、無 RV dysfunction | 抗凝（門診治療可能） |
+
+: PE 風險分層與治療對照（2019 ESC） {.striped .hover tbl-colwidths="[22,38,40]"}
+
+### 💨 張力性氣胸
+
+::: {.callout-warning}
+## ⚡ 緊急處置
+
+| 步驟 | 處置 | 位置 |
+|:----:|------|------|
+| 1️⃣ | **立即減壓**（Needle decompression） | 第 2 肋間鎖骨中線 **或** 第 4–5 肋間腋前線 |
+| 2️⃣ | **Chest tube insertion** | 第 4–5 肋間腋中線（safe triangle） |
+| 3️⃣ | **確認復張** | POCUS：lung sliding 重現 = 復張成功 |
+
+: 張力性氣胸 3 步驟急救 {.striped tbl-colwidths="[10,38,52]"}
+:::
+
+## 📅 超音波追蹤
+
+::: {.callout-tip}
+## 🔁 追蹤排程 — 「治療後不是結束，是新的追蹤起點」
+:::
 
 | 診斷 | 追蹤時機 | 追蹤重點 |
 |------|----------|----------|
-| ACS | PCI 後、出院前 | LV function、RWMA 改善 |
-| 主動脈剝離 | 術後、定期追蹤 | 假腔變化、主動脈大小 |
-| 心包填塞 | 穿刺後、24-48h | 積液復發 |
-| PE | 抗凝後 24-48h | RV function 改善 |
+| **ACS** | PCI 後、出院前、3 個月 | LV function、RWMA 改善、機械併發症 |
+| **主動脈剝離** | 術後、1 / 6 / 12 個月、之後每年 | 假腔變化、主動脈大小、新剝離 |
+| **心包填塞** | 穿刺後 24–48 hr、1 週 | 積液**復發**、原因追蹤 |
+| **PE** | 抗凝 24–48 hr、3 個月 | RV function 改善、慢性肺高壓監測（CTEPH） |
 
-## 討論議題
+: 5 大致命胸痛的 POCUS 追蹤排程 {.striped .hover tbl-colwidths="[20,32,48]"}
+
+## 💬 討論議題
 
 ::: {.callout-note}
-## 討論
+## 🗣️ 課堂討論
 
-1. 心包穿刺時，超音波導引有什麼優勢？
-2. PE 病人接受抗凝治療後，多久可以看到 RV function 改善？
-3. ACS 病人的 RWMA 會完全恢復嗎？
+1. **心包穿刺時，超音波導引有什麼優勢？**（提示：避開肝、減少氣胸、確認針尖位置）
+2. **PE 病人接受抗凝治療後，多久可以看到 RV function 改善？**（提示：48–72 hr 開始、3 個月大致回穩）
+3. **ACS 病人的 RWMA 會完全恢復嗎？**（提示：stunned myocardium 可恢復；infarcted myocardium 不會）
 :::
 
-## 自我評估
+## ✅ 自我評估
 
 ::: {.content-visible when-format="html"}
 
-**問題 1**：Type A 主動脈剝離的首選治療是？
+::: {.callout-note appearance="default"}
+## 📝 問題 1
+**Type A 主動脈剝離**的首選治療是？
 
 - [x] 緊急手術
 - [ ] 藥物治療
 - [ ] 血管內支架
 - [ ] 觀察追蹤
+:::
 
-**問題 2**：心包填塞病人，下列何者應避免？
+::: {.callout-note appearance="default"}
+## 📝 問題 2
+**心包填塞**病人，下列何者**應避免**？
 
 - [ ] 輸液
 - [x] 正壓通氣
 - [ ] 心包穿刺
 - [ ] Inotrope
+:::
 
 ::: {.callout-tip collapse="true"}
-## 顯示答案解析
+## 💡 顯示答案解析
 
-1. **Type A 剝離**侵犯升主動脈，死亡率極高，需緊急手術修補。
-2. **正壓通氣**會降低靜脈回流，在已經前負荷不足的心包填塞病人會造成血壓更低。
+1. **Type A 剝離**侵犯升主動脈，死亡率每小時上升 1–2%，**需緊急手術修補**。Type B 主要為藥物控制血壓，僅複雜型（缺血、進展、破裂）才考慮 TEVAR。
+2. **正壓通氣**會降低靜脈回流，在已經前負荷不足的心包填塞病人會造成血壓進一步崩盤。同樣需避免的還有：過度利尿、vasodilator、深度鎮靜。
 :::
 
 :::
@@ -164,20 +207,30 @@ categories: [急性胸痛, 治療, 追蹤]
 :::
 :::
 
-## 本章總結
+## 🏆 本章總結
 
 ::: {.callout-important}
-## 關鍵要點
+## 🌟 第一章關鍵要點
 
-1. 急性胸痛需快速排除致命性診斷
-2. POCUS 可在數分鐘內提供關鍵診斷資訊
-3. 超音波發現需結合臨床資訊進行判斷
-4. 治療後應使用超音波追蹤評估反應
+1. **急性胸痛需快速排除致命性診斷** — 5 大殺手不能漏。
+2. **POCUS 可在數分鐘內提供關鍵診斷資訊** — 比 CT 快、比聽診敏感。
+3. **超音波發現需結合臨床資訊判斷** — 不孤立看單一徵象。
+4. **治療後應使用超音波追蹤評估反應** — POCUS 是動態工具，不是一次性檢查。
 :::
 
-## 參考閱讀
+## 🎓 回家三句話
 
-1. *2023 ESC Guidelines for Acute Coronary Syndromes*
-2. *2022 ACC/AHA Aortic Disease Guideline*
-3. *2019 ESC Guidelines for Acute Pulmonary Embolism*
-4. *ACEP Clinical Policy: Critical Issues in Evaluation of Adult Patients with Suspected Acute Nontraumatic Thoracic Aortic Dissection*
+::: {.callout-important}
+## 🏠 帶回家的 Take-home Messages
+
+1. **每個致命診斷都有自己的 SOP** — STEMI 拼速度、AD 先降壓降率、Tamponade 立刻穿刺、PE 看分層、Tension PTX 立刻減壓。
+2. **治療有「絕對禁忌」要記住** — Tamponade 不能正壓通氣、AD 不能單純 vasodilator、STEMI 不能拖過 90 分鐘。
+3. **POCUS 不只診斷，也用於追蹤** — 心包穿刺後追積液復發、PE 抗凝後追 RV 恢復、ACS 出院前追 LVEF — 都是 POCUS 的延伸戰場。
+:::
+
+## 📚 參考閱讀
+
+1. *2023 ESC Guidelines for Acute Coronary Syndromes*.
+2. *2022 ACC/AHA Aortic Disease Guideline*.
+3. *2019 ESC Guidelines for Acute Pulmonary Embolism*.
+4. *ACEP Clinical Policy: Critical Issues in Evaluation of Adult Patients with Suspected Acute Nontraumatic Thoracic Aortic Dissection*.

@@ -1,179 +1,217 @@
 ---
-title: "教案 1：症狀辨識"
+title: "教案 1｜🩺 症狀辨識"
 subtitle: "急性胸痛的症狀辨識與床邊超音波適應症"
 author: "曾新育"
 date: last-modified
 categories: [急性胸痛, 症狀辨識, POCUS]
 ---
 
-## 課程目標
+::: {.callout-note appearance="minimal" icon="false"}
+## 📌 本課速覽
+
+**4 個典型案例 × 5 大致命診斷 × POCUS 介入時機**
+讀完之後，你會知道哪一種胸痛在第 1 分鐘就該把探頭放上去。
+:::
+
+## 🎯 課程目標
 
 ::: {.callout-note}
 ## 學習目標
 
-1. 透過不同案例，讓學生更了解 POCUS 的使用時機
-2. 了解急性胸痛可能存在有生命危險之診斷
-3. 藉由 POCUS 可以幫助臨床醫師發現或排除潛在的急重症
+1. 透過**不同案例**，讓學生更了解 POCUS 的使用時機
+2. 了解急性胸痛**可能存在生命危險之診斷**
+3. 藉由 POCUS 可以幫助臨床醫師**發現或排除潛在的急重症**
 :::
 
-## 案例介紹
+## 📋 案例介紹
+
+> 📝 **建議學習方式**：先別看後面的鑑別診斷，把自己當成第一線急診醫師，
+> 對每個案例先問「**這個 vital sign 是不是不對勁？**」「**現在我會開哪些檢查？**」
 
 ::: {.panel-tabset}
 
-### 案例一
+### 案例一｜典型 ACS
 
-::: {.callout-tip appearance="simple"}
-## 案例一
+::: {.callout-tip appearance="default"}
+## 🧑 案例一　50 歲男性・胸痛
 
-50 歲男性老煙槍，患有高血壓、糖尿病、高膽固醇血症，今日因突發性的前胸悶痛而到急診就醫，病人自述類似壓迫感，過去也曾發生過幾次類似症狀，但今天特別嚴重。
+50 歲男性**老煙槍**，患有高血壓、糖尿病、高膽固醇血症。
+今日因突發性的**前胸悶痛**而到急診就醫，病人自述類似**壓迫感**，
+過去也曾發生過幾次類似症狀，但**今天特別嚴重**。
 
 **生命徵象**
 
-| 項目 | 數值 |
-|------|------|
-| 體溫 | 36.8°C |
-| 心跳 | 46 次/分 |
-| 呼吸 | 30 次/分 |
-| 血壓 | 161/71 mmHg |
-| 血氧 | 95% (Room Air) |
+| 項目 | 數值 | 解讀 |
+|------|------|------|
+| 體溫 | 36.8 °C | 正常 |
+| 心跳 | **46 次/分** | ⚠️ 心搏過慢 |
+| 呼吸 | 30 次/分 | ⚠️ 呼吸急促 |
+| 血壓 | 161 / 71 mmHg | 高 + 脈壓寬 |
+| 血氧 | 95 % (Room Air) | 邊界 |
+
+🔑 **關鍵字**：三高、煙、壓迫性胸痛 + bradycardia → **下壁心肌梗塞**？
 :::
 
-### 案例二
+### 案例二｜雙手血壓差
 
-::: {.callout-tip appearance="simple"}
-## 案例二
+::: {.callout-tip appearance="default"}
+## 👵 案例二　70 歲女性・背痛
 
-70 歲女性因背痛至急診就診。過去病史包括高血壓、糖尿病、與失智症。病人無法正確描述疼痛位置，但表情痛苦，且只要稍微移動身體就顯得躁動。
+70 歲女性因背痛至急診就診。過去病史包括**高血壓、糖尿病、與失智症**。
+病人**無法正確描述疼痛位置**，但表情痛苦，且只要**稍微移動身體就顯得躁動**。
 
 **生命徵象**
 
-| 項目 | 數值 |
-|------|------|
-| 體溫 | 36.9°C |
-| 心跳 | 91 次/分 |
-| 呼吸 | 18 次/分 |
-| 血壓 | 右手 174/68，左手 139/58 mmHg |
-| 血氧 | 95% (Room Air) |
+| 項目 | 數值 | 解讀 |
+|------|------|------|
+| 體溫 | 36.9 °C | 正常 |
+| 心跳 | 91 次/分 | 正常 |
+| 呼吸 | 18 次/分 | 正常 |
+| 血壓 | **右手 174/68　左手 139/58 mmHg** | 🚨 雙手差 35 mmHg |
+| 血氧 | 95 % (Room Air) | 邊界 |
+
+🔑 **關鍵字**：高齡、HTN、雙手血壓差 > 20 mmHg → **主動脈剝離**？
 :::
 
-### 案例三
+### 案例三｜Marfan + 休克
 
-::: {.callout-tip appearance="simple"}
-## 案例三
+::: {.callout-tip appearance="default"}
+## 🧑‍🦱 案例三　39 歲男性・背痛 + 休克
 
-39 歲男性因背痛至急診就診。病史包括 Marfan syndrome 及主動脈瓣膜置換手術。
+39 歲男性因背痛至急診就診。病史包括 **Marfan syndrome** 及**主動脈瓣膜置換手術**。
 
 **生命徵象**
 
-| 項目 | 數值 |
-|------|------|
-| 體溫 | 35.7°C |
-| 心跳 | 135 次/分 |
-| 呼吸 | 22 次/分 |
-| 血壓 | 70/55 mmHg |
-| 血氧 | 87% (Room Air) |
+| 項目 | 數值 | 解讀 |
+|------|------|------|
+| 體溫 | 35.7 °C | 偏低 |
+| 心跳 | **135 次/分** | ⚠️ 心搏過速 |
+| 呼吸 | 22 次/分 | ⚠️ 呼吸過快 |
+| 血壓 | **70 / 55 mmHg** | 🚨 休克 |
+| 血氧 | 87 % (Room Air) | ⚠️ 低血氧 |
+
+🔑 **關鍵字**：Marfan、AVR 病史、休克 → **主動脈剝離合併心包填塞**？
 :::
 
-### 案例四
+### 案例四｜上腹痛
 
-::: {.callout-tip appearance="simple"}
-## 案例四
+::: {.callout-tip appearance="default"}
+## 👨 案例四　48 歲男性・上腹痛
 
-48 歲男性因上腹痛至急診就診。病人否認外傷史，疼痛發生在休息時，並逐漸變嚴重。無心臟病或高血壓等病史。不吸煙也很少喝酒。
+48 歲男性因**上腹痛**至急診就診。病人否認外傷史，疼痛**發生在休息時**，
+並逐漸變嚴重。**無心臟病或高血壓等病史**。不吸煙也很少喝酒。
 
 **生命徵象**
 
-| 項目 | 數值 |
-|------|------|
-| 體溫 | 36.5°C |
-| 心跳 | 92 次/分 |
-| 呼吸 | 16 次/分 |
-| 血壓 | 141/83 mmHg |
-| 血氧 | 99% (Room Air) |
+| 項目 | 數值 | 解讀 |
+|------|------|------|
+| 體溫 | 36.5 °C | 正常 |
+| 心跳 | 92 次/分 | 正常 |
+| 呼吸 | 16 次/分 | 正常 |
+| 血壓 | 141 / 83 mmHg | 略高 |
+| 血氧 | 99 % (Room Air) | 正常 |
+
+🔑 **關鍵字**：年輕、無 RF、上腹痛 → 不要漏掉**心肌梗塞表現為上腹痛**！
 :::
 
 :::
 
 ![Levine sign — 典型急性冠心症胸痛表現](../../images/angina%20levine%20sign.jpeg){fig-alt="病人以緊握的拳頭置於胸前描述壓迫性胸痛，即 Levine sign" width="60%" fig-align="center"}
 
-## 致命性診斷
+## 🚨 致命性診斷 — 不能漏的 6 個
 
 ::: {.callout-warning}
-## 重點提示
+## ⚠️ 重點提示
 
-急性胸痛的病人有哪些致命性的診斷需要排除？
+> **急性胸痛的病人，第一線必須先排除哪些致命性診斷？**
+
+不是每個胸痛都是 ACS，但每個胸痛都要先排除 ACS。
+這 6 個診斷漏掉一個，就可能在你下班前接到不好的電話。
 :::
 
-- **Acute coronary syndrome**（急性冠心症）
-- **Aortic dissection**（主動脈剝離）
-- **Pulmonary embolism**（肺栓塞）
-- **Pericardial tamponade**（心包填塞）
-- **Tension pneumothorax**（張力性氣胸）
-- **Mediastinitis / esophageal rupture**（縱膈腔炎/食道破裂）
+| # | 致命診斷 | 中文 | 床邊線索 |
+|:-:|---------|------|----------|
+| 1 | **Acute Coronary Syndrome** | 急性冠心症 | 壓迫性胸痛、放射至左臂/下顎 |
+| 2 | **Aortic Dissection** | 主動脈剝離 | 撕裂痛、背痛、雙手血壓差 |
+| 3 | **Pulmonary Embolism** | 肺栓塞 | 呼吸喘 + 單側下肢腫、低血氧 |
+| 4 | **Pericardial Tamponade** | 心包填塞 | Beck's triad、JVD、奇脈 |
+| 5 | **Tension Pneumothorax** | 張力性氣胸 | 單側呼吸音消失、氣管偏移 |
+| 6 | **Mediastinitis / Esophageal rupture** | 縱膈腔炎/食道破裂 | Mackler triad、皮下氣腫 |
 
-## 討論議題
+: 急診胸痛 6 大殺手 (Killer Chest Pain) {.striped .hover tbl-colwidths="[5,30,18,47]"}
+
+## 💬 討論議題
 
 ::: {.callout-note}
-## 討論
+## 🗣️ 課堂討論
 
-1. 急性胸痛的病人有哪些致命性的診斷需要排除？
-2. 面對一個急性胸痛的病人，會需要什麼檢查？
-3. 什麼情況下會需要做 POCUS 檢查？
-4. 做 POCUS 的時候是否需要中斷 ACLS 的急救？
+1. 急性胸痛的病人有哪些**致命性的診斷**需要排除？
+2. 面對一個急性胸痛的病人，會需要**什麼檢查**？
+3. **什麼情況下**會需要做 POCUS 檢查？
+4. 做 POCUS 的時候**是否需要中斷 ACLS** 的急救？
 :::
 
-## 超音波示範
+## 🎬 超音波示範
 
 ::: {.content-visible when-format="html"}
 <!-- 請將下方 VIDEO_ID 替換為實際的 YouTube 影片 ID -->
 <!-- {{< video https://www.youtube.com/watch?v=VIDEO_ID title="心臟超音波基本切面示範" >}} -->
 
-::: {.callout-note}
-## 影片資源
+::: {.callout-tip appearance="minimal"}
+## 🎥 影片資源
 
-超音波示範影片將於課程更新後加入。
+超音波示範影片將於課程更新後加入。建議搭配第 2 教案的 PLAX、PSAX、A4C、SC 切面練習。
 :::
 :::
 
 ::: {.content-visible when-format="pdf"}
-::: {.callout-note}
+::: {.callout-tip}
 ## 線上影片資源
 
 請掃描 QR Code 或訪問線上版本觀看超音波示範影片。
 :::
 :::
 
-## 自我評估
+## ✅ 自我評估
 
 ::: {.content-visible when-format="html"}
 
-**問題 1**：以下何者**不是**急性胸痛的致命性診斷？
+::: {.callout-note appearance="default"}
+## 📝 問題 1
+以下何者**不是**急性胸痛的致命性診斷？
 
 - [ ] 急性心肌梗塞
 - [ ] 主動脈剝離
 - [x] 肋軟骨炎
 - [ ] 肺栓塞
+:::
 
-**問題 2**：案例二中，病人雙側血壓差異大於 20 mmHg，這最可能提示什麼診斷？
+::: {.callout-note appearance="default"}
+## 📝 問題 2
+案例二中，病人雙側血壓差異大於 20 mmHg，這最可能提示什麼診斷？
 
 - [ ] 急性心肌梗塞
 - [x] 主動脈剝離
 - [ ] 肺栓塞
 - [ ] 張力性氣胸
+:::
 
-**問題 3**：Marfan syndrome 病人出現低血壓與休克，應優先考慮什麼診斷？
+::: {.callout-note appearance="default"}
+## 📝 問題 3
+Marfan syndrome 病人出現低血壓與休克，應優先考慮什麼診斷？
 
 - [ ] 心肌梗塞
 - [x] 主動脈剝離合併心包填塞
 - [ ] 肺炎
 - [ ] 肺栓塞
+:::
 
 ::: {.callout-tip collapse="true"}
-## 顯示答案解析
+## 💡 顯示答案解析
 
-1. **肋軟骨炎**是良性的肌肉骨骼疼痛，不屬於致命性診斷。
-2. **雙側血壓差異 > 20 mmHg** 是主動脈剝離的典型表現之一。
-3. **Marfan syndrome** 病人主動脈壁較脆弱，容易發生主動脈剝離，若合併低血壓可能是剝離延伸至心包或主動脈瓣。
+1. **肋軟骨炎**（Costochondritis）是良性的肌肉骨骼疼痛，**不屬於**致命性診斷。
+2. **雙側血壓差異 > 20 mmHg** 是主動脈剝離的典型表現之一，源自剝離阻塞鎖骨下動脈分支。
+3. **Marfan syndrome** 病人主動脈壁較脆弱，容易發生主動脈剝離；若合併低血壓，可能是剝離延伸至**心包腔造成填塞**或**主動脈瓣逆流**導致急性心衰。
 :::
 
 :::
@@ -186,8 +224,18 @@ categories: [急性胸痛, 症狀辨識, POCUS]
 :::
 :::
 
-## 參考閱讀
+## 🎓 回家三句話
 
-1. Bedside echo for chest pain: an algorithm for education and assessment. *Advances in Medical Education and Practice* 2016:7 293-300
-2. *Pocket Guide to POCUS*, Chapter 8 & 10
-3. *Textbook of Clinical Echocardiography* 6th edition, Catherine M. Otto
+::: {.callout-important}
+## 🏠 帶回家的 Take-home Messages
+
+1. **急診胸痛先想 5 大殺手** — ACS、AD、PE、Tamponade、Tension PTX 各對應一組獨特的 POCUS 發現。
+2. **病史 + Vital sign 就能分流** — 雙手血壓差、單側肺音消失、頸靜脈怒張，每一個徵象都對應該掃哪一個切面。
+3. **POCUS 是延伸聽診器，不是取代 CT** — 不穩定的病人床邊先掃排除致命診斷；穩定的病人再依臨床判斷安排進階影像。
+:::
+
+## 📚 參考閱讀
+
+1. Bedside echo for chest pain: an algorithm for education and assessment. *Advances in Medical Education and Practice* 2016;7:293-300.
+2. *Pocket Guide to POCUS*, Chapter 8 & 10.
+3. *Textbook of Clinical Echocardiography*, 6th edition, Catherine M. Otto.
