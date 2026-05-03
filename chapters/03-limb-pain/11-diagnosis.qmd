@@ -1,169 +1,269 @@
 ---
-title: "教案 11：診斷流程與鑑別診斷"
-subtitle: "Doppler 波型判讀與鑑別診斷"
-author: "林姝含"
+title: "教案 11｜🔍 診斷流程與鑑別診斷"
+subtitle: "Doppler 波形判讀與 DVT 壓迫試驗"
+author: "蕭喻中"
 date: last-modified
 categories: [急性肢端疼痛, 診斷流程, 鑑別診斷]
 ---
 
-## 課程目標
+::: {.callout-note appearance="minimal" icon="false"}
+## 📌 本課速覽
+
+**Doppler 波形 4 級 × DVT 壓迫試驗 SOP × ALI vs DVT 6 維度鑑別**
+這一課把「波形長什麼樣」變成「**該不該叫血管外科凌晨 3 點起床**」的決策依據。
+:::
+
+## 🎯 課程目標
 
 ::: {.callout-note}
 ## 學習目標
 
-1. 學會判讀下肢動脈的 Doppler 波型，區分正常與異常波型
-2. 了解不同程度血管狹窄對應的波型變化
-3. 掌握急性肢端疼痛的鑑別診斷流程與超音波輔助判斷
+1. 學會判讀下肢動脈的 **Doppler 4 種波形**，理解每種波形對應的血管狀態。
+2. 了解 **PSV ratio** 在量化狹窄程度中的角色。
+3. 掌握 **DVT 壓迫試驗（CUS）** 的標準 4 點掃描法。
+4. 完成 **ALI vs DVT** 的 6 維度床邊鑑別。
 :::
 
-## Doppler 波型判讀
+## 🌊 Doppler 波形判讀
 
 ::: {.callout-warning}
-## 重點提示
+## ⚠️ 重點提示
 
-Doppler 波型是評估動脈血流狀態最重要的工具之一。正常的下肢動脈應呈現三相波型，隨著狹窄程度加重，波型會逐漸改變。
+下肢動脈正常為 **三相波（triphasic）** —— 反映**高阻力遠端血管床**。
+隨著近端狹窄惡化，波形會依序退化為 biphasic → monophasic → absent，
+這是**血流動力學最忠實的影像指紋**。
 :::
 
-### 波型分類
+### 📊 4 種波形分級
 
-| 波型 | 英文 | 意義 | 臨床判讀 |
-|------|------|------|----------|
-| 三相波型 | Triphasic | 正常動脈 | 包含收縮期正向波、舒張早期逆流波、舒張晚期正向波 |
-| 雙相波型 | Biphasic | 輕度狹窄 | 失去舒張早期逆流波，僅剩收縮期與舒張晚期正向波 |
-| 單相波型 | Monophasic | 嚴重狹窄或阻塞 | 僅有緩慢上升的收縮期正向波，波幅降低 |
-| 無波型 | Absent | 完全阻塞 | 無法偵測到血流訊號 |
+| 波形 | 英文 | 形狀特徵 | 臨床對應 |
+|:----:|:----:|----------|----------|
+| 🟢 三相 | **Triphasic** | 收縮正向尖峰 + 舒張早期逆流 + 舒張晚期小正向 | **正常**動脈 |
+| 🟡 雙相 | **Biphasic** | 失去舒張早期逆流波 | **輕度狹窄**或遠端血管阻力下降 |
+| 🟠 單相 | **Monophasic** | 緩慢上升、低幅度、僅正向波 | **嚴重狹窄**或近端阻塞 |
+| 🔴 無波形 | **Absent** | 偵測不到 Doppler 訊號 | **完全阻塞** |
 
-### 三相波型（Triphasic）
+: Doppler 波形 4 級分類 {.striped .hover tbl-colwidths="[10,16,42,32]"}
+
+### 🟢 Triphasic（三相波）
 
 ::: {.callout-note}
-## 正常波型特徵
+## ✅ 正常波形特徵
 
-- **第一相**：收縮期快速上升的正向波（sharp systolic peak）
-- **第二相**：舒張早期短暫的逆流波（brief reversal）
-- **第三相**：舒張晚期的小正向波（forward diastolic flow）
-- 此波型代表正常的高阻力末梢血管床
+- **第 1 相**：收縮期**快速上升的尖峰**（rapid systolic upstroke）
+- **第 2 相**：舒張早期**短暫逆流波**（早舒張期 reversal — **最敏感的早期消失徵象**）
+- **第 3 相**：舒張晚期**小正向波**（forward diastolic flow）
+- 反映**正常的高阻力末梢血管床**
 :::
 
-### 雙相波型（Biphasic）
+### 🟡 Biphasic（雙相波）
 
 ::: {.callout-note}
-## 輕度異常
+## ⚠️ 輕度異常 — 第 2 相消失
 
-- 失去第二相（逆流波消失）
-- 可能代表近端有輕度狹窄，或遠端血管阻力下降
-- 臨床上需結合其他檢查進一步評估
+- **失去舒張早期逆流波**（第 2 相）
+- 可能代表：
+  - 近端輕度狹窄
+  - 遠端血管阻力下降（如**運動後**、感染、過熱環境）
+- 臨床上需**配合 PSV / PSV ratio + 對側對照**進一步評估
 :::
 
-### 單相波型（Monophasic）
+### 🟠 Monophasic（單相波）
 
 ::: {.callout-warning}
-## 警示徵兆
+## 🚨 警示徵兆 — 嚴重狹窄
 
-- 僅有低幅度、緩慢上升的正向波
-- 代表嚴重狹窄或近端有顯著阻塞
-- 此波型出現在患側時，需高度警覺血管急症
+- 僅有**緩慢上升的低幅度正向波**（slow upstroke + low amplitude）
+- **acceleration time 延長** > 180 ms
+- 代表**近端有顯著狹窄或部分阻塞**
+- 患側出現此波形 → **立刻**啟動 ALI 處置流程
 :::
 
-### 無波型（Absent）
+### 🔴 Absent（無波形）
 
 ::: {.callout-warning}
-## 緊急狀況
+## 🚨 緊急狀況 — 完全阻塞
 
-- 完全無法偵測到 Doppler 訊號
-- 代表該段血管完全阻塞
-- 需立即安排進一步影像檢查或血管外科會診
+- **偵測不到 Doppler 訊號**
+- 代表該段血管**完全阻塞**或**近端來源中斷**
+- 立即：
+  1. 啟動 **heparin 全身性抗凝**
+  2. 通知**血管外科**
+  3. 安排**緊急 CTA 或介入血管攝影**
 :::
 
-## 鑑別診斷流程
-
-### 依臨床表現區分
-
-| 臨床表現 | 可能診斷 | 超音波發現 |
-|----------|----------|------------|
-| Cold and pale | Acute limb ischemia | 動脈 Doppler 波型減弱或消失 |
-| Cold and swollen | DVT 合併動脈痙攣 | 靜脈內血栓、靜脈不可壓縮 |
-| Hot and swollen | Cellulitis / Necrotizing fasciitis | 軟組織水腫、可能見 cobblestone sign |
-| 關節紅腫 | Gouty / Septic arthritis | 關節積液 |
-| 膝後腫脹 | Baker's cyst rupture | 膕窩囊腫破裂 |
-
-### 急性肢端缺血 vs 深層靜脈栓塞
-
-| 特徵 | 急性肢端缺血 (ALI) | 深層靜脈栓塞 (DVT) |
-|------|---------------------|---------------------|
-| 皮膚溫度 | 冰冷 | 可能正常或微溫 |
-| 皮膚顏色 | 蒼白或發紺 | 腫脹發紅 |
-| 脈搏 | 減弱或消失 | 通常正常 |
-| 腫脹程度 | 通常不腫 | 明顯腫脹 |
-| 疼痛特性 | 急性劇烈疼痛 | 脹痛、沉重感 |
-| 超音波重點 | 動脈 Doppler | 靜脈壓迫試驗 |
-
-## 超音波診斷要點
+### 📐 PSV ratio — 量化狹窄程度
 
 ::: {.callout-tip}
-## 臨床要訣
+## 🔬 PSV ratio = 狹窄處 PSV / 近端正常 PSV
 
-**動脈評估**
+| PSV ratio | 對應狹窄 | 處置 |
+|:---------:|:--------:|------|
+| < 2.0 | < 50% | 觀察、藥物 |
+| **2.0 – 4.0** | **50 – 75%** | 考慮介入評估 |
+| **> 4.0** | **≥ 75%** | **建議介入治療** |
 
-1. 比較雙側對應位置的 Doppler 波型
-2. 注意 peak systolic velocity (PSV) 的變化：狹窄處 PSV 會升高
-3. PSV ratio > 2 提示狹窄 > 50%；PSV ratio > 4 提示狹窄 > 75%
-
-**靜脈評估（排除 DVT）**
-
-1. Compression test：正常靜脈可被完全壓扁
-2. 無法壓扁的靜脈高度提示血栓存在
-3. 重點掃描位置：CFV（股總靜脈）與 PopV（膕靜脈）
+: PSV ratio 量化狹窄程度（ESC PAD 2017） {.striped tbl-colwidths="[30,30,40]"}
 :::
 
-## 討論議題
+## 🟦 DVT 壓迫試驗（Compression Ultrasound, CUS）
+
+::: {.callout-warning}
+## ⚠️ 排除 DVT 的金標準床邊測試
+
+**「2-point CUS」** 與 **「4-point CUS」** 是急診最常用的兩種協議，
+敏感度 90-100%、特異度 95-99%（針對 proximal DVT）。
+:::
+
+### 🗺 4-Point Compression Sequence（教案級標準 SOP）
+
+| 站 | 位置 | 探頭橫切位置 | 觀察 |
+|:--:|------|--------------|------|
+| 1 | **CFV**（股總靜脈） | 腹股溝韌帶下、緊鄰 CFA | 完全壓扁？ |
+| 2 | **CFV / SFV junction**（saphenofemoral junction, SFJ） | CFV 下方 1-2 cm | 完全壓扁？ |
+| 3 | **FV**（femoral vein，舊稱 SFV） | 大腿中段內側 | 完全壓扁？ |
+| 4 | **PopV**（膕靜脈） | 膝後膕窩 | 完全壓扁？ |
+
+: 4-Point CUS 標準 4 站 {.striped tbl-colwidths="[8,28,40,24]"}
+
+::: {.callout-tip}
+## 🎯 操作要點
+
+- 探頭**短軸**橫切置於靜脈正上方
+- **緩慢加壓**直到「動脈微微變形」 → 此時靜脈應**完全壓扁**
+- 若靜脈**無法完全壓扁** → **強烈提示 DVT**
+- 補充 **Color Doppler** 觀察血流是否通過（但 Color 不是必要，**B-mode 壓不扁就夠診斷**）
+:::
+
+### 🪤 CUS 的 3 大陷阱
+
+::: {.callout-caution}
+## 注意事項
+
+1. **小腿肌肉靜脈血栓（calf DVT / muscular DVT）** 4-point CUS 可能漏診 →
+   高臨床懷疑時加掃 SOL / GAS（蕭氏掃描法見下方延伸閱讀）。
+2. **慢性 DVT** 也可能無法壓扁（管腔被機化血栓塞滿但已 echogenic + 有 collateral）→
+   病史很重要。
+3. **過深的探頭壓力** 會把動脈也壓扁、把小腿薄壁靜脈造成假性 collapse —
+   **「剛好讓動脈微微變形」是力道標準**。
+:::
+
+## ⚖️ 鑑別診斷流程
+
+### 🎨 依「顏色 + 溫度」分流
+
+| 臨床表現 | 主要懷疑 | POCUS 第一刀 |
+|----------|----------|--------------|
+| ❄️ Cold + Pale | **ALI** | 動脈 Doppler |
+| ❄️ Cold + Swollen | Phlegmasia / 混合 | 動脈 + 靜脈雙評估 |
+| 🔥 Hot + Swollen + Red | Cellulitis / Nec fasciitis | 軟組織 POCUS |
+| 🟡 關節紅腫局限 | Gouty / Septic arthritis | 關節腔積液 |
+| 🟢 膝後突然疼 + 腫 | Baker's cyst rupture | 膕窩囊性結構 |
+
+: 依顏色 + 溫度的鑑別分流表 {.striped .hover tbl-colwidths="[28,32,40]"}
+
+### ⚔️ ALI vs DVT — 6 維度鑑別表
+
+| 特徵 | 🩸 ALI（動脈急症） | 🟦 DVT（靜脈急症） |
+|------|:------------------:|:------------------:|
+| **皮膚溫度** | ❄️ 冰冷 | 🟢 正常或微溫 |
+| **皮膚顏色** | 蒼白 / 發紺 | 腫脹發紅 |
+| **脈搏** | 減弱或消失 | 通常正常 |
+| **腫脹程度** | 通常不腫 | 明顯腫脹 |
+| **疼痛特性** | 急性劇烈、deep ache | 脹痛、沉重感 |
+| **POCUS 重點** | **動脈 Doppler 波形** | **靜脈壓迫試驗** |
+
+: ALI vs DVT 6 維度床邊鑑別 {.striped .hover tbl-colwidths="[20,40,40]"}
+
+::: {.callout-warning}
+## 🚨 Phlegmasia cerulea dolens — 雙急症同時發生
+
+罕見但致命的「**廣泛 iliofemoral DVT 嚴重到造成動脈灌流不足**」病況：
+
+- 整個下肢**腫脹、發紺、劇痛**（cerulea = 藍色）
+- 動脈 Doppler 訊號減弱
+- 若不立刻處置 → **venous gangrene + 截肢 / 死亡**
+
+→ 緊急會診血管外科、考慮**機械性血栓清除 / catheter-directed thrombolysis**。
+:::
+
+## 🎯 超音波診斷要點 — 蕭氏 5 條原則
+
+::: {.callout-tip}
+## 🛠 臨床要訣
+
+1. **先掃健側** — 建立每個病人獨特的 baseline triphasic 形狀
+2. **比較雙側對應位置的波形** — 不對稱本身就是訊號
+3. **波形 + PSV + PSV ratio 三合一** — 不可只看波形
+4. **DVT 評估靜脈先 B-mode 壓迫** — Color 是輔助、不是必要
+5. **掃 CFV + PopV 兩點** = 涵蓋 95% 近端 DVT；calf 高度懷疑時加掃 SOL / GAS
+:::
+
+## 💬 討論議題
 
 ::: {.callout-note}
-## 討論
+## 🗣️ 課堂討論
 
-1. 如何區分急性肢端缺血與慢性肢端缺血？
-2. 在急診情境下，哪些 Doppler 波型的改變需要立即轉介血管外科？
-3. 超音波在排除 DVT 的角色為何？其敏感度與特異度如何？
+1. **慢性肢端缺血也會看到 monophasic 波形，怎麼跟急性區分？** （提示：病史 + collateral）
+2. **2-point vs 4-point CUS 哪個夠用？** （提示：低臨床機率 + 兩次 2-point 也可，依 ESVS 建議）
+3. **小腿肌肉靜脈血栓（isolated calf DVT）要不要抗凝？** （提示：CACTUS 試驗 + Wang 2024 meta — 軸向 vs 肌肉分層）
+4. **如何用 Doppler 區分動脈急性栓塞 vs 慢性血栓？** （提示：collateral 形成、波形對稱性）
 :::
 
-## 自我評估
+## ✅ 自我評估
 
 ::: {.content-visible when-format="html"}
 
-**問題 1**：正常的下肢動脈 Doppler 波型應為何種型態？
+::: {.callout-note appearance="default"}
+## 📝 問題 1
+**正常下肢動脈** 的 Doppler 波形應為何種型態？
 
-- [x] Triphasic（三相波型）
-- [ ] Biphasic（雙相波型）
-- [ ] Monophasic（單相波型）
-- [ ] Continuous（連續波型）
+- [x] Triphasic（三相）
+- [ ] Biphasic（雙相）
+- [ ] Monophasic（單相）
+- [ ] Continuous（連續）
+:::
 
-**問題 2**：以下何種 Doppler 波型代表嚴重狹窄或阻塞？
+::: {.callout-note appearance="default"}
+## 📝 問題 2
+以下何種 Doppler 波形代表 **嚴重狹窄或近端阻塞**？
 
 - [ ] Triphasic
 - [ ] Biphasic
-- [x] Monophasic
+- [x] **Monophasic**
 - [ ] 以上皆非
+:::
 
-**問題 3**：深層靜脈栓塞（DVT）的超音波診斷，最重要的檢查手法為何？
+::: {.callout-note appearance="default"}
+## 📝 問題 3
+**DVT 床邊診斷**最重要的核心手法是？
 
 - [ ] Color Doppler 觀察血流方向
 - [ ] 測量 peak systolic velocity
-- [x] Compression test（壓迫試驗）
-- [ ] 觀察動脈波型
+- [x] **Compression test（壓迫試驗）**
+- [ ] 觀察動脈波形
+:::
 
-**問題 4**：病人下肢冰冷蒼白、足背動脈無搏動，Doppler 檢查顯示 ATA 無波型，最可能的診斷為何？
+::: {.callout-note appearance="default"}
+## 📝 問題 4
+病人下肢冰冷蒼白、足背動脈無搏動、Doppler 顯示 ATA 無波形，最可能的診斷是？
 
-- [x] Acute limb ischemia
+- [x] **Acute limb ischemia**
 - [ ] Deep vein thrombosis
 - [ ] Cellulitis
 - [ ] Gouty arthritis
+:::
 
 ::: {.callout-tip collapse="true"}
-## 顯示答案解析
+## 💡 顯示答案解析
 
-1. 正常下肢動脈為**三相波型（Triphasic）**，包含收縮期正向波、舒張早期逆流波、舒張晚期正向波。
-2. **單相波型（Monophasic）**僅有低幅度正向波，代表近端有嚴重狹窄或阻塞。
-3. DVT 的超音波診斷以**壓迫試驗（Compression test）**為最重要的手法，正常靜脈可被完全壓扁，無法壓扁則高度提示血栓。
-4. 冰冷蒼白、無脈搏、Doppler 無波型，符合**急性肢端缺血（Acute limb ischemia）**的典型表現。
+1. 正常下肢動脈為 **Triphasic** — 高阻力遠端血管床的特徵性波形。
+2. **Monophasic** = 緩慢上升 + 低幅度 → 強烈提示近端嚴重狹窄或阻塞，
+   患側出現此波形即啟動 ALI 處置。
+3. **Compression test** 是 DVT 床邊診斷金標準 ——
+   B-mode 壓不扁就夠診斷，Color 與 PW 是輔助。
+4. **Cold + Pale + 無脈 + Doppler absent** = 經典 ALI 五件套，
+   不能拖到隔天門診。
 :::
 
 :::
@@ -176,8 +276,23 @@ Doppler 波型是評估動脈血流狀態最重要的工具之一。正常的下
 :::
 :::
 
-## 參考閱讀
+## 🎓 回家三句話
 
-1. Creager MA, Kaufman JA, Conte MS. Acute limb ischemia. *N Engl J Med*. 2012 Jun 7;366(23):2198-206.
-2. 2017 ESC Guidelines on the Diagnosis and Treatment of Peripheral Arterial Diseases. *Eur Heart J*. 2018 Mar 1;39(9):763-816.
-3. Introduction to Vascular Ultrasonography. 7th edition, Pellerito JS, Polak JF.
+::: {.callout-important}
+## 🏠 帶回家的 Take-home Messages
+
+1. **Doppler 波形是血流動力學的指紋** — Triphasic → Biphasic → Monophasic → Absent，
+   依序對應正常 → 輕度 → 嚴重狹窄 → 完全阻塞。第 2 相消失是**最敏感的早期警訊**。
+2. **DVT 床邊診斷靠「壓得扁就排除」** — 4-point CUS 涵蓋 95% 近端 DVT，
+   B-mode 壓不扁就夠診斷，不需 Color。
+3. **ALI vs DVT 是兩條截然不同的處置路徑** — 6 維度鑑別記住：
+   ALI 是冷蒼白無脈、DVT 是熱腫沉重；治療方向、緊急度、會診對象都不同。
+:::
+
+## 📚 參考閱讀
+
+1. Creager MA, Kaufman JA, Conte MS. **Acute limb ischemia.** *N Engl J Med.* 2012;366(23):2198-206.
+2. Aboyans V, et al. **2017 ESC Guidelines on the Diagnosis and Treatment of Peripheral Arterial Diseases.** *Eur Heart J.* 2018;39(9):763-816.
+3. Pellerito JS, Polak JF. **Introduction to Vascular Ultrasonography**, 7th ed. — Ch.18-19 lower extremity venous & arterial.
+4. Bhatt M, et al. **Diagnosis of deep vein thrombosis of the lower extremity: a systematic review and meta-analysis of test accuracy.** *Blood Adv.* 2020;4(7):1250-1264.
+5. Wang C, et al. **Comparison of clinical outcomes among patients with isolated axial vs muscular calf vein thrombosis: A systematic review and meta-analysis.** *J Vasc Surg Venous Lymphat Disord.* 2024;12(2):101727.

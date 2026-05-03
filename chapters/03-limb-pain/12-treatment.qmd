@@ -1,202 +1,288 @@
 ---
-title: "教案 12：治療與追蹤"
+title: "教案 12｜💊 治療與追蹤"
 subtitle: "急性肢端缺血的治療與超音波追蹤"
-author: "林姝含"
+author: "蕭喻中"
 date: last-modified
 categories: [急性肢端疼痛, 治療, 追蹤]
 ---
 
-## 課程目標
+::: {.callout-note appearance="minimal" icon="false"}
+## 📌 本課速覽
+
+**Rutherford 分級 → 抗凝 → 溶栓 / 取栓 / 繞道 → POCUS 追蹤**
+這一課把「ALI 來了該做什麼」變成 **5 步驟 SOP**，
+搭配 **波形改善 + PSV 追蹤** 動態判斷治療是否奏效。
+:::
+
+## 🎯 課程目標
 
 ::: {.callout-note}
 ## 學習目標
 
-1. 了解急性肢端缺血的治療選項，包括藥物、介入與手術治療
-2. 認識各種治療方式的適應症與時機
-3. 學會利用超音波追蹤治療效果與偵測併發症
+1. 熟悉 **Rutherford 分級（I → IIa → IIb → III）** 並能依此選擇治療路徑。
+2. 掌握 ALI 的**藥物、介入、手術 3 層治療策略**。
+3. 學會用 POCUS **動態追蹤**治療效果，並偵測介入後併發症。
+4. 設計**長期次發預防**策略，減少再栓塞風險。
 :::
 
-## 急性肢端缺血的治療策略
+## 🚦 急性肢端缺血治療策略總覽
 
 ::: {.callout-warning}
-## 重點提示
+## ⚠️ 重點提示
 
-急性肢端缺血為時間敏感的血管急症。治療目標為儘速恢復血流，避免不可逆的組織損傷。治療方式的選擇取決於缺血的嚴重程度、發病時間、以及病人的整體狀況。
+ALI 是**時間敏感**血管急症 — 6 小時黃金處置窗口。
+治療目標：**儘速恢復血流、避免不可逆組織損傷、保住肢體**。
+
+選擇治療方式取決於：
+**Rutherford 分級 + 發病時間 + 病灶位置 + 病人共病**。
 :::
 
-## 藥物治療
+### 📊 Rutherford 分級（決定治療緊急度）
 
-### 抗血小板治療
+| 分級 | 感覺 | 動作 | 動脈 Doppler | 靜脈 Doppler | 治療策略 |
+|:----:|:----:|:----:|:------------:|:------------:|----------|
+| **I**（viable） | 正常 | 正常 | Audible | Audible | 非緊急、可規劃介入 |
+| **IIa**（marginally threatened） | 趾尖輕麻 | 正常 | **Inaudible** | Audible | **緊急介入**（hours） |
+| **IIb**（immediately threatened） | 超過趾尖、休息痛 | 輕度無力 | Inaudible | Audible | **立即介入**（< 6 hr） |
+| **III**（irreversible） | 無感覺 | 癱瘓、僵硬 | Inaudible | **Inaudible** | **截肢評估** |
 
-| 藥物 | 用法 | 說明 |
-|------|------|------|
-| Aspirin | 口服 | 抗血小板凝集，急性期即應給予 |
-| Clopidogrel | 口服 | 可合併 Aspirin 使用，增強抗血小板效果 |
-
-### 前列腺素製劑
-
-| 藥物 | 用法 | 說明 |
-|------|------|------|
-| PGE1 (Promostan) | 靜脈輸注 | 血管擴張、抑制血小板凝集、改善微循環 |
-
-### 抗凝血治療
+: Rutherford ALI 分級與處置（2024 ESVS 更新版） {.striped .hover tbl-colwidths="[10,18,18,18,18,18]"}
 
 ::: {.callout-tip}
-## 臨床要訣
+## 🔑 蕭氏臨床心法
 
-- 確認急性肢端缺血後，應立即啟動**全身性抗凝血治療**（通常使用 unfractionated heparin）
-- 目的為防止血栓進一步擴展
-- 抗凝血治療是所有後續治療的基礎
+> **動脈 Doppler 還聽得到 = I**；
+> **動脈聽不到、靜脈聽得到 = II**（可救）；
+> **動脈、靜脈都聽不到 = III**（多半要截肢）。
+>
+> 床邊 1 分鐘可分級，**這是決定下一步的最快方法**。
 :::
 
-## 介入治療
+## 💊 第 1 層 — 藥物治療（所有病人都先做）
 
-::: {.callout-note}
-## 介入治療選項
-
-### 1. Catheter-directed thrombolysis（導管溶栓術）
-
-- 經由導管直接將溶栓藥物注入血栓處
-- 適用於發病時間較短（通常 < 14 天）的病人
-- 常用藥物：tissue plasminogen activator (tPA)
-- 優點：可溶解血栓，恢復血流
-- 需注意出血風險
-
-### 2. 血管氣球擴張術（Percutaneous transluminal angioplasty, PTA）
-
-- 使用氣球導管撐開狹窄的血管
-- 適用於局部狹窄的病灶
-- 可與溶栓術合併使用
-
-### 3. 支架置放（Stenting）
-
-- 在血管擴張後放置金屬支架維持血管通暢
-- 適用於氣球擴張後血管回縮或殘餘狹窄的情況
-- 需長期服用抗血小板藥物
-:::
-
-## 手術治療
+### 🩸 立即抗凝血（第 0 步）
 
 ::: {.callout-warning}
-## 手術適應症
+## ⚠️ 確診後立刻給 — 不要等血管外科到場
 
-手術治療適用於缺血嚴重、有立即截肢風險、或介入治療無法處理的病人。
+**Unfractionated Heparin (UFH)**
+
+- **Bolus 80 U/kg** IV（一般 5,000–10,000 U）
+- **Continuous infusion 18 U/kg/hr**
+- 監測 **aPTT 1.5–2.5×** baseline（每 6 hr）
+- **目的**：防止血栓進一步擴展、保留 collateral 通路
+- **腎功能不佳病人首選**（vs LMWH）
 :::
 
-### 1. Embolectomy（栓塞切除術）
+### 🟦 抗血小板（次要支援）
 
-- 使用 Fogarty catheter 取出血栓
-- 適用於急性栓塞（embolism）且血管本身無嚴重病變的情況
-- 手術時間短，可快速恢復血流
+| 藥物 | 用法 | 角色 |
+|------|------|------|
+| **Aspirin** | 口服 75–100 mg/day | 抗血小板凝集，急性期即給 |
+| **Clopidogrel** | 口服 75 mg/day（可 loading 300 mg） | 加強抗血小板，常見於支架放置後 |
 
-### 2. Bypass surgery（繞道手術）
+### 🩹 前列腺素 / 血管擴張（部分中心使用）
 
-- 使用自體靜脈或人工血管建立繞道
-- 適用於長段血管阻塞或慢性病變合併急性惡化的情況
-- 手術較複雜，需考量病人整體狀況
+| 藥物 | 用法 | 角色 |
+|------|------|------|
+| **PGE1（Alprostadil / Prostavasin）** | IV infusion | 血管擴張、抗血小板、改善微循環；Rutherford I-IIa 可考慮 |
+| **Cilostazol** | 口服 100 mg bid | 慢性 PAOD 為主；ALI 急性期非首選 |
 
-### 治療方式選擇
+### 🚨 其他急救處置
 
-| 臨床情況 | 建議治療 |
-|----------|----------|
-| 急性栓塞、血管無基礎病變 | Embolectomy |
-| 急性血栓、發病 < 14 天 | Catheter-directed thrombolysis |
-| 局部狹窄合併急性惡化 | PTA +/- Stenting |
-| 長段阻塞 | Bypass surgery |
-| 不可逆缺血（肌肉壞死） | 截肢評估 |
+- **疼痛控制** — IV opioid（避免 NSAID 影響腎功能）
+- **保暖**（但勿主動加熱缺血肢體 — 增加耗氧）
+- **抬高？** — ALI **不要抬高**（會減少灌流）；DVT 才需抬高
+- **Reperfusion injury 預防** — 監測 K⁺、myoglobin、CK，必要時給 NaHCO₃ 或洗腎
 
-## 超音波追蹤
+## 🔧 第 2 層 — 介入治療
+
+::: {.panel-tabset}
+
+### 1️⃣ Catheter-directed Thrombolysis (CDT)
 
 ::: {.callout-note}
-## 追蹤重點
+## 🩺 適應症與限制
 
-### 治療後的超音波評估
-
-1. **確認血流恢復**：治療後重新掃描 Doppler，觀察波型是否改善
-2. **比較治療前後的波型變化**：從 monophasic/absent 改善為 biphasic 或 triphasic
-3. **監測 PSV（peak systolic velocity）**：追蹤狹窄程度的變化
-4. **偵測併發症**：
-   - 支架內再狹窄（in-stent restenosis）
-   - 繞道手術吻合口狹窄
-   - 假性動脈瘤（pseudoaneurysm）
-   - 動靜脈瘻管（arteriovenous fistula）
+- **適應症**：Rutherford **I 或 IIa**、發病 < 14 天、原位血栓 (in situ thrombosis)
+- **藥物**：**tPA**（alteplase）、urokinase
+- **時程**：通常 12–24 小時 infusion
+- **優點**：可溶解血栓 + 同時診斷血管病變（angiography）
+- **缺點**：**出血風險**（顱內出血 1-2%）、需要 ICU 監測
+- **禁忌**：近期 surgery、出血史、嚴重 HTN、Rutherford IIb / III（時間不夠）
 :::
 
-### 追蹤時程建議
+### 2️⃣ Percutaneous Mechanical Thrombectomy (PMT)
+
+- **AngioJet、Penumbra Indigo、ClotTriever** 等系統
+- **可單獨使用**（無溶栓出血風險）或 **與 CDT 合併**
+- 適用於：**急性 IIb**（時間緊迫但仍可救）、**禁溶栓**病人
+- 優勢：可在 1-2 小時內恢復血流（vs CDT 12-24 hr）
+
+### 3️⃣ PTA + Stenting
+
+- **適應症**：CDT 後殘餘狹窄、原本就有 PAOD 的急性惡化
+- **流程**：氣球擴張 → 必要時放支架（DCB / DES）
+- **後續**：長期雙重抗血小板（DAPT）
+
+:::
+
+## 🏥 第 3 層 — 手術治療
+
+::: {.callout-warning}
+## ⚠️ 手術適應症
+
+| 適應症 | 建議手術 |
+|--------|----------|
+| **急性栓塞**（embolic）+ 血管無基礎病變 | **Embolectomy**（Fogarty catheter） |
+| **長段阻塞** + 慢性病變 | **Bypass surgery**（自體靜脈或人工血管） |
+| **CDT / PMT 失敗** | 開放手術取栓 + 必要時 bypass |
+| **Rutherford III** | **Primary amputation 評估** |
+| **Compartment syndrome**（再灌流後） | **Fasciotomy**（不可拖） |
+:::
+
+### 🛠 Embolectomy 與 Bypass 比較
+
+| 項目 | Embolectomy | Bypass |
+|------|-------------|--------|
+| 適應症 | 急性栓塞、血管乾淨 | 長段阻塞、PAOD 急性化 |
+| 手術時間 | 短（< 1 hr） | 長（3-6 hr） |
+| 手術風險 | 低 | 中-高 |
+| 血流恢復速度 | 快 | 中等 |
+| 長期通暢度 | 取決於原發病因 | 自體靜脈 > 人工血管 |
+
+: Embolectomy vs Bypass 速比 {.striped tbl-colwidths="[20,40,40]"}
+
+## 🎯 治療策略總表
+
+| 臨床情境 | 建議首選 | 備援 |
+|----------|----------|------|
+| 急性栓塞 + 血管乾淨 + Rutherford IIa | **Embolectomy** 或 **CDT** | PMT |
+| 急性血栓 + < 14 天 | **CDT** ± PMT | Embolectomy |
+| 局部狹窄 + 急性惡化 | **PTA ± Stent** | CDT 後再 PTA |
+| 長段慢性阻塞 + 急性化 | **Bypass surgery** | Hybrid（CDT + bypass） |
+| Rutherford IIb（< 6 hr） | **PMT** 或開放取栓 | CDT 太慢 |
+| Rutherford III（不可逆） | **Amputation 評估** | — |
+
+: ALI 治療決策總表 {.striped .hover tbl-colwidths="[36,32,32]"}
+
+## 🔍 超音波追蹤
+
+::: {.callout-note}
+## 🔁 治療不是終點 — POCUS 是動態追蹤工具
+
+每一次治療後（CDT 完成、PMT 結束、bypass 術後），都要 **48–72 小時內以 POCUS 重新評估**。
+:::
+
+### 📊 治療後追蹤 5 大項目
+
+| 項目 | 評估方法 | 期望變化 |
+|------|----------|----------|
+| **Doppler 波形** | PW Doppler 對照治療前 | absent → biphasic / triphasic |
+| **PSV** | PW Doppler 量測 | 治療後 PSV ratio < 2 |
+| **管腔通暢** | B-mode + Color | 無殘餘血栓 / 殘餘狹窄 |
+| **吻合口（bypass）** | B-mode + PW | 無 hyperplasia 或狹窄 |
+| **併發症偵測** | 全血管掃描 | 無 pseudoaneurysm / AVF / hematoma |
+
+: 治療後 POCUS 追蹤 5 大項目 {.striped tbl-colwidths="[24,38,38]"}
+
+### 📅 追蹤時程建議
 
 | 時間點 | 追蹤項目 |
-|--------|----------|
-| 治療後即刻 | 確認血流恢復、Doppler 波型改善 |
-| 1 個月後 | 基線超音波檢查 |
-| 3-6 個月 | 追蹤超音波，偵測早期再狹窄 |
-| 每 6-12 個月 | 長期追蹤 |
+|:------:|----------|
+| **治療後即刻** | 確認血流恢復、Doppler 波形改善、無立即併發症 |
+| **24-72 hr** | 監測 reperfusion injury（K⁺、myoglobin）、確認 distal pulse |
+| **1 個月** | 基線 duplex US（建立長期追蹤起點） |
+| **3-6 個月** | 偵測早期 in-stent restenosis 或 graft 狹窄 |
+| **每 6-12 個月** | 長期追蹤 + 評估對側肢體 |
 
-## 案例回顧
+: ALI 治療後 5 階段追蹤排程 {.striped tbl-colwidths="[24,76]"}
 
-::: {.callout-tip appearance="simple"}
-## 案例結果
+## 📝 案例回顧（教案 9 案例）
 
-回顧教案 9 的案例：77 歲男性因 atrial fibrillation 相關的 systemic embolization 造成左下肢急性缺血。
+::: {.callout-tip appearance="default"}
+## 🩺 案例追蹤結果
 
-**處置過程：**
+回顧教案 9 的案例：**77 歲男性 AF + 抗凝不規則 → 左下肢 embolic ALI**
 
-1. 立即啟動 heparin 全身性抗凝血治療
-2. 安排緊急血管攝影
-3. 進行 catheter-directed thrombolysis 合併 PTA
-4. 治療後超音波追蹤顯示左下肢動脈血流恢復，Doppler 波型由 absent 改善為 biphasic
-5. 長期以 anticoagulation 預防再發
+**處置流程**：
+
+1. **第 0 分鐘**：確診 → IV heparin bolus + infusion 啟動
+2. **第 30 分鐘**：血管外科會診 + 血管攝影室預備
+3. **第 90 分鐘**：**Catheter-directed thrombolysis** 啟動 + balloon angioplasty
+4. **第 24 小時**：POCUS 追蹤 → 動脈波形由 **absent → biphasic**，左 DPA 重新摸到搏動
+5. **長期管理**：
+   - 改用 **DOAC**（rivaroxaban / apixaban）+ 定期 INR 監測停止
+   - 每 3 個月 duplex US 追蹤
+   - 衛教抗凝順從性
 :::
 
-## 討論議題
+## 💬 討論議題
 
 ::: {.callout-note}
-## 討論
+## 🗣️ 課堂討論
 
-1. 急性肢端缺血的「黃金治療時間」為多久？
-2. Embolectomy 與 catheter-directed thrombolysis 各有何優缺點？
-3. 治療後的超音波追蹤，何種波型改變代表治療成功？
-4. 如何預防急性肢端缺血的再發？
+1. **ALI 的「黃金治療時間」為何是 6 小時？** （提示：肌肉 vs 神經對缺血耐受時間）
+2. **Embolectomy vs CDT 怎麼選？** （提示：栓塞 vs 血栓、發病時間、血管基礎病變）
+3. **治療後 Doppler 從 absent 變成 monophasic 算成功嗎？** （提示：部分恢復、需追加處置）
+4. **如何預防 AF 病人再發 embolic ALI？** （提示：DOAC + LAA closure）
 :::
 
-## 自我評估
+## ✅ 自我評估
 
 ::: {.content-visible when-format="html"}
 
-**問題 1**：急性肢端缺血確診後，應最先啟動的治療為何？
+::: {.callout-note appearance="default"}
+## 📝 問題 1
+ALI 確診後，**最先**啟動的治療是？
 
 - [ ] 立即手術
-- [x] 全身性抗凝血治療（Heparin）
+- [x] **全身性抗凝（IV heparin）**
 - [ ] 口服抗生素
 - [ ] 觀察等待
+:::
 
-**問題 2**：Catheter-directed thrombolysis 最適用於以下何種情況？
+::: {.callout-note appearance="default"}
+## 📝 問題 2
+**Catheter-directed thrombolysis** 最適用於以下哪個情境？
 
 - [ ] 慢性肢端缺血
-- [x] 急性血栓且發病時間 < 14 天
-- [ ] 不可逆的肌肉壞死
+- [x] **急性血栓 + 發病 < 14 天 + Rutherford I 或 IIa**
+- [ ] Rutherford III（不可逆）
 - [ ] 輕度間歇性跛行
+:::
 
-**問題 3**：治療後的超音波追蹤，以下何者代表治療成功？
+::: {.callout-note appearance="default"}
+## 📝 問題 3
+治療後 POCUS 追蹤，**符合「治療成功」**的波形變化是？
 
-- [ ] Doppler 波型由 triphasic 變為 monophasic
+- [ ] Triphasic 變為 Monophasic
 - [ ] PSV 持續升高
-- [x] Doppler 波型由 absent/monophasic 改善為 biphasic 或 triphasic
+- [x] **Absent / Monophasic 改善為 Biphasic 或 Triphasic**
 - [ ] 靜脈無法壓扁
+:::
 
-**問題 4**：以下何者不是介入治療後需超音波追蹤偵測的併發症？
+::: {.callout-note appearance="default"}
+## 📝 問題 4
+以下何者**不是**介入治療後 POCUS 需追蹤的併發症？
 
 - [ ] In-stent restenosis（支架內再狹窄）
 - [ ] Pseudoaneurysm（假性動脈瘤）
 - [ ] Arteriovenous fistula（動靜脈瘻管）
-- [x] Pneumothorax（氣胸）
+- [x] **Pneumothorax（氣胸）**
+:::
 
 ::: {.callout-tip collapse="true"}
-## 顯示答案解析
+## 💡 顯示答案解析
 
-1. 確認急性肢端缺血後，應**立即啟動全身性抗凝血治療**（heparin），防止血栓進一步擴展，這是所有後續治療的基礎。
-2. **Catheter-directed thrombolysis** 適用於急性血栓且發病時間較短（通常 < 14 天）的病人，可直接將溶栓藥物注入血栓處。
-3. 治療成功的指標為 Doppler 波型**由 absent/monophasic 改善為 biphasic 或 triphasic**，代表血流恢復。
-4. **Pneumothorax（氣胸）**與下肢血管介入治療無關，其他三者皆為需追蹤偵測的併發症。
+1. **IV heparin 是 ALI 的第 0 步** — 確診後立即啟動，不要等血管外科到場。
+   目的是**防止血栓擴展、保留 collateral**。
+2. **CDT 適用於 Rutherford I / IIa + 發病 < 14 天 + 原位血栓**。
+   IIb 通常時間不夠改用 PMT；III 已不可逆。
+3. 治療成功 = **波形朝正常方向回升**（absent → biphasic/triphasic）。
+   若只到 monophasic 表示仍有近端狹窄，需追加處置。
+4. **Pneumothorax 與下肢血管介入無關**。其他 3 個（restenosis、pseudoaneurysm、AVF）
+   都是 POCUS 在介入後追蹤的常見目標。
 :::
 
 :::
@@ -209,8 +295,32 @@ categories: [急性肢端疼痛, 治療, 追蹤]
 :::
 :::
 
-## 參考閱讀
+## 🏆 本章總結
 
-1. Creager MA, Kaufman JA, Conte MS. Acute limb ischemia. *N Engl J Med*. 2012 Jun 7;366(23):2198-206.
-2. 2017 ESC Guidelines on the Diagnosis and Treatment of Peripheral Arterial Diseases. *Eur Heart J*. 2018 Mar 1;39(9):763-816.
-3. 2016 AHA/ACC Guideline on the Management of Patients With Lower Extremity Peripheral Artery Disease. *Circulation*. 2017 Mar 21;135(12):e726-e779.
+::: {.callout-important}
+## 🌟 第三章關鍵要點
+
+1. **ALI 是時間敏感血管急症** — Rutherford 分級決定處置緊急度，6 小時黃金窗。
+2. **三層治療**：藥物（heparin）+ 介入（CDT / PMT / PTA）+ 手術（embolectomy / bypass）。
+3. **POCUS 是床邊診斷 + 動態追蹤的雙刀流** — 波形改善是最直觀的療效指標。
+4. **長期次發預防是核心** — AF 病人務必抗凝順從、PAOD 病人定期追蹤。
+:::
+
+## 🎓 回家三句話
+
+::: {.callout-important}
+## 🏠 帶回家的 Take-home Messages
+
+1. **ALI 的第 0 步永遠是 IV heparin** — 確診當下就給，不要等任何人到場。
+2. **Rutherford 分級 = 治療路徑分流器** — I/IIa 可 CDT、IIb 要 PMT/手術、III 評估截肢。
+3. **POCUS 治療後追蹤的關鍵指標是「波形朝正常方向回升」** —
+   absent → biphasic/triphasic = 成功；停在 monophasic 還有事。
+:::
+
+## 📚 參考閱讀
+
+1. Creager MA, Kaufman JA, Conte MS. **Acute limb ischemia.** *N Engl J Med.* 2012;366(23):2198-206.
+2. Aboyans V, et al. **2017 ESC Guidelines on the Diagnosis and Treatment of Peripheral Arterial Diseases.** *Eur Heart J.* 2018;39(9):763-816.
+3. Gerhard-Herman MD, et al. **2016 AHA/ACC Guideline on the Management of Patients With Lower Extremity Peripheral Artery Disease.** *Circulation.* 2017;135(12):e726-e779.
+4. Björck M, et al. **Editor's Choice — European Society for Vascular Surgery (ESVS) 2020 Clinical Practice Guidelines on the Management of Acute Limb Ischaemia.** *Eur J Vasc Endovasc Surg.* 2020;59(2):173-218.
+5. Rutherford RB, et al. **Recommended standards for reports dealing with lower extremity ischemia: revised version.** *J Vasc Surg.* 1997;26(3):517-538.

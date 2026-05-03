@@ -61,7 +61,7 @@ subtitle: "Point-of-Care Ultrasound Case Discussion Curriculum"
 
 - 曾新育 醫師
 - 洪國軒 醫師
-- 林姝含 醫師
+- 蕭喻中 醫師
 - 陳麒心 醫師
 - 謝慕揚 醫師
 - 林彥良 醫師

@@ -1,153 +1,245 @@
 ---
-title: "教案 10：解剖、生理、病理"
-subtitle: "下肢動脈解剖與血管超音波基礎"
-author: "林姝含"
+title: "教案 10｜🫀 解剖、生理、病理"
+subtitle: "下肢動靜脈解剖與血管超音波基礎"
+author: "蕭喻中"
 date: last-modified
 categories: [急性肢端疼痛, 解剖, 病理]
 ---
 
-## 課程目標
+::: {.callout-note appearance="minimal" icon="false"}
+## 📌 本課速覽
+
+**下肢動脈 9 段（Aorta → DPA） × 動靜脈 5 大鑑別 × B/Color/PW Doppler 三段操作法**
+這一課把「解剖名詞 → 探頭位置 → 影像判讀」串成一個完整的肌肉記憶，
+避免在床邊掃描時出現「**找不到血管 / 不知道掃對沒**」的窘境。
+:::
+
+## 🎯 課程目標
 
 ::: {.callout-note}
 ## 學習目標
 
-1. 認識下肢動脈的解剖結構與分支走向
-2. 了解各動脈段的超音波對應掃描位置
-3. 掌握血管超音波的基本操作原理與影像判讀基礎
+1. 認識**下肢動脈 9 段解剖**與分支關係，能畫出走向圖。
+2. 了解各段動脈在**體表的對應掃描位置**。
+3. 區分動脈與靜脈的 **5 大超音波特徵**。
+4. 掌握 **B-mode、Color Doppler、Pulsed-Wave Doppler** 三段式操作原理。
 :::
 
-## 下肢動脈解剖
+## 🩸 下肢動脈解剖
 
 ::: {.callout-warning}
-## 重點提示
+## ⚠️ 重點提示
 
-下肢動脈的走向為由近端至遠端，從腹主動脈分支而來，依序經過骨盆、大腿、膝蓋、小腿至足部。熟悉各段動脈的名稱與位置，是進行血管超音波檢查的基礎。
+下肢動脈走向是「**由近至遠**」，從腹主動脈分叉一路延伸到足背。
+**熟悉名稱 + 對應體表位置**是血管 POCUS 的入門必備。
 :::
 
-### 動脈分支總覽
+### 📋 動脈 9 段速查表
 
-| 縮寫 | 英文全稱 | 中文名稱 | 位置說明 |
-|------|----------|----------|----------|
-| CIA | Common iliac artery | 髂總動脈 | 腹主動脈分叉後 |
-| EIA | External iliac artery | 外髂動脈 | 骨盆腔內 |
-| CFA | Common femoral artery | 股總動脈 | 腹股溝韌帶下方 |
-| SFA | Superficial femoral artery | 淺股動脈 | 大腿前內側 |
-| DFA | Deep femoral artery | 深股動脈 | 大腿深層 |
-| PopA | Popliteal artery | 膕動脈 | 膝蓋後方膕窩 |
-| ATA | Anterior tibial artery | 前脛骨動脈 | 小腿前側 |
-| PTA | Posterior tibial artery | 後脛骨動脈 | 小腿後內側 |
-| DPA | Dorsalis pedis artery | 足背動脈 | 足背 |
+| 縮寫 | 英文全稱 | 中文 | 體表定位 |
+|------|----------|------|----------|
+| **CIA** | Common iliac artery | 髂總動脈 | 腹主動脈分叉後（≈ L4） |
+| **EIA** | External iliac artery | 外髂動脈 | 骨盆腔內 |
+| **CFA** | Common femoral artery | 股總動脈 | **腹股溝韌帶下方搏動處** |
+| **SFA** | Superficial femoral artery | 淺股動脈 | 大腿前內側、sartorius 下方 |
+| **DFA** | Deep femoral artery | 深股動脈 | 大腿深層（profunda femoris） |
+| **PopA** | Popliteal artery | 膕動脈 | 膝後膕窩 |
+| **ATA** | Anterior tibial artery | 前脛動脈 | 小腿前外側 |
+| **PTA** | Posterior tibial artery | 後脛動脈 | **內踝後方搏動處** |
+| **DPA** | Dorsalis pedis artery | 足背動脈 | **足背第 1-2 蹠骨間** |
 
-### 動脈走向與分支關係
+: 下肢動脈 9 段 + 體表定位 {.striped .hover tbl-colwidths="[12,30,18,40]"}
 
-::: {.callout-note}
-## 解剖要點
+### 🌿 動脈分支樹（近端 → 遠端）
 
-**近端至遠端的分支順序：**
+```
+腹主動脈（Abdominal aorta）
+        ↓ 分叉於 L4
+    ┌───┴───┐
+   左 CIA   右 CIA
+        ↓
+    ┌───┴───┐
+  EIA      Internal iliac (供骨盆)
+   │
+   ↓ 通過腹股溝韌帶
+  CFA
+   │
+   ├──→ DFA（深股動脈：供大腿肌肉）
+   │
+  SFA
+   │
+   ↓ 穿過 adductor canal（Hunter's canal）
+  PopA（膕動脈，常見動脈瘤好發處）
+   │
+   ├──→ ATA（前脛 → 延伸成 DPA）
+   │
+   └──→ Tibioperoneal trunk
+          │
+          ├──→ PTA（後脛 → 內踝後方）
+          │
+          └──→ Peroneal artery（腓動脈，緊貼腓骨）
+```
 
-1. **腹主動脈 (Abdominal aorta)** → 分叉為雙側 **CIA（髂總動脈）**
-2. **CIA** → 分為 **EIA（外髂動脈）** 與 internal iliac artery（內髂動脈）
-3. **EIA** → 通過腹股溝韌帶後成為 **CFA（股總動脈）**
-4. **CFA** → 分為 **SFA（淺股動脈）** 與 **DFA（深股動脈）**
-5. **SFA** → 穿過 adductor canal 後成為 **PopA（膕動脈）**
-6. **PopA** → 分為 **ATA（前脛骨動脈）** 與 tibioperoneal trunk
-7. Tibioperoneal trunk → 分為 **PTA（後脛骨動脈）** 與 peroneal artery（腓骨動脈）
-8. **ATA** → 延伸至足背成為 **DPA（足背動脈）**
+::: {.callout-caution}
+## 🪤 解剖陷阱（臨床易錯點）
+
+- **SFA 是 PAOD 最好發部位**，特別是 **adductor canal** 段（解剖夾擠 + 慢性彎曲應力）。
+- **PopA aneurysm** 是男性下肢動脈瘤之首，常雙側、可栓塞造成 ALI。
+- **CFA bifurcation**（CFA → SFA + DFA）是栓子最常卡住的位置 ——
+  AF 病人的 embolic ALI 第一個要懷疑的位置。
 :::
 
-### 超音波掃描對應位置
+### 🗺 體表掃描位置對應
 
-| 掃描位置 | 對應動脈 | 體表定位 |
+| 掃描部位 | 對應動脈 | 體表標記 |
 |----------|----------|----------|
-| 腹股溝處 | CFA, SFA, DFA | 腹股溝韌帶下方，股動脈搏動處 |
-| 大腿內側 | SFA | 沿 sartorius muscle 內側走行 |
-| 膝蓋後方 | PopA | 膕窩，膝關節後方 |
-| 小腿前側 | ATA | 脛骨與腓骨之間 |
-| 內踝後方 | PTA | 內踝後方可觸及搏動處 |
-| 足背 | DPA | 第一、二蹠骨之間 |
+| **腹股溝** | CFA / SFA / DFA 分叉 | 股動脈搏動處（腹股溝韌帶下 1-2 cm） |
+| **大腿內側** | SFA | sartorius 內側、長軸沿股骨走 |
+| **adductor canal** | SFA 末段 | 大腿內下 1/3 |
+| **膕窩** | PopA | 膝後正中、可坐姿觸診 |
+| **小腿前外側** | ATA | 脛骨外側、interosseous membrane 上 |
+| **內踝後方** | PTA | 內踝與跟腱之間搏動處 |
+| **足背** | DPA | 第 1-2 蹠骨間搏動處 |
 
-## 血管超音波基本原理
+: 7 大掃描位置與動脈對應 {.striped tbl-colwidths="[24,28,48]"}
 
-### B-mode（二維灰階影像）
-
-::: {.callout-tip}
-## 操作要點
-
-- 辨識血管的位置、管徑、管壁結構
-- 觀察管腔內是否有血栓或斑塊
-- 動脈與靜脈的區分：動脈壁較厚、不易壓扁；靜脈壁薄、可被壓扁
-:::
-
-### Color Doppler（彩色都卜勒）
-
-::: {.callout-tip}
-## 操作要點
-
-- 顯示血流方向與相對速度
-- 紅色表示血流朝向探頭，藍色表示血流遠離探頭
-- 可快速判斷血管是否通暢
-- 注意 aliasing（混疊）現象可能代表狹窄處血流加速
-:::
-
-### Pulsed-wave Doppler（脈衝式都卜勒）
-
-::: {.callout-tip}
-## 操作要點
-
-- 取得特定位置的血流速度波型
-- 可測量 peak systolic velocity (PSV) 與 end-diastolic velocity (EDV)
-- 波型形態可判斷血管狹窄程度（詳見教案 11）
-:::
-
-## 討論議題
+## 🩺 血管超音波 3 段操作法
 
 ::: {.callout-note}
-## 討論
+## 🔑 為什麼要分「B → Color → PW」3 段操作？
 
-1. CFA 在超音波影像上如何與 CFV（股總靜脈）區分？
-2. 為什麼 SFA 在臨床上是最常發生動脈阻塞的位置之一？
-3. 在急診情境下，最實用的掃描位置有哪些？
+每一段回答**不同層次的問題**：
+
+| 段 | 解析度 | 回答的問題 |
+|:--:|--------|------------|
+| 1️⃣ B-mode | 解剖最清楚 | 血管在哪？管壁有沒有斑塊？管腔有沒有血栓？ |
+| 2️⃣ Color | 速度方向 | 血流通暢嗎？方向對不對？哪裡 aliasing？ |
+| 3️⃣ PW | 速度量化 | 速度多快？波形長什麼樣？狹窄程度多重？ |
 :::
 
-## 自我評估
+### 1️⃣ B-mode（二維灰階）
+
+::: {.callout-tip}
+## 🔬 操作要點
+
+- **辨識血管 5 大特徵**（區分動脈 vs 靜脈，見下表）
+- 觀察**管壁厚度** → 動脈粥狀硬化、動脈炎
+- 觀察**管腔內容物** → 血栓（hypoechoic 急性、echogenic 慢性）
+- **長軸 vs 短軸**：長軸看管腔長度；短軸看是否同心 / 偏心
+:::
+
+### 2️⃣ Color Doppler（彩色都卜勒）
+
+::: {.callout-tip}
+## 🔬 操作要點
+
+- **顏色 = 方向（不是動脈/靜脈）**：紅色朝探頭、藍色遠離探頭。
+  改變探頭角度，紅藍會互換 —— 這是 **angle dependence** 的核心。
+- **Aliasing**（混疊）= 速度超過 Nyquist limit → 提示**狹窄處血流加速**。
+- 設定 **PRF / scale** 配合預期速度範圍，避免假陰性或過度 aliasing。
+- 動脈與靜脈血流均可看見；動脈搏動明顯，靜脈呈連續性低速流動。
+:::
+
+### 3️⃣ Pulsed-Wave Doppler（脈衝式都卜勒）
+
+::: {.callout-tip}
+## 🔬 操作要點
+
+- **取樣門 (sample volume)** 放在血管中央、避開管壁
+- **angle correction** 調整 < 60°（理想 < 45°）→ 速度測量才準
+- 量測：
+  - **PSV**（Peak Systolic Velocity）— 收縮期峰值
+  - **EDV**（End-Diastolic Velocity）— 舒張末期速度
+  - **PSV ratio** = 狹窄處 PSV / 近端正常 PSV
+    - **> 2.0** → 狹窄 ≥ 50%
+    - **> 4.0** → 狹窄 ≥ 75%
+- **波形分級**（教案 11 詳解）：Triphasic / Biphasic / Monophasic / Absent
+:::
+
+## 🩸 動脈 vs 靜脈 — 5 大超音波鑑別
+
+::: {.callout-warning}
+## ⚠️ 你必須能在 5 秒內分辨動脈與靜脈
+
+否則整個下肢動脈評估都會出錯（很可能把 SFV 當成 SFA 在掃）。
+:::
+
+| 特徵 | 🩸 動脈 | 🟦 靜脈 |
+|------|:-------:|:-------:|
+| **管壁厚度** | 厚（3 層分明） | 薄 |
+| **可壓縮性** | 不可壓扁（壓力高） | **可被探頭完全壓扁** |
+| **搏動性** | 明顯搏動（隨心跳） | 不搏動或微弱 |
+| **內徑變化** | 收縮 / 舒張變化小 | 受呼吸影響大（吸氣 collapse） |
+| **Doppler 波形** | 高速、搏動、有相位 | 低速、連續性、phasic with 呼吸 |
+
+: 動脈 vs 靜脈 5 維度速辨 {.striped tbl-colwidths="[24,38,38]"}
+
+🔑 **臨床心法**：**「壓得扁的就是靜脈」** —— 這是排除 DVT 的核心動作（教案 11 詳解）。
+
+## 💬 討論議題
+
+::: {.callout-note}
+## 🗣️ 課堂討論
+
+1. **CFA 在超音波影像上要怎麼跟 CFV 區分？** （提示：可壓縮性 + 搏動 + Doppler 波形）
+2. **為什麼 SFA 是 PAOD 最好發部位？**（提示：adductor canal 解剖夾擠 + 動態彎曲）
+3. **AF 病人發生 embolic ALI，栓子最常卡在哪裡？** （提示：CFA bifurcation）
+4. **用 PW Doppler 量速度時，為什麼 angle 必須 < 60°？** （提示：cosθ 誤差幾何級數放大）
+:::
+
+## ✅ 自我評估
 
 ::: {.content-visible when-format="html"}
 
-**問題 1**：股總動脈（CFA）是由哪條動脈延伸而來？
+::: {.callout-note appearance="default"}
+## 📝 問題 1
+**股總動脈（CFA）** 是由哪條動脈延伸而來？
 
 - [ ] Common iliac artery
 - [x] External iliac artery
 - [ ] Internal iliac artery
 - [ ] Superficial femoral artery
+:::
 
-**問題 2**：膕動脈（PopA）位於以下何處？
+::: {.callout-note appearance="default"}
+## 📝 問題 2
+**膕動脈（PopA）** 位於以下何處？
 
 - [ ] 腹股溝韌帶下方
 - [ ] 大腿前內側
-- [x] 膝蓋後方膕窩
+- [x] **膝蓋後方膕窩**
 - [ ] 小腿前側
+:::
 
-**問題 3**：以下關於 Color Doppler 的敘述，何者正確？
+::: {.callout-note appearance="default"}
+## 📝 問題 3
+關於 **Color Doppler** 顏色的敘述，何者正確？
 
 - [ ] 紅色一定代表動脈血流
 - [ ] 藍色一定代表靜脈血流
-- [x] 顏色代表血流相對於探頭的方向
+- [x] **顏色代表血流相對於探頭的方向**
 - [ ] Color Doppler 可精確測量血流速度
+:::
 
-**問題 4**：足背動脈（DPA）是以下哪條動脈的延伸？
+::: {.callout-note appearance="default"}
+## 📝 問題 4
+**足背動脈（DPA）** 是哪條動脈的延伸？
 
 - [x] Anterior tibial artery
 - [ ] Posterior tibial artery
 - [ ] Peroneal artery
 - [ ] Popliteal artery
+:::
 
 ::: {.callout-tip collapse="true"}
-## 顯示答案解析
+## 💡 顯示答案解析
 
-1. **External iliac artery** 通過腹股溝韌帶後即成為股總動脈（CFA）。
-2. **膕動脈**位於膝蓋後方的膕窩，是淺股動脈穿過 adductor canal 後的延續。
-3. Color Doppler 的顏色代表血流**相對於探頭的方向**，紅色為朝向探頭，藍色為遠離探頭，與動脈或靜脈無直接關係。
-4. **前脛骨動脈（ATA）**延伸至足背即成為足背動脈（DPA）。
+1. **EIA → 通過腹股溝韌帶後 = CFA**。CFA 再分出 SFA + DFA，是 PAOD / embolic ALI 的關鍵分叉。
+2. **膕動脈 (PopA)** 位於膝後膕窩，是 SFA 穿過 adductor canal 後的延續，
+   也是男性下肢動脈瘤之首要好發部位。
+3. **顏色 = 方向，不等於動靜脈**。改變探頭角度，紅藍可互換；
+   **量化速度需用 PW Doppler**，Color 只能粗略判斷有無血流。
+4. **ATA 延伸至足背 = DPA**。PTA 走內踝後方、Peroneal 緊貼腓骨。
 :::
 
 :::
@@ -160,8 +252,20 @@ categories: [急性肢端疼痛, 解剖, 病理]
 :::
 :::
 
-## 參考閱讀
+## 🎓 回家三句話
 
-1. Defined a specific abnormality at lower extremity artery. *Rutherford's Vascular Surgery and Endovascular Therapy*. 10th edition.
-2. 2017 ESC Guidelines on the Diagnosis and Treatment of Peripheral Arterial Diseases. *Eur Heart J*. 2018 Mar 1;39(9):763-816.
-3. Introduction to Vascular Ultrasonography. 7th edition, Pellerito JS, Polak JF.
+::: {.callout-important}
+## 🏠 帶回家的 Take-home Messages
+
+1. **下肢動脈 9 段名稱 + 體表位置 = 血管 POCUS 的字母表** —— 不熟就找不到血管，找不到血管就掃不出東西。
+2. **B-mode → Color → PW 是有順序的 3 段法** —— 跳過任何一段都會錯：B 找位置、Color 找方向、PW 量速度與波形。
+3. **「壓得扁的就是靜脈」** —— 動脈 vs 靜脈 5 大鑑別，**可壓縮性最直觀**，
+   也是排除 DVT 的核心動作。
+:::
+
+## 📚 參考閱讀
+
+1. Cronenwett JL, Johnston KW. **Rutherford's Vascular Surgery and Endovascular Therapy**, 10th ed.
+2. Aboyans V, et al. **2017 ESC Guidelines on the Diagnosis and Treatment of Peripheral Arterial Diseases.** *Eur Heart J.* 2018;39(9):763-816.
+3. Pellerito JS, Polak JF. **Introduction to Vascular Ultrasonography**, 7th ed.
+4. Zwiebel WJ, Pellerito JS. **Introduction to Vascular Ultrasonography** — Doppler 波形原理章節。

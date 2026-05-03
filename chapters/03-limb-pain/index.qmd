@@ -1,25 +1,79 @@
 ---
-title: "急性肢端疼痛"
-subtitle: "Acute Limb Pain"
+title: "🦵 急性肢端疼痛"
+subtitle: "Acute Limb Pain — 急診血管急症的床邊判讀"
 ---
 
 ![封面圖 — 下肢血管超音波掃描](../../images/封面圖%20—%20下肢血管超音波掃描.jpeg){fig-alt="探頭置於腹股溝處掃描股動脈，下肢動脈解剖走向示意"}
 
-## 章節簡介
+::: {.callout-note appearance="minimal" icon="false"}
+## 🎯 本章導讀
 
-急性肢端疼痛為老年病患可能發生的急性病症。臨床上需要及時的診斷與轉介，才能避免發生截肢或死亡。
+肢端疼痛在急診是個「**6 個小時內如果判斷錯，病人就要截肢**」的硬底子題目。
+本章用 4 堂課帶您從 **6Ps 症狀辨識 → 下肢動靜脈解剖 → Doppler 波形 + 壓迫試驗 → 抗凝/溶栓/介入 SOP**，
+建立一套可在床邊 **10 分鐘內**回答「**這是動脈急症還是靜脈急症？**」的 POCUS 工作流。
 
-## 關鍵超音波影像
+**對應蕭喻中醫師原始教案・編修整合：肢端血管急症系列 #03**
+:::
+
+## 📖 章節簡介
+
+急性肢端疼痛（acute limb pain）是高齡病患常見的急診主訴，
+**動脈急症 (ALI)** 與 **靜脈急症 (DVT)** 看起來都「腳痛 + 腳腫」，
+但治療方向完全相反 —— **動脈要溶栓抗凝、靜脈不一定要溶栓**。
+床邊超音波（POCUS）能在數分鐘內以 **「動脈 Doppler 波形 + 靜脈壓迫試驗」**
+分流出截然不同的處置路徑，是現代急診血管照護的延伸觸診。
+
+## 🖼️ 關鍵超音波影像
 
 ![診斷圖 — Doppler 波形分級](../../images/診斷圖%20—%20Doppler%20波形分級.jpeg){fig-alt="四格並排：Triphasic 正常、Biphasic 輕中度狹窄、Monophasic 重度狹窄、Absent 完全阻塞"}
 
-## 本章課程
+## 🚨 4 大「腳痛 + 腳腫」鑑別（先記這張表）
 
-1. [教案 9：症狀辨識](09-symptoms.qmd)
-2. [教案 10：解剖、生理、病理](10-anatomy.qmd)
-3. [教案 11：診斷流程與鑑別診斷](11-diagnosis.qmd)
-4. [教案 12：治療與追蹤](12-treatment.qmd)
+::: {.callout-warning}
+## ⚠️ 急診下肢急症 4 大殺手
 
-## 編修醫師
+每一條都對應特定的 POCUS 發現組合，
+治療方向（抗凝、抗生素、外科會診、保守治療）也完全不同。
+:::
 
-林姝含 醫師
+| 疾病 | 典型表現 | POCUS 關鍵 | 緊急度 |
+|------|----------|-----------|:------:|
+| **Acute Limb Ischemia (ALI)** | Cold + Pale + 無脈 | 動脈 Doppler **monophasic / absent** | 🔴 6 小時 |
+| **Deep Vein Thrombosis (DVT)** | Hot + Swollen + 沉重感 | 靜脈**無法壓扁** | 🟡 24 小時 |
+| **Necrotizing Fasciitis** | Hot + Pain out of proportion | 軟組織氣體、深筋膜液體 | 🔴 立即手術 |
+| **Cellulitis / Abscess** | Hot + Swollen + 紅 | Cobblestone sign、膿瘍腔 | 🟢 72 小時 |
+
+: 急性肢端疼痛 4 大鑑別與 POCUS 對照表 {.striped .hover tbl-colwidths="[26,28,30,16]"}
+
+## 🎓 學習目標
+
+::: {.callout-note}
+## 📋 完成本章後，學習者應能夠
+
+1. 辨識急性肢端疼痛的**危險警訊（6Ps）**，並能以**溫度交叉觸診**快速分流。
+2. 描繪下肢動靜脈解剖（**CIA → EIA → CFA → SFA/DFA → PopA → ATA/PTA/Peroneal**）。
+3. 操作血管 POCUS：**B-mode → Color → Pulsed-Wave Doppler** 三段式評估。
+4. 判讀 Doppler 4 種波形（**Triphasic / Biphasic / Monophasic / Absent**）的臨床意義。
+5. 理解 ALI 的「**Rutherford 分級 → 抗凝 / 溶栓 / 取栓 / 截肢**」治療階梯。
+:::
+
+## 📚 本章四堂課程
+
+::: {.callout-tip appearance="default"}
+## 課程地圖（建議依序學習）
+
+| 教案 | 主題 | 重點 | 連結 |
+|:----:|------|------|------|
+| 9️⃣ | **症狀辨識** | 6Ps、溫度交叉觸診、3 種顏色組合分流 | [前往 →](09-symptoms.qmd) |
+| 🔟 | **解剖、生理、病理** | 下肢動脈 9 段、B/Color/PW Doppler 原理 | [前往 →](10-anatomy.qmd) |
+| 1️⃣1️⃣ | **診斷流程與鑑別診斷** | Doppler 波形 4 級 + DVT 壓迫試驗 | [前往 →](11-diagnosis.qmd) |
+| 1️⃣2️⃣ | **治療與追蹤** | Rutherford 分級導向治療 + POCUS 追蹤 | [前往 →](12-treatment.qmd) |
+
+: 第三章四堂課程一覽 {.striped tbl-colwidths="[10,28,42,20]"}
+:::
+
+## 👨‍⚕️ 編修醫師
+
+::: {.callout-note appearance="minimal" icon="false"}
+**蕭喻中 醫師**　・　肢端血管急症 POCUS 教學負責人（Module 03）
+:::

@@ -265,10 +265,10 @@ jobs:
 #### 第二部分：肢端血管與血栓疾病
 | 教案 | 檔案 | 狀態 | 負責醫師 |
 |------|------|------|----------|
-| 9 | `03-limb-pain/09-symptoms.qmd` | ✅ 完成 | 林姝含 |
-| 10 | `03-limb-pain/10-anatomy.qmd` | ✅ 完成 | 林姝含 |
-| 11 | `03-limb-pain/11-diagnosis.qmd` | ✅ 完成 | 林姝含 |
-| 12 | `03-limb-pain/12-treatment.qmd` | ✅ 完成 | 林姝含 |
+| 9 | `03-limb-pain/09-symptoms.qmd` | ✅ 完成 | 蕭喻中 |
+| 10 | `03-limb-pain/10-anatomy.qmd` | ✅ 完成 | 蕭喻中 |
+| 11 | `03-limb-pain/11-diagnosis.qmd` | ✅ 完成 | 蕭喻中 |
+| 12 | `03-limb-pain/12-treatment.qmd` | ✅ 完成 | 蕭喻中 |
 | 21 | `06-pe-dvt/21-symptoms.qmd` | ✅ 完成 | 謝慕揚、林彥良 |
 | 22 | `06-pe-dvt/22-anatomy.qmd` | ✅ 完成 | 謝慕揚、林彥良 |
 | 23 | `06-pe-dvt/23-diagnosis.qmd` | ✅ 完成 | 謝慕揚、林彥良 |

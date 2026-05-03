@@ -1,156 +1,245 @@
 ---
-title: "教案 9：症狀辨識"
+title: "教案 9｜🩺 症狀辨識"
 subtitle: "急性肢端疼痛的症狀辨識與超音波適應症"
-author: "林姝含"
+author: "蕭喻中"
 date: last-modified
 categories: [急性肢端疼痛, 症狀辨識, POCUS]
 ---
 
-## 課程目標
+::: {.callout-note appearance="minimal" icon="false"}
+## 📌 本課速覽
+
+**1 個 AF 病人變成 ALI 的真實案例 × 6Ps 警訊 × 3 種顏色 / 溫度組合分流**
+讀完之後，你會知道為什麼**「病人冰冷、蒼白、無脈」這 3 個徵象同時出現時，你只剩 6 小時**。
+:::
+
+## 🎯 課程目標
 
 ::: {.callout-note}
 ## 學習目標
 
-1. 學習評估急性肢端疼痛之嚴重度，認識急性肢端疼痛可能伴隨的症狀表現
-2. 學會辨識需緊急處理的 red flags，及床邊緊急超音波掃描的適應症
-3. 認識急性肢端疼痛的可能鑑別診斷，及各個疾病之解剖、生理、病理基礎
+1. 學會評估急性肢端疼痛的**嚴重度**，認識可能伴隨的症狀表現。
+2. 學會辨識需**緊急處理的 red flags**，以及**床邊緊急超音波**的適應症。
+3. 認識急性肢端疼痛的**主要鑑別診斷**，並了解各疾病的解剖、生理、病理基礎。
 :::
 
-## 案例介紹
+## 📋 案例介紹
 
-::: {.callout-tip appearance="simple"}
-## 臨床案例
+::: {.callout-tip appearance="default"}
+## 🧓 臨床案例　77 歲男性・左下肢冰冷無力
 
-77 歲男性，因為左下肢疼痛、酸麻、無力來到急診。四個月前，他曾因為週邊血管疾病，接受過導管血管氣球擴張手術，並在右大腿放置一支金屬支架。理學檢查，發現左腳足背動脈摸不到，左腳後脛骨動脈也無搏動。與右下肢相比，左下肢在膝蓋以下冰冷。
+77 歲男性因**左下肢疼痛、酸麻、無力**至急診就醫。
+**4 個月前**因週邊血管疾病接受導管 PTA，並在右大腿置放金屬支架。
 
-**過去病史**
+**🔬 理學檢查**
 
-| 項目 | 說明 |
+| 項目 | 結果 | 解讀 |
+|------|------|------|
+| 左足背動脈 (DPA) | **摸不到** | 🚨 遠端動脈訊號消失 |
+| 左後脛動脈 (PTA) | **無搏動** | 🚨 遠端血流中斷 |
+| 雙腳膝以下溫度 | **左 < 右**（左側冰冷） | 🚨 Poikilothermia |
+| 皮膚顏色 | 左下肢蒼白、稍發紺 | 🚨 Pallor |
+| 動作 / 感覺 | 左腳輕度無力、麻 | ⚠️ 神經缺血訊號 |
+
+**🩺 過去病史**
+
+| 項目 | 細節 |
 |------|------|
-| Atrial fibrillation | 心房顫動 |
-| CAD | 冠狀動脈疾病 |
-| PAOD | 週邊動脈阻塞性疾病 |
-| CKD | 慢性腎臟病 (Cre 1.7 mg/dL) |
+| **Atrial fibrillation** | 心房顫動，**warfarin compliance 不佳** |
+| **CAD** | 冠狀動脈疾病史 |
+| **PAOD** | 週邊動脈阻塞性疾病（4 月前 PTA + stent） |
+| **CKD** | Cre 1.7 mg/dL，eGFR ≈ 40 |
 
-**病程分析**
+**🔍 病程分析**
 
-病人因為 atrial fibrillation 且 poor compliance，發生 atrial fibrillation 相關的 systemic embolization，造成 acute limb ischemia，發生在左側下肢。
+AF + 抗凝治療不規則 → **左心耳血栓脫落 → systemic embolization** →
+卡在左下肢動脈分叉處 → 急性遠端缺血。
+這是經典的「**心源性栓塞型 ALI**」（embolic ALI）。
+
+→ **時鐘已經開始倒數**：6 小時內若不恢復血流，永久神經肌肉損傷風險急遽上升。
 :::
 
-## 鑑別診斷
+## ⚖️ 鑑別診斷
 
 ::: {.callout-warning}
-## 重點提示
+## ⚠️ 重點提示
 
-急性肢端疼痛的病人，需考慮以下鑑別診斷：
+> 急性肢端疼痛 4 大類別：**血管性、感染性、肌肉骨骼、其他**。
+> 必須在第一輪問診就分清楚，因為**處置方向截然不同**。
 :::
 
-### 血管性 (Vascular)
+### 🩸 血管性（Vascular）— 最緊急
 
-- **Acute limb ischemia**（急性肢端缺血）
-- **Deep vein thrombosis**（深層靜脈栓塞）
+| 疾病 | 特徵 | POCUS 重點 |
+|------|------|------------|
+| **Acute Limb Ischemia (ALI)** | Cold + Pale + 6Ps | 動脈 Doppler monophasic / absent |
+| **Deep Vein Thrombosis (DVT)** | Hot + Swollen + 沉重感 | 靜脈無法壓扁 |
+| **Phlegmasia cerulea dolens** | 大規模 DVT + 動脈灌流不足 | 廣泛靜脈血栓 + 動脈訊號弱 |
 
-### 感染性 (Infectious)
+: 血管性 3 大類別 {.striped tbl-colwidths="[35,35,30]"}
 
-- **Necrotizing fasciitis**（壞死性筋膜炎）
+### 🦠 感染性（Infectious）— 漏診會死
 
-### 肌肉骨骼 (Musculoskeletal)
+| 疾病 | 特徵 | POCUS 重點 |
+|------|------|------------|
+| **Necrotizing Fasciitis** | Pain out of proportion + 皮下捻髮音 | **軟組織氣體**、深筋膜液體 |
+| **Cellulitis / Abscess** | Hot + Red + 局部腫 | Cobblestone sign、膿瘍腔 |
+| **Septic Arthritis** | 關節熱、腫、被動活動劇痛 | 關節腔積液 + 必要時抽吸 |
 
-- **Arthritis**（關節炎）：gouty arthritis（痛風性關節炎）、septic arthritis（化膿性關節炎）等
-- **Baker's cyst rupture**（貝克氏囊腫破裂）
+: 感染性 3 大類別 {.striped tbl-colwidths="[35,35,30]"}
 
-## 急性下肢缺血的 6Ps
+### 🦴 肌肉骨骼（Musculoskeletal）— 較不緊急但易混淆
 
-| 中文名稱 | 英文 | 說明 |
-|----------|------|------|
-| 感覺異常 | Paresthesia | 麻木、刺痛感 |
-| 疼痛 | Pain | 肢端疼痛，程度不等 |
-| 蒼白 | Pallor | 皮膚顏色變白 |
-| 無脈搏 | Pulselessness | 摸不到遠端脈搏 |
-| 溫度改變 | Poikilothermia | 肢端冰冷 |
-| 癱瘓 | Paralysis | 肌肉無力或癱瘓 |
+- **Gouty arthritis**（痛風）— 突發單關節劇痛 + 病史
+- **Baker's cyst rupture**（貝克氏囊腫破裂）— 突發小腿後方疼痛 + 腫脹（**易誤診為 DVT**）
+- **Compartment syndrome**（腔室症候群）— 創傷 / 缺血再灌流後，**6Ps 但動脈仍可能有搏動**
+
+## 🚨 急性下肢缺血的 6Ps
+
+::: {.callout-warning}
+## ⚠️ Memory aid — 6 個 P 一次背完
+
+| # | 英文 | 中文 | 出現時序 |
+|:-:|:----:|:----:|:--------:|
+| 1️⃣ | **P**ain | 疼痛 | 最早 |
+| 2️⃣ | **P**allor | 蒼白 | 早期 |
+| 3️⃣ | **P**ulselessness | 無脈搏 | 早期 |
+| 4️⃣ | **P**oikilothermia | 溫度改變（冰冷） | 早期 |
+| 5️⃣ | **P**aresthesia | 感覺異常（麻） | 中期，**神經缺血警訊** |
+| 6️⃣ | **P**aralysis | 癱瘓 | 晚期，**已不可逆** |
+
+: ALI 的 6Ps（出現順序對應缺血嚴重度） {.striped tbl-colwidths="[8,22,30,40]"}
+:::
 
 ::: {.callout-tip}
-## 臨床要訣
+## 🎯 臨床要訣 — 「溫度交叉觸診法」
 
-其中以**溫度降低**在臨床上具有相當的敏感性與特異性。用雙手觸診後，交替比較雙腳在 foot、ankle、calf、knee、thigh 各個高度的溫度，可以快速發現雙腳的溫度差異。
+雙手同時觸診**雙腳**的 **foot → ankle → calf → knee → thigh** 5 個高度，
+快速找出**「兩側溫差最明顯的水平面」** = **動脈阻塞處的下緣**。
+
+> **這比聽診都卜勒還快、還準** —— 也是 ESC PAD guideline 強調的床邊起手式。
 :::
 
-## 病史詢問重點
+::: {.callout-caution}
+## 🪤 6Ps 的常見陷阱
+
+- **5️⃣ Paresthesia 出現** = 神經缺血開始 = **6 小時警報啟動**
+- **6️⃣ Paralysis 出現** = 多半已不可逆 = 直接評估截肢
+- **DVT 也會 Pain + Pallor**（罕見），別只看一個 P 就下診斷
+- **Compartment syndrome** 早期動脈仍有搏動，別被「有 pulse」騙了
+:::
+
+## 💬 病史詢問重點
 
 ::: {.callout-warning}
-## 系統性問診
+## 🗣️ 系統性問診（LQQOPERA + 3 個顏色組合）
 
-- 使用 **LQQOPERA** 系統性問診架構
-- 特別強調：**症狀多久以內發生？**（急性 vs 慢性）
-- 區分三種臨床表現：
-  - **Cold and pale**（冰冷蒼白）→ 動脈阻塞
-  - **Cold and swollen**（冰冷腫脹）→ 需考慮混合病因
-  - **Hot and swollen**（紅腫熱痛）→ 感染或發炎
-- 是否伴隨**感覺異常**？（提示神經或血管受損程度）
+**LQQOPERA 8 維度問診**
+
+- **L**ocation 位置 / **Q**uality 性質 / **Q**uantity 程度
+- **O**nset 起病時間 ⚠️ **最關鍵：< 6 hr ? < 14 days ?**
+- **P**rovocation 誘因 / **E**xacerbation 加重 / **R**elief 緩解 / **A**ssociated 伴隨
+
+**3 種顏色 / 溫度組合 → 3 條完全不同的鑑別路徑**
+
+| 顏色 / 溫度 | 主要鑑別 | 第一刀 POCUS |
+|-------------|----------|--------------|
+| ❄️ **Cold + Pale** | ALI（動脈急症） | 動脈 Doppler |
+| ❄️ **Cold + Swollen** | Phlegmasia / 混合病因 | 動脈 + 靜脈雙評估 |
+| 🔥 **Hot + Swollen** | 感染（壞死性筋膜炎、蜂窩） | 軟組織 POCUS 找氣體 / 膿瘍 |
+
+: 3 顏色組合 → 3 條鑑別路徑 {.striped tbl-colwidths="[35,40,25]"}
 :::
 
-## 超音波檢查流程
+## 🔍 POCUS 適應症
+
+::: {.callout-tip}
+## 何時需要床邊血管 POCUS？
+
+1. **6Ps 任一個出現** → 立刻掃動脈 Doppler
+2. **單側下肢腫脹** → 立刻掃 CFV / PopV 壓迫試驗
+3. **不對稱皮膚溫度** → 雙側對照 Doppler
+4. **AF / 機械瓣膜病人新發肢端疼痛** → 高度懷疑 embolic ALI
+:::
+
+## 🦴 超音波檢查流程（蕭氏 6 步驟）
 
 ::: {.callout-note}
-## 掃描步驟
+## 🛠 標準 ALI 床邊掃描 SOP
 
-1. **雙腳都該掃描**，先掃描正常沒症狀的腳，做為比較依據
-2. 先摸健側腳的**足背動脈** (dorsalis pedis artery)、**後脛骨動脈** (posterior tibial artery) 的搏動點
-3. **2D echo** 先嘗試辨識血管，再開 **color**，最後啟動 **PW** 定位取得 Doppler 波型供判讀
-4. 掃描位置依序：**CFA → SFA → DFA → PopA → ATA → PTA**
+1. **先掃健側**（建立基準波形 — 切勿跳過此步驟）
+2. **觸診健側 DPA + PTA**，找好標記點
+3. **B-mode** 先辨識血管解剖
+4. **Color Doppler** 確認血流方向與通暢度
+5. **Pulsed-Wave Doppler** 取得波形供分級判讀（教案 11 詳解）
+6. **掃描順序**：CFA → SFA → DFA → PopA → ATA → PTA → DPA
 :::
 
-## 討論議題
+## 💬 討論議題
 
 ::: {.callout-note}
-## 討論
+## 🗣️ 課堂討論
 
-1. 面對急性肢端疼痛的病人，如何快速判斷是否為血管急症？
-2. 6Ps 中哪些是不可逆損傷的徵兆？
-3. 什麼情況下需要立即安排血管外科會診？
-4. 床邊超音波在急性肢端缺血中能提供哪些資訊？
+1. **6Ps 中哪幾個出現代表「不可逆損傷」？** （提示：5️⃣ + 6️⃣）
+2. **AF 病人沒吃 warfarin，新發單側下肢冰冷，第一個動作？** （提示：摸溫度 + 摸脈 + 立刻掃動脈）
+3. **同樣是腳腫，DVT 與蜂窩性組織炎在病史上怎麼分？** （提示：發燒、進展速度、紅熱範圍）
+4. **若懷疑壞死性筋膜炎，POCUS 在哪一步可以幫忙？** （提示：找皮下氣體、深筋膜液體 — 但不可取代 OR 探查）
 :::
 
-## 自我評估
+## ✅ 自我評估
 
 ::: {.content-visible when-format="html"}
 
-**問題 1**：急性肢端缺血的 6Ps 中，以下何者在臨床上具有較高的敏感性與特異性？
+::: {.callout-note appearance="default"}
+## 📝 問題 1
+急性肢端缺血的 6Ps 中，**敏感度與特異度最高**的床邊徵象是？
 
 - [ ] Pain（疼痛）
 - [ ] Pallor（蒼白）
 - [x] Poikilothermia（溫度改變）
 - [ ] Paralysis（癱瘓）
+:::
 
-**問題 2**：本案例病人最可能的診斷為何？
+::: {.callout-note appearance="default"}
+## 📝 問題 2
+本案例（77 歲男性 AF + 左下肢冰冷無脈）**最可能**的診斷？
 
 - [x] Acute limb ischemia due to systemic embolization
 - [ ] Deep vein thrombosis
 - [ ] Necrotizing fasciitis
 - [ ] Baker's cyst rupture
+:::
 
-**問題 3**：進行下肢動脈超音波掃描時，以下何者為正確的操作順序？
+::: {.callout-note appearance="default"}
+## 📝 問題 3
+進行下肢動脈 POCUS 時，**正確操作順序**是？
 
-- [ ] 先掃描患側，再掃描健側做比較
-- [x] 先掃描健側做為基準，再掃描患側
-- [ ] 只需掃描患側即可
-- [ ] 只需掃描足背動脈
+- [ ] 先掃患側，再掃健側做比較
+- [x] **先掃健側建立基準**，再掃患側
+- [ ] 只掃患側即可
+- [ ] 只掃足背動脈
+:::
 
-**問題 4**：病人表現為「cold and pale」的肢端，最可能的病因為何？
+::: {.callout-note appearance="default"}
+## 📝 問題 4
+病人表現為 **「Cold and Pale」** 的肢端，**最可能**的病因？
 
-- [x] 動脈阻塞
+- [x] 動脈阻塞（ALI）
 - [ ] 深層靜脈栓塞
 - [ ] 蜂窩性組織炎
 - [ ] 痛風性關節炎
+:::
 
 ::: {.callout-tip collapse="true"}
-## 顯示答案解析
+## 💡 顯示答案解析
 
-1. **Poikilothermia（溫度改變）**在臨床上具有相當的敏感性與特異性，可透過雙手交替比較雙腳各高度的溫度來快速判斷。
-2. 病人有 atrial fibrillation 病史且 poor compliance，最可能因 systemic embolization 造成 **acute limb ischemia**。
-3. 正確做法是**先掃描健側**，建立正常基準後再掃描患側進行比較。
-4. **Cold and pale** 代表動脈血流受阻，肢端缺血導致蒼白與冰冷。
+1. **Poikilothermia（溫度改變）** 在臨床上最敏感且可靠 ——「溫度交叉觸診法」
+   能在 30 秒內找到雙側溫差最明顯的水平面，等於阻塞的下緣。
+2. **AF + 抗凝不規則 + 突發單側下肢冰冷無脈** → 經典的**心源性栓塞 ALI**。
+   栓子常卡在動脈分叉處（如 CFA 分為 SFA/DFA）。
+3. **先掃健側**才能建立波形基準（每個人的 baseline triphasic 形狀不同），
+   否則對患側單獨判讀會誤判。
+4. **Cold + Pale = 動脈阻塞** — 動脈血流中斷導致蒼白；靜脈問題反而會「Hot + Swollen」。
 :::
 
 :::
@@ -163,8 +252,22 @@ categories: [急性肢端疼痛, 症狀辨識, POCUS]
 :::
 :::
 
-## 參考閱讀
+## 🎓 回家三句話
 
-1. Creager MA, Kaufman JA, Conte MS. Acute limb ischemia. *N Engl J Med*. 2012 Jun 7;366(23):2198-206.
-2. 2017 ESC Guidelines on the Diagnosis and Treatment of Peripheral Arterial Diseases. *Eur Heart J*. 2018 Mar 1;39(9):763-816.
-3. 2016 AHA/ACC Guideline on the Management of Patients With Lower Extremity Peripheral Artery Disease. *Circulation*. 2017 Mar 21;135(12):e726-e779.
+::: {.callout-important}
+## 🏠 帶回家的 Take-home Messages
+
+1. **6Ps 出現順序代表時間軸** — Pain / Pallor / Pulselessness / Poikilothermia / Paresthesia / Paralysis。
+   出現到 **Paresthesia (5️⃣)** 就要開始倒數 6 小時警報，**Paralysis (6️⃣) 多半已不可逆**。
+2. **3 種顏色組合 = 3 條鑑別路徑** —
+   Cold + Pale → 動脈急症；Cold + Swollen → 混合病因；Hot + Swollen → 感染。
+3. **AF + 抗凝不規則 + 新發肢端冰冷 = embolic ALI 直到證明不是** —
+   這類病人不可拖到回門診，必須當場啟動抗凝 + 血管外科會診。
+:::
+
+## 📚 參考閱讀
+
+1. Creager MA, Kaufman JA, Conte MS. **Acute limb ischemia.** *N Engl J Med.* 2012;366(23):2198-206.
+2. Aboyans V, et al. **2017 ESC Guidelines on the Diagnosis and Treatment of Peripheral Arterial Diseases.** *Eur Heart J.* 2018;39(9):763-816.
+3. Gerhard-Herman MD, et al. **2016 AHA/ACC Guideline on the Management of Patients With Lower Extremity Peripheral Artery Disease.** *Circulation.* 2017;135(12):e726-e779.
+4. Pellerito JS, Polak JF. **Introduction to Vascular Ultrasonography**, 7th ed.
