@@ -1,120 +1,270 @@
 ---
-title: "教案 19：e-ALS US-CAB 流程介紹"
-subtitle: "US-CAB Protocol 流程介紹"
+title: "教案 19｜🚀 e-ALS US-CAB 流程介紹"
+subtitle: "US-CAB Protocol（Lien 2018）整合 POCUS 入 ACLS"
 author: "陳麒心"
 date: last-modified
 categories: [心跳停止, US-CAB, POCUS]
 ---
 
-## 課程目標
+::: {.callout-note appearance="minimal" icon="false"}
+## 📌 本課速覽
+
+**台大林維竣教授團隊發展的 US-CAB 5 步驟 × Pulse check 10 秒 SOP × True PEA vs Pseudo-PEA**
+US-CAB 是少數**經前瞻性驗證**能整合進 ACLS 而**不影響 CPR 品質**的 POCUS protocol。
+:::
+
+## 🎯 學習目標
 
 ::: {.callout-note}
-## 學習目標
+## Learning Objectives
 
-1. 了解 US-CAB protocol 的完整流程
-2. 掌握超音波在 CPR 過程中的正確使用時機
-3. 學習各步驟的超音波評估重點
+1. 完整掌握 **US-CAB Protocol 5 步驟**及操作 SOP。
+2. 熟練 **不中斷 CPR + 10 秒內完成評估** 的時間管理。
+3. 區分 **True PEA vs Pseudo-PEA** 並理解預後意義。
+4. 學會在 pulse check 前**預先放探頭**的 setup 技巧。
+5. 認識 **e-ALS（enhanced ALS）** 的整合理念。
 :::
 
-## US-CAB Protocol 流程
+## 🚀 US-CAB Protocol 簡介
 
 ::: {.callout-warning}
-## 重點提示
+## ⚠️ US-CAB = 台大急診林維竣團隊（Lien 2018）發表
 
-US-CAB 是一套在心肺復甦過程中整合超音波的標準化流程，包含五個步驟。
+US-CAB protocol 是**驗證過**的整合方案 — 在 *Resuscitation* 期刊發表，
+證實在不影響 CPR 品質下，能：
+
+- 提高可逆病因偵測率
+- 改善 ROSC 率
+- 提供預後評估
 :::
 
-| 步驟 | 縮寫 | 評估內容 |
-|------|------|----------|
-| 1 | **U**ltrasound 準備 | 準備超音波設備與探頭位置 |
-| 2 | **S**ubxiphoid view | 心臟評估（劍突下切面） |
-| 3 | **C**ardiac activity | 確認心臟活動 |
-| 4 | **A**orta | 主動脈評估 |
-| 5 | **B**ilateral lung | 雙側肺部評估 |
+### 📊 US-CAB 5 步驟總覽
 
-## 超音波在 CPR 中的時機
+| 步驟 | 字母 | 中譯 | 評估內容 | 切面 / 探頭 |
+|:----:|:----:|:----:|----------|:-----------:|
+| 1️⃣ | **U** | Ultrasound 準備 | 預先設定機器與位置 | 開機 + cardiac preset |
+| 2️⃣ | **S** | Subxiphoid view | 心臟劍突下評估 | Phased + subxiphoid |
+| 3️⃣ | **C** | Cardiac activity | 確認心臟活動 | Subxiphoid 持續觀察 |
+| 4️⃣ | **A** | Aorta | 主動脈 + IVC 評估 | Curved / phased |
+| 5️⃣ | **B** | Bilateral lung | 雙側肺部評估 | Linear / phased |
+
+: US-CAB 5 步驟 + 探頭對照 {.striped .hover tbl-colwidths="[8,10,18,40,24]"}
+
+## ⏰ 超音波在 CPR 中的時機規範
 
 ::: {.callout-warning}
-## 重點提示
+## ⚠️ POCUS 3 鐵則
 
-- 在 **pulse check** 時進行超音波評估（10 秒內完成）
-- **不可中斷 CPR** 進行超音波
-- 先將探頭放好位置，等待 pulse check 時間再進行評估
+> 1. **僅在 pulse check 時掃**（10 秒上限）
+> 2. **絕對不能中斷 CPR**
+> 3. **預先放好探頭**（不能等 pulse check 才開始 setup）
 :::
 
-## 各步驟評估重點
+::: {.callout-tip}
+## 🎯 操作時序
 
-### Step 1：Ultrasound 準備
+```
+⏱  CPR 進行中
+    ↓
+    Leader：「準備 pulse check，POCUS 預備位置！」
+    A2 / Leader：探頭已預先放在 subxiphoid（gel 已上）
+    ↓
+    停 CPR（約 5 秒）→ 檢查 monitor + 摸脈 + 看 POCUS
+    ↓
+    10 秒內結束（不論影像有無看清楚）
+    ↓
+    立刻恢復 CPR → 報告影像發現
+```
 
-- 選擇適當探頭（cardiac phased array probe）
-- 預先將探頭放置於劍突下位置
-- 確認超音波機器設定與畫面
+→ 如果這次沒看清楚，下一個 cycle（2 分鐘後）再試。**絕對不為了「看清楚」延長 pulse check**。
+:::
 
-### Step 2：Subxiphoid View 心臟評估
-
-- 在 pulse check 時間取得劍突下心臟切面
-- 評估心包是否有積液（pericardial effusion）
-- 觀察心室大小比例
-
-### Step 3：Cardiac Activity 確認心臟活動
-
-- 確認是否有心臟收縮活動
-- 區分 true PEA 與 pseudo-PEA
-- 有組織性心臟活動者預後較佳
-
-### Step 4：Aorta 主動脈評估
-
-- 評估腹主動脈是否有動脈瘤（AAA）
-- 觀察 IVC 大小評估血管內容積狀態
-
-### Step 5：Bilateral Lung 雙側肺部評估
-
-- 檢查雙側肺滑動（lung sliding）
-- 排除張力性氣胸
-- 評估是否有肋膜積液（pleural effusion）
-
-## 討論議題
+## 1️⃣ Step 1 — Ultrasound 準備
 
 ::: {.callout-note}
-## 討論
+## 🩺 機器與探頭設定
 
-1. US-CAB 流程中各步驟的順序是否可以調整？
-2. 若劍突下切面無法取得良好影像，應如何處理？
-3. 如何在 10 秒內完成超音波評估？
-4. True PEA 與 pseudo-PEA 的區分有什麼臨床意義？
+| 項目 | 設定 |
+|------|------|
+| **探頭** | Phased array probe（cardiac probe）— 適合所有窗口 |
+| **預設** | Cardiac preset |
+| **Depth** | 通常 16-20 cm（涵蓋整個心臟） |
+| **Gain** | 中等，避免過亮模糊 |
+| **位置** | **預先放在 subxiphoid**（不在 pulse check 時才放） |
+
+: POCUS setup 5 個關鍵 {.striped tbl-colwidths="[20,80]"}
 :::
 
-## 自我評估
+## 2️⃣ Step 2 — Subxiphoid View（核心切面）
+
+::: {.callout-warning}
+## ⚠️ Subxiphoid 為什麼是首選？
+
+1. **不影響壓胸位置** — 探頭放在劍突下，CPR 操作者不會卡到
+2. **一個切面看 4 件事**：心包、四腔室、cardiac activity、IVC
+3. **腹部脂肪不阻擋** — 比 PLAX / A4C 在仰臥位更穩定
+:::
+
+### 🔍 Subxiphoid 4 大評估項目
+
+| 評估 | 看什麼 | 異常 → 對應病因 |
+|------|--------|----------------|
+| 1. **心包** | anechoic 黑帶 | 積液 → tamponade |
+| 2. **心室大小** | RV vs LV | RV > LV → PE |
+| 3. **心臟活動** | 是否收縮 | 無 → true PEA |
+| 4. **IVC** | 直徑 + 變異 | 塌陷 → hypovolemia |
+
+: Subxiphoid 一個切面 4 件事 {.striped tbl-colwidths="[20,30,50]"}
+
+## 3️⃣ Step 3 — Cardiac Activity
+
+::: {.callout-warning}
+## 🚨 True PEA vs Pseudo-PEA — 預後分水嶺
+
+| 項目 | True PEA | Pseudo-PEA |
+|------|:--------:|:----------:|
+| ECG | 有電活動 | 有電活動 |
+| 心臟收縮（POCUS） | **無** | **有**（雖無摸到脈） |
+| 30 天存活 | **~ 5%** | **~ 25-30%** |
+| 處置方向 | 持續 ACLS、找可逆病因 | **積極找原因 + 治療**、預後較好 |
+
+: True PEA vs Pseudo-PEA 4 維度比較 {.striped .hover tbl-colwidths="[24,30,46]"}
+:::
+
+::: {.callout-tip}
+## 🎯 Pseudo-PEA 的常見可逆原因
+
+- **嚴重 hypovolemia**（出血、脫水）
+- **Tension pneumothorax**（preload 受阻）
+- **Cardiac tamponade**（diastolic filling 受阻）
+- **Severe acidosis / hyperkalemia**（心收縮力被抑制但仍有電活動）
+
+→ Pseudo-PEA = 「**心臟其實還在動，只是壓力 / 容量不夠所以無脈**」 → 找到原因有救！
+:::
+
+## 4️⃣ Step 4 — Aorta + IVC
+
+::: {.callout-note}
+## 🩺 評估 2 大重點
+
+| 評估 | 切面 | 找什麼 |
+|------|------|--------|
+| **腹主動脈** | 短軸 + 長軸 | **AAA**（> 3 cm）、AAA rupture（周圍血腫） |
+| **IVC** | Subxiphoid 長軸 | 直徑 + 變異 → 容量狀態 |
+
+: Step 4 評估 2 大項 {.striped tbl-colwidths="[20,32,48]"}
+
+🔑 **臨床警示**：老年男性 + 突發休克後 PEA → 必想 **AAA rupture**！
+:::
+
+## 5️⃣ Step 5 — Bilateral Lung
+
+::: {.callout-note}
+## 🩺 評估 2 大重點
+
+| 評估 | 切面 | 找什麼 |
+|------|------|--------|
+| **Lung sliding** | 雙側前胸第 2-3 肋間 | **無 sliding + barcode → tension PTX** |
+| **肋膜積液** | PLAPS point（後外側） | 大量積液可能影響血流動力學 |
+
+: Step 5 評估 2 大項 {.striped tbl-colwidths="[20,30,50]"}
+
+🔑 **重點**：tension PTX 一定要排除 — 因為這是 **CPR 期間能立即逆轉**的可逆病因。
+:::
+
+## ⚖️ US-CAB 整合判讀流程
+
+::: {.callout-tip}
+## 🎯 5 步驟整合判讀矩陣
+
+| 5 步驟發現 | 對應可逆病因 | 立即處置 |
+|-----------|-------------|----------|
+| **S**: 心包積液 + RA/RV 塌陷 | **Tamponade** | Pericardiocentesis |
+| **C**: 無心臟活動 | **True PEA** | 持續 ACLS、預後差 |
+| **C**: RV > LV + D-sign | **Massive PE** | tPA 50 mg bolus |
+| **A**: AAA rupture（周圍血腫）| **Hypovolemia (出血)** | 大量輸血 + OR |
+| **A**: IVC 塌陷 + FAST 陽性 | **Hypovolemia** | 輸液 + 找出血源 |
+| **B**: 無 lung sliding + barcode | **Tension PTX** | Needle decompression |
+
+: US-CAB 5 步驟 → 6 種可逆病因 {.striped .hover tbl-colwidths="[40,30,30]"}
+:::
+
+## 🪤 操作常見錯誤
+
+::: {.callout-caution}
+## ⚠️ 學員容易犯的 5 個 US-CAB 錯誤
+
+1. **Pulse check 才開始放探頭** — 浪費寶貴的 5 秒，影像來不及取到
+2. **超過 10 秒** — 為了「看清楚」延長 pulse check，破壞 CPR 品質
+3. **只掃 subxiphoid 就放棄** — 沒有完成 5 步驟（特別忽略 lung sliding）
+4. **看到「心臟在動」就放鬆** — Pseudo-PEA 仍需積極找原因 + 治療
+5. **沒有預先確認機器設定** — depth、gain、preset 不對，影像無法判讀
+:::
+
+## 💬 討論議題
+
+::: {.callout-note}
+## 🗣️ 課堂討論
+
+1. **US-CAB 流程的 5 步驟順序可以調整嗎**？什麼情況下要調整？
+2. **Subxiphoid 切面取不到時**，怎麼辦？（PLAX 替代？暫停這次評估？）
+3. **如何在 10 秒內完成評估**？預備動作有哪些？
+4. **True PEA vs Pseudo-PEA** 的區分有什麼臨床意義？
+:::
+
+## ✅ 自我評量
 
 ::: {.content-visible when-format="html"}
 
-**問題 1**：US-CAB 中的 "S" 代表什麼？
+::: {.callout-note appearance="default"}
+## 📝 問題 1
+US-CAB 中的 **"S"** 代表什麼？
 
 - [ ] Support
-- [x] Subxiphoid view
+- [x] **Subxiphoid view**
 - [ ] Suction
 - [ ] Shock
+:::
 
-**問題 2**：超音波在 CPR 中應在什麼時間點進行？
+::: {.callout-note appearance="default"}
+## 📝 問題 2
+**超音波在 CPR 中**應在什麼時間點進行？
 
 - [ ] 壓胸過程中
-- [x] Pulse check 時（10 秒內）
+- [x] **Pulse check 時（10 秒內）**
 - [ ] 給藥後
 - [ ] 電擊前
+:::
 
-**問題 3**：在 US-CAB 流程中，肺部超音波主要排除什麼診斷？
+::: {.callout-note appearance="default"}
+## 📝 問題 3
+US-CAB 中，**肺部超音波**主要排除什麼診斷？
 
 - [ ] 心包填塞
 - [ ] 肺栓塞
-- [x] 張力性氣胸
+- [x] **張力性氣胸**
 - [ ] 心肌梗塞
+:::
+
+::: {.callout-note appearance="default"}
+## 📝 問題 4
+**Pseudo-PEA**（POCUS 看到心臟有收縮但摸不到脈）的 30 天存活率約為？
+
+- [ ] 5%
+- [ ] 10%
+- [x] **25-30%**
+- [ ] 60%
+:::
 
 ::: {.callout-tip collapse="true"}
-## 顯示答案解析
+## 💡 顯示答案解析
 
-1. **S** 代表 **Subxiphoid view**，即劍突下切面，是心臟超音波評估的起始切面。
-2. 超音波必須在 **pulse check** 時進行，時間限制在 **10 秒內**，絕不可中斷 CPR。
-3. 雙側肺部超音波主要檢查肺滑動（lung sliding），以排除**張力性氣胸**。
+1. **S = Subxiphoid view** — 是 US-CAB 的核心切面，
+   一個切面同時看心包、心室、cardiac activity、IVC。
+2. **Pulse check 10 秒內** — 絕對不能中斷 CPR，超時就放棄當次。
+3. **肺部 POCUS** 主要找 lung sliding 是否消失 → 排除 tension PTX。
+4. **Pseudo-PEA 30 天存活率約 25-30%**（vs True PEA ~ 5%）—
+   差別在於「心臟還在動」代表還有救的可能，需積極找可逆原因。
 :::
 
 :::
@@ -123,11 +273,27 @@ US-CAB 是一套在心肺復甦過程中整合超音波的標準化流程，包�
 ::: {.callout-tip}
 ## 自我評估
 
-本課程包含互動式自我評估題目，請訪問線上版本完成測驗。
+請訪問線上版本完成測驗。
 :::
 :::
 
-## 參考閱讀
+## 🎓 回家三句話
 
-1. Lien, WC et al., US-CAB protocol for ultrasonographic evaluation during cardiopulmonary resuscitation: validation and potential impact. *Resuscitation*, 2018;127:125-131.
-2. Lien, WC et al., A novel US-CAB protocol for ultrasonographic evaluation during cardiopulmonary resuscitation. *Resuscitation*, 2017;115:e1-e2.
+::: {.callout-important}
+## 🏠 帶回家的 Take-home Messages
+
+1. **US-CAB 5 步驟（U-S-C-A-B）= Lien 2018 經驗證的整合方案** —
+   不影響 CPR 品質下提供關鍵診斷與預後資訊。
+2. **Subxiphoid 一個切面看 4 件事** — 心包、心室大小、心臟活動、IVC。
+   是 CPR 中最高 CP 值的單一視窗。
+3. **True PEA vs Pseudo-PEA 預後差 5-6 倍** — 心臟有沒有在動是分水嶺。
+   Pseudo-PEA 還有救，找可逆病因比繼續打 epi 重要。
+:::
+
+## 📚 參考閱讀
+
+1. Lien WC, et al. **US-CAB protocol for ultrasonographic evaluation during cardiopulmonary resuscitation: validation and potential impact.** *Resuscitation.* 2018;127:125-131.
+2. Lien WC, et al. **A novel US-CAB protocol for ultrasonographic evaluation during cardiopulmonary resuscitation.** *Resuscitation.* 2017;115:e1-e2.
+3. Salen P, et al. **Does the presence or absence of sonographically identified cardiac activity predict resuscitation outcomes of cardiac arrest patients?** *Am J Emerg Med.* 2005;23(4):459-462.
+4. Gaspari R, et al. **Emergency department point-of-care ultrasound in out-of-hospital and in-ED cardiac arrest.** *Resuscitation.* 2016;109:33-39.
+5. Atkinson PR, et al. **International Federation for Emergency Medicine Consensus Statement: Sonography in Hypotension and Cardiac Arrest (SHoC).** *CJEM.* 2017;19(6):459-470.

@@ -1,92 +1,215 @@
 ---
-title: "教案 18：鑑別診斷與超音波應用"
+title: "教案 18｜🔍 鑑別診斷與超音波應用"
 subtitle: "心跳停止可逆原因（5H5T）與超音波應用"
 author: "陳麒心"
 date: last-modified
 categories: [心跳停止, 鑑別診斷, POCUS]
 ---
 
-## 課程目標
+::: {.callout-note appearance="minimal" icon="false"}
+## 📌 本課速覽
 
-::: {.callout-note}
-## 學習目標
-
-1. 了解心跳停止的可逆原因（5H5T）
-2. 學習各可逆原因對應的超音波發現
-3. 根據超音波發現進行適當的鑑別診斷與處置
+**5H + 5T = 10 個可逆病因 × POCUS 直接搞定 4 個 × CPR 中可給溶栓的時機**
+讀完之後，你會知道為什麼 PEA 急救不只是「打 epi 直到放棄」，
+而是「**5 分鐘內找到可逆病因 → 處置 → 翻盤**」。
 :::
 
-## 5H：可逆原因
+## 🎯 學習目標
+
+::: {.callout-note}
+## Learning Objectives
+
+1. 完整背出 **5H5T** 10 個可逆原因。
+2. 認識每個可逆原因對應的**超音波發現**（POCUS 可直接判斷的有 4 個）。
+3. 學會 **PEA 急救 5 分鐘決策樹**：找可逆 → 處置 → 持續 CPR。
+4. 區分 **CPR 中能用 vs 不能用**的處置（如 tPA 在 massive PE）。
+5. 建立「**找可逆病因比繼續打藥更重要**」的觀念。
+:::
+
+## 🆘 5H — 5 個可逆原因
 
 ::: {.callout-warning}
-## 重點提示
+## ⚠️ 重點提示
 
-心跳停止的可逆原因分為 5H 與 5T，辨識並處理這些可逆原因是急救成功的關鍵。
+5H 多為**代謝、容量、溫度、氧氣**問題，
+**POCUS 只能直接看到 hypovolemia 1 個**，其他需靠抽血、ABG、體溫。
 :::
 
-| 原因 | 超音波發現 | 處置 |
-|------|------------|------|
-| Hypovolemia（低血容量） | IVC 塌陷、心臟過動 | 輸液、輸血 |
-| Hypoxia（缺氧） | -- | 確保呼吸道 |
-| Hydrogen ion（酸中毒） | -- | NaHCO3 |
-| Hypo/Hyperkalemia（低/高血鉀） | -- | 電解質校正 |
-| Hypothermia（低體溫） | -- | 復溫 |
+| 可逆原因 | 中譯 | POCUS | 確診工具 | 處置 |
+|----------|------|:-----:|----------|------|
+| **Hypovolemia** | 低血容 | ✅ IVC 塌陷 + 心過動 + FAST | 病史 + Hb | **輸液 / 輸血** |
+| **Hypoxia** | 缺氧 | ❌ | ABG（PaO₂↓） | 確保 airway + O₂ |
+| **Hydrogen ion** | 酸中毒 | ❌ | ABG（pH↓） | NaHCO₃ + 修正病因 |
+| **Hypo / Hyperkalemia** | 鉀異常 | ❌ | electrolyte / ECG | Ca + insulin/glucose / Kayexalate |
+| **Hypothermia** | 低體溫 | ❌ | 核心體溫 < 35°C | 主動加溫、CPR 持續 |
 
-## 5T：可逆原因
+: 5H 可逆原因 + POCUS 對應 {.striped .hover tbl-colwidths="[24,12,28,18,18]"}
 
-| 原因 | 超音波發現 | 處置 |
-|------|------------|------|
-| Tension pneumothorax（張力性氣胸） | 無肺滑動 | 針刺減壓 |
-| Tamponade（心包填塞） | 心包積液 | 心包穿刺 |
-| Toxins（毒物中毒） | -- | 解毒劑 |
-| Thrombosis - PE（肺栓塞） | 右心擴大 | 血栓溶解 |
-| Thrombosis - MI（心肌梗塞） | 心壁運動異常 | PCI |
+::: {.callout-tip}
+## 🎯 ECG 找 Hyperkalemia 的 5 步驟
 
-## 超音波在鑑別診斷中的角色
+1. **Peaked T waves**（早期）
+2. **PR 延長**
+3. **QRS 變寬**
+4. **P wave 消失** + sine wave
+5. **VF / asystole**（末期）
+
+→ CKD、AKI、tumor lysis、橫紋肌溶解病人 PEA → **先給 Calcium gluconate 1g IV**！
+:::
+
+## 🆘 5T — 另外 5 個可逆原因
+
+::: {.callout-warning}
+## ⚠️ 5T 多為「結構性」問題
+
+POCUS 可直接看到 **3 個**：tension PTX、tamponade、massive PE。
+這 3 個都是 CPR 中可即時處置的 → **POCUS 是黃金診斷工具**。
+:::
+
+| 可逆原因 | 中譯 | POCUS | 處置 |
+|----------|------|:-----:|------|
+| **Tension Pneumothorax** | 張力性氣胸 | ✅ 無 lung sliding + barcode | **Needle decompression** |
+| **Tamponade** | 心包填塞 | ✅ 心包積液 + RA/RV 塌陷 | **Pericardiocentesis** |
+| **Toxins** | 毒物中毒 | ❌ | 解毒劑（如 atropine、naloxone、digibind） |
+| **Thrombosis (PE)** | 肺栓塞 | ✅ RV 大 + D-sign + McConnell | **tPA 50 mg bolus + CPR ≥ 60 min** |
+| **Thrombosis (MI)** | 心肌梗塞 | ✅ RWMA（部分情況） | **Primary PCI**（ROSC 後） |
+
+: 5T 可逆原因 + POCUS 對應 {.striped .hover tbl-colwidths="[28,16,12,44]"}
+
+::: {.callout-warning}
+## 🚨 Massive PE 在 CPR 中的 tPA 給法
+
+**唯一**能在 CPR 期間打溶栓的明確情境：
+
+- **PEA + 右心擴大 + 病史符合**（術後、長期臥床、惡性腫瘤等）
+- **tPA 50 mg IV bolus**（部分文獻用 100 mg）
+- **CPR 持續 60-90 分鐘**（給溶栓時間作用）
+- ROSC 後可考慮再加 50 mg infusion
+
+> 是少數能在 CPR 中「翻盤」的處置 — **看 POCUS 看到 RV 大就要立刻決定**。
+:::
+
+## 🩺 POCUS 在鑑別診斷中的整合
 
 ::: {.callout-note}
-## 討論
+## 🎯 POCUS 一次回答 4 個 5H5T 問題
 
-在 5H5T 的可逆原因中，超音波可以直接協助辨識的包括：
+| POCUS 發現 | 對應可逆原因 | 立即處置 |
+|-----------|-------------|----------|
+| **IVC 塌陷 + 心過動 + FAST 陽性** | Hypovolemia（多為出血）| 輸液 + 輸血 + 找出血源 |
+| **無 lung sliding + barcode + lung point** | Tension PTX | 第 2 肋間鎖中線 needle decompression |
+| **心包積液 + RA/RV 塌陷** | Tamponade | Subxiphoid pericardiocentesis |
+| **RV/LV > 1 + D-sign + McConnell** | Massive PE | tPA bolus + CPR ≥ 60 min |
+| **RWMA + ECG STEMI** | MI | ROSC 後 primary PCI |
 
-- **Hypovolemia**：觀察 IVC 大小與呼吸變異度
-- **Tension pneumothorax**：肺部超音波檢查肺滑動（lung sliding）
-- **Tamponade**：心臟超音波檢查心包積液
-- **PE**：右心室擴大（RV > LV）
-- **MI**：局部心壁運動異常（RWMA）
+: POCUS → 5H5T 鑑別 → 立即處置 對照 {.striped .hover tbl-colwidths="[40,28,32]"}
 :::
 
-## 自我評估
+## 🧭 PEA 急救 5 分鐘決策樹
+
+::: {.callout-tip}
+## 🚀 「打不出脈搏？看可逆病因！」
+
+```
+PEA / asystole 確認
+       ↓
+   ⏱ 0-2 min   開始 CPR + Epi
+       ↓
+   ⏱ 2-3 min   Pulse check + 第 1 次 POCUS（subxiphoid）
+       ↓
+   發現？
+       ├── 心包積液 → 立即穿刺
+       ├── RV 大 → 強烈懷疑 PE → 評估 tPA
+       ├── 無心臟活動 → True PEA → 預後極差
+       └── 心臟收縮但無脈搏 → Pseudo-PEA → 找其他可逆病因
+       ↓
+   ⏱ 4-5 min   第 2 次 POCUS（lung + IVC + FAST）
+       ↓
+   發現？
+       ├── 無 lung sliding → Tension PTX → 立即減壓
+       ├── IVC 塌陷 + FAST 陽性 → 出血 → 輸液 + 輸血
+       └── 都正常 → 繼續 ACLS + 找 5H 代謝原因
+```
+:::
+
+## 🪤 常見鑑別診斷錯誤
+
+::: {.callout-caution}
+## ⚠️ 別讓這些陷阱毀掉急救
+
+1. **看到 RV 大就直接打 tPA** — 慢性肺高壓也會 RV 大，要看「**RV 壁厚 < 5 mm**」（急性才薄）
+2. **心包前脂肪誤當積液** — 脂肪會隨心跳同步移動；積液在心包腔 anechoic
+3. **「心臟還在動」就以為有救** — Pseudo-PEA 雖比 true PEA 預後好，但仍需 CPR + 找原因
+4. **忽略 5H 代謝原因** — POCUS 看不到 hyperK、acidosis、hypothermia，需配合 ABG
+5. **被「我看到的」綁架** — 多重複合病因常見（如 sepsis + PE 共存）
+:::
+
+## 💬 討論議題
+
+::: {.callout-note}
+## 🗣️ 課堂討論
+
+1. **POCUS 在 5H5T 中能直接判斷哪 4 個**？分別有什麼徵象？
+2. **Massive PE 在 CPR 中能不能給 tPA**？怎麼給？要 CPR 多久？
+3. **True PEA vs Pseudo-PEA 怎麼區分**？預後差異？
+4. **CKD 病人 PEA**，第一個要想的可逆原因是什麼？
+:::
+
+## ✅ 自我評量
 
 ::: {.content-visible when-format="html"}
 
-**問題 1**：以下哪一項超音波發現最支持張力性氣胸的診斷？
+::: {.callout-note appearance="default"}
+## 📝 問題 1
+以下哪一項超音波發現**最支持**張力性氣胸？
 
 - [ ] IVC 塌陷
-- [x] 無肺滑動（absent lung sliding）
+- [x] **無肺滑動 (absent lung sliding)**
 - [ ] 心包積液
 - [ ] 右心擴大
+:::
 
-**問題 2**：心跳停止的病人，超音波顯示右心明顯擴大，最可能的可逆原因為？
+::: {.callout-note appearance="default"}
+## 📝 問題 2
+心跳停止 + POCUS 顯示**右心明顯擴大**，最可能的可逆原因？
 
 - [ ] Tamponade
 - [ ] Hypovolemia
-- [x] Pulmonary embolism
+- [x] **Pulmonary embolism**
 - [ ] Tension pneumothorax
+:::
 
-**問題 3**：IVC 塌陷合併心臟過動，最可能提示的可逆原因為？
+::: {.callout-note appearance="default"}
+## 📝 問題 3
+**IVC 塌陷 + 心臟過動**，最可能的可逆原因？
 
-- [x] Hypovolemia
+- [x] **Hypovolemia**
 - [ ] Tamponade
 - [ ] Hyperkalemia
 - [ ] Hypothermia
+:::
+
+::: {.callout-note appearance="default"}
+## 📝 問題 4
+**Massive PE + CPR**，tPA 給法是？
+
+- [ ] 等 ROSC 後再給
+- [x] **50 mg IV bolus + 持續 CPR ≥ 60-90 分鐘**
+- [ ] 直接 IV push 100 mg
+- [ ] 不能在 CPR 中給溶栓
+:::
 
 ::: {.callout-tip collapse="true"}
-## 顯示答案解析
+## 💡 顯示答案解析
 
-1. **無肺滑動**是張力性氣胸最典型的超音波發現，正常肺部會有肺滑動。
-2. **右心擴大**（RV > LV）是肺栓塞導致右心壓力過大的典型表現。
-3. **IVC 塌陷合併心臟過動**代表血管內容積不足，心臟代償性增加收縮力。
+1. **無肺滑動** 是張力性氣胸最特徵的 POCUS 徵象。配合 barcode sign 與 lung point 可確診，
+   立刻第 2 肋間鎖中線 needle decompression。
+2. **RV 擴大 + D-sign + McConnell** 是 massive PE 的經典 POCUS 表現。
+   配合 DVT 風險病史 → 強烈懷疑 → 啟動 tPA 評估。
+3. **IVC 塌陷 + 心臟過動** = 容量不足，preload 不夠，心臟代償性過動排空。
+   立刻輸液 / 輸血 + 找出血源（FAST、CT）。
+4. **CPR 中給 tPA**：50 mg IV bolus + 持續 CPR 至少 60-90 分鐘讓藥物作用。
+   ROSC 後可追加 50 mg infusion。
 :::
 
 :::
@@ -95,11 +218,28 @@ categories: [心跳停止, 鑑別診斷, POCUS]
 ::: {.callout-tip}
 ## 自我評估
 
-本課程包含互動式自我評估題目，請訪問線上版本完成測驗。
+請訪問線上版本完成測驗。
 :::
 :::
 
-## 參考閱讀
+## 🎓 回家三句話
 
-1. Lien, WC et al., US-CAB protocol for ultrasonographic evaluation during cardiopulmonary resuscitation: validation and potential impact. *Resuscitation*, 2018;127:125-131.
-2. Lien, WC et al., A novel US-CAB protocol for ultrasonographic evaluation during cardiopulmonary resuscitation. *Resuscitation*, 2017;115:e1-e2.
+::: {.callout-important}
+## 🏠 帶回家的 Take-home Messages
+
+1. **5H5T = 10 個可逆原因，POCUS 直接搞定 4 個** —
+   Hypovolemia、Tension PTX、Tamponade、Massive PE。
+   背 5H5T 不只是考試 — 是 PEA 翻盤的依據。
+2. **PEA + 右心大 = tPA 適應症** — 是少數能在 CPR 期間給溶栓的情境，
+   50 mg bolus + CPR 持續 60-90 分鐘等藥物作用。
+3. **CKD / AKI 病人 PEA → 先給 Ca gluconate 1g** —
+   Hyperkalemia 是 POCUS 看不到但極致命的可逆原因，憑經驗+ECG 推測即可給。
+:::
+
+## 📚 參考閱讀
+
+1. Lien WC, et al. **US-CAB protocol for ultrasonographic evaluation during cardiopulmonary resuscitation: validation and potential impact.** *Resuscitation.* 2018;127:125-131.
+2. Lien WC, et al. **A novel US-CAB protocol for ultrasonographic evaluation during cardiopulmonary resuscitation.** *Resuscitation.* 2017;115:e1-e2.
+3. **AHA Guidelines for CPR and ECC 2020 Update.** *Circulation.* 2020;142(16 Suppl 2):S366-S468.
+4. Konstantinides SV, et al. **2019 ESC Guidelines for the diagnosis and management of acute pulmonary embolism.** *Eur Heart J.* 2020;41(4):543-603.
+5. Long B, et al. **Management of Hyperkalemia in the Emergency Department.** *J Emerg Med.* 2018;55(2):192-205.

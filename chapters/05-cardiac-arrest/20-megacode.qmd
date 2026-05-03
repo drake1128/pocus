@@ -1,108 +1,317 @@
 ---
-title: "教案 20：實際演練與 Megacode"
-subtitle: "高擬真模擬演練"
+title: "教案 20｜🎮 實際演練與 Megacode"
+subtitle: "高擬真模擬整合 ACLS + US-CAB"
 author: "陳麒心"
 date: last-modified
 categories: [心跳停止, Megacode, POCUS]
 ---
 
-## 課程目標
+::: {.callout-note appearance="minimal" icon="false"}
+## 📌 本課速覽
 
-::: {.callout-note}
-## 學習目標
-
-1. 團隊合作與有效溝通
-2. 不中斷 CPR 的前提下進行超音波評估
-3. 根據超音波發現調整急救策略
-4. 快速辨識可逆原因並處置
+**4 階段演練（簡報→模擬→ debriefing→ 重複）× 4 種 PEA 情境 × Closed-loop SOP**
+這一課把前面 3 課（ACLS + 5H5T + US-CAB）整合到一個 60 分鐘的 megacode，
+訓練的不只是技術，是**團隊默契與決策反射**。
 :::
 
-## 課程說明
+## 🎯 學習目標
+
+::: {.callout-note}
+## Learning Objectives
+
+1. 在高壓情境下執行 **ACLS + US-CAB 整合流程**。
+2. 練習 **closed-loop communication** 與 7 角色團隊分工。
+3. **不中斷 CPR** 的前提下完成 POCUS 評估。
+4. 根據 POCUS 發現**動態調整急救策略**。
+5. 透過 **debriefing** 反思團隊表現與個人技術。
+:::
+
+## 🎮 演練架構（4 階段）
 
 ::: {.callout-warning}
-## 重點提示
+## ⚠️ Megacode 不只是「演」— 是學習循環
 
-透過高擬真模擬，讓學員在模擬情境中整合 ACLS 流程與超音波應用。本課程著重於實際操作與團隊合作演練。
+```
+簡報 → 模擬 → debriefing → 重複（角色輪換）
+                ↑___________________|
+```
+
+每一輪都要**換角色 + 換情境**，才能訓練全方位能力。
 :::
 
-## 演練重點
+| 階段 | 時間 | 內容 | 重點 |
+|:----:|:----:|------|------|
+| **簡報** | 10 min | 場景介紹、角色分配、設備檢查 | 心理準備、設定預期 |
+| **模擬演練** | 20 min | 高擬真情境操作 | 真實壓力、即時決策 |
+| **回饋討論** | 15 min | Debriefing + 影片回顧 | 結構化反思 |
+| **重複演練** | 15 min | 角色輪換、新情境 | 深化學習 |
 
-### 1. 團隊合作與有效溝通
+: Megacode 60 分鐘訓練架構 {.striped tbl-colwidths="[14,12,40,34]"}
 
-- 依照 ACLS 團隊分工（C1、C2、A1、A2、S1、S2、L）執行各自任務
-- 使用 closed-loop communication 確認指令
-- Leader 負責統籌指揮與超音波操作
+## 🩺 4 種 PEA 情境模擬
 
-### 2. 不中斷 CPR 的超音波評估
+::: {.panel-tabset}
 
-- 遵循 US-CAB protocol 流程
-- 僅在 pulse check 時進行超音波（10 秒內）
-- 預先放置探頭於劍突下位置
+### 情境一｜🩸 Hypovolemia（GI bleed → PEA）
 
-### 3. 根據超音波發現調整策略
+::: {.callout-tip appearance="default"}
+## 🧓 Case　68 歲男性・大量黑便後 PEA
 
-- 心包積液 → 心包穿刺
-- 右心擴大 → 考慮肺栓塞，給予血栓溶解劑
-- 無肺滑動 → 針刺減壓
-- IVC 塌陷 → 大量輸液
+68 歲男性，**HTN + 慢性 NSAID 使用**，今晨 **大量解黑便 + 嘔血**送急診。
+急診評估時突然意識喪失，**摸不到脈、ECG 顯示 narrow QRS PEA**。
 
-### 4. 快速辨識可逆原因
+**🚨 立即動作**
 
-- 整合 5H5T 鑑別診斷
-- 利用超音波快速篩檢可逆病因
-- 即時處置以提升急救成功率
+1. 廣播 9595 + 啟動 7 角色團隊
+2. **CPR + bag-mask 30:2** + 大號 IV × 2
+3. **Pulse check（2 min）+ POCUS（subxiphoid + IVC）**
 
-## 演練流程
+**🔬 預期 US-CAB 發現**
 
-| 階段 | 時間 | 內容 |
-|------|------|------|
-| 簡報 | 10 分鐘 | 場景介紹、角色分配 |
-| 模擬演練 | 20 分鐘 | 高擬真模擬情境操作 |
-| 回饋討論 | 15 分鐘 | Debriefing、影片回顧 |
-| 重複演練 | 15 分鐘 | 角色輪換、再次演練 |
+| 步驟 | 發現 |
+|:----:|------|
+| **S** | 心臟過動、心腔小（kissing ventricles）、無心包積液 |
+| **C** | 心臟仍有收縮 → **Pseudo-PEA** |
+| **A** | **IVC 完全塌陷** + FAST 陽性？（GI bleed 不會 FAST 陽性，但要排除其他出血） |
+| **B** | 雙側 lung sliding 正常 |
 
-## 討論議題
+**🎯 處置決策**
+
+1. **大量輸液 + O 型未交叉血**（不等 type & screen）
+2. **PPI infusion** + Octreotide
+3. 通知腸胃科 → **緊急 EGD**
+4. 持續 ACLS + US 動態追蹤
+:::
+
+### 情境二｜🚧 Massive PE（術後 PEA）
+
+::: {.callout-tip appearance="default"}
+## 🧑‍🦱 Case　55 歲男性・術後第 5 天突發 PEA
+
+55 歲男性，**腹腔手術後第 5 天**，於病房準備出院時突發**呼吸喘 → 暈眩 → 倒地**。
+發現時 **無反應、無脈、ECG 為 PEA**。
+
+**🚨 立即動作**
+
+1. 廣播 9595 + CPR
+2. 床旁 POCUS 立即備位
+
+**🔬 預期 US-CAB 發現**
+
+| 步驟 | 發現 |
+|:----:|------|
+| **S** | 心包**無積液** |
+| **C** | **RV 大 (RV/LV > 1.5)、D-sign、McConnell sign** → 強烈 PE |
+| **A** | IVC 擴張固定 |
+| **B** | 雙側 lung sliding 正常 |
+
+**🎯 處置決策**
+
+1. **tPA 50 mg IV bolus**（在 CPR 中）
+2. **CPR 持續 60-90 分鐘**讓 tPA 作用
+3. 同時 IR / 心臟外科 stand-by → 評估**取栓 / VA-ECMO**
+4. 若 ROSC → 追加 50 mg tPA infusion
+:::
+
+### 情境三｜💧 Tamponade（癌症病人 PEA）
+
+::: {.callout-tip appearance="default"}
+## 🧓 Case　70 歲女性・肺癌病人 PEA
+
+70 歲女性，**lung cancer T4N2M1** 化療中。
+門診追蹤時突然主訴胸悶 → **暈眩 → 倒地 → PEA**。
+
+**🔬 預期 US-CAB 發現**
+
+| 步驟 | 發現 |
+|:----:|------|
+| **S** | **大量心包積液** + **RA / RV 舒張期塌陷** → tamponade！ |
+| **C** | 心臟有微弱收縮（pseudo-PEA） |
+| **A** | IVC 擴張、變異小 |
+| **B** | 正常 |
+
+**🎯 處置決策**
+
+1. **緊急 subxiphoid pericardiocentesis**（可在 CPR 中執行）
+2. POCUS **即時導引針尖**位置
+3. 抽出 30-50 mL 即可顯著改善血流動力學
+4. 抽出後 **立即重評 POCUS** 看心臟收縮恢復
+5. 留置 pigtail catheter 持續引流
+:::
+
+### 情境四｜💨 Tension PTX（外傷病人 PEA）
+
+::: {.callout-tip appearance="default"}
+## 🧑‍🦱 Case　42 歲男性・車禍後 PEA
+
+42 歲男性，**車禍**送急診。BP 90/60、SpO₂ 88%，
+**正準備插管時血壓崩潰 → ECG PEA**。
+
+**🔬 預期 US-CAB 發現**
+
+| 步驟 | 發現 |
+|:----:|------|
+| **S** | 心臟**整體位置偏移**（mediastinal shift） |
+| **C** | 心臟仍有收縮（pseudo-PEA） |
+| **A** | IVC 細 + 變異大 |
+| **B** | **右側無 lung sliding + barcode sign + lung point** → Tension PTX！ |
+
+**🎯 處置決策**
+
+1. **立即右側第 2 肋間鎖中線 needle decompression**（14G 或 16G）
+2. 聽到 hiss 聲 + 血壓回升 → 確認成功
+3. **立即準備 chest tube** 第 4-5 肋間 mid-axillary
+4. 持續 ACLS + IV access + 大量輸液
+5. 通知外科 evaluate trauma series（FAST、CT）
+:::
+
+:::
+
+## 📋 演練 4 大重點
+
+::: {.callout-warning}
+## ⚠️ Megacode 不只技術，是團隊整合
+
+每場演練都要評估這 4 大重點：
+:::
+
+### 1️⃣ 團隊合作與有效溝通
+
+| 評估項目 | 標準 |
+|----------|------|
+| **角色就位速度** | < 30 秒所有 7 角色就位 |
+| **Closed-loop communication** | 每醫囑「指令 → 重複 → 確認 → 完成回報」|
+| **Leader 主導性** | 清楚下令、不親自處置、整合資訊 |
+| **跨角色協調** | 換手不亂、節奏穩定 |
+
+### 2️⃣ 不中斷 CPR 的 POCUS 評估
+
+| 評估項目 | 標準 |
+|----------|------|
+| **Pulse check 時長** | ≤ 10 秒 |
+| **預先放探頭** | Pulse check 前已 ready |
+| **5 步驟覆蓋** | US-CAB 完整跑完（不只 subxiphoid） |
+| **CPR 打斷率** | < 10% |
+
+### 3️⃣ 根據 POCUS 動態調整策略
+
+| 發現 | 立即處置 |
+|------|----------|
+| **心包積液** | Pericardiocentesis |
+| **RV 大** | 評估 tPA |
+| **無 lung sliding** | Needle decompression |
+| **IVC 塌陷** | 大量輸液 + 找出血源 |
+
+### 4️⃣ 快速辨識可逆原因
+
+| 階段 | 動作 |
+|------|------|
+| **0-2 min** | 標準 ACLS（CPR + epi） |
+| **2-3 min** | 第 1 次 US-CAB（subxiphoid） |
+| **4-5 min** | 第 2 次 US-CAB（lung + IVC + FAST） |
+| **持續** | 若找到可逆原因，立即處置 |
+
+## 💬 Closed-loop Communication 範例
+
+::: {.callout-tip}
+## 🎯 標準對話範本
+
+**Leader**：「給 Epinephrine 1 mg IV push」
+**S2**：「收到，Epinephrine 1 mg IV push」← *重複確認*
+**Leader**：「Confirmed」
+**S2**：「**已給完，T+4 min**」← *完成回報 + 時間*
+
+---
+
+**Leader**：「準備 pulse check，POCUS 預備位置！」
+**A2**：「探頭已就位 subxiphoid」
+**Leader**：「停 CPR，pulse check 開始」
+**全員**：（10 秒倒數）
+**Leader**：「看到 RV 擴大 + D-sign，強烈懷疑 PE」
+**Leader**：「立刻給 tPA 50 mg IV bolus」
+**S2**：「收到，tPA 50 mg IV bolus」← *重複*
+**Leader**：「Confirmed，繼續 CPR 至少 60 分鐘」
+:::
+
+## 📊 Debriefing 結構化問題
 
 ::: {.callout-note}
-## 討論
+## 🎓 演練後 5 大反思問題
 
-1. 演練中團隊溝通有哪些可以改進的地方？
-2. 超音波評估是否在 10 秒內完成？
-3. 是否正確辨識出可逆原因並做出適當處置？
-4. Leader 的指揮與決策是否明確？
+1. **個人技術**：POCUS 影像取得是否在 10 秒內？影像品質如何？
+2. **團隊角色**：每個角色是否清楚自己的職責？有無重複或漏掉？
+3. **溝通品質**：Closed-loop 是否落實？醫囑有無漏給或重複？
+4. **決策時機**：發現可逆病因後，處置決策是否及時？
+5. **改進建議**：下次演練要保留什麼？要改什麼？
 :::
 
-## 自我評估
+## 🪤 演練常見錯誤
+
+::: {.callout-caution}
+## ⚠️ 學員常犯的 5 個錯誤
+
+1. **角色重疊** — 沒有預分工，多個人搶做同一件事
+2. **POCUS 拖太久** — 為了「看清楚」延長 pulse check
+3. **Leader 親自處置** — 失去全局視野，無法整合資訊
+4. **沒有時間軸概念** — 不知道現在是 T+幾分鐘、下一個 epi 何時
+5. **Debriefing 流於形式** — 只說「大家辛苦了」沒有具體改進
+:::
+
+## ✅ 自我評量
 
 ::: {.content-visible when-format="html"}
 
-**問題 1**：在 Megacode 演練中，超音波操作主要由哪個角色負責？
+::: {.callout-note appearance="default"}
+## 📝 問題 1
+Megacode 中，**超音波操作**主要由哪個角色負責？
 
 - [ ] C1
 - [ ] A1
 - [ ] S1
-- [x] L（Leadership）
+- [x] **L（Leadership）**
+:::
 
-**問題 2**：演練中發現心包積液，應立即進行什麼處置？
+::: {.callout-note appearance="default"}
+## 📝 問題 2
+演練中發現**心包積液 + RV 塌陷**，立即處置是？
 
-- [ ] 給予 epinephrine
-- [x] 心包穿刺
+- [ ] 給 epinephrine
+- [x] **緊急 pericardiocentesis**
 - [ ] 電擊
 - [ ] 插管
+:::
 
-**問題 3**：以下何者是超音波在 CPR 中的正確使用原則？
+::: {.callout-note appearance="default"}
+## 📝 問題 3
+**超音波在 CPR 中**的正確使用原則是？
 
-- [ ] 隨時可以進行超音波檢查
-- [ ] 超音波比壓胸更重要
-- [x] 僅在 pulse check 時進行，不可中斷 CPR
-- [ ] 超音波需要至少 30 秒才能完成評估
+- [ ] 隨時可進行
+- [ ] 比壓胸更重要
+- [x] **僅在 pulse check 時、≤ 10 秒、不中斷 CPR**
+- [ ] 至少需要 30 秒才能完成
+:::
+
+::: {.callout-note appearance="default"}
+## 📝 問題 4
+**Debriefing** 的核心目的是？
+
+- [ ] 評斷誰做得最好
+- [ ] 重複演練細節
+- [x] **結構化反思 + 找出具體改進點**
+- [ ] 結束 megacode
+:::
 
 ::: {.callout-tip collapse="true"}
-## 顯示答案解析
+## 💡 顯示答案解析
 
-1. **Leadership** 負責 ECHO 操作與指揮決策，統籌整個急救流程。
-2. 超音波發現**心包積液**時，應立即進行**心包穿刺**以解除心包填塞。
-3. 超音波評估必須在 **pulse check** 時進行，**10 秒內**完成，絕不可中斷高品質的 CPR。
+1. **Leader 兼任 ECHO** — 因為 Leader 看到影像可即時下決策，不需中介傳話。
+   其他角色（C/A/S）有各自的處置任務。
+2. **心包積液 + RV 塌陷 = tamponade** → 立即 subxiphoid pericardiocentesis，
+   POCUS 即時導引針尖位置。
+3. **POCUS 3 鐵則**：pulse check 時、≤ 10 秒、絕不中斷 CPR。
+   為了「看清楚」延長 pulse check 反而傷害 CPR 品質。
+4. **Debriefing = 結構化反思** — 不是事後檢討批評，
+   而是「保留什麼 / 改進什麼」的具體討論。
 :::
 
 :::
@@ -111,11 +320,39 @@ categories: [心跳停止, Megacode, POCUS]
 ::: {.callout-tip}
 ## 自我評估
 
-本課程包含互動式自我評估題目，請訪問線上版本完成測驗。
+請訪問線上版本完成測驗。
 :::
 :::
 
-## 參考閱讀
+## 🏆 本章總結
 
-1. Lien, WC et al., US-CAB protocol for ultrasonographic evaluation during cardiopulmonary resuscitation: validation and potential impact. *Resuscitation*, 2018;127:125-131.
-2. Lien, WC et al., A novel US-CAB protocol for ultrasonographic evaluation during cardiopulmonary resuscitation. *Resuscitation*, 2017;115:e1-e2.
+::: {.callout-important}
+## 🌟 第五章關鍵要點
+
+1. **ACLS 6 步驟 + 7 角色** — 高品質 CPR 是核心，Leader 不做處置只指揮 + 操作 ECHO。
+2. **5H5T = 10 個可逆原因，POCUS 直接搞定 4 個** — Hypovolemia、PTX、Tamponade、Massive PE。
+3. **US-CAB Protocol 5 步驟** — Lien 2018 經驗證的整合方案，不影響 CPR 品質。
+4. **True PEA vs Pseudo-PEA 預後差 5-6 倍** — 心臟有沒有在動是分水嶺。
+5. **Megacode 訓練的是團隊默契** — 技術 + 溝通 + 決策反射的綜合演練。
+:::
+
+## 🎓 回家三句話
+
+::: {.callout-important}
+## 🏠 帶回家的 Take-home Messages
+
+1. **Megacode 不是表演，是學習循環** — 簡報 → 模擬 → debriefing → 重複，
+   每一輪換角色換情境，才能訓練全方位能力。
+2. **POCUS 在 CPR 中的鐵則：pulse check / ≤ 10 秒 / 預先放探頭** —
+   違反任一條都會傷害 CPR 品質，得不償失。
+3. **Debriefing 才是 Megacode 的精華** — 結構化反思 + 具體改進點，
+   不要流於「大家辛苦了」的形式。
+:::
+
+## 📚 參考閱讀
+
+1. Lien WC, et al. **US-CAB protocol for ultrasonographic evaluation during cardiopulmonary resuscitation: validation and potential impact.** *Resuscitation.* 2018;127:125-131.
+2. Cheng A, et al. **Debriefing for technology-enhanced simulation: a systematic review and meta-analysis.** *Med Educ.* 2014;48(7):657-666.
+3. Hunziker S, et al. **Teamwork and Leadership in Cardiopulmonary Resuscitation.** *J Am Coll Cardiol.* 2011;57(24):2381-2388.
+4. **AHA Guidelines for CPR and ECC 2020 Update.** *Circulation.* 2020;142(16 Suppl 2):S366-S468.
+5. Atkinson PR, et al. **International Federation for Emergency Medicine Consensus Statement: Sonography in Hypotension and Cardiac Arrest (SHoC).** *CJEM.* 2017;19(6):459-470.

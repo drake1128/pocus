@@ -1,25 +1,80 @@
 ---
-title: "心跳停止"
-subtitle: "Cardiac Arrest"
+title: "💔 心跳停止"
+subtitle: "Cardiac Arrest — 從 ACLS 到 US-CAB 的整合急救"
 ---
 
 ![封面圖 — CPR 中超音波評估](../../images/封面圖%20—%20CPR%20中超音波評估.jpeg){fig-alt="CPR 胸部按壓過程中搭配床邊超音波評估，導入 US-CAB 概念"}
 
-## 章節簡介
+::: {.callout-note appearance="minimal" icon="false"}
+## 🎯 本章導讀
 
-心跳停止的復甦急救除了 ACLS 流程與團隊合作之外，超音波的使用可以輔助鑑別診斷以及治療的導引，因此也是急救過程中很重要的一環。納入超音波於急救復甦的流程之概念如 e-ALS 或 US-CAB 也越來越蓬勃發展。
+PEA / asystole 的存活率 < 10% — 但若能在 CPR 中**5 分鐘內找到可逆病因**並處理，
+存活率可翻倍。本章用 4 堂課帶您從 **ACLS 急救流程 → 5H5T 鑑別 → US-CAB Protocol → Megacode 整合**，
+建立一套「**不中斷 CPR + 10 秒內判讀**」的 POCUS 急救工作流。
 
-## 關鍵超音波影像
+**對應陳麒心醫師原始教案・編修整合：心跳停止 POCUS 系列 #05**
+:::
+
+## 📖 章節簡介
+
+心跳停止的急救核心是 **「高品質 CPR + 早期電擊 + 找到可逆病因」**。
+傳統 ACLS 流程靠 anamnesis、ECG、實驗室回報，
+但 POCUS 能在 **pulse check 的 10 秒空檔**直接「**看見**」5T 中的 3 個（PE、tamponade、tension PTX），
+是現代 e-ALS（enhanced ALS）流程的關鍵延伸。
+
+**US-CAB Protocol**（Lien 2018）是台大急診林維竣教授團隊發展的標準化流程，
+驗證能在不影響 CPR 品質下提供關鍵診斷與預後資訊。
+
+## 🖼️ 關鍵超音波影像
 
 ![診斷圖 — 5H5T 可逆原因與 ECHO](../../images/診斷圖%20—%205H5T%20可逆原因與%20ECHO.jpeg){fig-alt="PEA 鑑別 5H5T 可逆原因，床邊心臟超音波協助判斷"}
 
-## 本章課程
+## 🚨 5H5T — POCUS 可直接判斷的 4 個
 
-1. [教案 17：ACLS 急救流程與團隊分工](17-acls.qmd)
-2. [教案 18：鑑別診斷與超音波應用](18-differential.qmd)
-3. [教案 19：e-ALS US-CAB 流程介紹](19-e-als.qmd)
-4. [教案 20：實際演練與 Megacode](20-megacode.qmd)
+::: {.callout-warning}
+## ⚠️ 10 個可逆原因，POCUS 直接搞定 4 個
 
-## 編修醫師
+PEA / asystole 急救時，先掃這 4 個徵象，可以在 60 秒內排除最危險的可逆病因：
+:::
 
-陳麒心 醫師
+| # | 可逆原因 | POCUS 招牌 | 處置 |
+|:-:|----------|-----------|------|
+| 1 | **Hypovolemia** | IVC 塌陷 + 心臟過動 + FAST 找出血 | 輸液 / 輸血 |
+| 2 | **Tension PTX** | 無 lung sliding + barcode sign | 立即減壓 |
+| 3 | **Tamponade** | 心包積液 + RV 塌陷 | 緊急穿刺 |
+| 4 | **PE (massive)** | RV 大 + D-sign + McConnell | tPA bolus + 持續 CPR |
+
+: PEA 急救 — 4 個 POCUS 可直接找到的可逆原因 {.striped .hover tbl-colwidths="[5,28,42,25]"}
+
+## 🎓 學習目標
+
+::: {.callout-note}
+## 📋 完成本章後，學習者應能夠
+
+1. 熟練 **ACLS 急救流程**與 **7 角色團隊分工**（C1/C2/A1/A2/S1/S2/L）。
+2. 掌握心跳停止 **5H5T 可逆原因**及對應處置。
+3. 能在 **pulse check 10 秒內** 完成 **US-CAB Protocol** 評估。
+4. 區分 **true PEA vs pseudo-PEA**（有無 cardiac activity → 預後判斷）。
+5. 在 **Megacode 高擬真情境**中整合 ACLS + POCUS + 團隊溝通。
+:::
+
+## 📚 本章四堂課程
+
+::: {.callout-tip appearance="default"}
+## 課程地圖（建議依序學習）
+
+| 教案 | 主題 | 重點 | 連結 |
+|:----:|------|------|------|
+| 1️⃣7️⃣ | **ACLS 急救流程與團隊分工** | 6 步驟口訣 + 7 角色 + OHCA/IHCA 對比 | [前往 →](17-acls.qmd) |
+| 1️⃣8️⃣ | **鑑別診斷與超音波應用** | 5H5T + POCUS 4 招打 4 個可逆病因 | [前往 →](18-differential.qmd) |
+| 1️⃣9️⃣ | **e-ALS US-CAB 流程介紹** | Lien 2018 protocol 完整 5 步驟 | [前往 →](19-e-als.qmd) |
+| 2️⃣0️⃣ | **實際演練與 Megacode** | 4 情境 + 角色輪換 + debriefing | [前往 →](20-megacode.qmd) |
+
+: 第五章四堂課程一覽 {.striped tbl-colwidths="[10,28,42,20]"}
+:::
+
+## 👨‍⚕️ 編修醫師
+
+::: {.callout-note appearance="minimal" icon="false"}
+**陳麒心 醫師**　・　心跳停止與重症 POCUS 教學負責人（Module 05）
+:::

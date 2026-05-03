@@ -1,115 +1,245 @@
 ---
-title: "教案 17：ACLS 急救流程與團隊分工"
+title: "教案 17｜🚨 ACLS 急救流程與團隊分工"
 subtitle: "ACLS 急救流程與超音波應用"
 author: "陳麒心"
 date: last-modified
 categories: [心跳停止, ACLS, POCUS]
 ---
 
-## 課程目標
+::: {.callout-note appearance="minimal" icon="false"}
+## 📌 本課速覽
 
-::: {.callout-note}
-## 學習目標
-
-1. 到院前心跳停止的急救流程（高級心臟救命術，ACLS）
-2. 如何建立良好的團隊合作與溝通
-3. 超音波在急救中的角色與應用
-4. e-ALS/US-CAB protocol 的介紹與演練
+**OHCA + IHCA 2 案例 × ACLS 6 步驟口訣 × 7 角色團隊分工**
+讀完之後，你會知道**「壓胸 > 通氣 > 電擊 > 插管 > 給藥 > 紀錄」**的優先順序，
+並理解為什麼 Leader 要兼任 ECHO 操作（而不是處置）。
 :::
 
-## 案例介紹
+## 🎯 學習目標
+
+::: {.callout-note}
+## Learning Objectives
+
+1. 掌握 **OHCA / IHCA 急救流程**的關鍵差異與共同核心。
+2. 熟練 **ACLS 6 步驟口訣**：壓胸 → 通氣 → 電擊 → 插管 → 給藥 → 紀錄。
+3. 認識 **7 角色團隊分工**（C1/C2/A1/A2/S1/S2/L）。
+4. 理解 **超音波在急救中的時機**（pulse check + 不中斷 CPR）。
+5. 為 e-ALS / US-CAB protocol 鋪墊基礎。
+:::
+
+## 📋 案例介紹
 
 ::: {.panel-tabset}
 
-### 案例一：OHCA
+### 案例一｜🚑 OHCA 到院前心跳停止
 
-::: {.callout-tip appearance="simple"}
-## 案例一：到院前心跳停止（OHCA）
+::: {.callout-tip appearance="default"}
+## 🧓 Case 1　68 歲男性・OHCA + LUCAS
 
-消防局以無線電通知急診，5 分鐘後會有一名 68 歲男性到院前心跳停止將送至貴院。EMT 救護人員表示病患為在 15 分鐘前家中目擊倒下，派遣中心接獲通報後以電話指導家屬進行 CPR，3 分鐘後 EMT 抵達現場接手急救，裝上 LUCAS 進行 CPR 並插上喉頭式面罩（LMA）。過程中皆無可電及心律，於到院前共給予兩隻 epinephrine。
+消防局無線電通知急診：**5 分鐘後**送來一位 68 歲男性 OHCA。
+
+**🚑 EMT 回報**
+
+| 時間軸 | 事件 |
+|--------|------|
+| **T 0**（家中目擊倒下） | 家屬撥 119 |
+| T+0 → T+3 min | 派遣中心電話指導家屬 CPR |
+| T+3 min | EMT 抵達，**接手 CPR + 裝 LUCAS + 插 LMA** |
+| T+3 → T+15 min | 全程**無 shockable rhythm**，給予 **2 支 epinephrine** |
+| **T+15 min**（預計） | 抵達急診 |
+
+**🔑 急診接手前要準備什麼？**
+
+- ✅ **背板 + 腳凳 + LUCAS** 確認到位
+- ✅ 7 人團隊就位（C1/C2/A1/A2/S1/S2/L）
+- ✅ **POCUS 機開機**、phased array probe 上 gel、預設 cardiac
+- ✅ Defibrillator pad、IV 急救藥、insertion kit
+- ✅ **EtCO₂ + 12-lead ECG** 接好
+
+🔑 **學習重點**：OHCA 急救成功率關鍵在於 **down time 與 bystander CPR**，
+到院後重點是 **快速接手 + 找可逆病因**。
 :::
 
-### 案例二：IHCA
+### 案例二｜🏥 IHCA 院內心跳停止
 
-::: {.callout-tip appearance="simple"}
-## 案例二：院內心跳停止（IHCA）
+::: {.callout-tip appearance="default"}
+## 🧓 Case 2　72 歲女性・IHCA + Septic 背景
 
-您是今天病房的值班醫師，病人家屬突然跑出來焦急的說病人不太對勁叫他都沒反應請你去看看。此病人是 72 歲女性，本身有 CKD、DM history，本次 UTI 合併 urosepsis 入院打抗生素。您與護理師前去查看病人，發現病人叫喚無反應，檢查脈搏無脈搏，於是廣播 9595 並開始 CPR。
+72 歲女性，**CKD + DM**，因 **UTI 合併 urosepsis** 住院打抗生素。
+
+**🩺 事件經過**
+
+家屬突然衝出病房說：「**病人不太對勁，叫他都沒反應！**」
+您與護理師前往查看：
+- 叫喚 **無反應**
+- 摸 **無脈搏**
+- → **廣播 9595（院內 code）**，**立刻 CPR**
+
+**🔑 IHCA vs OHCA 關鍵差異**
+
+| 項目 | OHCA | IHCA |
+|------|:----:|:----:|
+| Down time | 通常較長 | **較短**（即時被發現） |
+| 病因 | 多為 cardiac（VF/VT） | 多為 **non-cardiac**（sepsis、resp failure、electrolyte） |
+| Bystander CPR | 視家屬而定 | 醫護立刻 CPR |
+| 存活率 | ~ 10% | ~ 25% |
+| **POCUS 重點** | 找 5T（PE、tamponade、PTX） | 找 5H（hypovolemia、hypoxia、acidosis、K⁺、hypothermia） |
+
+: OHCA vs IHCA 4 維度對比 {.striped tbl-colwidths="[20,30,30,20]"}
+
+🔑 **本案重點**：sepsis 病人 IHCA → 第一個要想 **massive PE（DVT 風險高）**、
+**hyperkalemia（CKD + AKI）**、**severe acidosis**。
 :::
 
 :::
 
-## ACLS 急救口訣
+## 🚨 ACLS 急救口訣
 
 ::: {.callout-warning}
-## 重點提示
+## ⚠️ 6 步驟口訣 — 順序就是優先順序
 
-ACLS 急救口訣：**壓胸（最重要）、通氣、電擊、插管、給藥、紀錄**
+> **壓胸 → 通氣 → 電擊 → 插管 → 給藥 → 紀錄**
+
+「壓胸」永遠第一順位。其他都是輔助。
+高品質 CPR **打斷率 < 10%** 是黃金標準。
 :::
 
-| 步驟 | 項目 | 內容 |
-|------|------|------|
-| 1 | 壓胸 | 背板、腳凳、LUCAS |
-| 2 | 通氣 | 插管前 30:2、插管後六秒一下 |
-| 3 | 電擊 | Monitor、分析心律、準備電擊 |
-| 4 | 插管 | ETT、suction、EtCO2 |
-| 5 | 給藥 | 抽血、GAS、Q4m epinephrine |
-| 6 | 紀錄 | 計時、紀錄、剩 30/10 秒提醒 |
+| 順序 | 步驟 | 內容 | 標準 |
+|:----:|:----:|------|------|
+| 1️⃣ | **壓胸** | 背板 + 腳凳 + LUCAS | 100-120 /min, 5-6 cm 深 |
+| 2️⃣ | **通氣** | 插管前 30 : 2、插管後 1 次 / 6 秒 | 10 /min、避免過度通氣 |
+| 3️⃣ | **電擊** | Monitor + 分析心律 + 充電 + 電擊 | shockable rhythm 5 秒內處置 |
+| 4️⃣ | **插管** | ETT + suction + EtCO₂ | 不中斷 CPR、確認 EtCO₂ > 10 |
+| 5️⃣ | **給藥** | 抽血 + GAS + **q4min epinephrine** | epi 1 mg IV q4 min |
+| 6️⃣ | **紀錄** | 計時 + 醫囑 + **30/10 秒提醒** | 每 2 分鐘 rhythm + pulse check |
 
-## ACLS 團隊分工
+: ACLS 6 步驟口訣 + 標準 {.striped .hover tbl-colwidths="[8,12,40,40]"}
 
-| 角色 | 位置 | 職責 |
-|------|------|------|
-| C1 | Circulation 1 | Q-CPR、q2m Rotate |
-| C2 | Circulation 2 | DEFIB、DABCD²E² |
-| A1 | Airway 1 | ETT |
-| A2 | Airway 2 | EtCO2 |
-| S1 | Support 1 | 針藥記時、TIMER |
-| S2 | Support 2 | CART、q4m Epi |
-| L | Leadership | ECHO、指揮決策 |
+::: {.callout-tip}
+## 🎯 EtCO₂ 在 CPR 中的關鍵角色
 
-## 討論議題
+- **EtCO₂ < 10 mmHg**（持續 20 分鐘） → 預後極差，考慮 termination
+- **EtCO₂ 突然從 < 20 跳到 > 35-40** → **強烈提示 ROSC**，立刻摸脈
+- 是 CPR 品質的**即時客觀指標**，比手感更可靠
+:::
+
+## 👥 ACLS 7 角色團隊分工
+
+::: {.callout-warning}
+## ⚠️ 7 角色制 — 每個位置都有專責
+
+避免「一窩蜂圍著病人」的混亂局面。
+**Leader 不做處置，只指揮 + 操作 ECHO**。
+:::
+
+| 角色 | 縮寫 | 位置 | 主要職責 |
+|:----:|:----:|------|----------|
+| 🔴 **C1** | Circulation 1 | 病人左側 / LUCAS 旁 | 壓胸（手動） + q2min 輪換 |
+| 🟠 **C2** | Circulation 2 | 病人右側 | **DEFIB** + ABCD²E² 評估 |
+| 🟡 **A1** | Airway 1 | 床頭 | **ETT 插管** |
+| 🟢 **A2** | Airway 2 | 床頭側 | **EtCO₂ 監測** + bagging |
+| 🔵 **S1** | Support 1 | 病人腳側 | **針藥計時** + TIMER |
+| 🟣 **S2** | Support 2 | 急救車旁 | **CART 管理** + q4min epi |
+| ⚫ **L** | Leadership | 床尾正中 | **ECHO** + 指揮決策 + 整合資訊 |
+
+: ACLS 7 角色與站位 {.striped .hover tbl-colwidths="[10,12,28,50]"}
+
+::: {.callout-caution}
+## 🪤 常見團隊錯誤
+
+1. **Leader 親自插管或給藥** → 失去全局視野
+2. **C1 沒有 q2min 輪換** → CPR 品質下降（疲勞 → 深度不夠）
+3. **A2 不報 EtCO₂** → 錯過 ROSC 訊號
+4. **S1 不提醒「30 秒到」** → 換手節奏混亂
+5. **無人念出 closed-loop** → 醫囑漏給或重複給
+:::
+
+## 🩺 超音波在急救中的角色
 
 ::: {.callout-note}
-## 討論
+## 🎯 POCUS 在 ACLS 的 3 大用途
 
-1. OHCA 與 IHCA 的急救流程有什麼差異？
-2. 團隊中各角色如何有效溝通？
-3. 超音波在急救過程中應在什麼時機使用？
-4. 如何在不中斷 CPR 的前提下進行超音波評估？
+| 用途 | 時機 | 關鍵發現 |
+|------|------|----------|
+| **找可逆病因（5H5T）** | Pulse check 10 秒內 | PE / tamponade / PTX / hypovolemia |
+| **判斷 cardiac activity** | Pulse check 10 秒內 | True PEA vs Pseudo-PEA |
+| **預後評估** | ROSC 後 + termination 前 | LV function、心包、IVC |
+
+: POCUS 在 CPR 中的 3 大角色 {.striped tbl-colwidths="[36,30,34]"}
 :::
 
-## 自我評估
+::: {.callout-warning}
+## ⚠️ POCUS 使用 3 大鐵則
+
+1. **絕對不能中斷 CPR** —  影像取得不順 → 放棄當次評估
+2. **僅在 pulse check 時掃** — 10 秒上限，超時直接繼續 CPR
+3. **預先準備** — pulse check 前就把探頭放在 subxiphoid 位置，不能掃才開始 setup
+:::
+
+## 💬 討論議題
+
+::: {.callout-note}
+## 🗣️ 課堂討論
+
+1. **OHCA vs IHCA** 急救流程的關鍵差異？
+2. ACLS 7 角色中，**Leader 為什麼要兼任 ECHO**？
+3. **EtCO₂** 在 CPR 中的 2 個關鍵閾值？（< 10 + 突然跳升）
+4. **如何在不中斷 CPR 的前提下做 POCUS 評估**？
+:::
+
+## ✅ 自我評量
 
 ::: {.content-visible when-format="html"}
 
-**問題 1**：ACLS 急救流程中，以下何者為最重要的步驟？
+::: {.callout-note appearance="default"}
+## 📝 問題 1
+ACLS 急救流程中，**最重要**的步驟是？
 
-- [x] 壓胸
+- [x] **壓胸**
 - [ ] 插管
 - [ ] 給藥
 - [ ] 電擊
+:::
 
-**問題 2**：在 ACLS 團隊分工中，負責 ECHO 與指揮決策的角色是？
+::: {.callout-note appearance="default"}
+## 📝 問題 2
+ACLS 7 角色中，負責 **ECHO + 指揮決策**的是？
 
 - [ ] C1
 - [ ] A1
 - [ ] S1
-- [x] L（Leadership）
+- [x] **L（Leadership）**
+:::
 
-**問題 3**：Epinephrine 在 ACLS 中的給藥頻率為何？
+::: {.callout-note appearance="default"}
+## 📝 問題 3
+**Epinephrine** 在 ACLS 中的給藥頻率是？
 
-- [ ] 每 2 分鐘一次
-- [x] 每 4 分鐘一次
-- [ ] 每 6 分鐘一次
-- [ ] 每 8 分鐘一次
+- [ ] 每 2 分鐘
+- [x] **每 4 分鐘**
+- [ ] 每 6 分鐘
+- [ ] 每 8 分鐘
+:::
+
+::: {.callout-note appearance="default"}
+## 📝 問題 4
+**EtCO₂ 從 12 突然跳升到 38 mmHg**，最可能代表？
+
+- [ ] 通氣不足
+- [ ] 通氣過度
+- [x] **ROSC（自主循環恢復）**
+- [ ] 電擊成功
+:::
 
 ::: {.callout-tip collapse="true"}
-## 顯示答案解析
+## 💡 顯示答案解析
 
-1. **壓胸**是 ACLS 中最重要的步驟，高品質的 CPR 是維持血液循環的關鍵。
-2. **Leadership** 負責 ECHO 與指揮決策，統籌整個急救團隊的運作。
-3. **Epinephrine** 每 4 分鐘（q4m）給予一次，由 S2 角色負責。
+1. **壓胸**永遠第一順位 — 高品質 CPR（深度 5-6 cm、頻率 100-120/min、打斷率 < 10%）
+   是維持腦灌流的核心。其他步驟都是輔助。
+2. **Leadership** 兼任 ECHO 與指揮 — 這樣 Leader 既能即時看到可逆病因影像，
+   又能立即下決策，不需中介傳話。
+3. **Epinephrine 1 mg IV q4 min**（每 4 分鐘一次），由 S2 角色管控時程。
+4. EtCO₂ 突然跳升 = **冠脈灌流恢復 → 大量 CO₂ 從組織洗出** = ROSC 強烈訊號，
+   立刻摸脈確認。
 :::
 
 :::
@@ -118,11 +248,27 @@ ACLS 急救口訣：**壓胸（最重要）、通氣、電擊、插管、給藥�
 ::: {.callout-tip}
 ## 自我評估
 
-本課程包含互動式自我評估題目，請訪問線上版本完成測驗。
+請訪問線上版本完成測驗。
 :::
 :::
 
-## 參考閱讀
+## 🎓 回家三句話
 
-1. Lien, WC et al., US-CAB protocol for ultrasonographic evaluation during cardiopulmonary resuscitation: validation and potential impact. *Resuscitation*, 2018;127:125-131.
-2. Lien, WC et al., A novel US-CAB protocol for ultrasonographic evaluation during cardiopulmonary resuscitation. *Resuscitation*, 2017;115:e1-e2.
+::: {.callout-important}
+## 🏠 帶回家的 Take-home Messages
+
+1. **壓胸 > 通氣 > 電擊 > 插管 > 給藥 > 紀錄** — 這個順序就是優先順序，
+   高品質 CPR 是急救的核心，其他都是輔助。
+2. **7 角色團隊 + Leader 操作 ECHO** — 每個人各司其職，避免一窩蜂圍著病人。
+   Leader 不做處置，專心指揮 + 看 POCUS。
+3. **POCUS 只在 pulse check 10 秒內掃** — 預先放好探頭，不能掃就放棄當次。
+   絕對不能為了「看清楚」中斷 CPR。
+:::
+
+## 📚 參考閱讀
+
+1. Lien WC, et al. **US-CAB protocol for ultrasonographic evaluation during cardiopulmonary resuscitation: validation and potential impact.** *Resuscitation.* 2018;127:125-131.
+2. Lien WC, et al. **A novel US-CAB protocol for ultrasonographic evaluation during cardiopulmonary resuscitation.** *Resuscitation.* 2017;115:e1-e2.
+3. **AHA Guidelines for CPR and ECC 2020 Update.** *Circulation.* 2020;142(16 Suppl 2):S366-S468.
+4. Soar J, et al. **European Resuscitation Council Guidelines 2021: Adult advanced life support.** *Resuscitation.* 2021;161:115-151.
+5. Atkins DL, et al. **Cardiac Arrest in the Hospital Setting (ASA / ACC).** *Circulation.* 2022.
