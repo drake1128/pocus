@@ -1,147 +1,245 @@
 ---
-title: "教案 31：診斷流程與鑑別診斷"
+title: "教案 31｜🔍 診斷流程與鑑別診斷"
 subtitle: "肺部超音波鑑別診斷與 BLUE Protocol"
 author: "范程羿"
 date: last-modified
 categories: [呼吸喘, 診斷流程, BLUE Protocol]
 ---
 
-## 課程目標
+::: {.callout-note appearance="minimal" icon="false"}
+## 📌 本課速覽
+
+**肺部 POCUS 5 大徵象 × BLUE Protocol 7 種主要 profile × Lichtenstein 2008 原版流程**
+讀完之後，你會知道為什麼 BLUE Protocol **準確率 90.5%** —
+因為它把「**肺 sliding + A/B-lines + 實變 + 積液 + DVT**」整合成決策樹。
+:::
+
+## 🎯 學習目標
 
 ::: {.callout-note}
-## 學習目標
+## Learning Objectives
 
-1. 學習肺部超音波各種異常發現及其對應的可能診斷
-2. 了解 BLUE Protocol 的診斷流程與臨床應用
-3. 能夠整合超音波發現進行呼吸喘的鑑別診斷
+1. 學會**肺部 POCUS 5 大異常徵象**及其對應診斷。
+2. 完整掌握 **BLUE Protocol 5 步驟**與 7 種 profile。
+3. 整合超音波發現進行**呼吸喘鑑別診斷**。
+4. 認識 **Barcode / Lung point / Air bronchogram** 等關鍵徵象。
+5. 理解 BLUE Protocol 的**敏感度與限制**。
 :::
 
-## 超音波發現與鑑別診斷
-
-| 超音波發現 | M-mode 表現 | 可能診斷 |
-|-----------|------------|---------|
-| Lung sliding + A-lines | Seashore sign | 正常、COPD、氣喘 |
-| Lung sliding 消失 + A-lines | Barcode / Stratosphere sign | 氣胸 |
-| B-lines（多條） | -- | 肺水腫、間質性肺病 |
-| Consolidation | -- | 肺炎、肺塌陷 |
-| Pleural effusion | -- | 心衰竭、感染、腫瘤 |
-| Lung point | -- | 氣胸邊界 |
-
-### 各項超音波發現詳解
-
-#### Lung Sliding 消失 + A-lines
-
-- M-mode 下呈現 **Barcode sign**（又稱 Stratosphere sign）
-- 上下方均為平行水平線條，無顆粒狀散點
-- 高度懷疑**氣胸**
+## 🩺 肺部 POCUS 5 大徵象速查
 
 ::: {.callout-warning}
-## 重點提示
+## ⚠️ 5 大徵象與 M-mode 對照
 
-Lung sliding 消失不等於氣胸。需同時觀察 A-lines 的存在，並搭配臨床表現綜合判斷。其他造成 lung sliding 消失的原因包括肋膜沾黏、肺實質化等。
+| 2D 發現 | M-mode | 可能診斷 |
+|---------|--------|----------|
+| **Lung sliding + A-lines** | Seashore sign | 正常 / COPD / 氣喘 |
+| **Sliding 消失 + A-lines** | **Barcode / Stratosphere** | **氣胸** |
+| **多條 B-lines（≥ 3）** | — | 肺水腫 / 間質性肺病 |
+| **Consolidation**（實變） | — | 肺炎 / 肺塌陷 |
+| **Pleural effusion** | — | 心衰 / 感染 / 腫瘤 |
+| **Lung point** | — | **氣胸邊界（特異度 ~ 100%）** |
+
+: 肺部 POCUS 5 大徵象 + M-mode {.striped .hover tbl-colwidths="[34,28,38]"}
 :::
 
-#### B-lines
+### 📐 各徵象詳解
 
-- 從胸膜線垂直向下延伸的高回音線條，如雷射光束
-- 會隨呼吸移動，延伸至螢幕底部，且會消除 A-lines
-- **多條 B-lines**（每個肋間 >= 3 條）提示肺泡間質症候群（alveolar-interstitial syndrome）
-- 常見於**肺水腫**與**間質性肺病**
+#### 💨 Lung Sliding 消失 + A-lines
 
-#### Consolidation（實變）
+| 特徵 | 說明 |
+|------|------|
+| **M-mode** | **Barcode (Stratosphere) sign** — 上下都是平行線、無沙灘 |
+| **意義** | 強烈懷疑氣胸 |
+| **配合** | 找 **lung point** 確診 |
 
-- 肺組織因發炎、感染等原因失去含氣而呈現類似肝臟的實質影像（hepatization）
-- 可能伴隨 **air bronchogram**（支氣管含氣徵象）
-- 常見於**肺炎**與**肺塌陷**
+::: {.callout-caution}
+## 🪤 Barcode sign 不等於氣胸
 
-#### Pleural Effusion（肋膜積液）
+也可能是：肋膜沾黏、肺實變、單側插管、麻痺。
+**確診需要 lung point**。
+:::
 
-- 在肋膜腔內可見無回音（anechoic）的液體聚集
-- 依據回音性可初步判斷積液性質（transudative vs. exudative）
-- 常見於**心衰竭、感染、腫瘤**
-
-#### Lung Point（肺點）
-
-- 在氣胸的邊界處，可見 lung sliding 存在與消失的交界點
-- Lung point 的出現對氣胸的診斷具有**高度特異性**
-- 可用於評估氣胸的範圍大小
-
-## BLUE Protocol
+#### 💧 B-lines（肺泡-間質症候群）
 
 ::: {.callout-note}
-## BLUE Protocol
+## 🩺 4 條件嚴格定義
 
-**BLUE** = **B**edside **L**ung **U**ltrasound in **E**mergency
+1. **起源於胸膜線**
+2. **垂直延伸至螢幕底部**（不像 comet-tail 會中斷）
+3. **隨呼吸 + 胸膜同步移動**
+4. **遮蓋 A-lines**
 
-BLUE Protocol 是一套系統性的床邊肺部超音波診斷流程，用於急性呼吸衰竭病人的快速鑑別診斷。
+→ **每肋間 ≥ 3 條** 即提示**肺泡-間質症候群**（alveolar-interstitial syndrome）。
+
+**常見對應**：
+- 雙側對稱瀰漫 → **心因性肺水腫**
+- 雙側不對稱 + 肋膜不規則 → **ARDS**
+- 局部 → 肺炎、肺挫傷
 :::
 
-### 診斷步驟
+#### 🫁 Consolidation（實變）
 
-**步驟 1：確認 Lung Sliding**
+| 特徵 | 說明 |
+|------|------|
+| **形狀** | 失去含氣 → 類似肝臟（hepatization） |
+| **內部** | 可見 **air bronchogram**（高回音支氣管充氣） |
+| **動態 vs 靜態** | **動態 = 肺炎**；靜態 = 肺塌陷 |
+| **邊界** | shred sign（胸膜下不規則邊界） |
 
-- 在前胸壁上方（upper BLUE point）與下方（lower BLUE point）評估
-- Lung sliding 存在 → 進入步驟 2
-- Lung sliding 消失 → 考慮氣胸，尋找 lung point
+: Consolidation 4 大特徵 {.striped tbl-colwidths="[28,72]"}
 
-**步驟 2：評估 A-lines 或 B-lines**
+#### 💧 Pleural Effusion
 
-- A-lines 為主 → A-profile → 考慮 COPD / 氣喘 / 肺栓塞
-- B-lines 為主 → B-profile → 考慮肺水腫
+| 特徵 | 說明 |
+|------|------|
+| **回音性** | Anechoic（黑色）= 漿液；echogenic = 出血 / 膿 |
+| **量化** | 可量最大深度（cm）粗估體積 |
+| **常見原因** | 心衰、感染、惡性、TB、出血 |
 
-**步驟 3：檢查 Pleural Effusion**
+#### 🎯 Lung Point — 氣胸邊界（特異度 ~ 100%）
 
-- 在 PLAPS point（後外側肺泡與肋膜症候群點）評估
-- 有積液 → 考慮肺炎合併肋膜積液、心衰竭
+::: {.callout-tip}
+## 🎯 Lung Point 的金標準地位
 
-**步驟 4：檢查 Consolidation**
+在氣胸**邊界處**，可見 **lung sliding 存在 + 消失的交界**。
 
-- 在後胸壁或下肺野評估
-- 有實變 → 考慮肺炎、肺塌陷
+- **特異度接近 100%**（看到 = 確診氣胸）
+- 可估算**氣胸的範圍大小**（lung point 越外側 = 氣胸越大）
+- 但**敏感度只 ~ 65%**（大量氣胸時整個胸壁都是 PTX，找不到邊界）
+:::
 
-**步驟 5：整合 DVT 評估**
-
-- 若為 A-profile 且無其他明顯發現
-- 加做下肢深部靜脈超音波評估
-- DVT 陽性 → 高度懷疑**肺栓塞**
+## 🚀 BLUE Protocol — Lichtenstein 2008
 
 ::: {.callout-warning}
-## 重點提示
+## ⚠️ BLUE = Bedside Lung Ultrasound in Emergency
 
-BLUE Protocol 的診斷準確率在原始研究中達 90.5%，但仍需結合臨床表現、病史與其他檢查綜合判斷，不應僅依賴超音波結果做出診斷。
+**原始研究準確率 90.5%**（Lichtenstein 2008, *Chest*）。
+這是急診呼吸困難 POCUS 的**金標準流程**。
 :::
 
-## 自我評估
+### 📊 BLUE Protocol 5 步驟流程
+
+```
+🚀 Step 1: 確認 Lung Sliding（前胸 upper + lower BLUE points）
+        ↓
+   有 sliding？
+   ├── 否 → 找 lung point + A-lines → 氣胸
+   └── 是 → ↓
+
+🚀 Step 2: A-lines vs B-lines？
+        ↓
+   ├── A-lines 為主 → A-profile
+   │   └── 加掃 DVT → 陽性 = PE；陰性 = COPD/氣喘
+   ├── B-lines 雙側瀰漫 → B-profile → 肺水腫
+   └── B-lines 不對稱 → B'-profile → ARDS / 肺炎
+
+🚀 Step 3: PLAPS Point（後外側）
+        ↓
+   有 effusion？
+   有 consolidation？
+   ├── 是 → C-profile → 肺炎、塌陷
+   └── 否 → 繼續
+
+🚀 Step 4: Consolidation 評估
+        ↓
+   ├── Dynamic air bronchogram → 肺炎
+   └── Static air bronchogram → 肺塌陷
+
+🚀 Step 5: A-profile 加做 DVT
+        ↓
+   下肢 CFV / PopV CUS
+   ├── 壓不扁 → DVT 陽性 → 強懷疑 PE
+   └── 通暢 → COPD / 氣喘
+```
+
+### 📋 7 大 Profile 對照表
+
+| Profile | 肺發現 | DVT | 對應診斷 | BLUE 準確率 |
+|:-------:|--------|:---:|----------|:----------:|
+| **A-profile** | A-lines + sliding | (-) | COPD / 氣喘 | 89% |
+| **A-profile + DVT** | A-lines + sliding | **(+)** | **肺栓塞** | 81% |
+| **B-profile** | 雙側瀰漫 B-lines + sliding | — | **肺水腫** | 95% |
+| **B'-profile** | 雙側 B-lines + sliding 消失 | — | 肺炎 | 中 |
+| **A/B-profile** | 一側 A、一側 B | — | 肺炎 | 中 |
+| **C-profile** | Anterior consolidation | — | 肺炎 | 高 |
+| **A'-profile** | A-lines + sliding 消失 | — | **氣胸** | 高 |
+
+: BLUE Protocol 7 大 profile + 對應診斷 {.striped .hover tbl-colwidths="[18,32,8,28,14]"}
+
+::: {.callout-warning}
+## ⚠️ BLUE Protocol 不是萬能
+
+- 原始研究**準確率 90.5%**，**不是 100%**
+- 需結合**臨床表現、病史、其他檢查**
+- **不能取代心臟 POCUS**（須加 RUSH 評估 PE 的右心徵象）
+- 罕見 profile（如 multiple pathology）需個別判讀
+:::
+
+## 🪤 常見鑑別錯誤
+
+::: {.callout-caution}
+## ⚠️ 4 大常見錯誤
+
+1. **看到 B-lines 就以為是肺水腫** — 還可能是 ARDS、肺炎、肺纖維化
+2. **沒做 PLAPS point** — 漏掉後背實變與積液
+3. **A-profile 沒加掃 DVT** — 漏掉 PE 診斷
+4. **Lung sliding 消失就喊氣胸** — 沒找 lung point 不能確診
+:::
+
+## 💬 自我評量
+
+::: {.callout-note}
+## 🗣️ 課堂討論
+
+1. **Barcode sign** 最可能的診斷？
+2. **B-profile**（lung sliding + 多 B-lines）最可能診斷？
+3. 對氣胸**特異度最高**的徵象？
+4. BLUE Protocol 中 **A-profile** 為什麼要加做 DVT？
+:::
+
+## ✅ 自我評估
 
 ::: {.content-visible when-format="html"}
 
-**問題 1**：M-mode 下出現 Barcode sign（Stratosphere sign），最可能的診斷為何？
+::: {.callout-note appearance="default"}
+## 📝 問題 1
+**M-mode Barcode sign** 最可能診斷？
 
 - [ ] 肺水腫
 - [ ] 肺炎
-- [x] 氣胸
-- [ ] 正常肺部
+- [x] **氣胸**
+- [ ] 正常
+:::
 
-**問題 2**：BLUE Protocol 中，前胸壁 lung sliding 存在且以 B-lines 為主（B-profile），最可能的診斷為何？
+::: {.callout-note appearance="default"}
+## 📝 問題 2
+**B-profile**（sliding + 多 B-lines）最可能診斷？
 
-- [x] 肺水腫
+- [x] **肺水腫**
 - [ ] 氣胸
 - [ ] COPD
 - [ ] 肺栓塞
+:::
 
-**問題 3**：下列何者對氣胸的診斷具有最高的特異性？
+::: {.callout-note appearance="default"}
+## 📝 問題 3
+對氣胸**特異度最高**的徵象？
 
 - [ ] A-lines
 - [ ] Lung sliding 消失
 - [ ] Barcode sign
-- [x] Lung point
+- [x] **Lung point**
+:::
 
 ::: {.callout-tip collapse="true"}
-## 顯示答案解析
+## 💡 顯示答案解析
 
-1. **Barcode sign** 代表 M-mode 下 lung sliding 消失，上下方均為平行線條，是氣胸的典型表現。
-2. **B-profile**（lung sliding 存在 + 多條 B-lines）在 BLUE Protocol 中對應肺水腫的診斷。
-3. **Lung point** 是氣胸邊界處 lung sliding 存在與消失的交界，對氣胸的診斷特異性接近 100%。
+1. **Barcode sign** = M-mode 上下都是平行線（無沙灘），是 lung sliding 消失的客觀化，
+   配合 A-lines = 強烈懷疑氣胸。
+2. **B-profile** = sliding 存在 + 多 B-lines，BLUE Protocol 對應**肺水腫**，準確率 95%。
+3. **Lung point** 是氣胸 sliding 存在 / 消失的交界，**特異度接近 100%**，是確診金標準。
+   但敏感度只 ~ 65%（大量氣胸找不到邊界）。
 :::
 
 :::
@@ -150,12 +248,26 @@ BLUE Protocol 的診斷準確率在原始研究中達 90.5%，但仍需結合臨
 ::: {.callout-tip}
 ## 自我評估
 
-本課程包含互動式自我評估題目，請訪問線上版本完成測驗。
+請訪問線上版本完成測驗。
 :::
 :::
 
-## 參考閱讀
+## 🎓 回家三句話
 
-1. Lichtenstein, D.A. & Meziere, G.A. Relevance of lung ultrasound in the diagnosis of acute respiratory failure: the BLUE protocol. *Chest* 134(1), 117-125 (2008)
-2. Lichtenstein, D.A. Lung ultrasound in the critically ill. *Ann. Intensive Care* 4, 1 (2014)
-3. Karen S. Cosby et al. *Practical Guide to Emergency Ultrasound*, chapter 5
+::: {.callout-important}
+## 🏠 帶回家的 Take-home Messages
+
+1. **BLUE Protocol 5 步驟 + 7 profiles = 急診呼吸困難 POCUS 金標準** —
+   準確率 90.5%，但仍需配合臨床判斷。
+2. **氣胸確診靠 Lung point** — Sliding 消失 + Barcode 只是懷疑，
+   找到 lung point 才是 100% 特異。
+3. **A-profile 一定要加掃 DVT** — 是 PE 診斷的關鍵步驟，
+   不掃就漏掉這個致命診斷。
+:::
+
+## 📚 參考閱讀
+
+1. Lichtenstein DA, Mezière GA. **Relevance of lung ultrasound in the diagnosis of acute respiratory failure: the BLUE protocol.** *Chest.* 2008;134(1):117-125.
+2. Lichtenstein DA. **Lung ultrasound in the critically ill.** *Ann Intensive Care.* 2014;4(1):1.
+3. Volpicelli G, et al. **International evidence-based recommendations for point-of-care lung ultrasound.** *Intensive Care Med.* 2012;38(4):577-591.
+4. Cosby KS, et al. **Practical Guide to Emergency Ultrasound**, Ch. 5.

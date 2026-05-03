@@ -1,130 +1,217 @@
 ---
-title: "教案 30：解剖、生理、病理"
+title: "教案 30｜🫁 解剖、生理、病理"
 subtitle: "胸腔解剖與正常肺部超音波表現"
 author: "范程羿"
 date: last-modified
 categories: [呼吸喘, 解剖, 肺部超音波]
 ---
 
-## 課程目標
+::: {.callout-note appearance="minimal" icon="false"}
+## 📌 本課速覽
 
-::: {.callout-note}
-## 學習目標
-
-1. 認識胸腔的基本解剖結構，包括肋骨、肋間隙與肺葉分布
-2. 了解肋膜腔的結構與肺部超音波掃描的方法
-3. 辨識正常肺部超音波的基本表現：Bat sign、Lung sliding、A-lines、Seashore sign
+**胸腔解剖 + 「插口袋」掃描法 × 正常肺 4 大表現（Bat / Lung sliding / A-lines / Seashore）**
+這一課把**「為什麼正常肺幾乎看不到結構」**講清楚，
+並建立判讀**「artifact 的有無與型態」**的核心思維。
 :::
 
-## 胸腔解剖
-
-### 肋骨走向與肋間隙
-
-- 肋骨由後上方往前下方走行
-- 超音波探頭放置於肋間隙，以肋骨作為解剖定位標記
-- 前胸壁、側胸壁與後胸壁各有不同的掃描區域
-
-### 肺葉分布
+## 🎯 學習目標
 
 ::: {.callout-note}
-## 肺葉解剖
+## Learning Objectives
 
-- **左肺**：分為上葉與下葉（二葉）
-- **右肺**：分為上葉、中葉與下葉（三葉）
-- 口訣：「左二右三」
+1. 認識**胸腔解剖**：肋骨走向、肋間隙、肺葉分布。
+2. 了解**肋膜腔結構**與肺部 POCUS 掃描方法。
+3. 辨識**正常肺部 4 大徵象**：Bat sign、Lung sliding、A-lines、Seashore sign。
+4. 學會**「插口袋」探頭擺位**口訣。
+5. 理解 M-mode 在肺部 POCUS 的關鍵角色。
 :::
 
-### 肋膜腔結構
+## 🦴 胸腔解剖
 
-- **壁層胸膜（Parietal pleura）**：貼附於胸壁內側
-- **臟層胸膜（Visceral pleura）**：覆蓋於肺臟表面
-- 兩層胸膜之間為**肋膜腔**，正常含有少量潤滑液
+### 🩻 肋骨與肋間隙
 
-### 掃描口訣
+::: {.callout-note}
+## 解剖速記
+
+- **肋骨走向**：由後上方往前下方
+- **探頭位置**：放在**肋間隙**（避開肋骨後方音影）
+- **3 大掃描區**：前胸壁 / 側胸壁 / 後胸壁
+:::
+
+### 🫁 肺葉分布
 
 ::: {.callout-tip}
-## 掃描技巧：「插口袋」
+## 🎯 「左二右三」口訣
 
-探頭的擺放方式如同將手插入口袋，探頭標記朝向頭側，沿著肋間隙放置。此口訣有助於記憶正確的探頭方向與角度。
+| 肺 | 葉數 | 葉名 |
+|:--:|:----:|------|
+| **左肺** | 2 葉 | 上葉、下葉 |
+| **右肺** | 3 葉 | 上葉、中葉、下葉 |
+
+→ 為什麼左肺只有 2 葉？因為**心臟佔據左胸前下方**（cardiac notch）。
 :::
 
-## 正常肺部超音波表現
+### 🩸 肋膜腔結構
 
-### Bat Sign（蝙蝠徵象）
+| 結構 | 位置 | 功能 |
+|------|------|------|
+| **壁層胸膜** (Parietal pleura) | 貼附於胸壁內側 | 對應疼痛感知 |
+| **肋膜腔** (Pleural cavity) | 兩層之間 | 正常含**少量潤滑液**（< 10 mL） |
+| **臟層胸膜** (Visceral pleura) | 覆蓋於肺臟表面 | 與肺組織融合 |
 
-::: {.callout-note}
-## Bat Sign
+: 肋膜腔 3 層結構 {.striped tbl-colwidths="[28,30,42]"}
 
-兩根肋骨與其間的胸膜線（pleural line）共同形成蝙蝠狀的影像。
+## 🛠 掃描技巧 — 「插口袋」
 
-- 兩側肋骨為「翅膀」，後方伴隨聲影（acoustic shadow）
-- 中間的亮線為胸膜線（pleural line）
-- Bat sign 是肺部超音波定位的基本影像
+::: {.callout-tip}
+## 🎯 掃描口訣
+
+> **「插口袋」**：探頭擺放方式如同把手插入口袋，
+> 標記朝向**頭側**，沿肋間隙放置。
+
+→ 這個口訣有助於記憶**正確的探頭方向與角度**，避免初學者把標記放錯邊。
 :::
 
-### Lung Sliding（肺滑動徵象）
+| 區域 | 體位 | 探頭方向 | 主要評估 |
+|------|------|----------|----------|
+| **Upper BLUE point** | 仰臥 | 前胸第 2-3 肋間 | A-lines / B-lines / sliding |
+| **Lower BLUE point** | 仰臥 | 乳頭水平、腋前線 | A-lines / B-lines / sliding |
+| **PLAPS point** | 側臥 / 半坐 | 後外側、橫膈上方 | 肋膜積液 + 後肺實變 |
 
-- 呼吸時臟層與壁層胸膜之間的相對滑動
-- 在胸膜線上可見閃爍的滑動現象
-- **Lung sliding 存在 = 可排除該區域的氣胸**
+: BLUE Protocol 3 大掃描點 {.striped tbl-colwidths="[24,18,28,30]"}
+
+## 🦇 正常肺 4 大表現
 
 ::: {.callout-warning}
-## 重點提示
+## ⚠️ 4 個徵象，缺一個就要警覺
 
-Lung sliding 的消失不一定代表氣胸，也可能見於：肋膜沾黏、肺實質化、單側插管、呼吸暫停等情況。
+正常肺部應**同時看到** Bat sign + Lung sliding + A-lines + Seashore sign。
+任何一個消失或變化，就要思考可能的病理。
 :::
 
-### A-lines
+### 1️⃣ Bat Sign（蝙蝠徵象）— 解剖定位
 
-- 胸膜線的**等距離重複假影**（reverberation artifact）
-- 每條 A-line 與胸膜線之間的距離相等
-- A-lines 代表胸膜下方充滿空氣（正常充氣的肺臟或氣胸）
+::: {.callout-note}
+## 🩺 構成與意義
 
-### Seashore Sign（海岸徵象）
+| 結構 | 對應 |
+|------|------|
+| **兩側肋骨** | 蝙蝠的「翅膀」+ 後方音影 |
+| **中間胸膜線** | 蝙蝠的「身體」（亮線） |
 
-- **M-mode** 下正常肺部的表現
-- 胸膜線以上為平行的水平線條（代表靜止的胸壁），如同「海洋」
-- 胸膜線以下為顆粒狀的散點（代表滑動的肺臟），如同「沙灘」
-- 整體影像如同海岸線
+🔑 **作用**：是**肺部 POCUS 的解剖定位起手式** — 看到 Bat sign 就確認你掃對位置了。
+:::
 
-| 超音波表現 | 說明 | 臨床意義 |
-|-----------|------|---------|
-| Bat sign | 兩肋骨 + 胸膜線形成蝙蝠狀 | 基本定位標記 |
-| Lung sliding | 胸膜滑動現象 | 存在則排除該處氣胸 |
-| A-lines | 胸膜線等距重複假影 | 胸膜下方充滿空氣 |
-| Seashore sign | M-mode 海岸狀影像 | 正常肺滑動的確認 |
+### 2️⃣ Lung Sliding（肺滑動）— 排除氣胸的關鍵
 
-## 自我評估
+::: {.callout-note}
+## 🩺 機轉與意義
+
+- 呼吸時**臟層 + 壁層胸膜的相對滑動**
+- 在胸膜線上可見**閃爍的滑動現象**（shimmering）
+- **Lung sliding 存在 = 該區域可排除氣胸**（敏感度 > 95%）
+
+::: {.callout-caution}
+## ⚠️ Lung sliding 消失 ≠ 氣胸
+
+下列情況也會 lung sliding 消失：
+1. **肋膜沾黏**（pleural adhesion，常見於 TB、COPD）
+2. **肺實質化**（pneumonia、atelectasis）
+3. **單側支氣管插管**（一側無通氣）
+4. **呼吸暫停 / 麻痺**（無呼吸動作）
+
+→ 必須加掃 **A-lines + lung point** 才能確診氣胸。
+:::
+:::
+
+### 3️⃣ A-lines — 充氣肺的指紋
+
+::: {.callout-note}
+## 🩺 構成與意義
+
+- **胸膜線的等距重複假影**（reverberation artifact）
+- 每條 A-line 與胸膜線**距離相等**
+- **代表胸膜下方充滿空氣** → 正常肺 OR 氣胸（無法單獨區分）
+
+🔑 **判讀**：A-lines + Lung sliding = 正常；A-lines + 無 sliding = 氣胸。
+:::
+
+### 4️⃣ Seashore Sign（海岸徵象）— M-mode 確認
+
+::: {.callout-note}
+## 🩺 M-mode 表現
+
+| 區域 | 影像 | 對應結構 |
+|:----:|------|----------|
+| **胸膜線以上** | 平行水平線條 | 靜止的胸壁 → 「**海洋**」 |
+| **胸膜線以下** | 顆粒狀散點 | 滑動的肺臟 → 「**沙灘**」 |
+
+→ 整體呈現**海岸線狀** → Seashore sign = 正常肺滑動的客觀確認。
+:::
+
+## 📊 4 大正常徵象速查
+
+| 徵象 | 模式 | 描述 | 臨床意義 |
+|------|:----:|------|----------|
+| **Bat sign** | 2D | 兩肋骨 + 胸膜線 | 解剖定位 |
+| **Lung sliding** | 2D 動態 | 胸膜閃爍滑動 | 排除該區氣胸 |
+| **A-lines** | 2D | 胸膜線等距重複線 | 胸膜下方充氣 |
+| **Seashore sign** | M-mode | 海洋 + 沙灘 | 客觀確認 sliding |
+
+: 正常肺 4 大徵象速查 {.striped .hover tbl-colwidths="[22,12,36,30]"}
+
+## 💬 自我評量
+
+::: {.callout-note}
+## 🗣️ 課堂討論
+
+1. **Bat sign** 的組成包含哪些結構？
+2. M-mode 下正常肺部的表現是？
+3. **Lung sliding 存在**可以排除什麼診斷？
+4. 為什麼 lung sliding 消失不一定是氣胸？
+:::
+
+## ✅ 自我評估
 
 ::: {.content-visible when-format="html"}
 
-**問題 1**：Bat sign 的組成包含哪些結構？
+::: {.callout-note appearance="default"}
+## 📝 問題 1
+**Bat sign** 的組成包含？
 
-- [ ] 兩條 A-lines 與胸膜線
-- [x] 兩根肋骨與胸膜線
-- [ ] 一根肋骨與兩條 B-lines
-- [ ] 胸膜線與肺實質
+- [ ] 兩條 A-lines + 胸膜線
+- [x] **兩根肋骨 + 胸膜線**
+- [ ] 一根肋骨 + 兩條 B-lines
+- [ ] 胸膜線 + 肺實質
+:::
 
-**問題 2**：下列何者為 M-mode 下正常肺部的表現？
+::: {.callout-note appearance="default"}
+## 📝 問題 2
+**M-mode** 下正常肺部表現是？
 
 - [ ] Barcode sign
 - [ ] Stratosphere sign
-- [x] Seashore sign
+- [x] **Seashore sign**
 - [ ] Lung point
+:::
 
-**問題 3**：Lung sliding 存在可以排除下列何種診斷？
+::: {.callout-note appearance="default"}
+## 📝 問題 3
+**Lung sliding 存在**可以排除什麼？
 
 - [ ] 肺炎
 - [ ] 肋膜積液
-- [x] 氣胸（該掃描區域）
+- [x] **該掃描區域的氣胸**
 - [ ] 肺水腫
+:::
 
 ::: {.callout-tip collapse="true"}
-## 顯示答案解析
+## 💡 顯示答案解析
 
-1. **Bat sign** 由兩根肋骨（翅膀）與其間的胸膜線（身體）組成蝙蝠狀影像。
-2. **Seashore sign** 是正常肺部在 M-mode 下的表現，上方為水平線條（海洋），下方為顆粒狀散點（沙灘）。
-3. **Lung sliding** 代表臟層與壁層胸膜有接觸並滑動，因此可排除該區域的氣胸。
+1. **Bat sign** = 兩肋骨（翅膀）+ 胸膜線（身體），是肺部 POCUS 的解剖定位起手式。
+2. **Seashore sign** = M-mode 下海洋（靜止胸壁）+ 沙灘（滑動肺臟），是 sliding 的客觀確認。
+3. **Lung sliding 存在 = 該區域排除氣胸**（敏感度 > 95%）。
+   但 sliding 消失不一定是氣胸 — 也可能是肋膜沾黏、肺實變、單側插管。
 :::
 
 :::
@@ -133,12 +220,26 @@ Lung sliding 的消失不一定代表氣胸，也可能見於：肋膜沾黏、�
 ::: {.callout-tip}
 ## 自我評估
 
-本課程包含互動式自我評估題目，請訪問線上版本完成測驗。
+請訪問線上版本完成測驗。
 :::
 :::
 
-## 參考閱讀
+## 🎓 回家三句話
 
-1. Lichtenstein, D.A. Lung ultrasound in the critically ill. *Ann. Intensive Care* 4, 1 (2014)
-2. Karen S. Cosby et al. *Practical Guide to Emergency Ultrasound*, chapter 5
-3. John A. Marx et al. *Rosen's Emergency Medicine*, chapter 25: Dyspnea
+::: {.callout-important}
+## 🏠 帶回家的 Take-home Messages
+
+1. **「左二右三」+ 「插口袋」探頭口訣 = 肺 POCUS 的入門基礎** —
+   解剖記得 + 探頭擺對 = 一半成功。
+2. **正常肺 4 大徵象同時存在才是正常** — Bat / Sliding / A-lines / Seashore，
+   缺一個就要追究。
+3. **Lung sliding 消失 ≠ 氣胸** — 4 大常見原因（沾黏、實變、單側插管、無呼吸），
+   要加掃 A-lines + lung point 才能確診。
+:::
+
+## 📚 參考閱讀
+
+1. Lichtenstein DA. **Lung ultrasound in the critically ill.** *Ann Intensive Care.* 2014;4(1):1.
+2. Cosby KS, et al. **Practical Guide to Emergency Ultrasound**, Ch. 5.
+3. Marx JA, et al. **Rosen's Emergency Medicine**, Ch. 25: Dyspnea.
+4. Volpicelli G, et al. **International evidence-based recommendations for point-of-care lung ultrasound.** *Intensive Care Med.* 2012;38(4):577-591.

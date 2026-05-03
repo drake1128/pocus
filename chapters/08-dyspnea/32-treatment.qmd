@@ -1,141 +1,209 @@
 ---
-title: "教案 32：治療及後續追蹤"
-subtitle: "氣胸治療與超音波追蹤"
+title: "教案 32｜💊 治療及後續追蹤"
+subtitle: "氣胸治療與肺部超音波追蹤"
 author: "范程羿"
 date: last-modified
 categories: [呼吸喘, 治療, 追蹤]
 ---
 
-## 課程目標
+::: {.callout-note appearance="minimal" icon="false"}
+## 📌 本課速覽
 
-::: {.callout-note}
-## 學習目標
-
-1. 了解氣胸的各種治療方式及其適應症
-2. 學習使用肺部超音波追蹤治療效果
-3. 認識其他常見肺部疾病的超音波追蹤指標
+**氣胸 4 種治療階梯 × 4 大疾病 POCUS 追蹤指標 × 取代 X-ray 的床邊監測法**
+讀完之後，你會知道**「治療有效」的 POCUS 客觀指標**，
+以及為什麼 ICU 與急診應該**用 POCUS 取代反覆 X-ray 追蹤**。
 :::
 
-## 氣胸治療
+## 🎯 學習目標
 
-### 1. 觀察（小量氣胸）
+::: {.callout-note}
+## Learning Objectives
 
-- 適用於小量、無症狀或症狀輕微的氣胸
-- 給予高濃度氧氣可加速氣體再吸收
-- 需定期追蹤胸部 X 光或床邊超音波
+1. 了解**氣胸 4 種治療方式**及適應症。
+2. 學習用 **POCUS 即時追蹤治療效果**。
+3. 認識其他常見肺部疾病的 POCUS 追蹤指標。
+4. 理解 **POCUS 取代反覆 X-ray** 的臨床價值。
+:::
 
-### 2. 針刺減壓（張力性氣胸）
+## 💨 氣胸治療 4 階梯
 
 ::: {.callout-warning}
-## 緊急處置
+## ⚠️ 依氣胸量 + 症狀分級治療
 
-張力性氣胸為危及生命的急症，需立即進行 needle decompression：
+| 治療 | 適應症 | 部位 | 注意 |
+|:----:|--------|------|------|
+| **觀察** | 小量、無症狀 | — | **高濃度 O₂ 加速吸收**（4× 速度） |
+| **Needle decompression** | 張力性氣胸 | 第 2 肋間鎖中線 / 第 4-5 肋間 mid-axillary | 14-16G 針、聽到氣聲 |
+| **Chest tube** | 中至大量氣胸 | 第 4-5 肋間 mid-axillary | 標準引流方式 |
+| **Pigtail catheter** | 單純氣胸或積液 | 視位置 | 創傷小、可 US 導引 |
 
-- 部位：患側第二肋間隙，鎖骨中線
-- 使用 14-16G 的大口徑針頭
-- 針刺後應可聽到氣體排出的聲音
-- 成功減壓後需接續放置胸管
+: 氣胸 4 種治療對照 {.striped .hover tbl-colwidths="[18,28,32,22]"}
 :::
-
-### 3. 胸管置放（中至大量氣胸）
-
-- 適用於中至大量的氣胸，或針刺減壓後的後續處置
-- 置入部位：患側第四至第五肋間隙，腋中線
-- 接上引流系統（water seal drainage）
-- 觀察氣泡排出與肺部復張情形
-
-### 4. Pigtail Catheter（豬尾巴引流管）
-
-- 較胸管細小，置入創傷較少
-- 適用於單純性氣胸或肋膜積液的引流
-- 可在超音波導引下安全置入
-- 病人舒適度較傳統胸管佳
-
-| 治療方式 | 適應症 | 特點 |
-|---------|--------|------|
-| 觀察 | 小量、無症狀 | 高濃度氧氣加速吸收 |
-| 針刺減壓 | 張力性氣胸 | 緊急處置，需後續胸管 |
-| 胸管置放 | 中至大量氣胸 | 標準引流方式 |
-| Pigtail catheter | 單純性氣胸、積液 | 創傷小，舒適度佳 |
-
-## 超音波追蹤
-
-::: {.callout-note}
-## 追蹤原則
-
-肺部超音波可作為治療效果的即時追蹤工具，避免反覆照射 X 光，特別適合重症加護病房與急診的床邊評估。
-:::
-
-### 氣胸追蹤
-
-- **治療目標**：Lung sliding 恢復
-- 治療前：Lung sliding 消失 + A-lines + Barcode sign
-- 治療後：Lung sliding 恢復 + Seashore sign
-- Lung point 位置的移動可評估氣胸範圍的變化
-
-### 肋膜積液追蹤
-
-- **治療目標**：積液量減少
-- 引流前後比較肋膜腔內液體的量
-- 可使用超音波量化積液量（測量最大積液深度）
-- 追蹤引流管位置是否適當
-
-### 肺水腫追蹤
-
-- **治療目標**：B-lines 減少
-- 利尿治療前後比較 B-lines 的數量與分布
-- B-lines 數量的減少代表肺泡間質水分改善
-- 可作為利尿劑療效的即時評估指標
-
-### 肺炎追蹤
-
-- **治療目標**：實變範圍縮小
-- 追蹤 consolidation 的範圍大小
-- 觀察 air bronchogram 的變化（動態 vs. 靜態）
-- 動態 air bronchogram 提示肺炎；靜態 air bronchogram 提示肺塌陷
 
 ::: {.callout-tip}
-## 臨床小技巧
+## 🎯 高濃度氧氣加速吸收的原理
 
-定期使用超音波追蹤可以：
-
-- 早期發現治療無效或病情惡化
-- 減少不必要的放射線暴露
-- 即時調整治療策略
-- 作為與病人及家屬溝通的輔助工具
+正常呼吸時 PTX 內含氮氣（78%），體內氮分壓也高 → 吸收緩慢。
+給予 **100% O₂** → 氮氣被沖走 → PTX 內全是氧氣（體內 O₂ 分壓低）→ **吸收速度 ×4**。
 :::
 
-## 自我評估
+::: {.callout-warning}
+## 🚨 Tension PTX 緊急處置 SOP
+
+1. **第 2 肋間鎖中線**（傳統位置） **或** **第 4-5 肋間 mid-axillary**（成人首選 — 胸壁較薄）
+2. **14-16G 大口徑針**
+3. 聽到 **「噗」的氣聲** = 成功減壓
+4. **隨後接續 chest tube** — needle 只是急救過渡
+:::
+
+### 🔬 Pigtail Catheter 的優勢
+
+| 項目 | Chest tube | **Pigtail** |
+|------|:----------:|:-----------:|
+| 直徑 | 24-32 Fr | **8-14 Fr** |
+| 創傷 | 較大 | **小** |
+| 病人舒適度 | 痛 | **較佳** |
+| US 導引 | 不易 | **容易** |
+| 適應症 | 大量血胸、膿胸 | 單純氣胸、漿液積液 |
+
+: Chest tube vs Pigtail 比較 {.striped tbl-colwidths="[24,38,38]"}
+
+## 🔁 POCUS 追蹤 — 4 大疾病指標
+
+::: {.callout-note}
+## 🎯 為什麼用 POCUS 追蹤？
+
+1. **即時** — 不用等送 X-ray 室
+2. **無輻射** — 重症 / 孕婦 / 兒童特別重要
+3. **可量化** — B-lines 數、effusion 深度
+4. **動態** — 觀察 air bronchogram 動 vs 靜
+:::
+
+### 1️⃣ 氣胸追蹤
+
+| 治療前 | 治療後（成功）|
+|--------|--------------|
+| Sliding 消失 + A-lines + Barcode | **Sliding 恢復 + Seashore sign** |
+| Lung point 在某位置 | Lung point **向外側移動 → 消失** |
+
+: 氣胸追蹤前後對照 {.striped tbl-colwidths="[50,50]"}
+
+→ Sliding 完全恢復 + 無 lung point = 完全復張，可拔管。
+
+### 2️⃣ 肋膜積液追蹤
+
+| 評估點 | 量化方法 |
+|--------|----------|
+| **PLAPS point** | 量最大積液**深度** (cm) |
+| **粗估體積** | 深度 × 50 mL（粗略換算） |
+| **性質** | Anechoic 漿液；echogenic 出血/膿；septation 複雜 |
+| **引流管位置** | US 導引下確認尖端在最佳位置 |
+
+: 肋膜積液 4 大追蹤項 {.striped tbl-colwidths="[28,72]"}
+
+→ 治療目標：**積液深度逐漸減少**。
+
+### 3️⃣ 肺水腫追蹤
+
+::: {.callout-tip}
+## 🎯 B-lines 半定量追蹤
+
+利尿治療前後比較：
+
+- **8-zone 或 28-zone 評分** — 每區 B-lines 數量加總
+- 治療前：總分高（嚴重 = 20-30+）
+- 治療後 30-60 min：**總分逐漸下降**
+- B-lines 減少 = 肺泡間質水分減少 = **利尿有效**
+:::
+
+### 4️⃣ 肺炎追蹤
+
+| 追蹤項目 | 改善指標 |
+|----------|----------|
+| **Consolidation 範圍** | 縮小 |
+| **Air bronchogram** | 從 dynamic 變 static（仍可表示纖維化） |
+| **Pleural effusion** | 是否續發 parapneumonic effusion |
+| **動態追蹤** | 每 24-48 hr 比對 |
+
+: 肺炎 POCUS 追蹤 4 項 {.striped tbl-colwidths="[36,64]"}
+
+::: {.callout-caution}
+## 🪤 Air bronchogram 的判讀
+
+- **Dynamic air bronchogram**（呼吸時氣管會動）= **肺炎**（仍有部分通氣）
+- **Static air bronchogram**（不動）= **肺塌陷**（atelectasis，已無通氣）
+
+→ 兩者鑑別影響治療：肺炎抗生素 vs 塌陷恢復通氣。
+:::
+
+## 💡 POCUS vs 反覆 X-ray
+
+::: {.callout-tip}
+## 🎯 POCUS 取代反覆 X-ray 的 5 大優勢
+
+1. **即時** — 床邊 5 分鐘
+2. **無輻射** — 可頻繁追蹤
+3. **動態** — 看到呼吸時的變化
+4. **量化** — B-lines 數、effusion 深度
+5. **可教學** — 病人 + 家屬可同時看到改善
+
+→ ICU 與急診應**逐步用 POCUS 取代反覆 portable CXR**。
+:::
+
+## 💬 自我評量
+
+::: {.callout-note}
+## 🗣️ 課堂討論
+
+1. **張力性氣胸 needle decompression** 應在何處進行？
+2. 用超音波追蹤**肺水腫**治療效果，看什麼？
+3. 肺炎追蹤的**重要 POCUS 指標**？
+4. **Dynamic vs Static air bronchogram** 的鑑別意義？
+5. POCUS 取代 X-ray 的**主要優勢**？
+:::
+
+## ✅ 自我評估
 
 ::: {.content-visible when-format="html"}
 
-**問題 1**：張力性氣胸的 needle decompression 應在何處進行？
+::: {.callout-note appearance="default"}
+## 📝 問題 1
+**Tension PTX needle decompression** 標準位置？
 
-- [x] 患側第二肋間隙，鎖骨中線
-- [ ] 患側第五肋間隙，腋中線
-- [ ] 患側第四肋間隙，腋前線
-- [ ] 健側第二肋間隙，鎖骨中線
+- [x] **第 2 肋間鎖骨中線**
+- [ ] 第 5 肋間腋中線
+- [ ] 第 4 肋間腋前線
+- [ ] 健側第 2 肋間鎖中線
+:::
 
-**問題 2**：使用超音波追蹤肺水腫的治療效果，應觀察下列何者的變化？
+::: {.callout-note appearance="default"}
+## 📝 問題 2
+追蹤**肺水腫**治療效果應觀察什麼？
 
 - [ ] A-lines 數量
-- [x] B-lines 數量
+- [x] **B-lines 數量**
 - [ ] Lung sliding 速度
 - [ ] Bat sign 大小
+:::
 
-**問題 3**：下列何者為肺炎超音波追蹤的重要指標？
+::: {.callout-note appearance="default"}
+## 📝 問題 3
+**肺炎 POCUS 追蹤**的重要指標？
 
 - [ ] A-lines 消失
 - [ ] Lung point 移動
-- [x] Consolidation 範圍與 air bronchogram 變化
+- [x] **Consolidation 範圍 + air bronchogram 變化**
 - [ ] Seashore sign 出現
+:::
 
 ::: {.callout-tip collapse="true"}
-## 顯示答案解析
+## 💡 顯示答案解析
 
-1. **第二肋間隙、鎖骨中線**是 needle decompression 的標準位置，此處胸壁較薄且避開主要血管。
-2. **B-lines 數量**的減少代表肺泡間質水分改善，是追蹤肺水腫治療效果的最佳超音波指標。
-3. **Consolidation 範圍與 air bronchogram** 的變化是追蹤肺炎治療效果的重要指標，範圍縮小代表治療有效。
+1. **第 2 肋間鎖骨中線** 是傳統位置（避開乳內動脈）。成人也可選 **第 4-5 肋間 mid-axillary**
+   （胸壁更薄、更易成功）。新版 ATLS 兩者皆接受。
+2. **B-lines 數量** 反映肺泡間質水分。利尿有效 → B-lines 30-60 min 內減少。
+3. **Consolidation 範圍 + air bronchogram 變化** 是肺炎追蹤關鍵 —
+   範圍縮小 + dynamic → static 都是改善訊號。
 :::
 
 :::
@@ -144,12 +212,38 @@ categories: [呼吸喘, 治療, 追蹤]
 ::: {.callout-tip}
 ## 自我評估
 
-本課程包含互動式自我評估題目，請訪問線上版本完成測驗。
+請訪問線上版本完成測驗。
 :::
 :::
 
-## 參考閱讀
+## 🏆 本章總結
 
-1. Lichtenstein, D.A. Lung ultrasound in the critically ill. *Ann. Intensive Care* 4, 1 (2014)
-2. Roberts, D.J. et al. Clinical Manifestations of Tension Pneumothorax. *J Trauma Acute Care Surg* 2015
-3. Karen S. Cosby et al. *Practical Guide to Emergency Ultrasound*, chapter 5
+::: {.callout-important}
+## 🌟 第八章關鍵要點
+
+1. **VDQ 框架是呼吸喘鑑別的基礎** — 通氣 / 擴散 / 灌流，避免漏掉 PE。
+2. **跳脫定錨偏誤** — POCUS 早期介入 = 客觀影像取代主觀判斷。
+3. **正常肺 4 大徵象 + BLUE Protocol** = 診斷準確率 90.5%。
+4. **氣胸確診靠 Lung point**（特異度 ~ 100%）。
+5. **POCUS 追蹤取代反覆 X-ray** — 即時、無輻射、可量化。
+:::
+
+## 🎓 回家三句話
+
+::: {.callout-important}
+## 🏠 帶回家的 Take-home Messages
+
+1. **氣胸治療 4 階梯：觀察 → needle → chest tube → pigtail** —
+   依量 + 症狀分級，張力性氣胸不等任何檢查直接 needle decompression。
+2. **POCUS 追蹤的客觀指標 = 治療有效的證據** — Lung sliding 恢復、B-lines 減少、
+   effusion 縮小、consolidation 變小。
+3. **Dynamic vs Static air bronchogram 影響治療方向** — Dynamic = 肺炎（抗生素）；
+   Static = 肺塌陷（恢復通氣）。
+:::
+
+## 📚 參考閱讀
+
+1. Lichtenstein DA. **Lung ultrasound in the critically ill.** *Ann Intensive Care.* 2014;4(1):1.
+2. Roberts DJ, et al. **Clinical Manifestations of Tension Pneumothorax: Protocol for a Systematic Review and Meta-Analysis.** *J Trauma Acute Care Surg.* 2015;78(5):1029-1034.
+3. Cosby KS, et al. **Practical Guide to Emergency Ultrasound**, Ch. 5.
+4. Volpicelli G, et al. **International evidence-based recommendations for point-of-care lung ultrasound.** *Intensive Care Med.* 2012;38(4):577-591.

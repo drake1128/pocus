@@ -1,25 +1,78 @@
 ---
-title: "呼吸喘"
-subtitle: "Dyspnea"
+title: "🫁 呼吸喘"
+subtitle: "Dyspnea — BLUE Protocol 與肺部 5 大徵象"
 ---
 
-![封面圖 — BLUE Protocol 肺部掃描區域](../../images/封面圖%20—%20BLUE%20Protocol%20肺部掃描區域.jpeg){fig-alt="BLUE Protocol 肺部掃描區域：上肺區、下肺區、PLAPS 點（Posterolateral Alveolar and/or Pleural Syndrome）"}
+![封面圖 — BLUE Protocol 肺部掃描區域](../../images/封面圖%20—%20BLUE%20Protocol%20肺部掃描區域.jpeg){fig-alt="BLUE Protocol 肺部掃描區域：上肺區、下肺區、PLAPS 點"}
 
-## 章節簡介
+::: {.callout-note appearance="minimal" icon="false"}
+## 🎯 本章導讀
 
-呼吸喘為急診與住院病人常見的主訴，背後可能的診斷多樣，即時的診斷才能給予對應的治療。
+呼吸喘是急診**最常被定錨偏誤誤判**的主訴 —「**COPD 病人就一定是 COPD 惡化嗎？**」
+本章用 4 堂課帶您從 **症狀辨識 → 肺部 POCUS 解剖 → BLUE Protocol → 治療追蹤**，
+建立一套用 **「肺 5 大徵象 + 心臟 + 下肢」** 在 5 分鐘內準確診斷的工作流，
+**BLUE Protocol 原始研究準確率達 90.5%**（Lichtenstein 2008）。
 
-## 關鍵超音波影像
+**對應范程羿醫師原始教案・編修整合：呼吸與肺部急症系列 #08**
+:::
+
+## 📖 章節簡介
+
+呼吸喘的鑑別診斷涵蓋 **「呼吸 (V) / 擴散 (D) / 灌流 (Q)」** 3 大面向，
+從 **氣胸、肺水腫、肺炎、PE** 到 **氣喘、COPD 惡化、上呼吸道阻塞**，
+傳統靠聽診 + CXR + ABG 容易耗時且漏診。
+**BLUE Protocol**（Lichtenstein 2008）整合**肺滑動 + A/B-lines + 實變 + 積液 + DVT**，
+在床邊 5 分鐘內把急性呼吸衰竭分到 7 種主要 profile，**準確率 90.5%**。
+
+## 🖼️ 關鍵超音波影像
 
 ![診斷圖 — 肺部超音波五大徵象](../../images/診斷圖%20—%20肺部超音波五大徵象.jpeg){fig-alt="肺部超音波五大徵象：A-lines、B-lines、肺實質化、胸腔積液、肺滑動消失"}
 
-## 本章課程
+## 🚨 呼吸喘 5 大殺手（先排除這 5 個）
 
-1. [教案 29：症狀辨識](29-symptoms.qmd)
-2. [教案 30：解剖、生理、病理](30-anatomy.qmd)
-3. [教案 31：診斷流程與鑑別診斷](31-diagnosis.qmd)
-4. [教案 32：治療及後續追蹤](32-treatment.qmd)
+::: {.callout-warning}
+## ⚠️ 5 大致命診斷與 POCUS 對應
 
-## 編修醫師
+| 致命診斷 | POCUS 招牌 | 處置 |
+|----------|-----------|------|
+| 💨 **Tension PTX** | 無 lung sliding + barcode + lung point | Needle decompression |
+| 🫁 **Massive PE** | RV 大、D-sign、McConnell + DVT (+) | tPA / 取栓 |
+| 💧 **Acute pulmonary edema** | 雙側瀰漫 B-lines + LV 差 | Lasix + NTG + NIPPV |
+| 🦠 **Severe pneumonia / ARDS** | Consolidation + air bronchogram | 抗生素 + 呼吸支持 |
+| 🚨 **Status asthmaticus** | A-lines + silent chest（聽不到 wheeze）| 強化氣管擴張 + steroid |
 
-范程羿 醫師
+: 呼吸喘 5 大致命診斷 + POCUS 對照 {.striped .hover tbl-colwidths="[28,42,30]"}
+:::
+
+## 🎓 學習目標
+
+::: {.callout-note}
+## 📋 完成本章後，學習者應能夠
+
+1. 用 **VDQ 框架**（Ventilation/Diffusion/Perfusion）系統性鑑別呼吸喘。
+2. 認識**定錨偏誤**對診斷的危害，並會用 POCUS 跳脫框架。
+3. 識別**正常肺部 4 大表現**：Bat sign、Lung sliding、A-lines、Seashore sign。
+4. 操作 **BLUE Protocol** 5 步驟，會分到 7 種主要 profile。
+5. 熟練 **氣胸 / 肺水腫 / 肺炎 / 肋膜積液**的 POCUS 追蹤指標。
+:::
+
+## 📚 本章四堂課程
+
+::: {.callout-tip appearance="default"}
+## 課程地圖
+
+| 教案 | 主題 | 重點 | 連結 |
+|:----:|------|------|------|
+| 2️⃣9️⃣ | **症狀辨識** | COPD anchoring 案例 + VDQ 框架 + 4 大急症 | [前往 →](29-symptoms.qmd) |
+| 3️⃣0️⃣ | **解剖、生理、病理** | 胸腔解剖 + 正常肺 POCUS 4 大表現 | [前往 →](30-anatomy.qmd) |
+| 3️⃣1️⃣ | **診斷流程與鑑別診斷** | 肺 5 大徵象 + BLUE Protocol 7 profiles | [前往 →](31-diagnosis.qmd) |
+| 3️⃣2️⃣ | **治療及後續追蹤** | 氣胸 4 治療 + 4 種疾病的 POCUS 追蹤 | [前往 →](32-treatment.qmd) |
+
+: 第八章四堂課程一覽 {.striped tbl-colwidths="[10,28,42,20]"}
+:::
+
+## 👨‍⚕️ 編修醫師
+
+::: {.callout-note appearance="minimal" icon="false"}
+**范程羿 醫師**　・　肺部 POCUS 教學負責人（Module 08）
+:::

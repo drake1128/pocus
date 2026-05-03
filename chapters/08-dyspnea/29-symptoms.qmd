@@ -1,168 +1,236 @@
 ---
-title: "教案 29：症狀辨識"
+title: "教案 29｜🩺 症狀辨識"
 subtitle: "呼吸喘的症狀辨識與緊急處置"
 author: "范程羿"
 date: last-modified
 categories: [呼吸喘, 症狀辨識, POCUS]
 ---
 
-## 課程目標
+::: {.callout-note appearance="minimal" icon="false"}
+## 📌 本課速覽
 
-::: {.callout-note}
-## 學習目標
-
-1. 學習評估呼吸喘的嚴重程度，認識呼吸喘可能伴隨的症狀表現
-2. 學習即時辨識出需要緊急處置的急症，以及使用床邊超音波診斷的時機
-3. 認識呼吸喘常見可能的鑑別診斷，及各疾病的解剖、生理與病理基礎
+**1 個 COPD 病人「其實是氣胸」的定錨陷阱案例 × VDQ 鑑別框架 × 4 大需立刻處置的呼吸急症**
+讀完之後，你會知道為什麼「**過去病史是診斷最大的干擾**」，
+以及為什麼**所有呼吸喘病人都該掃 lung sliding**。
 :::
 
-## 案例介紹
+## 🎯 學習目標
 
-::: {.callout-tip appearance="simple"}
-## 臨床案例
+::: {.callout-note}
+## Learning Objectives
 
-62 歲有慢性阻塞性肺病病史的男性，主訴近兩週呼吸變喘，伴隨咳嗽，這兩天喘的情形加劇。
+1. 學習評估**呼吸喘嚴重程度**與伴隨症狀。
+2. **即時辨識需緊急處置的急症**，並掌握 POCUS 介入時機。
+3. 認識呼吸喘**常見鑑別診斷**及解剖、生理、病理基礎。
+4. 理解**定錨偏誤 (anchoring bias)** 的危害並學會跳脫。
+:::
 
-**生命徵象**
+## 📋 案例介紹
 
-| 項目 | 數值 |
+::: {.callout-tip appearance="default"}
+## 🧓 臨床案例　62 歲男性・「COPD 惡化」其實是氣胸
+
+62 歲男性，**慢性阻塞性肺病** 病史，主訴**近 2 週呼吸變喘 + 咳嗽**，**最近 2 天加劇**。
+
+**🩺 Vital Signs**
+
+| 項目 | 數值 | 解讀 |
+|------|------|------|
+| 體溫 | 無發燒 | 排除感染主因 |
+| 血壓 | 128 / 71 | 邊界 |
+| 心跳 | **115** | 🚨 心搏過速 |
+| **血氧** | **80 %** | 🚨🚨 嚴重低血氧 |
+
+病人**呼吸極度費力 + 無法躺平**。
+
+**🪤 第一線陷阱**：
+
+> 「62 歲 COPD 病人 + 喘 + 低血氧 → 一定是 **COPD 惡化**！」
+
+→ 急救室標準 SOP 開始：steroid + bronchodilator + nebulized treatment...
+**但效果不好。**
+
+**🔬 真正診斷**：CXR 發現**右側肺部氣胸**！置入 **pigtail catheter** 後，喘的情形才明顯改善。
+
+🔑 **關鍵教訓**：
+- COPD 是**自發性氣胸高危族群**（肺大泡破裂）
+- **過去病史 = 診斷的最大干擾源**
+- 若一開始就掃 lung sliding，**3 秒內可診斷氣胸**
+:::
+
+::: {.callout-warning}
+## ⚠️ 關於定錨偏誤 (Anchoring Bias)
+
+**定錨偏誤** = 醫師因第一個資訊（過去病史 / 主訴）就過度鎖定一個診斷，
+**忽略其他可能性**。
+
+**避開定錨的 3 招**：
+1. **系統性掃描**（不依靠主觀判斷的順序）
+2. **強制鑑別清單**（每個主訴都有標準鑑別）
+3. **POCUS 早期介入**（用客觀影像取代主觀解讀）
+:::
+
+## 🧠 鑑別診斷 — VDQ 框架
+
+::: {.callout-note}
+## 🩺 用呼吸生理 3 大面向分類
+
+| 面向 | 機轉 | 代表疾病 |
+|:----:|------|----------|
+| **🌬 Ventilation**（通氣） | 氣體進出受阻 | 呼吸道阻塞、腹水、嗎啡中毒、肋骨骨折、氣喘、COPD |
+| **🔄 Diffusion**（擴散） | 氣體交換受阻 | 肺炎、**肺水腫**、肋膜積液、**氣胸** |
+| **🩸 Perfusion**（灌流） | 肺血流受阻 | **肺栓塞**、心包填塞、酸血症、心肌梗塞 |
+
+: 呼吸喘 VDQ 鑑別框架 {.striped .hover tbl-colwidths="[20,30,50]"}
+:::
+
+## 💬 病史詢問 — LQQOPERA 完整版
+
+::: {.callout-note}
+## 🗣️ 系統性問史
+
+| 項目 | 問什麼 | 線索 |
+|------|--------|------|
+| **L**ocation | 喘從哪來？胸？喉？ | 上呼吸道 vs 下呼吸道 |
+| **Q**uality | 吸不到 vs 呼不出？ | obstructive vs restrictive |
+| **Q**uantity | 能講幾個字？ | 嚴重度分級 |
+| **O**nset | 急性 vs 漸進？ | 急性 → PE / PTX；漸進 → CHF / COPD |
+| **P**rovocation | 什麼會加重？ | 平躺加重 → 心源性 |
+| **E**xacerbation | 平躺加重？端坐？ | Orthopnea / PND → CHF |
+| **R**adiation | 伴隨胸痛？放射？ | PE、MI、AD |
+| **A**ssociated | 咳嗽？發燒？水腫？腳腫？| 找關鍵訊號 |
+
+: LQQOPERA 8 軸問史 {.striped tbl-colwidths="[18,40,42]"}
+:::
+
+## 🚨 4 大需緊急處置的呼吸急症
+
+::: {.callout-warning}
+## ⚠️ 認出這 4 個 = 救命
+
+每一個都需要**立刻處置**，等 CT 就太慢。
+:::
+
+### 1️⃣ Tension Pneumothorax
+
+| 線索 | POCUS |
+|------|-------|
+| **單側無呼吸音 + 過強叩診音 (hyperresonance)** | 無 lung sliding + barcode |
+| **氣管偏移、頸靜脈怒張** | + lung point 確診 |
+| **心搏過慢 / 低血壓**（晚期）| 縱膈偏移 |
+
+→ **立刻 needle decompression**（第 2 肋間鎖中線 / 第 4-5 肋間 mid-axillary）
+→ 隨後放 chest tube。
+
+### 2️⃣ 上呼吸道阻塞
+
+| 表現 | 可能病因 | 處置 |
+|------|----------|------|
+| **Stridor + 異物吞入史** | 氣道異物 | **Heimlich maneuver** |
+| **喉嚨痛 + 吞嚥困難 + 流口水** | Epiglottitis | 氧氣 + 抗生素 + 氣道準備 |
+| **全身紅疹 + 低血壓** | Anaphylaxis | **IM Epinephrine 0.3-0.5 mg** |
+| **伸舌不出 + 雙頸腫** | Ludwig's angina | 氣道優先 + 抗生素 + 外科 |
+
+### 3️⃣ 心衰竭與肺水腫
+
+| 線索 | POCUS |
+|------|-------|
+| **全身水腫 + JVE** | 雙側瀰漫 B-lines |
+| **聽診 rales** | LV 收縮差或瓣膜異常 |
+| **器官灌流下降**（cool extremities）| IVC 擴張固定 |
+
+→ NIPPV + Lasix + NTG（詳見 Module 02 急性肺水腫）。
+
+### 4️⃣ Status Asthmaticus（重積型氣喘）
+
+| 線索 | 警訊 |
 |------|------|
-| 體溫 | 無發燒 |
-| 血壓 | 128/71 mmHg |
-| 心跳 | 115 次/分 |
-| 血氧 | 80% |
+| 氣喘病史 + wheezing | 仍可說話 → 中等 |
+| **無法說完一句話** | 嚴重 |
+| **Silent chest（聽不到 wheeze）** | 🚨 **極嚴重 — 即將呼吸衰竭** |
+| 意識變化、坐起來呼吸 | 必須插管 |
 
-病人呼吸相當費力，無法躺平。病人一開始的表現加上過去病史，會讓醫師很快地定錨（Anchoring）在慢性阻塞性肺病惡化的診斷上。然而病人照完 X 光才發現右側肺部氣胸。在急救室內放置豬尾巴引流管後，喘的情形才有明顯改善。
+→ 強化 bronchodilator + steroid + 必要時插管 + ECMO 後援。
+
+::: {.callout-tip}
+## 🎯 「Silent Chest」的弔詭
+
+氣喘**最嚴重的時候反而聽不到 wheeze** — 因為氣道阻塞太厲害，
+**根本沒氣流通過**就無法產生哮鳴音。**Silent chest = 即將呼吸停止**。
 :::
 
-::: {.callout-warning}
-## 重點提示
-
-此案例提醒我們：面對呼吸喘的病人，切勿因為過去病史而過早定錨（Anchoring bias），應系統性地排除各種可能的鑑別診斷。
-:::
-
-## 鑑別診斷
-
-呼吸喘的鑑別診斷可依據呼吸生理的三個面向來分類：
-
-### 呼吸（Ventilation）
-
-影響氣體進出肺部的病因：
-
-- 呼吸道阻塞（異物、腫瘤）
-- 腹水（限制橫膈膜運動）
-- 嗎啡中毒（呼吸中樞抑制）
-- 肋骨骨折（疼痛限制呼吸）
-- 重積型氣喘、慢性阻塞性肺病惡化
-
-### 擴散（Diffusion）
-
-影響氣體在肺泡交換的病因：
-
-- 肺炎
-- 肺水腫
-- 肋膜積水
-- 氣胸
-
-### 灌流（Perfusion）
-
-影響肺部血流的病因：
-
-- 肺栓塞
-- 心包填塞
-- 酸血症
-- 心肌梗塞
-
-## 病史詢問
+## 🔬 肺部超音波物理原理
 
 ::: {.callout-note}
-## LQQOPERA 病史詢問架構
+## 🩺 為什麼正常肺看不到？
 
-系統性地詢問呼吸喘的病史，有助於縮小鑑別診斷的範圍：
+超音波從**軟組織進入空氣會大量散射**，所以正常肺臟在 POCUS 下幾乎看不到結構。
 
-- **L**ocation：喘的感覺來源？胸部？喉嚨？
-- **Q**uality：喘的性質？吸不到氣？呼氣困難？
-- **Q**uantity：嚴重程度？能講幾個字？
-- **O**nset：何時開始？急性或漸進？
-- **P**rovocation / Palliation：什麼會加重或緩解？
-- **E**xacerbating / Relieving：平躺會加重嗎？坐起來會改善嗎？
-- **R**adiation：是否有相關的放射性症狀？
-- **A**ssociated symptoms：伴隨症狀？胸痛？咳嗽？發燒？水腫？
+**肺部 POCUS 的判讀邏輯與其他器官不同** — 我們看的不是「器官本身」，
+而是**「假影 (artifact) 的有無與型態」**。
+
+| 物理現象 | 觀察到的徵象 |
+|----------|-------------|
+| 正常肺含氣 → 全反射 | A-lines、lung sliding |
+| 肺泡水腫 → 部分傳導 | B-lines |
+| 實變 → 變實質 | Hepatization、air bronchogram |
+| 氣胸 → 完全無接觸 | No sliding、barcode、lung point |
 :::
 
-## 需緊急處置的急症
-
-::: {.callout-warning}
-## 緊急處置
-
-以下為需要立即辨識並處置的急症：
-:::
-
-### 1. 張力性氣胸
-
-- 注意心搏過慢或低血壓的表現
-- 理學檢查：單側無呼吸音、叩診高回音性（hyperresonance）
-- 需立即進行 needle decompression
-
-### 2. 上呼吸道阻塞
-
-- Stridor + 異物吞入病史 → 哈姆立克法（Heimlich maneuver）
-- 喉嚨痛 + 吞嚥困難 → 考慮會厭炎（epiglottitis）
-- 全身紅疹 + 低血壓 → 過敏性休克（anaphylaxis）
-
-### 3. 心衰竭與肺水腫
-
-- 全身水腫、頸靜脈怒張
-- 聽診可聞及 rales（濕囉音）
-- 器官灌流下降的徵象
-
-### 4. 重積型氣喘（Status asthmaticus）
-
-- 氣喘病史、聽診可聞及 wheezing
-- 可能快速進展至呼吸衰竭
-- 注意 silent chest 代表極度嚴重
-
-## 肺部超音波原理
+## 💬 自我評量
 
 ::: {.callout-note}
-## 超音波物理原理
+## 🗣️ 課堂討論
 
-超音波從軟組織進到空氣會發散，故超音波看正常的肺部是很困難的。肺部超音波有很大部份是藉由**假影（artifact）**的變化來找出病理變化。
-
-正因為如此，肺部超音波的判讀邏輯與其他器官不同——我們觀察的不是器官本身的影像，而是假影的有無與型態變化。
+1. 呼吸喘鑑別 **VDQ 框架** 各包含哪些診斷？
+2. 案例最終診斷氣胸，**初始診斷偏誤** 屬於哪一種？
+3. **張力性氣胸**的緊急處置？
+4. 為什麼 silent chest 是**最嚴重**的氣喘表現？
+5. 肺部 POCUS 為什麼要**看 artifact** 而不是器官本身？
 :::
 
-## 自我評估
+## ✅ 自我評估
 
 ::: {.content-visible when-format="html"}
 
-**問題 1**：呼吸喘的鑑別診斷中，下列何者屬於「灌流（Perfusion）」面向的病因？
+::: {.callout-note appearance="default"}
+## 📝 問題 1
+**肺栓塞**屬於 VDQ 哪一個面向？
 
-- [ ] 氣胸
-- [ ] 肺炎
-- [x] 肺栓塞
-- [ ] 呼吸道阻塞
+- [ ] Ventilation
+- [ ] Diffusion
+- [x] **Perfusion**
+- [ ] 三者皆是
+:::
 
-**問題 2**：案例中的病人最終診斷為氣胸，下列何者最能解釋醫師初始的診斷偏誤？
+::: {.callout-note appearance="default"}
+## 📝 問題 2
+案例最終診斷氣胸，**初始診斷偏誤**是？
 
-- [ ] 確認偏誤（Confirmation bias）
-- [x] 定錨偏誤（Anchoring bias）
-- [ ] 可得性偏誤（Availability bias）
-- [ ] 框架效應（Framing effect）
+- [ ] Confirmation bias
+- [x] **Anchoring bias**
+- [ ] Availability bias
+- [ ] Framing effect
+:::
 
-**問題 3**：張力性氣胸的緊急處置為何？
+::: {.callout-note appearance="default"}
+## 📝 問題 3
+**張力性氣胸**的緊急處置？
 
-- [ ] 放置胸管
-- [x] Needle decompression
-- [ ] 給予氧氣觀察
-- [ ] 緊急開胸手術
+- [ ] 放 chest tube
+- [x] **Needle decompression**
+- [ ] 給 O₂ 觀察
+- [ ] 緊急開胸
+:::
 
 ::: {.callout-tip collapse="true"}
-## 顯示答案解析
+## 💡 顯示答案解析
 
-1. **肺栓塞**屬於灌流面向的病因，影響肺部血流。氣胸與肺炎屬於擴散面向，呼吸道阻塞屬於呼吸面向。
-2. **定錨偏誤（Anchoring bias）**是指醫師因病人有 COPD 病史而過早鎖定在 COPD 惡化的診斷上，忽略了其他可能性。
-3. **Needle decompression** 是張力性氣胸的第一線緊急處置，可迅速降低胸腔內壓力。
+1. **肺栓塞 → 灌流 (Q)** — 肺血流受阻。氣胸 / 肺炎 → 擴散；呼吸道阻塞 → 通氣。
+2. **Anchoring bias** — 因 COPD 病史過度鎖定 COPD 惡化，忽略其他可能。
+   避開的方法 = 系統性掃描 + 強制鑑別 + POCUS 早期介入。
+3. **Needle decompression** 是張力性氣胸的第一線處置 — 立刻減壓，
+   隨後接續 chest tube。
 :::
 
 :::
@@ -171,12 +239,26 @@ categories: [呼吸喘, 症狀辨識, POCUS]
 ::: {.callout-tip}
 ## 自我評估
 
-本課程包含互動式自我評估題目，請訪問線上版本完成測驗。
+請訪問線上版本完成測驗。
 :::
 :::
 
-## 參考閱讀
+## 🎓 回家三句話
 
-1. Lichtenstein, D.A. Lung ultrasound in the critically ill. *Ann. Intensive Care* 4, 1 (2014)
-2. Karen S. Cosby et al. *Practical Guide to Emergency Ultrasound*, chapter 5
-3. John A. Marx et al. *Rosen's Emergency Medicine*, chapter 25: Dyspnea
+::: {.callout-important}
+## 🏠 帶回家的 Take-home Messages
+
+1. **VDQ 框架是呼吸喘鑑別的起手式** — 通氣 / 擴散 / 灌流 各對應不同病灶，
+   別只想到「肺」的問題。
+2. **過去病史是定錨偏誤的最大來源** — 「COPD 病人喘」不一定是 COPD 惡化。
+   POCUS 早期介入可以跳脫主觀判斷。
+3. **Silent chest = 即將呼吸停止** — 氣喘最嚴重時反而聽不到 wheeze，
+   這是必須立刻插管的訊號。
+:::
+
+## 📚 參考閱讀
+
+1. Lichtenstein DA, Mezière GA. **Relevance of lung ultrasound in the diagnosis of acute respiratory failure: the BLUE protocol.** *Chest.* 2008;134(1):117-125.
+2. Lichtenstein DA. **Lung ultrasound in the critically ill.** *Ann Intensive Care.* 2014;4(1):1.
+3. Cosby KS, et al. **Practical Guide to Emergency Ultrasound**, Ch. 5.
+4. Marx JA, et al. **Rosen's Emergency Medicine**, Ch. 25: Dyspnea.
