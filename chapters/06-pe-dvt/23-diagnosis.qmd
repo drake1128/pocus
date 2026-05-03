@@ -1,136 +1,303 @@
 ---
-title: "教案 23：病理機轉、診斷流程與鑑別診斷"
-subtitle: "DVT 壓迫測試與 PE 心臟超音波發現"
+title: "教案 23｜🔍 病理機轉、診斷流程與鑑別診斷"
+subtitle: "DVT 4-point CUS 與 PE 5 大右心徵象"
 author: "謝慕揚、林彥良"
 date: last-modified
 categories: [肺栓塞, DVT, 診斷流程]
 ---
 
-## 課程目標
+::: {.callout-note appearance="minimal" icon="false"}
+## 📌 本課速覽
+
+**Virchow's Triad × 4-point CUS SOP × PE 心臟 5 大徵象 × 6 種右心擴大鑑別**
+這一課把「**腿評估 + 心評估**」雙刀流講完整，
+並用 **5 種右心擴大病因**避免把所有「右心大」都當 PE 治。
+:::
+
+## 🎯 課程目標
 
 ::: {.callout-note}
 ## 學習目標
 
-1. 學會執行下肢深層靜脈的 4-point compression test
-2. 了解 DVT 超音波陽性的判斷標準
-3. 熟悉急性肺栓塞在心臟超音波上的典型發現
-4. 能夠整合臨床與超音波資訊進行鑑別診斷
+1. 理解 **Virchow's Triad** 三大病理機轉。
+2. 學會操作 **4-point compression test (CUS)** 並掌握判斷標準。
+3. 認識急性 PE 心臟超音波 **5 大徵象**：RV 擴大、D-sign、McConnell、TAPSE↓、IVC plethora。
+4. 鑑別 **6 種右心擴大病因**，避免誤診。
+5. 整合 POCUS、ECG、D-dimer、Troponin、NT-proBNP 進行 risk stratification。
 :::
 
-## DVT 超音波診斷
-
-### 4-Point Compression Test
+## 🩸 Virchow's Triad — 血栓形成三大機轉
 
 ::: {.callout-warning}
-## 重點提示
+## ⚠️ 1856 年 Virchow 提出至今仍是血栓研究的基石
 
-4-point compression test 是床邊診斷 DVT 最實用的超音波技術，敏感度與特異度皆高。
+VTE 的所有風險因子都可歸納到這 3 類之一（或多類）。
 :::
 
-在以下四個解剖位置，使用線性探頭對靜脈進行橫切面壓迫：
+| 機轉 | 病態 | 代表族群 |
+|------|------|----------|
+| **🩸 內皮損傷** (Endothelial injury) | 血管壁完整性破壞 | 手術、創傷、CVC、燒傷、感染 |
+| **🐌 血流停滯** (Stasis) | 靜脈血流速度過低 | 臥床、長途旅行、肥胖、心衰、下肢 paralysis |
+| **🧪 高凝狀態** (Hypercoagulability) | 凝血/抗凝平衡傾向凝血 | 惡性腫瘤、APS、口服避孕、懷孕、Factor V Leiden |
 
-| 壓迫點 | 解剖位置 | 說明 |
-|--------|----------|------|
-| 第 1 點 | Common Femoral Vein（CFV） | 腹股溝韌帶下方 |
-| 第 2 點 | Saphenofemoral Junction | GSV 匯入 CFV 處 |
-| 第 3 點 | Superficial Femoral Vein（SFV） | 大腿中段 |
-| 第 4 點 | Popliteal Vein | 膝窩處 |
+: Virchow's Triad 三大機轉與代表族群 {.striped tbl-colwidths="[28,28,44]"}
 
-### DVT 陽性判斷標準
+## 🟦 DVT 超音波診斷 — 4-Point Compression Test (CUS)
 
-| 陽性發現 | 說明 |
-|----------|------|
-| 壓迫後靜脈無法完全塌陷 | 最重要的陽性指標，正常靜脈應可被完全壓扁 |
-| 直接可視血栓 | 管腔內可見高回音或低回音的血栓 |
-| 無彩色血流 | Color Doppler 下靜脈內無血流訊號 |
+::: {.callout-warning}
+## ⚠️ 4-point CUS 是床邊 DVT 診斷金標準
+
+對於 **proximal DVT** 敏感度 90-100%、特異度 95-99%（Bhatt 2020 meta）。
+**B-mode 壓不扁就夠**，Color 是輔助。
+:::
+
+### 🗺 4 個標準壓迫點
+
+| 站 | 位置 | 體表標記 | 應觀察 |
+|:--:|------|----------|--------|
+| **1** | **CFV**（總股靜脈） | 腹股溝韌帶下方、CFA 內側 | 完全壓扁？ |
+| **2** | **SFJ**（saphenofemoral junction） | CFV 下方 1-2 cm，GSV 匯入處 | 完全壓扁？SFJ 內血栓？ |
+| **3** | **SFV**（淺股靜脈 = Femoral V.） | 大腿前內側、SFA 內側 | 完全壓扁？ |
+| **4** | **PopV**（膕靜脈） | 膕窩、PopA 後方 | 完全壓扁？ |
+
+: 4-Point CUS 標準 4 站 {.striped .hover tbl-colwidths="[8,32,40,20]"}
+
+### ✅ DVT 陽性 3 大判斷標準
+
+::: {.callout-warning}
+## 🚨 看到任一個就是陽性
+
+| 陽性發現 | 解讀 | 重要性 |
+|----------|------|:------:|
+| **靜脈無法完全壓扁**（loss of coaptation） | 管腔內有血栓阻擋 | 🥇 最重要 |
+| **直接可視血栓** | 高回音（慢性）或低回音（急性）團塊 | 🥈 次要 |
+| **Color Doppler 無血流** | 完全阻塞 | 🥉 輔助 |
+
+: DVT 陽性 3 大判斷指標 {.striped tbl-colwidths="[40,40,20]"}
+:::
+
+### 🛠 操作技巧（4 大要點）
 
 ::: {.callout-tip}
-## 操作技巧
+## 🎯 蕭氏壓迫法
 
-- 壓迫時需使用足夠力量，確認動脈仍有搏動但靜脈已被壓扁
-- 正常靜脈在壓迫下應完全塌陷（coaptation）
-- 若靜脈無法完全塌陷，即使未直接看到血栓，仍應視為陽性
+1. **力道標準** — 壓到「**動脈微微變形**」即可，正常靜脈會完全塌陷
+2. **短軸橫切** — 用 short axis 看靜脈最直接，long axis 容易誤判
+3. **節節壓迫** — 從 CFV 往下，**每 1-2 cm 壓一次**，避免漏掉局部血栓
+4. **呼吸 + augmentation** — 補充手法：擠遠端腳掌看血流增強，
+   有 augmentation = 通暢；無 = 遠端阻塞
 :::
 
-## PE 心臟超音波發現
+### 🪤 CUS 5 大常見錯誤
+
+::: {.callout-caution}
+## ⚠️ 別讓這些技巧錯誤毀掉你的診斷
+
+1. **力道太輕** → 假陰性（深靜脈本來就要用力才能壓扁）
+2. **力道太重** → 假陽性（連動脈也壓扁、肌肉變形）
+3. **只看 1 站就下診斷** → 漏掉局部血栓
+4. **慢性血栓誤當急性** → 慢性是 echogenic + collateral；急性是 hypoechoic + 擴張
+5. **calf DVT 漏掉** → 4-point CUS 不涵蓋小腿肌肉靜脈，
+   高臨床懷疑時要加掃 SOL（比目魚）/ GAS（腓腸）
+:::
+
+## 🫀 急性 PE 心臟超音波 5 大徵象
 
 ::: {.callout-warning}
-## 重點提示
+## ⚠️ POCUS 不能直接看到肺動脈血栓
 
-心臟超音波無法直接看到肺動脈內的血栓，但可以偵測到急性右心負荷增加的間接證據。
+但能偵測**急性右心壓力過載**的 5 個間接證據 — 這 5 個徵象組合起來，
+對急性 submassive / massive PE 的特異度可達 90% 以上。
 :::
 
-| 超音波發現 | 說明 |
-|------------|------|
-| RV 擴大 | RV/LV ratio > 1（Apical 4-Chamber view） |
-| D-sign | 心室中隔向左偏移（Parasternal Short-Axis view） |
-| McConnell's sign | RV free wall akinesia with apical sparing |
-| TR jet velocity 上升 | RVSP 估計值上升 |
-| IVC 擴張 | > 2.1 cm 且無呼吸變異（plethoric IVC） |
+### 🔬 5 大徵象速查表
 
-### 各項發現的臨床意義
+| # | 徵象 | 切面 | 量化指標 | 臨床意義 |
+|:-:|------|:----:|----------|----------|
+| 1️⃣ | **RV 擴大** | A4C | RV/LV ratio **> 1.0** | 急性右心壓力過載 |
+| 2️⃣ | **D-sign** | PSAX | Septum 在 systole + diastole 都向左凸 | 右心壓力 > 左心 |
+| 3️⃣ | **McConnell's sign** | A4C | RV free wall akinesia + apical sparing | **PE 高度特異**（94%） |
+| 4️⃣ | **TAPSE ↓** | A4C M-mode | **< 16 mm** | RV 收縮功能下降 |
+| 5️⃣ | **IVC plethora** | Subcostal | > 2.1 cm + 變異 < 50% | 右心壓力升高 |
 
-- **RV 擴大與 D-sign**：反映急性右心壓力負荷增加，心室中隔被推向左側，使左心室在短軸切面呈現 "D" 字形
-- **McConnell's sign**：RV 游離壁運動不良但心尖部仍有收縮，對急性 PE 具有高度特異性
-- **TR jet velocity 上升**：透過三尖瓣逆流速度估算 RVSP，間接反映肺動脈壓力
-- **IVC 擴張**：反映右心充盈壓升高，> 2.1 cm 且吸氣時無塌陷提示 RAP 升高
+: 急性 PE 心臟 POCUS 5 大徵象 {.striped .hover tbl-colwidths="[5,28,12,30,25]"}
 
-## 鑑別診斷
+### 1️⃣ RV 擴大（RV/LV ratio > 1.0）
 
 ::: {.callout-note}
-## 右心擴大的鑑別診斷
+## 🩺 量測方法
 
-並非所有右心擴大都是肺栓塞！需要鑑別的情況包括：
+- **A4C 切面**，舒張末期測量
+- 量 **RV mid-cavity diameter** vs **LV mid-cavity diameter**
+- **正常**：RV/LV ≤ 0.6
+- **急性 PE**：RV/LV > 1.0（嚴重時甚至 > 2.0）
 
-- 慢性肺動脈高壓（chronic pulmonary hypertension）
-- 右心衰竭（right heart failure）
-- 急性右心梗塞（RV infarction）
-- 心包填塞（cardiac tamponade）
-- 張力性氣胸（tension pneumothorax）
+⚠️ 慢性 PH 也會 RV 擴大 — 要看「**RV wall 厚度**」鑑別：
+**急性 PE** RV wall < 5 mm（沒時間肥厚）；**慢性 PH** RV wall > 5 mm。
 :::
 
-## 討論議題
+### 2️⃣ D-sign（Septum 推向左）
 
 ::: {.callout-note}
-## 討論
+## 🩺 量測方法
 
-1. 4-point compression test 的敏感度與特異度各為多少？
-2. McConnell's sign 與慢性右心擴大的 RV wall motion 有何不同？
-3. IVC 擴張且無呼吸變異，除了 PE 以外還可能代表什麼？
-4. 如何區分急性與慢性右心負荷增加？
+- **PSAX 短軸**，看左心室在 mid-papillary 高度
+- 正常 LV 應該是 **「O」型**（圓形）
+- 急性 PE：LV 變成 **「D」型** —— septum 被右心高壓往左推
+- **整個心動週期都 D-shape** = septal flattening；**只有舒張期 D** = volume overload；
+  **只有收縮期 D** = pressure overload
 :::
 
-## 自我評估
+### 3️⃣ McConnell's sign（RV free wall akinesia + apical sparing）
+
+::: {.callout-note}
+## 🩺 量測方法
+
+- **A4C 切面**動態觀察 RV
+- **特徵**：RV 中段游離壁不動，但 RV 心尖（apex）仍有收縮
+- **特異度高（94%）但敏感度只 ~ 70%** — 不是每個 PE 都有
+- 機轉：apex 因為與 LV 共享室中隔被 LV 拉動，所以**「假性正常」**
+:::
+
+::: {.callout-caution}
+## 🪤 McConnell's sign 不是 PE 專屬！
+
+**RV infarction、ARDS、慢性肺高壓急性化** 也可能出現類似徵象。
+配合 D-sign + RV wall 厚度 + 病史才能下診斷。
+:::
+
+### 4️⃣ TAPSE（Tricuspid Annular Plane Systolic Excursion）
+
+::: {.callout-note}
+## 🩺 量測方法
+
+- **A4C 切面**
+- M-mode cursor 放在**三尖瓣外側 annulus**
+- 量收縮期 annulus **向心尖位移的距離**
+- **正常 ≥ 17 mm**
+- **< 16 mm** → RV 收縮功能下降 → 急性 PE 預後不良指標
+- **< 10 mm** → severe RV failure
+:::
+
+### 5️⃣ IVC plethora
+
+::: {.callout-note}
+## 🩺 量測方法
+
+- **Subcostal 長軸**，量 IVC 在距離右心房 2 cm 處的直徑
+- **直徑 > 2.1 cm** + **吸氣變異 < 50%** = plethora
+- 對應 **RA 壓 ≈ 15 mmHg**
+- 反映右心壓力升高 + 容量過載
+:::
+
+### 🎁 加分徵象（進階）
+
+| 徵象 | 解讀 |
+|------|------|
+| **60/60 sign** | PAT < 60 ms + TR PG < 60 mmHg → 急性 PE 高特異度 |
+| **TR jet velocity ↑** | 估算 RVSP 升高 |
+| **RV/LV ratio in subcostal** | 替代 A4C 量測，無 A4C 視窗時可用 |
+| **Pulmonary artery 內 thrombus** | 罕見直接看到，但 100% 確診 |
+
+: 急性 PE 加分徵象 {.striped tbl-colwidths="[35,65]"}
+
+## ⚖️ 右心擴大 — 6 大鑑別診斷
+
+::: {.callout-warning}
+## ⚠️ 別把所有「右心大」都當 PE 治！
+
+| # | 鑑別 | 線索 |
+|:-:|------|------|
+| 1 | **急性 PE** | RV 薄壁 (< 5 mm) + D-sign + McConnell + 急性發作 |
+| 2 | **慢性 PH**（COPD / OSA / IPF） | RV 厚壁 (> 5 mm) + 慢性病史 + 右心衰徵象 |
+| 3 | **RV infarction**（多合併下壁 STEMI） | 右導程 ST↑ + 下壁 RWMA |
+| 4 | **Cardiac tamponade** | 心包積液 + 右心**塌陷**（不是擴大） |
+| 5 | **Tension pneumothorax** | 無 lung sliding + barcode sign + 縱膈偏移 |
+| 6 | **ARDS / 嚴重肺炎** | B-lines 瀰漫 + 雙側不對稱 + 病史 |
+
+: 6 種右心擴大鑑別 {.striped .hover tbl-colwidths="[5,32,63]"}
+:::
+
+## 🧭 整合判讀流程（PE risk stratification）
+
+::: {.callout-tip}
+## 🎯 ESC 2019 PE 嚴重度分級
+
+| 分級 | 血壓 / 灌流 | RV dysfunction | Troponin | POCUS | 治療 |
+|------|-------------|:--------------:|:--------:|-------|------|
+| 🟢 **Low-risk** | 穩定 | 無 | 正常 | 5 大徵象皆無 | 抗凝 |
+| 🟡 **Intermediate-low** | 穩定 | 輕度 | 正常 | RV/LV 邊界 | 抗凝 + 監測 |
+| 🟠 **Intermediate-high** | 穩定 | 明顯 | 升高 | 5 大徵象 ≥ 2 | 抗凝 ± 溶栓（個案） |
+| 🔴 **High-risk (massive)** | **不穩定 / 休克** | 明顯 | 升高 | 5 大徵象 ≥ 3 | **溶栓 / 取栓 / ECMO** |
+
+: ESC 2019 PE 4 級分層 {.striped .hover tbl-colwidths="[20,18,15,12,15,20]"}
+:::
+
+## 💬 討論議題
+
+::: {.callout-note}
+## 🗣️ 課堂討論
+
+1. **4-point CUS 的敏感度與特異度為什麼這麼高？** （提示：proximal DVT 的解剖位置）
+2. **McConnell's sign 與慢性 RV 擴大怎麼區分？** （提示：apical sparing + 急性 vs 慢性）
+3. **IVC plethora 除了 PE 還可能代表什麼？** （提示：tamponade、RV failure、容量過多）
+4. **如何區分急性 vs 慢性右心負荷？** （提示：RV wall 厚度、PAT、臨床病程）
+:::
+
+## ✅ 自我評估
 
 ::: {.content-visible when-format="html"}
 
-**問題 1**：4-point compression test 中，以下何者**不是**標準壓迫點？
+::: {.callout-note appearance="default"}
+## 📝 問題 1
+**4-point compression test** 中，下列何者**不是**標準壓迫點？
 
 - [ ] Common Femoral Vein
 - [ ] Saphenofemoral Junction
-- [x] Posterior Tibial Vein
+- [x] **Posterior Tibial Vein**
 - [ ] Popliteal Vein
+:::
 
-**問題 2**：心臟超音波顯示 RV/LV ratio > 1 且心室中隔向左偏移，這最可能代表什麼？
+::: {.callout-note appearance="default"}
+## 📝 問題 2
+心臟超音波 **RV/LV > 1 + D-sign**，最可能代表？
 
 - [ ] 左心衰竭
-- [x] 急性右心壓力負荷增加
+- [x] **急性右心壓力負荷增加**
 - [ ] 心包積液
 - [ ] 主動脈瓣狹窄
+:::
 
-**問題 3**：關於 McConnell's sign，以下敘述何者正確？
+::: {.callout-note appearance="default"}
+## 📝 問題 3
+關於 **McConnell's sign**，何者正確？
 
 - [ ] RV 所有壁段皆無運動
 - [ ] LV 游離壁運動不良
-- [x] RV free wall akinesia 但 apical segment 仍有收縮
+- [x] **RV free wall akinesia + apical 仍有收縮**
 - [ ] RV apex 無運動但 free wall 正常
+:::
+
+::: {.callout-note appearance="default"}
+## 📝 問題 4
+**急性 PE vs 慢性肺高壓**最佳的鑑別超音波指標是？
+
+- [ ] RV/LV ratio
+- [ ] D-sign
+- [x] **RV 游離壁厚度（< 5 mm 急性、> 5 mm 慢性）**
+- [ ] IVC 直徑
+:::
 
 ::: {.callout-tip collapse="true"}
-## 顯示答案解析
+## 💡 顯示答案解析
 
-1. **Posterior Tibial Vein** 不包含在標準的 4-point compression test 中。標準四點為 CFV、Saphenofemoral junction、SFV、Popliteal vein。
-2. **RV/LV ratio > 1 合併 D-sign** 是急性右心壓力負荷增加的典型表現，常見於 massive 或 submassive PE。
-3. **McConnell's sign** 的定義為 RV free wall akinesia with apical sparing，對急性 PE 具有高度特異性，可與慢性右心擴大做區別。
+1. **PTV 不在標準 4-point CUS** — 標準四點為 CFV / SFJ / SFV / PopV。
+   PTV 屬於小腿深靜脈，4-point CUS 不涵蓋；高度懷疑 calf DVT 才加掃。
+2. **RV/LV > 1 + D-sign = 急性右心壓力過載** — submassive 或 massive PE 的典型表現。
+3. **McConnell's sign = RV free wall akinesia + apical sparing**，特異度 94%。
+   機轉是 apex 受 LV 牽引而「假性正常」。
+4. **RV 壁厚是急慢性鑑別的最佳單一指標** — 急性 PE 沒時間讓 RV 肥厚（< 5 mm）；
+   慢性 PH 因長期壓力過載而厚壁（> 5 mm）。
 :::
 
 :::
@@ -143,8 +310,23 @@ categories: [肺栓塞, DVT, 診斷流程]
 :::
 :::
 
-## 參考閱讀
+## 🎓 回家三句話
 
-1. Bedside echo for chest pain: an algorithm for education and assessment. *Advances in Medical Education and Practice* 2016:7 293-300
-2. *Pocket Guide to POCUS*, Chapter 8 & 10
-3. Frederick A. Anderson Jr. & Frederick A. Spencer. Risk Factors for Venous Thromboembolism. *Circulation*. 2003; 107: I9-I16
+::: {.callout-important}
+## 🏠 帶回家的 Take-home Messages
+
+1. **DVT 床邊診斷 = 4-point CUS** — CFV / SFJ / SFV / PopV，**B-mode 壓不扁就是陽性**，
+   敏感度 90-100% / 特異度 95-99%。
+2. **PE 心臟 5 大徵象 = RV 擴大 / D-sign / McConnell / TAPSE↓ / IVC plethora** —
+   ≥ 2 個徵象 + 臨床懷疑就要當 submassive PE 治。
+3. **不是所有右心大都是 PE** — 用 **RV 壁厚** 鑑別急慢性，
+   配合心包、肺、ECG 排除 5 個其他鑑別。
+:::
+
+## 📚 參考閱讀
+
+1. Konstantinides SV, et al. **2019 ESC Guidelines for the diagnosis and management of acute pulmonary embolism.** *Eur Heart J.* 2020;41(4):543-603.
+2. McConnell MV, et al. **Regional right ventricular dysfunction detected by echocardiography in acute pulmonary embolism.** *Am J Cardiol.* 1996;78(4):469-473.
+3. Bhatt M, et al. **Diagnosis of deep vein thrombosis of the lower extremity: a systematic review and meta-analysis of test accuracy.** *Blood Adv.* 2020;4(7):1250-1264.
+4. Rudski LG, et al. **Guidelines for the echocardiographic assessment of the right heart in adults (ASE).** *J Am Soc Echocardiogr.* 2010;23(7):685-713.
+5. Lang RM, et al. **Recommendations for cardiac chamber quantification by echocardiography in adults.** *J Am Soc Echocardiogr.* 2015;28(1):1-39.

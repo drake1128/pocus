@@ -1,160 +1,269 @@
 ---
-title: "教案 21：症狀辨識"
+title: "教案 21｜🩺 症狀辨識"
 subtitle: "靜脈栓塞與急性肺栓塞的症狀辨識"
 author: "謝慕揚、林彥良"
 date: last-modified
 categories: [肺栓塞, DVT, 症狀辨識, POCUS]
 ---
 
-## 課程目標
+::: {.callout-note appearance="minimal" icon="false"}
+## 📌 本課速覽
+
+**3 個臨床案例（術後 PE / 突發 PEA / SVC 阻塞） × VTE 5 種臨床光譜 × Wells / Geneva score**
+讀完之後，你會知道為什麼**「術後第 5 天突然喘起來」是 VTE 直到證明不是**，
+以及為什麼 **CVC 病人雙手腫脹**比想像中常見。
+:::
+
+## 🎯 課程目標
 
 ::: {.callout-note}
 ## 學習目標
 
-1. 透過不同案例，讓學生更了解 POCUS 的使用時機
-2. 了解靜脈栓塞與急性肺栓塞可能存在有生命危險之診斷
-3. 藉由 POCUS 可以幫助臨床醫師發現或排除這些潛在的急重症
+1. 透過**真實案例**，理解 POCUS 在 VTE 床邊診斷的角色與限制。
+2. 認識 VTE **多樣化臨床表現**（從 asymptomatic 到 PEA 猝死）。
+3. 學會用 **Wells / Geneva 評分**配合 POCUS 進行 risk stratification。
+4. 理解為什麼「**有 DVT 就有可能有 PE**、有 PE 也常找得到 DVT」這個雙評估邏輯。
 :::
 
-## 案例介紹
+## 📋 案例介紹
+
+> 📝 **建議學習方式**：每個案例先想「**這個病人現在會死嗎？我先做什麼？**」，
+> 再回頭看 POCUS 怎麼幫忙。
 
 ::: {.panel-tabset}
 
-### 案例一
+### 案例一｜術後 5 天突然喘
 
-::: {.callout-tip appearance="simple"}
-## 案例一：術後下肢腫脹合併呼吸困難
+::: {.callout-tip appearance="default"}
+## 🧓 案例一　77 歲女性・術後 PE
 
-77 歲女性，過去有慢性腎病長期在門診追蹤。一週前因摔倒導致左大腿骨折，接受手術進行內固定後，躺床數天才開始逐漸練習下床活動。然而第一天在病房下床復健後，病患覺得有點喘。
+77 歲女性，慢性腎臟病門診追蹤中。**1 週前**因摔倒導致左大腿骨折，
+接受**內固定手術**後**臥床 5 天**才開始下床復健。
+**第一天下床後**，病患覺得**有點喘**。
 
-**生命徵象**
+**🩺 生命徵象**
 
-| 項目 | 數值 |
-|------|------|
-| 體溫 | 37.0°C |
-| 心跳 | 101 次/分 |
-| 呼吸 | 21 次/分 |
-| 血壓 | 108/67 mmHg |
-| 血氧 | 91% |
+| 項目 | 數值 | 解讀 |
+|------|------|------|
+| 體溫 | 37.0 °C | 正常 |
+| 心跳 | **101 次/分** | ⚠️ 心搏過速 |
+| 呼吸 | 21 次/分 | 邊界（hyperventilation 補氧） |
+| 血壓 | 108 / 67 mmHg | 邊界（脈壓窄） |
+| **血氧** | **91 % (Room Air)** | 🚨 低血氧 |
 
-病患主訴除了喘以外，手術後左大腿和小腿也越來越緊繃，理學檢查顯示左大腿明顯比右大腿腫脹，且兩邊大腿腿圍相差 8 cm。
+**🩻 理學檢查**
+
+- **左大腿明顯比右大腿腫脹**
+- 雙側大腿腿圍**相差 8 cm**（> 3 cm 即顯著）
+- 左小腿緊繃 + Homan's sign(+)（雖然敏感度不高）
+
+🔑 **關鍵字**：術後 + 臥床 + 下床突發喘 + 單側下肢腫 + SpO₂↓ → **DVT + PE 經典三件套**
+
+**Wells PE score 估計**：
+- HR > 100 (**1.5**)
+- 近期手術或臥床 > 3 days (**1.5**)
+- DVT 臨床徵象 (**3.0**)
+- PE 為最可能診斷 (**3.0**)
+- → **總分 9，> 6 = 高機率 PE**
 :::
 
-### 案例二
+### 案例二｜走出電梯就 PEA
 
-::: {.callout-tip appearance="simple"}
-## 案例二：突發性昏厥與心跳停止
+::: {.callout-tip appearance="default"}
+## 🧑‍🦳 案例二　72 歲男性・PEA + 右心擴大
 
-72 歲男性，過去長期抽菸，因為慢性咳嗽不會好，就診時胸部 X 光顯示疑似肺部腫瘤。出院當日早上當病患走出電梯門口時，突然吸不到空氣，幾秒鐘後隨即昏倒在地。急救五分鐘後恢復自主循環，但不到兩分鐘後又摸不到脈搏，心電圖則顯示竇性頻脈（PEA）。
+72 歲男性，**長期吸菸**、慢性咳嗽，CXR 疑似肺部腫瘤住院檢查。
+**出院當日早上**走出病房電梯時，**突然吸不到空氣**，
+**幾秒鐘後昏倒在地**。急救 5 分鐘後恢復 ROSC，
+**2 分鐘後又無脈搏**，心電圖顯示**竇性頻脈 (PEA)**。
 
-**床邊超音波發現：右心擴大。**
+**🔬 床邊 POCUS 即時發現**
+
+- **右心室明顯擴大**（RV/LV > 1.0）
+- **D-sign**（septum 推向左）
+- IVC 完全充滿、無變異
+
+🔑 **關鍵字**：癌症 + 突發 collapse + PEA + 右心大 → **Massive PE**（H of 5H5T）
+
+→ 這是 **5H5T** 中的「**T**hrombosis (pulmonary)」，CPR 中找右心擴大就是這個目的。
+立即啟動 **tPA bolus + 持續 CPR**，是少數 CPR 中可以給溶栓的情境之一。
 :::
 
-### 案例三
+### 案例三｜CVC 4 年後上半身腫
 
-::: {.callout-tip appearance="simple"}
-## 案例三：上半身腫脹與側枝循環
+::: {.callout-tip appearance="default"}
+## 🧓 案例三　64 歲男性・SVC syndrome
 
-64 歲男性，因為腎臟衰竭須長期進行血液透析，四年前於外院從右頸部置放 Hickman catheter。主訴最近兩個月上半身及雙手越來越腫脹，前胸及脖子的皮膚可見許多彎曲的微小血管（側枝循環）。
+64 歲男性，**ESRD on HD 病人**，**4 年前**於外院右頸放置 **Hickman catheter**。
+最近 **2 個月**：
+
+- 上半身與**雙手越來越腫脹**
+- 前胸與脖子**可見許多彎曲微小血管**（側枝循環）
+- 平躺時頭脹、躺久面紅
+- 早晨起床時眼瞼浮腫
+
+🔑 **關鍵字**：長期 CVC + 雙上肢腫 + 表淺側枝循環 → **CVC 相關 SVC syndrome**
+
+**🔬 預期 POCUS 發現**
+
+- **IJV / SCV 壓不扁**（內含 echogenic thrombus）
+- Subxiphoid 視窗下 SVC 內可見血栓
+- 右心房入口可能被血栓部分阻塞
+
+**機轉**：長期 CVC → 內皮損傷 + 血流停滯 → 血栓形成 →
+血栓無法快速清除，逐漸阻塞 SVC → 上半身靜脈引流靠側枝
 :::
 
 :::
 
-## 靜脈栓塞的臨床表現
+## 🩸 靜脈栓塞的臨床表現（5 種光譜）
 
 ::: {.callout-warning}
-## 重點提示：靜脈栓塞的多樣化表現
+## ⚠️ DVT 不只是「腳腫」— 5 種光譜要分清楚
 
-靜脈栓塞不一定只表現在下肢！需要注意各種不同的臨床情境。
+很多人只想到第一條，結果漏掉後面 4 種。
 :::
 
-a. 單側下肢腫脹、疼痛，慢性皮膚潰瘍
-b. 雙側下肢水腫合併腹部表面明顯側枝循環（portal vein / IVC thrombosis）
-c. 頭頸部脹紅、雙側上肢水腫、合併上半身皮膚明顯側枝循環（SVC thrombosis）
-d. CVC 打不上（不會回血或者導絲無法送入）
-e. 無症狀（pelvic vein DVT，約佔 3-7%）
+| # | 表現 | 病灶 | 高危族群 |
+|:-:|------|------|----------|
+| a | **單側下肢腫脹、疼痛、慢性皮膚潰瘍** | Proximal lower extremity DVT | 術後、臥床、長途旅行 |
+| b | **雙側下肢水腫 + 腹部表面側枝循環** | **Portal vein / IVC thrombosis** | 肝硬化、惡性腫瘤、骨盆腫瘤壓迫 |
+| c | **頭頸脹紅 + 雙上肢水腫 + 上半身側枝** | **SVC thrombosis** | 長期 CVC、肺癌縱膈侵犯 |
+| d | **CVC 打不上 / 不回血 / 導絲送不進去** | CVC 出口端血栓 | 所有長期 CVC 病人 |
+| e | **無症狀**（影像意外發現） | Pelvic vein DVT、Calf DVT | 約佔 3-7% |
 
-## 急性肺栓塞的臨床表現
+: 靜脈栓塞 5 種臨床光譜 {.striped .hover tbl-colwidths="[5,40,30,25]"}
+
+## 🫁 急性肺栓塞的臨床表現（3 種光譜）
 
 ::: {.callout-warning}
-## 重點提示：急性肺栓塞的臨床光譜
+## ⚠️ PE 也是 3 種光譜，從無症狀到猝死
 
-肺栓塞的表現從無症狀到猝死，臨床光譜極廣，需要高度警覺。
+掌握光譜兩端 + 中間，才不會漏。
 :::
 
-a. 突發性的喘、胸痛、咳血、血氧降低
-b. 突發性 sudden collapse with pulseless electrical activity
-c. 無症狀（意外發現的 segmental pulmonary embolism）
+| 光譜位置 | 表現 | 嚴重度 | POCUS |
+|----------|------|:------:|-------|
+| 🟡 中間 | **突發喘 + 胸痛 + 咳血 + SpO₂↓** | Submassive | RV 擴大可能 |
+| 🔴 重端 | **突發 collapse + PEA / 心跳停止** | Massive | RV 擴大明顯 |
+| 🟢 輕端 | **無症狀**（CT 意外發現 segmental PE） | Low-risk | 多正常 |
 
-## 病史詢問重點
+: PE 3 大臨床光譜 {.striped tbl-colwidths="[12,40,18,30]"}
 
-| 項目 | 內容 |
-|------|------|
-| 腫脹時間 | 肢體腫脹發生時間與病程 |
-| 風險因子 | Immobilization、靜脈內植入物（如 CVC、port-A） |
-| 易栓疾病 | 惡性腫瘤、抗磷脂質症候群、荷爾蒙使用、懷孕 |
-| 理學檢查 | 雙側上下肢不對稱腫脹、側枝循環 |
-| 共病評估 | 若懷疑 DVT 需評估 PE 是否共存，反之亦然 |
-
-## 基本檢查
-
-| 檢查項目 | 臨床意義 |
-|----------|----------|
-| ECG | 最常見 sinus tachycardia；若合併 RV strain pattern（S1Q3T3、precordial TWI、RBBB），要懷疑 submassive or massive PE |
-| CXR | 可能出現 Westermark sign |
-| ABG | 評估低血氧與呼吸性鹼中毒 |
-| D-dimer | 高敏感度排除工具 |
-| Troponin-T | 評估心肌損傷 |
-| NT-proBNP | 評估右心衰竭嚴重度 |
-
-::: {.callout-warning}
-## 重要提醒
-
-Troponin-T 也可以因為 acute right heart failure 而升高！不是每個 Troponin-T elevation 都是 AMI！
-:::
-
-## 討論議題
+## 💬 病史詢問與風險評估
 
 ::: {.callout-note}
-## 討論
+## 🗣️ Virchow's Triad 重置版 — 3 大類風險因子
 
-1. 面對術後病人突然喘起來，你的鑑別診斷有哪些？
-2. 案例二中 PEA 合併右心擴大，最可能的診斷是什麼？
-3. 長期留置中央靜脈導管的病人出現上半身水腫，應考慮什麼？
-4. DVT 與 PE 的風險因子有哪些共通之處？
+| 類別 | 風險因子 |
+|------|----------|
+| **🩸 內皮損傷** | 手術、創傷、CVC、燒燙傷 |
+| **🐌 血流停滯** | 臥床、長途旅行、肥胖、麻痺、心衰 |
+| **🧪 高凝狀態** | 惡性腫瘤、antiphospholipid syndrome、口服避孕藥 / HRT、懷孕、Factor V Leiden、Protein C/S 缺乏 |
+
+: VTE 3 類風險因子（Virchow's Triad） {.striped tbl-colwidths="[20,80]"}
 :::
 
-## 自我評估
+::: {.callout-tip}
+## 🔑 評分工具速查
+
+| 評分 | 用途 | 切點 |
+|------|------|------|
+| **Wells PE score** | 急診 PE 機率分級 | < 2 低、2-6 中、> 6 高 |
+| **Wells DVT score** | DVT 機率分級 | < 2 低 → D-dimer rule out |
+| **Geneva score** | PE 替代評分（不依賴主觀判斷） | 同上 3 級 |
+| **PESI / sPESI** | PE 30 天死亡風險 | sPESI ≥ 1 = high risk |
+:::
+
+## 🩻 基本檢查整合
+
+| 檢查 | 角色 | 關鍵發現 |
+|------|------|----------|
+| **ECG** | 入門 | Sinus tachycardia 最常見；**S1Q3T3、precordial TWI、RBBB** = RV strain → submassive/massive |
+| **CXR** | 入門 | **Westermark sign**（局部肺野血管空虛）、Hampton's hump |
+| **ABG** | 嚴重度 | 低血氧 + 低 PCO₂（hyperventilation） + A-a gradient ↑ |
+| **D-dimer** | **排除工具** | 高敏感度 (95%) 低特異度；**陰性可排除 low/intermediate prob PE** |
+| **Troponin-T** | 嚴重度 | 升高 → submassive PE 風險 |
+| **NT-proBNP** | 嚴重度 | 升高 → 右心衰竭、預後不良 |
+| **POCUS** | **床邊整合** | RV size、D-sign、McConnell、TAPSE、IVC、下肢 CUS |
+
+: PE 入門 7 大檢查 {.striped .hover tbl-colwidths="[14,16,70]"}
+
+::: {.callout-warning}
+## ⚠️ 重要提醒
+
+> **Troponin-T 升高 ≠ AMI！**
+>
+> Acute right heart failure（如 massive PE）也會造成 Troponin-T 上升 ——
+> 是**心肌微損傷 + 拉伸傷害**的綜合結果，需配合**完整臨床圖像 + POCUS** 鑑別。
+> 別把 PE 當 ACS 直接送 cath lab。
+:::
+
+## 💬 討論議題
+
+::: {.callout-note}
+## 🗣️ 課堂討論
+
+1. **術後病人突然喘起來，鑑別診斷有哪些？** （提示：PE、肺水腫、肺炎、ACS、氣胸）
+2. **PEA + 右心擴大 = 什麼？該不該打 tPA？** （提示：5H5T 的 T thrombosis）
+3. **長期 CVC 病人雙上肢腫，要做什麼檢查？** （提示：頸靜脈 + SCV CUS）
+4. **DVT 和 PE 風險因子有什麼共通？** （提示：Virchow's Triad）
+:::
+
+## ✅ 自我評估
 
 ::: {.content-visible when-format="html"}
 
-**問題 1**：以下何者**不是**深層靜脈栓塞的典型臨床表現？
+::: {.callout-note appearance="default"}
+## 📝 問題 1
+以下何者**不是** DVT 的典型臨床表現？
 
 - [ ] 單側下肢腫脹
 - [ ] CVC 無法回血
-- [x] 雙側對稱性下肢水腫
+- [x] **雙側對稱性下肢水腫**
 - [ ] 無症狀
+:::
 
-**問題 2**：術後病人突然出現呼吸困難，心電圖顯示 S1Q3T3，最可能的診斷為何？
+::: {.callout-note appearance="default"}
+## 📝 問題 2
+術後病人突然呼吸困難 + S1Q3T3，**最可能**的診斷？
 
 - [ ] 急性心肌梗塞
-- [x] 急性肺栓塞
+- [x] **急性肺栓塞**
 - [ ] 張力性氣胸
 - [ ] 心包填塞
+:::
 
-**問題 3**：關於 Troponin-T 升高，以下敘述何者正確？
+::: {.callout-note appearance="default"}
+## 📝 問題 3
+關於 **Troponin-T 升高**，何者正確？
 
-- [ ] Troponin-T 升高一定代表急性心肌梗塞
-- [ ] 肺栓塞不會造成 Troponin-T 升高
-- [x] Acute right heart failure 也可以造成 Troponin-T 升高
-- [ ] Troponin-T 正常可以排除肺栓塞
+- [ ] Troponin-T 升高一定是 AMI
+- [ ] PE 不會造成 Troponin-T 升高
+- [x] **Acute right heart failure 也會造成 Troponin-T 升高**
+- [ ] Troponin-T 正常可以排除 PE
+:::
+
+::: {.callout-note appearance="default"}
+## 📝 問題 4
+**Wells DVT score < 2** 加上下列何者可以**排除 DVT**？
+
+- [ ] CXR 正常
+- [ ] ECG 正常
+- [x] **D-dimer 陰性**
+- [ ] BNP 正常
+:::
 
 ::: {.callout-tip collapse="true"}
-## 顯示答案解析
+## 💡 顯示答案解析
 
-1. **雙側對稱性下肢水腫**通常提示全身性原因（如心衰竭、肝硬化），而非單側 DVT。DVT 典型表現為單側不對稱腫脹。
-2. **S1Q3T3** 是急性右心負荷增加的心電圖表現，合併術後臥床的風險因子，最可能為急性肺栓塞。
-3. **Acute right heart failure**（如 massive PE 導致的右心衰竭）也會造成 Troponin-T 升高，臨床上需與 AMI 做鑑別。
+1. **雙側對稱性下肢水腫** 通常是全身性原因（心衰、肝硬化、CKD），不是 DVT。
+   DVT 典型是**單側不對稱**腫脹。
+2. **S1Q3T3 + 術後突發喘** = 經典急性 RV strain ECG → 急性 PE。
+3. Acute RV failure（如 massive PE）會造成 Troponin-T 升高 ——
+   是 RV 過度拉伸 + 心肌微損傷的結果。也別忘 Troponin 正常**不能**排除 PE。
+4. **Wells DVT < 2 + D-dimer 陰性** = 低臨床機率 + 高敏感度排除 →
+   可在門診追蹤而不需立刻 CUS（Wells 1995 模型）。
 :::
 
 :::
@@ -167,8 +276,22 @@ Troponin-T 也可以因為 acute right heart failure 而升高！不是每個 Tr
 :::
 :::
 
-## 參考閱讀
+## 🎓 回家三句話
 
-1. Bedside echo for chest pain: an algorithm for education and assessment. *Advances in Medical Education and Practice* 2016:7 293-300
-2. *Pocket Guide to POCUS*, Chapter 8 & 10
-3. Frederick A. Anderson Jr. & Frederick A. Spencer. Risk Factors for Venous Thromboembolism. *Circulation*. 2003; 107: I9-I16
+::: {.callout-important}
+## 🏠 帶回家的 Take-home Messages
+
+1. **VTE 是光譜疾病** — DVT 5 種、PE 3 種表現，**單側下肢腫只是其中之一**。
+   會看其他 7 種才不會漏診。
+2. **PEA + 右心擴大 = Massive PE 直到證明不是** — 是 5H5T 的 T，
+   CPR 中可以給 tPA bolus，是少數能在 CPR 期間用溶栓的情境。
+3. **Troponin-T 升高不等於 AMI** — Acute RV failure 也會升。
+   配合 POCUS 看右心，避免把 PE 病人推進 cath lab 浪費時間。
+:::
+
+## 📚 參考閱讀
+
+1. Konstantinides SV, et al. **2019 ESC Guidelines for the diagnosis and management of acute pulmonary embolism.** *Eur Heart J.* 2020;41(4):543-603.
+2. Wells PS, et al. **Excluding pulmonary embolism at the bedside without diagnostic imaging: management of patients with suspected pulmonary embolism presenting to the emergency department by using a simple clinical model and d-dimer.** *Ann Intern Med.* 2001;135(2):98-107.
+3. Anderson FA Jr, Spencer FA. **Risk Factors for Venous Thromboembolism.** *Circulation.* 2003;107(23 Suppl 1):I9-I16.
+4. Stein PD, et al. **Multidetector computed tomography for acute pulmonary embolism (PIOPED II).** *N Engl J Med.* 2006;354(22):2317-2327.

@@ -1,146 +1,279 @@
 ---
-title: "教案 24：治療"
+title: "教案 24｜💊 治療"
 subtitle: "DVT 與 PE 的治療原則"
 author: "謝慕揚、林彥良"
 date: last-modified
 categories: [肺栓塞, DVT, 治療]
 ---
 
-## 課程目標
+::: {.callout-note appearance="minimal" icon="false"}
+## 📌 本課速覽
+
+**抗凝 6 大藥物選擇 × PE 4 級嚴重度導向治療 × ECMO bridge 角色**
+這一課把「**這個 PE 該不該打 tPA？**」變成 **3 步驟決策樹**，
+並把 DVT / PE 的長期管理（DOAC、IVC filter、追蹤）一次串完。
+:::
+
+## 🎯 課程目標
 
 ::: {.callout-note}
 ## 學習目標
 
-1. 了解 DVT 的治療策略，包括藥物與機械性治療
-2. 了解急性肺栓塞依嚴重度分級的治療原則
-3. 能夠根據臨床情境選擇適當的治療方式
+1. 了解 **DVT 抗凝 6 種藥物** 的選擇原則。
+2. 熟悉 **PE 嚴重度分級導向治療**（low / intermediate / high risk）。
+3. 學會 **massive PE 4 大救命武器**（tPA、surgical embolectomy、catheter embolectomy、ECMO）。
+4. 理解 **IVC filter** 的適應症與限制（不是萬靈丹）。
+5. 掌握 **長期次發預防** 的治療時程與停藥決策。
 :::
 
-## DVT 治療
+## 🩸 DVT 治療
 
-### 抗凝血治療
+### 💊 抗凝血治療 — 6 大選擇
 
 ::: {.callout-warning}
-## 重點提示
+## ⚠️ 重點提示
 
-抗凝血治療是 DVT 的基石治療，目的在於防止血栓延伸與預防肺栓塞。
+**抗凝血是 DVT 治療基石** — 目的是**防止血栓擴展、降低 PE 風險**，
+而不是「溶解現有血栓」（那是溶栓的工作）。
 :::
 
-| 藥物類別 | 代表藥物 | 說明 |
-|----------|----------|------|
-| LMWH | Enoxaparin（Clexane） | 急性期首選，皮下注射，劑量依體重調整 |
-| DOAC | Rivaroxaban、Apixaban | 口服直接抗凝血劑，不需常規監測 INR |
-| Warfarin | Coumadin | 傳統口服抗凝血劑，需監測 INR（目標 2.0-3.0） |
-| UFH | Unfractionated Heparin | 靜脈注射，適用於腎功能不全或需快速逆轉的情況 |
+| 藥物類別 | 代表藥物 | 用法 | 適應症 / 優勢 | 注意 |
+|----------|----------|------|---------------|------|
+| **LMWH** | Enoxaparin (Clexane) | 1 mg/kg SC q12h | **急性期首選**、不需 INR、可橋接 | 腎功能差需減量 |
+| **DOAC（Xa inhibitor）** | Rivaroxaban / Apixaban | 口服 | **長期治療首選**、不需監測 | CKD eGFR < 15 禁用 |
+| **DOAC（IIa inhibitor）** | Dabigatran | 口服 | 有專一 reversal agent (idarucizumab) | 需先 LMWH 5 days |
+| **Warfarin** | Coumadin | INR 2.0-3.0 | **機械瓣、APS、嚴重 CKD** 仍首選 | INR 監測、藥物互動多 |
+| **UFH** | Heparin IV | 80 U/kg bolus + 18 U/kg/hr | **腎功能極差、需快速逆轉** | aPTT 監測 q6h |
+| **Fondaparinux** | Arixtra | 5-10 mg SC qd | HIT 病人替代 LMWH | 半衰期長，無 reversal |
 
-### 機械性治療
-
-| 治療方式 | 適應症 | 說明 |
-|----------|--------|------|
-| IVC filter | 抗凝禁忌或抗凝失敗 | 預防血栓脫落至肺動脈，可放置可回收式 |
-| CDT（Catheter-Directed Thrombolysis） | 大範圍近端 DVT | 導管直接注入溶栓藥物，降低全身性出血風險 |
-| Compression stockings | 所有 DVT 病人 | 減少栓塞後症候群（post-thrombotic syndrome） |
-
-## PE 治療
-
-### 依嚴重度分級的治療策略
-
-::: {.callout-warning}
-## 重點提示
-
-急性肺栓塞的治療取決於血行動力學狀態與右心功能，需快速評估並分級。
-:::
-
-| 嚴重度分級 | 血行動力學 | RV dysfunction | Troponin | 治療策略 |
-|------------|------------|----------------|----------|----------|
-| Low-risk | 穩定 | 無 | 正常 | 抗凝血治療 |
-| Submassive | 穩定 | 有 | 可能升高 | 抗凝血 +/- 溶栓治療 |
-| Massive | 不穩定（低血壓/休克） | 有 | 升高 | 溶栓 / 取栓 / ECMO |
-
-### 各級治療詳述
-
-#### Low-risk PE
-
-- 抗凝血治療（LMWH 銜接 DOAC 或 Warfarin）
-- 可考慮早期出院與門診追蹤
-- 治療期間通常 3-6 個月
-
-#### Submassive PE
-
-- 抗凝血治療為基礎
-- 若臨床惡化，可考慮全身性溶栓（systemic thrombolysis）
-- 密切監測血行動力學變化
-- 可考慮 catheter-directed therapy
-
-#### Massive PE
-
-::: {.callout-warning}
-## 緊急處置
-
-Massive PE 是急重症，死亡率極高，需要立即積極治療！
-:::
-
-| 治療選項 | 說明 |
-|----------|------|
-| 全身性溶栓 | tPA（Alteplase）100 mg IV over 2 hours；若心跳停止可考慮 bolus dose |
-| 手術取栓 | Surgical embolectomy，適用於溶栓禁忌或溶栓失敗 |
-| 導管取栓 | Catheter-directed embolectomy |
-| ECMO | 體外膜氧合，作為 bridge therapy 穩定血行動力學 |
-
-## 治療流程整合
+: DVT 抗凝 6 大藥物速比 {.striped .hover tbl-colwidths="[18,22,18,28,14]"}
 
 ::: {.callout-tip}
-## 臨床決策重點
+## 🎯 蕭氏選藥決策樹
 
-1. **確認診斷**：POCUS 評估 RV function + 下肢壓迫測試
-2. **嚴重度分級**：血行動力學 + RV dysfunction + biomarkers
-3. **啟動抗凝**：除非有絕對禁忌，應儘早開始抗凝治療
-4. **評估溶栓需求**：Massive PE 或惡化中的 submassive PE
-5. **多專科合作**：心臟外科、介入放射科、重症醫學
+| 情境 | 首選 | 備援 |
+|------|------|------|
+| **一般 DVT、無共病** | DOAC（rivaroxaban / apixaban） | LMWH bridge to warfarin |
+| **癌症相關 VTE** | LMWH（Enoxaparin） | apixaban / edoxaban |
+| **腎功能差**（eGFR < 30） | UFH 或 warfarin | apixaban 5 mg bid（謹慎） |
+| **機械瓣膜 / APS** | **Warfarin only** | — |
+| **懷孕** | LMWH | （DOAC、warfarin 禁用） |
+| **HIT** | Argatroban / Bivalirudin / Fondaparinux | — |
 :::
 
-## 討論議題
+### 🛠 機械性治療
+
+| 治療方式 | 適應症 | 限制 |
+|----------|--------|------|
+| **IVC filter** | **抗凝禁忌**（活動出血、近期手術）或抗凝失敗 | 可回收、長期留置增 IVC 血栓風險 |
+| **CDT**（Catheter-Directed Thrombolysis） | 大範圍近端 DVT、phlegmasia | 出血風險高 |
+| **Pharmaco-mechanical thrombectomy** | iliofemoral DVT + 重度症狀 | 需經驗中心 |
+| **Compression stockings** | 所有 DVT 病人 | 預防 PTS（post-thrombotic syndrome）|
+
+: DVT 機械治療 4 大選項 {.striped tbl-colwidths="[34,38,28]"}
+
+::: {.callout-caution}
+## 🪤 IVC filter 不是萬靈丹
+
+- **PREPIC 2** 試驗顯示：常規放 IVC filter **沒有降低 PE 死亡率**。
+- 唯一明確適應症：**急性 VTE + 抗凝絕對禁忌**。
+- **必須是可回收式** — 抗凝禁忌解除後 1-3 個月內取出。
+:::
+
+## 🫁 PE 治療
+
+::: {.callout-warning}
+## ⚠️ PE 治療取決於血流動力學狀態 + 右心功能
+
+依 **2019 ESC** 分為 4 級，每級對應不同強度的治療。
+:::
+
+### 📊 PE 治療分層總表
+
+| 分級 | 血壓 | RV dysfunction | Troponin | 治療策略 |
+|------|------|:--------------:|:--------:|----------|
+| 🟢 **Low-risk** | 穩定 | 無 | 正常 | **抗凝**（可早期出院） |
+| 🟡 **Intermediate-low** | 穩定 | 輕度（單一指標） | 正常 | 抗凝 + 住院監測 |
+| 🟠 **Intermediate-high** | 穩定 | 明顯（≥ 2 指標） | **升高** | 抗凝 + **rescue 溶栓備援** |
+| 🔴 **High-risk (massive)** | **不穩定 / 休克** | 明顯 | 升高 | **立即溶栓 / 取栓 / ECMO** |
+
+: ESC 2019 PE 4 級分層治療對照 {.striped .hover tbl-colwidths="[26,16,22,12,24]"}
+
+### 🟢 Low-risk PE
 
 ::: {.callout-note}
-## 討論
+## 治療原則
 
-1. DVT 病人什麼情況下需要放置 IVC filter？
-2. Submassive PE 何時應考慮從抗凝升級至溶栓治療？
-3. Massive PE 合併心跳停止時，tPA 的給藥方式為何？
-4. DOAC 相較於 Warfarin 在 DVT/PE 治療上有何優勢與限制？
+- **抗凝為主**：DOAC（rivaroxaban / apixaban）首選，
+  可避免 LMWH 起始期
+- **早期出院**：sPESI 0 + Hestia criteria 通過 → 可考慮急診出院門診追蹤
+- **療程**：通常 **3-6 個月**
+- **追蹤**：3 個月後重新評估（決定是否繼續或停藥）
 :::
 
-## 自我評估
+### 🟡🟠 Intermediate-risk PE
+
+::: {.callout-note}
+## 治療原則
+
+- **抗凝為基礎** — UFH 或 LMWH 起始
+- **Intermediate-low**：標準抗凝即可
+- **Intermediate-high**：
+  - 抗凝 + **密切監測** vital signs、SpO₂、ECG
+  - 準備 **「rescue thrombolysis」** — 一旦惡化（休克、PEA）立刻給 tPA
+  - 可考慮 **catheter-directed therapy**（如 EKOS、AngioJet）
+- **不建議常規溶栓**（PEITHO trial：增加出血風險、無生存益處）
+:::
+
+### 🔴 High-risk (Massive) PE
+
+::: {.callout-warning}
+## 🚨 緊急處置 — 死亡率 > 30%
+
+立刻啟動 **「PERT」**（Pulmonary Embolism Response Team） — 多專科即時會診。
+:::
+
+#### 4 大救命武器
+
+| # | 治療 | 用法 | 適應症 / 限制 |
+|:-:|------|------|---------------|
+| 1️⃣ | **全身性溶栓 tPA** | **Alteplase 100 mg IV over 2 hr**；CPR 中可 50 mg bolus | 首選，但 ICH 風險 ~ 2% |
+| 2️⃣ | **Catheter-directed embolectomy** | 機械取栓 ± 局部低劑量 tPA | 溶栓禁忌、症狀持續 |
+| 3️⃣ | **Surgical embolectomy** | 經 sternotomy 取出血栓 | CDT 失敗、心臟內可見血栓 |
+| 4️⃣ | **VA-ECMO** | 體外心肺循環支持 | **Bridge to recovery / surgery** |
+
+: Massive PE 4 大救命武器 {.striped .hover tbl-colwidths="[5,28,38,29]"}
+
+::: {.callout-caution}
+## 🪤 CPR 中的 tPA
+
+- **PEA + 右心擴大 = 強烈懷疑 massive PE**
+- **tPA 50 mg IV bolus** + 持續 CPR **至少 60-90 分鐘**
+- 是少數 CPR 中可以給溶栓的情境（另一個是 acute MI）
+- ROSC 後可追加 50 mg infusion
+:::
+
+#### 溶栓禁忌速查
+
+| 絕對禁忌 | 相對禁忌 |
+|----------|----------|
+| 顱內出血史 / 結構性腦病變 | 近 6 個月手術 |
+| 近 3 個月缺血性中風 | 妊娠 |
+| 近期主要手術 / 創傷 | 嚴重未控制 HTN |
+| 活動性出血 | 抗凝中、INR 過高 |
+
+: tPA 溶栓禁忌速查 {.striped tbl-colwidths="[50,50]"}
+
+## 🔁 治療流程整合（4 步驟臨床決策）
+
+::: {.callout-tip}
+## 🎯 PE 床邊決策 4 步驟
+
+```
+1️⃣ 確認診斷
+   POCUS 心 + 腿（5 大右心徵象 + 4-point CUS）→ 強懷疑 PE
+   高度懷疑時不要等 CT（如休克病人）
+
+2️⃣ 嚴重度分級
+   血壓 + RV dysfunction + Troponin / NT-proBNP
+   → ESC 4 級分層
+
+3️⃣ 啟動抗凝
+   除非絕對禁忌，所有疑似 PE 都要立刻抗凝
+   UFH > LMWH > DOAC（依場景）
+
+4️⃣ 評估升級治療
+   Massive → 立刻 tPA / 取栓 / ECMO
+   Intermediate-high → 準備 rescue thrombolysis
+   呼叫 PERT（多專科即時會診）
+```
+:::
+
+## ⏱ 抗凝療程與停藥決策
+
+::: {.callout-note}
+## 📅 療程依「誘因」決定
+
+| VTE 類型 | 建議療程 |
+|----------|----------|
+| **Provoked VTE**（近期手術 / 創傷 / 暫時 immobilization） | **3 個月** |
+| **Unprovoked VTE**（找不到誘因） | **至少 6 個月，多數需長期** |
+| **Recurrent VTE** | **長期 / 終身** |
+| **Cancer-associated VTE** | 直到癌症緩解後 + 額外 3 個月 |
+| **APS / 易栓體質** | **長期 / 終身** |
+
+: VTE 抗凝療程速查 {.striped tbl-colwidths="[60,40]"}
+
+⚠️ 停藥前可考慮 **D-dimer + residual vein obstruction** 評估再發風險。
+:::
+
+## 💬 討論議題
+
+::: {.callout-note}
+## 🗣️ 課堂討論
+
+1. **DVT 病人什麼情況下需要 IVC filter？** （提示：抗凝絕對禁忌）
+2. **Submassive PE 何時應升級到溶栓？** （提示：rescue thrombolysis 時機）
+3. **Massive PE + CPR 時 tPA 怎麼給？** （提示：50 mg bolus + 持續 CPR ≥ 60 min）
+4. **DOAC vs Warfarin 在 VTE 治療上各有什麼優勢？** （提示：方便性、可逆性、特殊族群）
+5. **PERT 是什麼？什麼情況該啟動？** （提示：multi-disciplinary 即時會診）
+:::
+
+## ✅ 自我評估
 
 ::: {.content-visible when-format="html"}
 
-**問題 1**：Low-risk PE 的標準治療為何？
+::: {.callout-note appearance="default"}
+## 📝 問題 1
+**Low-risk PE** 的標準治療是？
 
-- [x] 抗凝血治療
+- [x] **抗凝血治療**
 - [ ] 全身性溶栓
 - [ ] 手術取栓
 - [ ] ECMO
+:::
 
-**問題 2**：以下何種情況屬於 massive PE？
+::: {.callout-note appearance="default"}
+## 📝 問題 2
+以下何者屬於 **massive (high-risk) PE**？
 
-- [ ] 血壓穩定，RV 正常，Troponin 正常
-- [ ] 血壓穩定，RV 擴大，Troponin 升高
-- [x] 低血壓或休克，RV 擴大
-- [ ] 無症狀，CT 發現 segmental PE
+- [ ] 血壓穩定、RV 正常、Troponin 正常
+- [ ] 血壓穩定、RV 擴大、Troponin 升高
+- [x] **低血壓 / 休克 + RV 擴大**
+- [ ] 無症狀、CT 意外發現 segmental PE
+:::
 
-**問題 3**：DVT 病人有抗凝禁忌時，應考慮什麼治療？
+::: {.callout-note appearance="default"}
+## 📝 問題 3
+DVT 病人**有抗凝禁忌**時，應考慮？
 
 - [ ] 增加 DOAC 劑量
 - [ ] 全身性溶栓
-- [x] 放置 IVC filter
+- [x] **放置（可回收式）IVC filter**
 - [ ] 僅穿彈性襪
+:::
+
+::: {.callout-note appearance="default"}
+## 📝 問題 4
+**Massive PE + CPR 中**，tPA 的給法是？
+
+- [ ] 等 ROSC 後再給
+- [x] **50 mg IV bolus + 持續 CPR 至少 60-90 分鐘**
+- [ ] 直接 100 mg IV push
+- [ ] 不能在 CPR 中給溶栓
+:::
 
 ::: {.callout-tip collapse="true"}
-## 顯示答案解析
+## 💡 顯示答案解析
 
-1. **Low-risk PE**（血行動力學穩定、無 RV dysfunction）的標準治療為抗凝血治療，不需要溶栓。
-2. **Massive PE** 的定義為血行動力學不穩定（收縮壓 < 90 mmHg 或需升壓藥），合併右心功能不全。
-3. 當病人有**抗凝禁忌**（如近期手術、活動性出血）時，應考慮放置 IVC filter 以預防 PE。
+1. **Low-risk PE** 血流動力學穩定、無 RV dysfunction、Troponin 正常 →
+   **抗凝即可**，不需溶栓。可考慮 DOAC + 早期出院。
+2. **Massive PE** = SBP < 90 mmHg 或需升壓藥 + RV dysfunction，
+   死亡率 > 30%，需立即啟動 4 大救命武器。
+3. **抗凝禁忌**（活動出血、近期手術）→ 放**可回收式 IVC filter**，
+   並在抗凝禁忌解除後 1-3 個月內取出（PREPIC 2 研究顯示常規放沒益處）。
+4. **CPR 中疑似 massive PE** 可給 **tPA 50 mg bolus** + 持續 CPR 至少 60-90 分鐘。
+   是少數 CPR 中可給溶栓的情境（另一個是 acute MI）。
 :::
 
 :::
@@ -153,8 +286,36 @@ Massive PE 是急重症，死亡率極高，需要立即積極治療！
 :::
 :::
 
-## 參考閱讀
+## 🏆 本章總結
 
-1. Bedside echo for chest pain: an algorithm for education and assessment. *Advances in Medical Education and Practice* 2016:7 293-300
-2. *Pocket Guide to POCUS*, Chapter 8 & 10
-3. Frederick A. Anderson Jr. & Frederick A. Spencer. Risk Factors for Venous Thromboembolism. *Circulation*. 2003; 107: I9-I16
+::: {.callout-important}
+## 🌟 第六章關鍵要點
+
+1. **VTE 是光譜疾病** — DVT 5 種、PE 3 種臨床表現，POCUS 床邊雙評估（腿 + 心）涵蓋 95% 急診 VTE。
+2. **DVT 床邊診斷靠 4-point CUS** — B-mode 壓不扁就夠，敏感度 90-100%。
+3. **PE 床邊診斷靠 5 大右心徵象** — RV/LV、D-sign、McConnell、TAPSE、IVC，
+   ≥ 2 個就要當 submassive 治。
+4. **Massive PE 是 5H5T 的 T** — CPR 中可給 tPA bolus，4 大救命武器要會用。
+5. **抗凝療程依誘因決定** — provoked 3 個月、unprovoked / cancer / APS 多數需長期。
+:::
+
+## 🎓 回家三句話
+
+::: {.callout-important}
+## 🏠 帶回家的 Take-home Messages
+
+1. **PE 治療看血壓 + 右心 + Troponin 三件套** — 4 級分層決定你打什麼藥。
+   Low-risk 抗凝就好；Massive 立刻 tPA / 取栓 / ECMO。
+2. **CPR 中的 PEA + 右心大 = tPA 適應症** — 50 mg bolus、CPR 至少 60-90 分鐘，
+   是少數能在心跳停止時用溶栓的情境。
+3. **IVC filter 不是萬靈丹** — 只在「抗凝絕對禁忌」用，
+   且必須是可回收式、抗凝禁忌解除後盡快取出。
+:::
+
+## 📚 參考閱讀
+
+1. Konstantinides SV, et al. **2019 ESC Guidelines for the diagnosis and management of acute pulmonary embolism.** *Eur Heart J.* 2020;41(4):543-603.
+2. Stevens SM, et al. **Antithrombotic Therapy for VTE Disease: Second Update of the CHEST Guideline.** *Chest.* 2021;160(6):e545-e608.
+3. Meyer G, et al. **Fibrinolysis for patients with intermediate-risk pulmonary embolism (PEITHO).** *N Engl J Med.* 2014;370(15):1402-1411.
+4. Mismetti P, et al. **Effect of a retrievable inferior vena cava filter plus anticoagulation vs anticoagulation alone on risk of recurrent pulmonary embolism (PREPIC2).** *JAMA.* 2015;313(16):1627-1635.
+5. Kucher N, et al. **Randomized, controlled trial of ultrasound-assisted catheter-directed thrombolysis for acute intermediate-risk pulmonary embolism (ULTIMA).** *Circulation.* 2014;129(4):479-486.
