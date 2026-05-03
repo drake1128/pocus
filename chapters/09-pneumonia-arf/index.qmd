@@ -1,19 +1,76 @@
 ---
-title: "肺炎與急性呼吸衰竭"
-subtitle: "Pneumonia & Acute Respiratory Failure"
+title: "🦠 肺炎與急性呼吸衰竭"
+subtitle: "Pneumonia & ARF — 從 LUS Score 到呼吸器調整"
 ---
 
-## 章節簡介
+::: {.callout-note appearance="minimal" icon="false"}
+## 🎯 本章導讀
 
-肺炎與急性呼吸衰竭是重症醫學中常見的問題。床邊超音波可以快速評估肺部病變、追蹤治療效果，並協助呼吸器參數調整。
+肺炎與 ARF 是 ICU **最常見的死亡原因之一**，
+治療效果評估往往要等 24-48 hr 的 CXR 與 lab 才能判讀。
+本章用 4 堂課帶您從 **超音波基礎 → 病理結構 → 肺炎 LUS Score → ARDS / 呼吸器整合**，
+建立一套**「床邊每天 5 分鐘追蹤」**的工作流，
+能即時調整 PEEP、預測脫機成功、鑑別 ARDS vs 心因性肺水腫。
 
-## 本章課程
+**對應多位醫師共同編修・整合：肺炎與重症呼吸系列 #09**
+:::
 
-1. [教案 33：超音波基礎](33-basics.qmd)
-2. [教案 34：病理結構](34-pathology.qmd)
-3. [教案 35：基本應用](35-basic-application.qmd)
-4. [教案 36：進階應用](36-advanced.qmd)
+## 📖 章節簡介
 
-## 編修醫師
+肺炎與急性呼吸衰竭（ARF）是 **ICU / 急診最高負擔**的疾病。
+過去依賴 CXR + CT + ABG，但這些檢查 **耗時、有輻射、無法即時動態追蹤**。
 
-多位醫師共同編修
+**肺部 POCUS** 在這個場景的優勢：
+- **LUS Score 半定量** — 12 區評分，0-36 分
+- **動態追蹤** — 抗生素 / PEEP / 利尿後即時看效果
+- **預測脫機** — LUS Score 改善 + 橫膈 excursion > 1 cm
+- **鑑別 ARDS vs CHF** — B-lines 分布型態 + 心臟功能 + IVC
+
+## 🚨 ICU 常見呼吸困境 4 大鑑別
+
+::: {.callout-warning}
+## ⚠️ 4 種「滿肺水」病人怎麼區分？
+
+| 疾病 | B-lines 分布 | 肋膜線 | 心臟 / IVC | 治療方向 |
+|------|--------------|--------|-----------|----------|
+| **心因性肺水腫** | 雙側對稱、瀰漫 | 光滑 | LV 差 + IVC 大 | 利尿 + NIPPV |
+| **ARDS** | **不對稱 + spared areas** | **不規則 + 後肺實變** | LV 正常 | 低潮氣量、肺保護 |
+| **大葉性肺炎** | 局部 | 局部 + 實變 | 正常 | 抗生素 + 引流 |
+| **間質性肺病惡化** | 雙下肺、後背 | 不規則 + 碎裂 | 視 RV 過載 | 個別評估 |
+
+: 4 種「白肺」鑑別 + POCUS 對照 {.striped .hover tbl-colwidths="[26,26,22,16,10]"}
+:::
+
+## 🎓 學習目標
+
+::: {.callout-note}
+## 📋 完成本章後，學習者應能夠
+
+1. 認識**肺部 POCUS 的物理原理**與探頭選擇。
+2. 識別 **B-lines、Consolidation、Pleural effusion** 的 POCUS 特徵。
+3. 操作 **LUS Score** 12 區評分系統。
+4. 區分 **ARDS vs 心因性肺水腫** 的 POCUS 鑑別點。
+5. 用 POCUS **協助呼吸器調整**（PEEP、脫機評估）。
+6. 操作**橫膈 POCUS** 評估呼吸功能。
+:::
+
+## 📚 本章四堂課程
+
+::: {.callout-tip appearance="default"}
+## 課程地圖（從基礎到進階）
+
+| 教案 | 主題 | 重點 | 連結 |
+|:----:|------|------|------|
+| 3️⃣3️⃣ | **超音波基礎** | 物理原理 + 探頭 + 正常肺 5 大表現 | [前往 →](33-basics.qmd) |
+| 3️⃣4️⃣ | **病理結構** | B-lines / Consolidation / Effusion 詳解 | [前往 →](34-pathology.qmd) |
+| 3️⃣5️⃣ | **基本應用** | 肺炎診斷 + LUS Score 12 區 | [前往 →](35-basic-application.qmd) |
+| 3️⃣6️⃣ | **進階應用** | ARDS + 呼吸器調整 + 橫膈 POCUS | [前往 →](36-advanced.qmd) |
+
+: 第九章四堂課程一覽 {.striped tbl-colwidths="[10,28,42,20]"}
+:::
+
+## 👨‍⚕️ 編修醫師
+
+::: {.callout-note appearance="minimal" icon="false"}
+**多位醫師共同編修**　・　肺部與重症 POCUS 教學整合（Module 09）
+:::

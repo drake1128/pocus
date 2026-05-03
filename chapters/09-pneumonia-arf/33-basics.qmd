@@ -1,66 +1,207 @@
 ---
-title: "教案 33：超音波基礎"
+title: "教案 33｜🩺 超音波基礎"
 subtitle: "肺部超音波基本原理與操作"
 author: "多位醫師"
 date: last-modified
 categories: [肺炎, ARF, 超音波基礎, POCUS]
 ---
 
-::: {.callout-note}
-## 學習目標
+::: {.callout-note appearance="minimal" icon="false"}
+## 📌 本課速覽
 
-1. 認識肺部超音波的基本原理與操作
-2. 了解正常與異常肺部超音波表現
-3. 學習系統性的肺部超音波掃描方法
+**肺部 POCUS 物理原理 × 3 種探頭比較 × 系統性掃描技巧 × 正常肺 5 大表現**
+這一課把 **「為什麼正常肺看不到結構」** 講清楚，
+建立判讀 **「artifact 的有無與型態」** 的核心思維。
 :::
 
-## 基本原理
+## 🎯 學習目標
+
+::: {.callout-note}
+## Learning Objectives
+
+1. 認識**肺部 POCUS 的物理原理**與限制。
+2. 比較 **3 種常用探頭**的優缺點與適應症。
+3. 學習**系統性掃描方法**（前胸 / 側胸 / 後背）。
+4. 辨識**正常肺 5 大表現**：Bat sign、Pleural line、Lung sliding、A-lines、Seashore sign。
+:::
+
+## 🔬 肺部 POCUS 基本原理
 
 ::: {.callout-warning}
-## 關鍵觀念
+## ⚠️ 關鍵觀念 — 超音波無法穿透空氣
 
-超音波無法穿透空氣，因此正常充氣的肺部主要是看「假影」的變化。
+正常充氣的肺**幾乎完全反射超音波** → 看不到肺實質結構，
+只能看到 **「胸膜介面 + 假影 (artifact)」** 的變化。
+
+**肺部 POCUS 的判讀邏輯與其他器官完全不同**：
+- 心臟 / 腹部 → 看「器官本身」
+- 肺部 → 看「**artifact 的有無與型態**」
 :::
 
-肺部超音波的原理與其他部位不同。由於肺部充滿空氣，超音波無法像在腹部或心臟一樣直接成像。我們觀察的是超音波在不同介面（如胸壁與肺部之間）所產生的假影（artifact），並藉由這些假影的變化來判斷肺部的狀態。
+| 物理現象 | 肺部狀態 | POCUS 表現 |
+|----------|----------|------------|
+| 全反射（air-tissue interface） | 正常充氣肺 | A-lines、lung sliding |
+| 部分傳導 | 肺泡水腫 | B-lines |
+| 變實質（hepatization） | 肺實變 | Consolidation + air bronchogram |
+| 完全無接觸 | 氣胸 | No sliding、barcode、lung point |
+| 流體傳導 | 肋膜積液 | Anechoic + 漂浮的肺 |
 
-## 探頭選擇
+: 肺部 POCUS 5 種物理對應 {.striped .hover tbl-colwidths="[28,22,50]"}
 
-不同的探頭各有優勢，可依據臨床需求選擇：
+## 🎛 探頭選擇 — 3 種比較
 
-- **Curvilinear probe（腹超探頭）**：穿透力佳，適合深部結構
-- **Linear probe（高頻探頭）**：解析度高，適合胸膜與淺層結構
-- **Phased array probe（心臟探頭）**：可從肋間隙進入
+::: {.callout-note}
+## 🩺 各有優勢，依需求選擇
 
-## 掃描位置與技巧
+| 探頭 | 頻率 | 優勢 | 限制 | 適用 |
+|------|:----:|------|------|------|
+| **Curvilinear**（凸面） | 2-5 MHz | **穿透力強** | 解析度中 | 深部結構、PLAPS |
+| **Linear**（線性） | 5-12 MHz | **解析度高** | 穿透淺 | **胸膜線細節**、淺層 |
+| **Phased array**（相位） | 1-5 MHz | 通過肋間隙佳 | 視野窄 | **重症全方位**（可同時掃心肺）|
 
-系統性的掃描方法可以確保不遺漏病灶：
+: 3 種探頭比較 {.striped .hover tbl-colwidths="[24,12,20,18,26]"}
+:::
 
-1. **前胸**：患者仰臥，探頭放置於肋間隙
-2. **側胸**：腋前線至腋後線區域
-3. **後背**：患者坐起或側臥
-4. **技巧**：探頭平行肋間隙，避免肋骨遮擋
+::: {.callout-tip}
+## 🎯 急重症的「萬用探頭」
 
-## 正常肺部超音波表現
+**Phased array probe** 是 ICU / 急診的首選 —
+- 可掃心臟（PLAX、A4C、Subxiphoid）
+- 可掃肺（A-lines、B-lines、effusion）
+- 可掃腹部（FAST、IVC）
 
-| 表現 | 說明 |
-|:-----|:-----|
-| Bat sign | 兩根肋骨（翅膀）與胸膜線（身體）形成蝙蝠狀 |
-| Pleural line | 高回音的水平線，代表臟層與壁層胸膜 |
-| Lung sliding | 呼吸時胸膜的滑動，代表肺部貼附於胸壁 |
-| A-lines | 胸膜線的等距離重複假影，代表正常充氣肺部 |
-| Seashore sign | M-mode 下，胸膜線以上呈水平線（沙灘），以下呈顆粒狀（海浪） |
+→ 一支探頭走天下，省去換探頭時間。
+:::
 
-## 自我評量
+## 🗺 系統性掃描方法
 
-1. 為什麼肺部超音波主要觀察「假影」而非直接成像？
-2. 描述 Bat sign 的組成結構及其臨床意義。
-3. 在 M-mode 下，正常肺部會呈現什麼特徵？這個特徵為什麼稱為 Seashore sign？
-4. 比較三種常用探頭在肺部超音波中的優缺點。
-5. 說明系統性肺部超音波掃描的步驟與注意事項。
+::: {.callout-warning}
+## ⚠️ 系統性 = 不漏病灶
 
-## 參考文獻
+依 **前胸 → 側胸 → 後背** 順序，每側至少 6 區（共 12 區）。
+:::
 
-1. Lichtenstein DA. Lung ultrasound in the critically ill. *Ann Intensive Care*. 2014;4(1):1.
-2. Volpicelli G, et al. International evidence-based recommendations for point-of-care lung ultrasound. *Intensive Care Med*. 2012;38(4):577-591.
-3. Mayo PH, et al. Point-of-care ultrasonography. *N Engl J Med*. 2018;379(11):1082-1090.
+| 區域 | 體位 | 探頭位置 | 主要評估 |
+|------|------|----------|----------|
+| **前胸** | 仰臥 | 鎖骨下、第 2-3 肋間 | A-lines、sliding |
+| **側胸** | 仰臥 + 手抬高 | 腋前 - 腋後線 | B-lines、effusion |
+| **後背** | 坐起 / 側臥 | 肩胛間、橫膈上方 | **後肺實變、PLAPS** |
+
+: 3 大掃描區域 {.striped tbl-colwidths="[14,22,32,32]"}
+
+::: {.callout-tip}
+## 🎯 掃描技巧 4 要點
+
+1. **探頭平行肋間隙** — 避免肋骨後方音影
+2. **標記朝向頭側** — 標準擺位
+3. **每區至少看 1 個呼吸週期** — 評估動態 sliding
+4. **後背一定要掃** — 漏掉後背就漏掉一半的病灶
+:::
+
+## 🦇 正常肺 5 大表現
+
+::: {.callout-note}
+## 🩺 5 大徵象速查表
+
+| 徵象 | 模式 | 描述 | 意義 |
+|------|:----:|------|------|
+| **Bat sign** | 2D | 兩肋骨 + 胸膜線蝙蝠狀 | 解剖定位 |
+| **Pleural line** | 2D | 高回音水平線 | 臟層 + 壁層胸膜 |
+| **Lung sliding** | 2D 動態 | 胸膜閃爍滑動 | 排除該區氣胸 |
+| **A-lines** | 2D | 胸膜線等距重複 | 胸膜下方充氣 |
+| **Seashore sign** | M-mode | 海洋 + 沙灘 | 客觀確認 sliding |
+
+: 正常肺 5 大表現 {.striped .hover tbl-colwidths="[20,12,38,30]"}
+:::
+
+## 🪤 常見錯誤
+
+::: {.callout-caution}
+## ⚠️ 4 大初學者錯誤
+
+1. **沒掃後背** — 漏掉 PLAPS、後肺實變、肋膜積液
+2. **探頭垂直肋骨** — 被肋骨擋住、無法看到胸膜線
+3. **只用一支探頭** — 該換時不換，影像品質差
+4. **看到 A-lines 就說正常** — A-lines + 無 sliding 也可能氣胸
+:::
+
+## 💬 自我評量
+
+::: {.callout-note}
+## 🗣️ 課堂討論
+
+1. 為什麼肺部 POCUS 主要看「**假影**」而非器官本身？
+2. 描述 **Bat sign** 的組成與臨床意義。
+3. **M-mode 下正常肺**的表現？為什麼叫 Seashore？
+4. 比較 3 種探頭在肺 POCUS 的優缺點。
+5. 系統性肺 POCUS 掃描的步驟與注意事項？
+:::
+
+## ✅ 自我評估
+
+::: {.content-visible when-format="html"}
+
+::: {.callout-note appearance="default"}
+## 📝 問題 1
+正常肺部主要觀察什麼？
+
+- [ ] 肺實質結構
+- [x] **Artifact（假影）的型態**
+- [ ] 支氣管樹
+- [ ] 肺血管
+:::
+
+::: {.callout-note appearance="default"}
+## 📝 問題 2
+**ICU / 急診首選的「萬用」探頭**？
+
+- [ ] Linear
+- [ ] Curvilinear
+- [x] **Phased array**
+- [ ] Endocavity
+:::
+
+::: {.callout-note appearance="default"}
+## 📝 問題 3
+**Bat sign** 的組成是？
+
+- [ ] 兩條 A-lines + 胸膜線
+- [x] **兩根肋骨 + 胸膜線**
+- [ ] 一肋骨 + 兩條 B-lines
+- [ ] 胸膜線 + 肺實質
+:::
+
+::: {.callout-tip collapse="true"}
+## 💡 顯示答案解析
+
+1. 超音波無法穿透空氣 → 正常肺看 artifact 而非結構。
+2. **Phased array** 可同時掃心 / 肺 / 腹部，是急重症首選。
+3. **Bat sign** = 兩肋骨（翅膀）+ 胸膜線（身體）。
+:::
+
+:::
+
+::: {.content-visible when-format="pdf"}
+::: {.callout-tip}
+## 自我評估
+
+請訪問線上版本完成測驗。
+:::
+:::
+
+## 🎓 回家三句話
+
+::: {.callout-important}
+## 🏠 帶回家的 Take-home Messages
+
+1. **肺部 POCUS 是「看假影的藝術」** — 與其他器官完全不同的判讀邏輯。
+   5 種物理對應 → 5 種徵象。
+2. **Phased array 是急重症的萬用探頭** — 心、肺、腹一支搞定，省去換探頭時間。
+3. **後背一定要掃** — PLAPS point + 後肺實變是初學者最常漏的地方。
+:::
+
+## 📚 參考閱讀
+
+1. Lichtenstein DA. **Lung ultrasound in the critically ill.** *Ann Intensive Care.* 2014;4(1):1.
+2. Volpicelli G, et al. **International evidence-based recommendations for point-of-care lung ultrasound.** *Intensive Care Med.* 2012;38(4):577-591.
+3. Mayo PH, et al. **Point-of-care ultrasonography.** *N Engl J Med.* 2018;379(11):1082-1090.

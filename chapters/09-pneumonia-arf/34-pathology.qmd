@@ -1,78 +1,227 @@
 ---
-title: "教案 34：病理結構"
+title: "教案 34｜🔬 病理結構"
 subtitle: "B-lines、肺實變與肋膜積液"
 author: "多位醫師"
 date: last-modified
 categories: [肺炎, ARF, 病理結構, POCUS]
 ---
 
-::: {.callout-note}
-## 學習目標
+::: {.callout-note appearance="minimal" icon="false"}
+## 📌 本課速覽
 
-1. 認識 B-lines 的特徵與臨床意義
-2. 辨識肺實變（consolidation）的超音波表現
-3. 了解肋膜積液的超音波特徵與分類
+**B-lines 4 條件嚴格定義 × Consolidation + Air Bronchogram × Quad/Sinusoid sign × Simple vs Complex effusion**
+這一課把 3 大異常徵象的**精確判讀標準**講清楚，
+讓你不再把所有「垂直線」都當 B-lines。
 :::
 
-## B-lines
+## 🎯 學習目標
 
-B-lines 是肺部超音波中最重要的異常徵象之一，其特徵包括：
+::: {.callout-note}
+## Learning Objectives
 
-- 從胸膜線發出的垂直高回音線
-- 延伸至螢幕底部
-- 隨呼吸與 lung sliding 移動
-- 代表肺間質水腫或發炎
+1. 嚴格掌握 **B-lines 4 條件**及其臨床意義。
+2. 認識 **Consolidation** + **Air bronchogram (dynamic vs static)** 的鑑別。
+3. 學習 **Pleural effusion** 的特徵性徵象（Quad sign、Sinusoid sign）。
+4. 區分 **Simple vs Complex** 肋膜積液。
+:::
 
-### B-lines 臨床解讀
-
-| B-lines 數量 | 臨床意義 |
-|:-------------|:---------|
-| 0-2 條/視野 | 正常 |
-| 3 條以上/視野 | 間質症候群（肺水腫、間質性肺病、ARDS） |
-| 融合 B-lines | 嚴重肺泡-間質症候群 |
-| 局部 B-lines | 局部肺炎、肺挫傷 |
-| 瀰漫性 B-lines | 心因性肺水腫、ARDS |
-
-## 肺實變（Consolidation）
-
-肺實變是肺泡被液體或細胞填充後的超音波表現：
-
-- **外觀**：類似肝臟組織（hepatization）
-- **Air bronchogram**：實變中的高回音點或線，代表含氣的支氣管
+## 💧 B-lines
 
 ::: {.callout-warning}
-## 動態 vs 靜態 Air Bronchogram
+## ⚠️ B-line 的 4 條件嚴格定義
 
-- **Dynamic air bronchogram**：呼吸時會移動 → 較支持**肺炎**
-- **Static air bronchogram**：不會隨呼吸移動 → 較支持**肺塌陷**
+**4 個條件缺一不可**才能算真 B-line：
 
-區分兩者對於臨床處置非常重要！
+1. **起源於胸膜線** — 不是肌肉層或皮下
+2. **垂直 + 雷射狀** — 非散射、非分歧
+3. **延伸至螢幕底端不消失** — 與 comet-tail artifact 區別
+4. **隨呼吸與胸膜同步移動 + 遮蓋 A-lines**
 :::
 
-## 肋膜積液
+### 📊 B-lines 數量分級與臨床對應
 
-肋膜積液在超音波下表現為肋膜腔內的無回音或低回音區域。
+| B-lines 數量 | 分級 | 臨床意義 |
+|:------------:|:----:|----------|
+| **0-2 條/視野** | 正常 | 健康肺 |
+| **≥ 3 條/視野** | 間質症候群 | 肺水腫、間質性肺病、ARDS |
+| **融合 B-lines** | 嚴重 | 嚴重肺泡-間質症候群（white lung） |
+| **局部 B-lines** | 局部病灶 | 局部肺炎、肺挫傷 |
+| **瀰漫 B-lines** | 瀰漫病灶 | 心因性肺水腫、ARDS |
 
-### 特徵性表現
+: B-lines 數量 + 分布 → 臨床對應 {.striped .hover tbl-colwidths="[28,22,50]"}
 
-- **Quad sign**：四邊形徵象，由胸壁、胸膜線、肺臟和橫膈形成
-- **Sinusoid sign**：M-mode 下，積液區域呈現正弦波狀
+::: {.callout-caution}
+## 🪤 B-lines 的 3 大偽陽性
 
-### Simple vs Complex
+1. **Z-lines** — 短、不到底、不遮 A-lines、不動 → **無臨床意義**
+2. **E-lines** — 起點在皮下（皮下氣腫造成）→ **非真 B-line**
+3. **單一固定 B-line** — 局部肋膜炎、慢性瘢痕 → **別當肺水腫處理**
+:::
 
-- **Simple（單純性）**：無回音、均勻，通常為滲出液
-- **Complex（複雜性）**：含有內部回音、分隔或碎片，可能為膿胸、血胸
+## 🫁 肺實變 (Consolidation)
 
-## 自我評量
+::: {.callout-note}
+## 🩺 機轉與表現
 
-1. 描述 B-lines 的五個定義特徵。
-2. 如何區分局部性與瀰漫性 B-lines？各自代表什麼臨床意義？
-3. 說明 dynamic 與 static air bronchogram 的差異及其臨床意義。
-4. 什麼是 quad sign 和 sinusoid sign？它們在診斷肋膜積液中的角色為何？
-5. 如何使用超音波區分 simple 與 complex 肋膜積液？
+肺泡被液體 / 細胞填充後，**失去含氣**，超音波下表現類似肝臟 (hepatization)。
 
-## 參考文獻
+| 特徵 | 描述 |
+|------|------|
+| **外觀** | 像肝臟組織（hepatization） |
+| **Air bronchogram** | 實變內的高回音點 / 線 = 含氣支氣管 |
+| **Shred sign** | 胸膜下不規則邊界 |
+| **Tissue-like sign** | 整體呈組織狀 |
 
-1. Lichtenstein DA, Mezière GA. Relevance of lung ultrasound in the diagnosis of acute respiratory failure: the BLUE protocol. *Chest*. 2008;134(1):117-125.
-2. Lichtenstein D, et al. The comet-tail artifact: an ultrasound sign of alveolar-interstitial syndrome. *Am J Respir Crit Care Med*. 1997;156(5):1640-1646.
-3. Bouhemad B, et al. Ultrasound assessment of antibiotic-induced pulmonary reaeration in ventilator-associated pneumonia. *Crit Care Med*. 2010;38(1):84-92.
+: Consolidation 4 大特徵 {.striped tbl-colwidths="[28,72]"}
+:::
+
+### ⚖️ Dynamic vs Static Air Bronchogram
+
+::: {.callout-warning}
+## 🚨 區分肺炎 vs 肺塌陷 — 治療方向完全不同
+
+| 類型 | 描述 | 對應診斷 | 治療 |
+|------|------|----------|------|
+| **🫁 Dynamic** | 呼吸時氣管會**動** | **肺炎**（仍有部分通氣） | 抗生素 + 引流 |
+| **❄️ Static** | **不動** | **肺塌陷**（atelectasis） | 恢復通氣（PEEP / suction） |
+
+: Dynamic vs Static Air Bronchogram 速比 {.striped .hover tbl-colwidths="[14,32,30,24]"}
+
+→ 兩者**根本治療方向不同**，所以鑑別很重要。
+:::
+
+## 💧 肋膜積液 (Pleural Effusion)
+
+### 🩺 特徵性徵象
+
+::: {.callout-note}
+## 🩺 2 大金標準徵象
+
+| 徵象 | 模式 | 描述 |
+|------|:----:|------|
+| **Quad sign**（四邊形） | 2D | 由胸壁、胸膜線、肺臟、橫膈圍成 |
+| **Sinusoid sign**（正弦波） | M-mode | 積液區域呼吸時呈正弦波形 |
+
+: 肋膜積液 2 大徵象 {.striped tbl-colwidths="[28,12,60]"}
+
+→ 看到任一個 = 高度確診肋膜積液。
+:::
+
+### 🩸 Simple vs Complex Effusion
+
+::: {.callout-warning}
+## ⚠️ 性質鑑別影響處置
+
+| 類型 | 超音波 | 性質 | 對應 |
+|------|--------|------|------|
+| **Simple**（單純）| **Anechoic + 均勻** | 漿液 | 漏出液（CHF）/ 滲出液（早期） |
+| **Complex**（複雜）| **Echogenic + 分隔 + 碎片** | 膿 / 血 / 纖維 | **Empyema / Hemothorax / 惡性** |
+
+: Simple vs Complex 肋膜積液 {.striped .hover tbl-colwidths="[18,42,18,22]"}
+:::
+
+::: {.callout-tip}
+## 🎯 量化方法
+
+| 方法 | 公式 | 用途 |
+|------|------|------|
+| **最大深度法** | 量 effusion 最大厚度 (cm) | 粗估 |
+| **粗估體積** | 深度 × 50-90 mL/cm | 引流前評估 |
+| **更精確** | (深度 + 高度) × 70 | Goecke formula |
+
+: 肋膜積液量化 3 法 {.striped tbl-colwidths="[24,38,38]"}
+:::
+
+## 🪤 常見判讀錯誤
+
+::: {.callout-caution}
+## ⚠️ 4 大常見錯誤
+
+1. **把 Z-line 當 B-line** — Z-line 不到底、不遮 A-lines、無臨床意義
+2. **沒分 dynamic vs static air bronchogram** — 治療方向會錯
+3. **看到 anechoic 就以為是漿液** — 早期 empyema 也可能 anechoic
+4. **沒做 Sinusoid sign** — M-mode 確認可避免誤判心包積液
+:::
+
+## 💬 自我評量
+
+::: {.callout-note}
+## 🗣️ 課堂討論
+
+1. 描述 **B-lines 4 條件**定義。
+2. **局部 vs 瀰漫 B-lines** 各代表什麼？
+3. **Dynamic vs Static air bronchogram** 的差異與臨床意義？
+4. **Quad sign + Sinusoid sign** 在肋膜積液診斷的角色？
+5. 怎麼區分 **Simple vs Complex** 肋膜積液？
+:::
+
+## ✅ 自我評估
+
+::: {.content-visible when-format="html"}
+
+::: {.callout-note appearance="default"}
+## 📝 問題 1
+**B-line 的關鍵定義特徵**包含？
+
+- [ ] 水平延伸 + 隨呼吸消失
+- [x] **垂直延伸至螢幕底部 + 不消失 + 起於胸膜線**
+- [ ] 短的高回音線
+- [ ] 不會遮蓋 A-lines
+:::
+
+::: {.callout-note appearance="default"}
+## 📝 問題 2
+**Dynamic air bronchogram** 較支持什麼診斷？
+
+- [x] **肺炎**
+- [ ] 肺塌陷
+- [ ] 氣胸
+- [ ] 心因性肺水腫
+:::
+
+::: {.callout-note appearance="default"}
+## 📝 問題 3
+**Complex 肋膜積液**最可能是？
+
+- [ ] CHF 漿液
+- [x] **膿胸 / 血胸**
+- [ ] 早期滲出液
+- [ ] 結核性漿液
+:::
+
+::: {.callout-tip collapse="true"}
+## 💡 顯示答案解析
+
+1. **B-line 4 條件**：起於胸膜線、垂直、到底、隨呼吸同步 + 遮 A-lines。
+2. **Dynamic air bronchogram = 肺炎** — 仍有通氣；
+   Static = 肺塌陷，需恢復通氣。
+3. **Complex effusion** = echogenic + 分隔 = 膿胸 / 血胸 / 惡性，需積極處置。
+:::
+
+:::
+
+::: {.content-visible when-format="pdf"}
+::: {.callout-tip}
+## 自我評估
+
+請訪問線上版本完成測驗。
+:::
+:::
+
+## 🎓 回家三句話
+
+::: {.callout-important}
+## 🏠 帶回家的 Take-home Messages
+
+1. **B-line 必須符合 4 條件** — Z-line 不算 B-line，別把 artifact 當肺水腫處理。
+2. **Dynamic vs Static air bronchogram 是肺炎 vs 塌陷的關鍵鑑別** —
+   治療方向完全不同，必須會分。
+3. **Quad sign + Sinusoid sign 是肋膜積液的雙金標準** —
+   配合 simple/complex 判讀指引引流決策。
+:::
+
+## 📚 參考閱讀
+
+1. Lichtenstein DA, Mezière GA. **Relevance of lung ultrasound in the diagnosis of acute respiratory failure: the BLUE protocol.** *Chest.* 2008;134(1):117-125.
+2. Lichtenstein D, et al. **The comet-tail artifact: an ultrasound sign of alveolar-interstitial syndrome.** *Am J Respir Crit Care Med.* 1997;156(5):1640-1646.
+3. Bouhemad B, et al. **Ultrasound assessment of antibiotic-induced pulmonary reaeration in ventilator-associated pneumonia.** *Crit Care Med.* 2010;38(1):84-92.

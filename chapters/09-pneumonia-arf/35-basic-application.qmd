@@ -1,81 +1,243 @@
 ---
-title: "教案 35：基本應用"
+title: "教案 35｜🦠 基本應用"
 subtitle: "肺炎的超音波診斷與 LUS Score"
 author: "多位醫師"
 date: last-modified
 categories: [肺炎, ARF, 基本應用, POCUS]
 ---
 
+::: {.callout-note appearance="minimal" icon="false"}
+## 📌 本課速覽
+
+**1 個 RLL 肺炎案例 × LUS Score 12 區評分系統 × 抗生素治療追蹤**
+讀完之後，你會知道為什麼 **LUS Score 比反覆 CXR 更實用**，
+以及如何用 0-36 分客觀化「肺炎好轉中」這句話。
+:::
+
+## 🎯 學習目標
+
 ::: {.callout-note}
-## 學習目標
+## Learning Objectives
 
-1. 學習使用超音波診斷肺炎
-2. 了解肺炎嚴重度的超音波評估方法
-3. 掌握 LUS Score 的計算與臨床應用
+1. 學習用 POCUS **診斷肺炎**（4 大特徵）。
+2. 評估**肺炎嚴重度**的超音波指標。
+3. 完整掌握 **LUS Score** 的計算與臨床應用。
+4. 學會用 LUS Score **追蹤抗生素治療效果**。
 :::
 
-## 肺炎的超音波診斷
-
-肺炎在超音波下具有以下特徵性表現：
-
-- 局部 B-lines 或實變
-- Dynamic air bronchogram
-- 可能合併小量肋膜積液
-- 局部 lung sliding 減少
-
-::: {.callout-tip}
-## 臨床情境
-
-一位 68 歲男性因發燒、咳嗽及呼吸困難入急診。胸部 X 光判讀為右下肺模糊影。床邊肺部超音波顯示右下肺葉有一塊類似肝臟組織的區域，內含 dynamic air bronchogram，周圍可見 B-lines，並有少量肋膜積液。
-
-這些超音波表現高度支持右下肺葉肺炎的診斷。
-:::
-
-## 肺炎嚴重度評估
-
-超音波可協助評估肺炎的嚴重程度，需注意以下指標：
-
-- **實變範圍大小**：範圍越大，嚴重度越高
-- **雙側受影響**：雙側肺炎預後較差
-- **合併 ARDS 表現**：瀰漫性 B-lines 提示可能進展為 ARDS
-- **是否需要呼吸支持**：可作為評估呼吸衰竭的依據
-
-## LUS Score（Lung Ultrasound Score）
-
-LUS Score 是一個半定量的評估工具，用於量化肺部通氣喪失的程度。
-
-### 評分標準
-
-| 分數 | 超音波表現 |
-|:-----|:-----------|
-| 0 | 正常：A-lines 或 < 3 條分散的 B-lines |
-| 1 | 中度：≥ 3 條明確的 B-lines |
-| 2 | 嚴重：融合的 B-lines |
-| 3 | 實變 |
-
-### 計算方式
-
-胸部分為 12 個區域（每側 6 區），每區評分 0-3 分，總分 0-36 分。
+## 🩺 肺炎 POCUS 診斷 — 4 大特徵
 
 ::: {.callout-warning}
-## LUS Score 臨床應用
+## ⚠️ 肺炎 4 大 POCUS 特徵
 
-- LUS Score 越高，代表肺部通氣喪失越嚴重
-- 可用於追蹤治療效果（如抗生素治療後的變化）
-- 可協助預測預後與呼吸器脫離的可能性
-- 連續監測比單次評估更有價值
+| # | 特徵 | 說明 |
+|:-:|------|------|
+| 1 | **局部 B-lines 或實變** | 限於某一肺葉 / 區域 |
+| 2 | **Dynamic air bronchogram** | 動態 = 肺炎；靜態 = 塌陷 |
+| 3 | **少量 parapneumonic effusion** | 約 30-50% 病人合併 |
+| 4 | **局部 lung sliding 減少** | 實變區滑動受限 |
+
+: 肺炎 POCUS 4 大特徵 {.striped .hover tbl-colwidths="[5,38,57]"}
 :::
 
-## 自我評量
+### 📋 臨床案例
 
-1. 列舉肺炎在肺部超音波下的四個主要特徵。
-2. 如何利用超音波評估肺炎的嚴重度？
-3. 說明 LUS Score 的評分標準與計算方式。
-4. LUS Score 在臨床上有哪些應用？
-5. 一位患者右下肺呈現實變合併 dynamic air bronchogram，左下肺可見融合 B-lines，其餘區域正常，請估算其 LUS Score。
+::: {.callout-tip appearance="default"}
+## 🧓 Case　68 歲男性・右下肺葉肺炎
 
-## 參考文獻
+68 歲男性，**發燒 + 咳嗽 + 呼吸喘** 入急診。
 
-1. Reissig A, et al. Lung ultrasound in the diagnosis and follow-up of community-acquired pneumonia. *Chest*. 2012;142(4):965-972.
-2. Soummer A, et al. Ultrasound assessment of lung aeration loss during a successful weaning trial predicts postextubation distress. *Crit Care Med*. 2012;40(7):2064-2072.
-3. Mongodi S, et al. Lung ultrasound for early diagnosis of ventilator-associated pneumonia. *Chest*. 2016;149(4):969-980.
+**🩻 CXR 判讀**：右下肺模糊影（infiltration）
+
+**🔬 床邊肺 POCUS 發現**：
+- 右下肺葉有**類似肝臟組織的區域**（hepatization）
+- 內含 **dynamic air bronchogram**（呼吸時氣管會動）
+- 周圍可見**局部 B-lines**
+- 右肋膜腔有**少量 effusion**
+
+✅ **POCUS 高度支持「右下肺葉肺炎」診斷**，**敏感度 > CXR**（POCUS 95%, CXR 77%）。
+
+**🎯 處置**：抗生素 + 24 hr 後追蹤 LUS Score 評估療效。
+:::
+
+## 📊 肺炎嚴重度 POCUS 評估
+
+::: {.callout-note}
+## 🩺 4 大嚴重度指標
+
+| 指標 | 嚴重度 | 處置 |
+|------|--------|------|
+| **實變範圍大** | 高 | 加強治療 + ICU 評估 |
+| **雙側受影響** | **預後較差** | ICU 入住 + 呼吸支持 |
+| **瀰漫性 B-lines（progress to ARDS）** | 高 | 警戒 ARDS、肺保護策略 |
+| **需呼吸支持** | 嚴重 | NIPPV / 插管 |
+
+: 肺炎嚴重度 POCUS 4 大指標 {.striped tbl-colwidths="[44,18,38]"}
+:::
+
+## 📐 LUS Score (Lung Ultrasound Score)
+
+::: {.callout-warning}
+## ⚠️ LUS Score = 半定量評估肺通氣喪失
+
+由 Bouhemad 等人發展，是**追蹤抗生素治療效果**最常用的 POCUS 量化工具。
+:::
+
+### 🧮 評分標準（每區 0-3 分）
+
+| 分數 | 超音波表現 | 通氣狀態 |
+|:----:|-----------|----------|
+| **0** | A-lines 或 < 3 條分散 B-lines | 正常 |
+| **1** | **≥ 3 條明確 B-lines** | 中度通氣喪失（間質症候群） |
+| **2** | **融合 B-lines** | 嚴重通氣喪失（白肺） |
+| **3** | **實變 (Consolidation)** | 完全通氣喪失 |
+
+: LUS Score 每區 4 級評分 {.striped .hover tbl-colwidths="[10,40,50]"}
+
+### 🗺 12 區評分法
+
+::: {.callout-note}
+## 🩺 胸部 12 區評分
+
+胸部分為 **12 區**（每側 6 區）：
+
+| 區域 | 位置 |
+|------|------|
+| **前胸上** | 鎖骨下、第 2 肋間 |
+| **前胸下** | 乳頭水平、第 4-5 肋間 |
+| **側胸上** | 腋前線、第 4 肋間 |
+| **側胸下** | 腋前線、第 6-7 肋間 |
+| **後胸上** | 肩胛間、上 1/3 |
+| **後胸下** | 肩胛下角、下 1/3 |
+
+: 12 區評分位置 {.striped tbl-colwidths="[24,76]"}
+
+→ 雙側共 12 區，每區 0-3 分，**總分 0-36 分**。
+:::
+
+::: {.callout-tip}
+## 🎯 LUS Score 計算範例
+
+教案案例：右下肺實變（3 分）+ 左下肺融合 B-lines（2 分）+ 其餘正常（0 分）
+- 右下肺：3 + 3 = 6 分（前下 + 後下實變）
+- 左下肺：2 + 2 = 4 分
+- 其餘 8 區 = 0 分
+- **總分 = 10 分**
+
+→ 中度通氣喪失，需積極治療 + 24-48 hr 追蹤。
+:::
+
+### 📈 LUS Score 臨床應用
+
+::: {.callout-warning}
+## ⚠️ LUS Score 4 大用途
+
+1. **嚴重度評估** — 分數越高、通氣喪失越嚴重
+2. **追蹤治療反應** — 抗生素 24-48 hr 後 LUS 應下降
+3. **預測預後** — 高分提示死亡率、ICU 入住
+4. **預測脫機成功** — LUS < 14 提示脫機成功率高
+:::
+
+| LUS Score | 臨床意義 | 對應處置 |
+|:---------:|----------|----------|
+| **0-5** | 輕度 / 正常 | 門診治療可能 |
+| **6-15** | 中度 | 住院 + 追蹤 |
+| **16-25** | 重度 | ICU 評估 |
+| **> 25** | 極重度 | ICU + 呼吸器準備 |
+
+: LUS Score 分級臨床對應（粗略指引）{.striped tbl-colwidths="[20,30,50]"}
+
+## 🪤 常見錯誤
+
+::: {.callout-caution}
+## ⚠️ 4 大評分錯誤
+
+1. **沒掃 12 區** — 只掃前胸會嚴重低估
+2. **沒分 dynamic / static air bronchogram** — 影響「肺炎 vs 塌陷」治療方向
+3. **單次評估** — 連續監測比單次更有價值
+4. **忽略 effusion** — Parapneumonic effusion 可能變 empyema 需引流
+:::
+
+## 💬 自我評量
+
+::: {.callout-note}
+## 🗣️ 課堂討論
+
+1. 列舉肺炎 POCUS 的 **4 大主要特徵**。
+2. 如何用 POCUS 評估**肺炎嚴重度**？
+3. 說明 **LUS Score 的評分標準與計算**。
+4. **LUS Score 的臨床應用** 4 大用途？
+5. 一位病人**右下肺實變 + 左下肺融合 B-lines**，其餘正常，估算 LUS Score。
+:::
+
+## ✅ 自我評估
+
+::: {.content-visible when-format="html"}
+
+::: {.callout-note appearance="default"}
+## 📝 問題 1
+LUS Score **每區最高分數**是？
+
+- [ ] 1
+- [ ] 2
+- [x] **3**
+- [ ] 4
+:::
+
+::: {.callout-note appearance="default"}
+## 📝 問題 2
+LUS Score **總分範圍**？
+
+- [ ] 0-12
+- [ ] 0-24
+- [x] **0-36**
+- [ ] 0-48
+:::
+
+::: {.callout-note appearance="default"}
+## 📝 問題 3
+**LUS Score 4 分** 對應什麼超音波表現？
+
+- [ ] A-lines
+- [x] **融合 B-lines**
+- [ ] 實變
+- [ ] 不適用
+:::
+
+::: {.callout-tip collapse="true"}
+## 💡 顯示答案解析
+
+1. **每區 0-3 分** — 0 正常、1 ≥3 B-lines、2 融合 B-lines、3 實變。
+2. **總分 0-36** — 12 區（每側 6 區）× 每區 0-3 分。
+3. **2 = 融合 B-lines**（white lung 早期）— 比 ≥3 條 B-lines 更嚴重，但還沒到實變程度。
+:::
+
+:::
+
+::: {.content-visible when-format="pdf"}
+::: {.callout-tip}
+## 自我評估
+
+請訪問線上版本完成測驗。
+:::
+:::
+
+## 🎓 回家三句話
+
+::: {.callout-important}
+## 🏠 帶回家的 Take-home Messages
+
+1. **POCUS 對肺炎敏感度 95% > CXR 77%** — 床邊 5 分鐘可診斷，
+   不必等 CXR 結果。
+2. **LUS Score 12 區 / 0-36 分 = 客觀化「肺炎好轉中」** —
+   抗生素 24-48 hr 後追蹤分數，下降即治療有效。
+3. **連續監測 > 單次評估** — LUS Score 的最大價值在動態追蹤，
+   不是單一時間點的診斷。
+:::
+
+## 📚 參考閱讀
+
+1. Reissig A, et al. **Lung ultrasound in the diagnosis and follow-up of community-acquired pneumonia.** *Chest.* 2012;142(4):965-972.
+2. Soummer A, et al. **Ultrasound assessment of lung aeration loss during a successful weaning trial predicts postextubation distress.** *Crit Care Med.* 2012;40(7):2064-2072.
+3. Mongodi S, et al. **Lung ultrasound for early diagnosis of ventilator-associated pneumonia.** *Chest.* 2016;149(4):969-980.
+4. Bouhemad B, et al. **Ultrasound for "lung monitoring" of ventilated patients.** *Anesthesiology.* 2015;122(2):437-447.
