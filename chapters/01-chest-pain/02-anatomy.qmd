@@ -97,6 +97,8 @@ categories: [急性胸痛, 解剖, 病理]
 
 : POCUS 心臟標準四切面 {.striped .hover tbl-colwidths="[18,12,28,42]"}
 
+![Parasternal views — 胸骨旁切面探頭位置](../../images/插圖%20—%20parasternal%20views%20探頭位置.jpeg){fig-alt="胸骨旁長軸（PLAX）與短軸（PSAX）探頭擺位與旋轉方向示意圖" width="75%" fig-align="center"}
+
 ![Apical views — 心尖切面示意](../../images/echo%20apical%20views.jpeg){fig-alt="心尖四腔、五腔、兩腔、三腔切面之示意圖" width="75%" fig-align="center"}
 
 ## 🔬 病理生理 — 4 大致命診斷的機轉

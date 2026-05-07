@@ -3,6 +3,8 @@ title: "🦠 肺炎與急性呼吸衰竭"
 subtitle: "Pneumonia & ARF — 從 LUS Score 到呼吸器調整"
 ---
 
+![封面圖 — 肺實質化與氣管支氣管徵](../../images/封面圖%20—%20肺實質化與氣管支氣管徵.jpeg){fig-alt="肺部 POCUS 顯示肺實質化（consolidation）與內部氣管支氣管徵（air bronchogram）的手繪示意圖"}
+
 ::: {.callout-note appearance="minimal" icon="false"}
 ## 🎯 本章導讀
 
@@ -53,6 +55,13 @@ subtitle: "Pneumonia & ARF — 從 LUS Score 到呼吸器調整"
 5. 用 POCUS **協助呼吸器調整**（PEEP、脫機評估）。
 6. 操作**橫膈 POCUS** 評估呼吸功能。
 :::
+
+## 🖼️ 關鍵超音波影像
+
+![診斷圖 — LUS Score 與橫膈評估](../../images/診斷圖%20—%20LUS%20Score%20與橫膈評估.jpeg){fig-alt="肺部超音波 12 區 LUS Score 評分系統與橫膈 excursion 量測示意圖"}
+
+LUS Score 採 **12 區半定量評分**（0–36 分），可動態追蹤抗生素、PEEP 與利尿後反應；
+搭配 **橫膈 excursion**（脫機指標 > 1 cm）即可在床邊每天 5 分鐘完成肺部與呼吸功能整合評估。
 
 ## 📚 本章四堂課程
 
